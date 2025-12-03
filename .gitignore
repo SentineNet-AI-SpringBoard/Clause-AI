@@ -1,5 +1,5 @@
 # Dataset files
-CUAD_v1/
+data/raw/CUAD_v1/
 *.csv
 *.json
 *.txt
@@ -53,8 +53,8 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 
-# Output files
-contracts_clean_text.csv
+# Processed output files (exclude from artifacts folder)
+artifacts/contracts_clean_text.csv
 *.png
 *.jpg
 *.jpeg
