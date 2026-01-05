@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "query": "What is the exact scope of intellectual property assignment versus licensing?",
+  "timestamp": "2025-12-26T21:50:51.890003",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_182",
+      "score": 0.557667792,
+      "metadata": {
+        "chunk_preview": "and all embodiments of intellectual property, and shall assist and not unreasonably interfere with the other Party in obtaining intellectual property and all embodiments of intellectual property from another entity",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 182
+      }
+    },
+    {
+      "rank": 2,
+      "id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT_cleaned_chunk_3",
+      "score": 0.549397528,
+      "metadata": {
+        "chunk_preview": ". 1.4 Intellectual Property. (a) Recipient shall own, and Provider hereby irrevocably assigns to the Recipient, all rights, title, and interest in any invention, technique, process, device, discovery, improvement, or know-how, whether patentable or not and all other proprietary rights, industrial rights and any other similar rights, in each case on a worldwide basis, and all copies and tangible embodiments thereof, or any part thereof, in whatever form or medium hereafter made or conceived solely or jointly by Provider while working for or on behalf of the Recipient, which relate to, is suggested by, or results from the Services. (b) At Recipient's request, Provider shall disclose any such invention, technique, process, device, discovery, improvement, or know-how promptly to Recipient",
+        "contract_name": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+        "chunk_index": 3
+      }
+    },
+    {
+      "rank": 3,
+      "id": "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply Agreement_cleaned_chunk_23",
+      "score": 0.534300864,
+      "metadata": {
+        "chunk_preview": "12. TRANSFER OF INTELLECTUAL PROPERTY The Manufacturer agrees to offer the Customer the first right of refusal to purchase the intellectual property for the products listed in Schedule A of this agreement based upon agreed terms. 13. APPOINTMENT AND GRANT OF LICENSE 13.1 The Manufacturer hereby appoints the Customer to be the sole and exclusive agent for the promotion, sales, marketing, distribution and administration of the products listed in schedule A of this agreement based on minimum annual product purchase requirements as listed in Schedule B of this agreement. 13.2 The Manufacturer grants exclusive rights to the Customer for the term of ten (10) years from the date of the signing of this agreement and for an indefinite period upon the customer fulfilling the minimum annual purchase requirement as listed in Schedule B. of this agreement. 14",
+        "contract_name": "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply Agreement",
+        "chunk_index": 23
+      }
+    },
+    {
+      "rank": 4,
+      "id": "ADAPTIMMUNETHERAPEUTICSPLC_04_06_2017-EX-10.11-STRATEGIC ALLIANCE AGREEMENT_cleaned_chunk_14",
+      "score": 0.512683,
+      "metadata": {
+        "chunk_preview": ". For clarity the grant of any license under any Invention or assignment of any Invention by either Party does not include any license under any of such Party's Background IP, even where such Background IP dominates or encompasses any Invention. 7.7 As between the Parties, the sole owner of any Invention will have the sole right to prepare, file, prosecute, maintain, enforce and defend all U.S. and foreign patents, registrations and other forms of intellectual property in such Invention but nothing herein will obligate the owner to take any such actions. As between the Parties, Adaptimmune will have the first right to prepare, file, prosecute, maintain, enforce and defend all U.S. and foreign patents, registrations and other forms of intellectual property in any jointly-owned Invention using patent counsel of its choice that is subject to the written approval of MD Anderson not to be unreasonably withheld and at the sole cost and expense of Adaptimmune, with accounting to MD Anderson",
+        "contract_name": "ADAPTIMMUNETHERAPEUTICSPLC_04_06_2017-EX-10.11-STRATEGIC ALLIANCE AGREEMENT",
+        "chunk_index": 14
+      }
+    },
+    {
+      "rank": 5,
+      "id": "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply Agreement_cleaned_chunk_21",
+      "score": 0.502993643,
+      "metadata": {
+        "chunk_preview": ". 10. GOVERNING LAW This agreement shall be governed by the Laws of England (English common and statutory Law). 11. INTELLECTUAL PROPERTY The Manufacturer is the owner of the intellectual Property pertaining to the products listed in schedule A of this agreement as well as to the book 'How to Achieve Super Health beyond 2000 - Advanced Edition' ODM Supply Agreement 7 Organic Preparations INC. & Agape ATP International Holding Limited",
+        "contract_name": "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply Agreement",
+        "chunk_index": 21
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.557667792,
+    "lowest_score": 0.502993643,
+    "average_score": 0.5314085653999999
+  }
+}

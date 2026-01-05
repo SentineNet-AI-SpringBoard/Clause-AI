@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "query": "What anti-bribery, anti-corruption, or Sanctions/OFAC compliance clauses exist?",
+  "timestamp": "2025-12-26T21:50:49.552575",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_137",
+      "score": 0.684439719,
+      "metadata": {
+        "chunk_preview": "10.6 Compliance.\n10.6.1 Compliance with Anti-Corruption Laws. In connection with this Agreement, each Party represents, warrants and covenants to the other Party that it has complied and will comply with all Applicable Laws (including Anti-Corruption Laws) and industry codes dealing with government procurement, conflicts of interest, corruption or bribery, including, if applicable, the U.S. Foreign Corrupt Practices Act of 1977, as amended, and any laws enacted to implement the Organization of Economic Cooperation and Development Convention on Combating Bribery of Foreign Officials in International Business Transactions.",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 137
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_138",
+      "score": 0.592772424,
+      "metadata": {
+        "chunk_preview": "10.6.2 Prohibited Conduct. In connection with this Agreement, each Party represents, warrants and covenants to the other Party that it has not made, offered, given, promised to give, or authorized, and will not make, offer, give, promise to give, or authorize, any bribe, kickback, payment or transfer of anything of value, directly or indirectly, to any person or to any Government Official for the purpose of: (i) improperly influencing any act or decision of the person or Government Official; (ii) inducing the person or Government Official to do or omit to do an act in violation of a lawful or otherwise required duty; (iii) securing any improper advantage; or (iv) inducing the person or Government Official to improperly influence the act or decision of any organization, including any government or government instrumentality, in order to assist such Party in obtaining or retaining business.\n[SECTION] ARTICLE 11 INDEMNIFICATION",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 138
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned_chunk_18",
+      "score": 0.510706902,
+      "metadata": {
+        "chunk_preview": ". A party will not be held responsible for any activities of the other party or the other party's Sub-Distributors that may be considered to be illegal. For example, neither party supports the practice of bribes or under-the-table payments. Each party will ensure a like clause is included in each agreement it has with its Sub-Distributors, and monitor activities of its Sub- Distributors closely. In the event a party deems that its good-will has been or may potentially be affected by any such illegal activity of the other party or the other party's Sub-Distributors, then such party reserves the right to terminate this Agreement or any portion thereof that relates to or is materially affected by such illegal activity with no further liability to the other party or the other party's Sub-Distributors",
+        "contract_name": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT",
+        "chunk_index": 18
+      }
+    },
+    {
+      "rank": 4,
+      "id": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement_cleaned_chunk_72",
+      "score": 0.507784843,
+      "metadata": {
+        "chunk_preview": ". The parties agree that both parties will comply fully with all of the terms, conditions, rules, regulations and statutes of the Foreign Corrupt Practices Act. The parties further agree that if either party violates any of",
+        "contract_name": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+        "chunk_index": 72
+      }
+    },
+    {
+      "rank": 5,
+      "id": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement_cleaned_chunk_71",
+      "score": 0.503714561,
+      "metadata": {
+        "chunk_preview": "21.1 Pursuant to the Foreign Corrupt Practices Act of the United States of America, directors, officers, or employees of Distributor shall not offer or pay any bribe to any individual or corporation in connection with the provision or support of any Airspan Products obtained under this Agreement. When other individuals or organizations are required to participate in the sales program covered by this Agreement, they shall be compensated fairly based on the tasks performed. In no circumstances are public servants or holders of public office to be offered or paid any bribe or other benefit, direct or indirect. No contribution in any way related to Airspan shall be made to candidates for public office or to political parties or other political organizations, regardless of whether such contributions are permitted by the laws of the Territory",
+        "contract_name": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+        "chunk_index": 71
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.684439719,
+    "lowest_score": 0.503714561,
+    "average_score": 0.5598836898
+  }
+}

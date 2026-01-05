@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "query": "What are the payment and compensation terms?",
+  "timestamp": "2025-12-26T21:50:46.747964",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT_cleaned_chunk_7",
+      "score": 0.640259802,
+      "metadata": {
+        "chunk_preview": ". Provider shall give the Recipient or its designees all assistance reasonably required to perfect such rights. 2. Compensation. 2.1 Responsibility for Wages and Fees. For such time as any employees of Provider are providing the Services to Recipient under this Agreement, (a) such employees will remain employees of Provider and shall not be deemed to be employees of Recipient for any purpose, and (b) Provider shall be solely responsible for the payment and provision of all wages, bonuses and commissions, employee benefits, including severance and worker's compensation, and the withholding and payment of applicable taxes relating to such employment. 2.2 Terms of Payment and Related Matters. (a) As consideration for provision of the Services following the Effective Date, Recipient shall pay Provider an amount equal to Provider's actual cost of providing the Services plus a 10% service fee",
+        "contract_name": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+        "chunk_index": 7
+      }
+    },
+    {
+      "rank": 2,
+      "id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT_cleaned_chunk_6",
+      "score": 0.557361662,
+      "metadata": {
+        "chunk_preview": "(c) All writings or works of authorship, including, without limitation, program codes or documentation, produced or authored by Provider in the course of performing services for the Recipient, together with any associated copyrights, are works made for hire and the exclusive property of the Recipient. To the extent that any writings or works of authorship may not, by operation of law, be works made for hire, this Agreement shall constitute an irrevocable assignment by Provider to the Recipient of the ownership of and all rights of copyright in, such items, and the Recipient shall have the right to obtain and hold in its own name, rights of copyright, copyright registrations, and similar protections which may be available in the works. Provider shall give the Recipient or its designees all assistance reasonably required to perfect such rights. 2. Compensation. 2.1 Responsibility for Wages and Fees",
+        "contract_name": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+        "chunk_index": 6
+      }
+    },
+    {
+      "rank": 3,
+      "id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_84",
+      "score": 0.552176535,
+      "metadata": {
+        "chunk_preview": "SECTION 7. Payment of Expenses",
+        "contract_name": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT",
+        "chunk_index": 84
+      }
+    },
+    {
+      "rank": 4,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_97",
+      "score": 0.549069464,
+      "metadata": {
+        "chunk_preview": "The Company will pay any stock issue and transfer taxes which may be payable with respect to the sale of the Securities.\nIn addition to the reimbursement of the expenses specified in Section 4 hereof, the Agent will receive the following compensation for its services hereunder:\n(a) One percent (1.00%) of the aggregate purchase price of the Securities sold in the Subscription and Community Offering, excluding in each case shares purchased by (i) any employee benefit plan of the Company or the Bank established for the benefit of their respective directors, officers and employees, and (ii) any director, officer or employee of the Company or the Bank or members of their immediate families (which term shall mean parents, grandparents, spouse, siblings, children and grandchildren); and",
+        "contract_name": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+        "chunk_index": 97
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ADAMSGOLFINC_03_21_2005-EX-10.17-ENDORSEMENT AGREEMENT_cleaned_chunk_8",
+      "score": 0.530107558,
+      "metadata": {
+        "chunk_preview": "[SECTION] 7. CONSULTANT'S SATISFACTION OF MANDATORY PRODUCT\nIt is particularly and expressly understood and agreed that if CONSULTANT shall find in his sincere best reasonable judgment that the MANDATORY PRODUCT so supplied is not suitable for his use in tournament competition, then he shall promptly notify ADAMS GOLF in writing of such fact and the reasons therefor. Thereafter, ADAMS GOLF shall have a period of thirty (30) days to either, at ADAMS GOLF'S sole discretion, supply CONSULTANT with MANDATORY PRODUCT that is acceptable to him or terminate the agreement. It is agreed that if the contract is terminated pursuant to this paragraph, the compensation due CONSULTANT shall be prorated from the date this Agreement is terminated. Proration of compensation shall be determined on the same repayment schedule as provide in paragraph 8A below.\n[SECTION]  8. MINIMUM NUMBER OF TOURNAMENTS AND POTENTIAL REPAYMENT OF BASE COMPENSATION",
+        "contract_name": "ADAMSGOLFINC_03_21_2005-EX-10.17-ENDORSEMENT AGREEMENT",
+        "chunk_index": 8
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.640259802,
+    "lowest_score": 0.530107558,
+    "average_score": 0.5657950042000001
+  }
+}

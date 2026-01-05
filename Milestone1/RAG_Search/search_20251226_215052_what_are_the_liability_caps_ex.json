@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "query": "What are the liability caps, exclusions of consequential damages, and indemnification limits?",
+  "timestamp": "2025-12-26T21:50:52.170433",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_164",
+      "score": 0.700717866,
+      "metadata": {
+        "chunk_preview": ". The amount paid or payable by an indemnified party as a result of the losses, claims, damages or liabilities (or action, proceedings or claims in respect thereof) referred to above in this Section 10 shall be deemed to include any legal or other expenses reasonably incurred by such indemnified party in connection with investigating or defending any such action, proceeding or claim. It is expressly agreed that Capital Resources shall not be liable for any loss, liability, claim, damage or expense or be required to contribute any amount which in the aggregate exceeds the amount paid (excluding reimbursable expenses) to Capital Resources under this Agreement. It is understood that the above-stated limitation on Capital Resources' liability is essential to Capital Resources and that Capital Resources relied upon such limitation and would not have entered into this Agreement if such limitation had not been agreed to by the parties to this Agreement",
+        "contract_name": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT",
+        "chunk_index": 164
+      }
+    },
+    {
+      "rank": 2,
+      "id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned_chunk_68",
+      "score": 0.668847,
+      "metadata": {
+        "chunk_preview": ". 11. LIABILITY. 11.1. Liability for Death or Injury. The liability of any party with respect to death or injury to any person is subject to and governed by the provisions of applicable law. 11.2. Limitation on Liability. WITHOUT AFFECTING STRICT PRODUCT LIABILITY UNDER MANDATORY APPLICABLE LAW, SECTION 10, OR THE RESPECTIVE OBLIGATIONS OF THE PARTIES UNDER THE CONFIDENTIAILITY AGREEMENT AND EXCEPT FOR BREACHES ASSOCIATED WITH THE UNAUTHORIZED USE OF INTELLECTUAL PROPERTY, IN NO EVENT SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY FOR SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR TORT DAMAGES, INCLUDING WITHOUT LIMITATION, ANY DAMAGES RESULTING FROM LOSS OF USE, LOSS OF DATA, LOSS OF PROFITS OR LOSS OF BUSINESS ARISING OUT OF OR IN CONNECTION WITH THE MATTERS CONTEMPLATED BY THIS AGREEMENT, WHETHER OR NOT A PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. 18",
+        "contract_name": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT",
+        "chunk_index": 68
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_175",
+      "score": 0.62890625,
+      "metadata": {
+        "chunk_preview": "(iii) from and against any and all loss, liability, claim, damage and expense whatsoever, as incurred, to the extent of the aggregate amount paid in settlement of any litigation, or any investigation or proceeding by any governmental agency or body, commenced or threatened, or of any claim whatsoever described in clauses (i) or (ii) above, if such settlement is effected with the written consent of the Company, the MHCs or the Bank, which consent shall not be unreasonably withheld; and",
+        "contract_name": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+        "chunk_index": 175
+      }
+    },
+    {
+      "rank": 4,
+      "id": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement_cleaned_chunk_58",
+      "score": 0.623855531,
+      "metadata": {
+        "chunk_preview": "Page 19\nthe Equipment or Software which gave rise to the loss or damage or in connection with which the loss or damage was incurred.\n16.3 Airspan Parties, taken as a whole, shall be liable for physical damage to Distributor's property resulting from Airspan's negligence under or in connection with this Agreement up to a maximum aggregate amount of one million US Dollars (US$1,000,000). And Distributor, taken as a whole, shall be liable for physical damage to Airspan's property resulting from Distributor's negligence under or in connection with this Agreement up to a maximum aggregate amount of one million US Dollars (US$1,000,000).\n16.4 Nothing in this Agreement shall exclude or in any way limit Airspan liability for death or personal injury caused by its negligence.",
+        "contract_name": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+        "chunk_index": 58
+      }
+    },
+    {
+      "rank": 5,
+      "id": "2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ Agency Agreement_cleaned_chunk_27",
+      "score": 0.621026,
+      "metadata": {
+        "chunk_preview": "10. LIMITATION ON LIABILITY. EXCEPT IN THE EVENT OF A BREACH OF SECTION 11, NEITHER PARTY SHALL BE LIABLE FOR SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES OR LOST PROFITS (HOWEVER ARISING, INCLUDING NEGLIGENCE) ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT, EVEN IF THE PARTIES ARE AWARE OF THE POSSIBILITY OF SUCH DAMAGES.\n[SECTION] 12. GENERAL PROVISIONS.\n12.1 GOVERNING LAW. This Agreement will be governed and construed in accordance with the laws of the State of California without giving effect to conflict of laws principles. Both parties submit to personal jurisdiction in California and further agree that any cause of action arising under this Agreement shall be brought in a court in Orange County, California.",
+        "contract_name": "2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ Agency Agreement",
+        "chunk_index": 27
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.700717866,
+    "lowest_score": 0.621026,
+    "average_score": 0.6486705294
+  }
+}

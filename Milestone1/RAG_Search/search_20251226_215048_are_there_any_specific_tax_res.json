@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "query": "Are there any specific tax responsibilities or withholding tax requirements?",
+  "timestamp": "2025-12-26T21:50:48.101400",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_100",
+      "score": 0.445989549,
+      "metadata": {
+        "chunk_preview": "8.3.2 Subject to this Section 8.3.2, Xencor will pay any and all taxes, including withholdings, levied on account of any payments made to it under this Agreement. If any taxes are paid or required to be withheld by Aimmune for the benefit of Xencor on account of any payments payable to Xencor under this Agreement, Aimmune will (i) deduct such taxes from the amount of payments otherwise due to Xencor, (ii) timely pay the taxes to the proper taxing authority, (iii) send proof of payment to Xencor within [***] ([***]) days following such payment and (iv) cooperate with Xencor in any way reasonably required by Xencor to obtain available reductions, credits or refunds of such taxes. Notwithstanding the foregoing, if (a) Aimmune assigns its rights or obligations or delegates its rights under this Agreement, (b) as a 24\nSource: AIMMUNE THERAPEUTICS, INC., 8-K, 2/5/2020",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 100
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_30",
+      "score": 0.441528261,
+      "metadata": {
+        "chunk_preview": "(a) credits or allowances actually granted for damaged Product, returns or rejections of Product, price adjustments and billing errors;\n(b) governmental and other rebates (or equivalents thereof) granted to managed health care organizations, pharmacy benefit managers (or equivalents thereof), federal, state, provincial, local and other governments, their agencies and purchasers and reimbursers or to trade customers;\n(c) normal and customary trade, cash and quantity discounts, allowances and credits actually allowed or paid;\n(d) payments made as part of a Co-pay Program for a Product; and\n(e) sales taxes, VAT taxes and other taxes directly linked to the sales of Product;\nall as determined in accordance with IFRS on a basis consistent with the Selling Party's annual audited financial statements.",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 30
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_76",
+      "score": 0.427877367,
+      "metadata": {
+        "chunk_preview": "(xl) The Company, the MHCs, the Bank and each Subsidiary have filed all federal, state and local income and franchise tax returns required to be filed and have made timely payments of all taxes shown as due and payable in respect of such returns, and no deficiency has been asserted with respect thereto by any taxing authority. No tax deficiency has been asserted, and the Company, the MHCs and the Bank have no knowledge of any tax deficiency which could be asserted against the Company, the MHCs, the Bank or the Subsidiaries.\n(xli) The Company has received all approvals required to consummate the Offerings, and to have the Securities quoted on the Nasdaq Global Market effective as of the Closing Time referred to in Section 2 hereof.",
+        "contract_name": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+        "chunk_index": 76
+      }
+    },
+    {
+      "rank": 4,
+      "id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_54",
+      "score": 0.414241254,
+      "metadata": {
+        "chunk_preview": "(s) KPMG, which has certified the financial statements of the Association included in the Registration Statement, are with respect to the Company and the Association independent public accountants within the meaning of the Code of Professional Ethics of the American Institute of Certified Public Accountants and Title 12 of the Code of Federal Regulations, Section 571.2(c)(3) and the 1933 Act and the 1933 Act Regulations.\n (t) The Company and the Association have (subject to all properly obtained extensions) timely filed all required federal and state tax returns, have paid all taxes that have become due and payable in respect of such returns, have made adequate reserves for similar future tax liabilities and no deficiency has been asserted with respect thereto by any taxing authority.",
+        "contract_name": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT",
+        "chunk_index": 54
+      }
+    },
+    {
+      "rank": 5,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_101",
+      "score": 0.411287248,
+      "metadata": {
+        "chunk_preview": "Source: AIMMUNE THERAPEUTICS, INC., 8-K, 2/5/2020\nresult of such assignment or delegation, Aimmune (or its assignee) is required by Applicable Law to withhold taxes from or in respect of any amount payable under this Agreement, and (c) such withholding taxes exceed the amount of withholding taxes that would have been applicable but for such assignment or delegation, then any such amount payable shall be increased to take into account such withholding taxes as may be necessary so that, after making all required withholdings (including withholdings on the additional amounts payable), the payee receives an amount equal to the sum it would have received had no such increased withholding been made. Each Party shall cooperate with the other Party in any way reasonably requested by the other Party to minimize the withholding tax implications of any such assignment or delegation.",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 101
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.445989549,
+    "lowest_score": 0.411287248,
+    "average_score": 0.42818473580000005
+  }
+}

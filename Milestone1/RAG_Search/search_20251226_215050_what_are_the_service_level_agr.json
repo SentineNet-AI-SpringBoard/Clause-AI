@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "query": "What are the Service Level Agreements (SLAs), uptime requirements, and associated credits?",
+  "timestamp": "2025-12-26T21:50:50.146888",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT_cleaned_chunk_1",
+      "score": 0.513835073,
+      "metadata": {
+        "chunk_preview": ". (e) Notwithstanding anything to the contrary in this Section 1.2: (a) in the event that Provider uses any subcontractors to perform any Services, Provider is not released from responsibility for its obligations under this Agreement; (b) Provider shall remain fully responsible, financially and otherwise, for the Services provided by each subcontractor to the same extent as if Provider had performed the Services itself (subject to the limitations set forth in this Agreement) and agrees to pay the fees and expenses of any such subcontractor; (c) Provider shall remain ultimately responsible for ensuring that the Services are provided and any such subcontractor performs any such obligations in accordance with the terms of this Agreement, and (d) the obligations with respect to the nature, quality and standards of care set forth in Section 1.2 are satisfied with respect to any Service provided by any subcontractor",
+        "contract_name": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+        "chunk_index": 1
+      }
+    },
+    {
+      "rank": 2,
+      "id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned_chunk_37",
+      "score": 0.504828513,
+      "metadata": {
+        "chunk_preview": ". Accuray shall execute a Service Agreement with the Customer upon receipt of (i) a copy of such Service Agreement executed by the Customer, and (ii) any payments then due under such Service Agreement; provided, however, that Accuray shall have no obligation to enter into such Service Agreement if it materially deviates from the form Service Agreement provided to Distributor; provided, further, that if Accuray does not have a direct presence in or Accuray does not have a distributor for the sales of Systems specifically for the country in which the Customer requests Services, as a condition to any sale of Services to such Customer, Accuray may require Distributor (solely with the consent of Distributor) to enter into a distribution agreement with Accuray pursuant to Section 3.2 of the Strategic Alliance Agreement providing, among other things, that Distributor may (at its sole discretion) enter into such Service Agreement with such Customer and will provide directly to such Customer",
+        "contract_name": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT",
+        "chunk_index": 37
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned_chunk_38",
+      "score": 0.492250502,
+      "metadata": {
+        "chunk_preview": "Alliance Agreement providing, among other things, that Distributor may (at its sole discretion) enter into such Service Agreement with such Customer and will provide directly to such Customer the Services required to be performed under such Service Agreement",
+        "contract_name": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT",
+        "chunk_index": 38
+      }
+    },
+    {
+      "rank": 4,
+      "id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT_cleaned_chunk_0",
+      "score": 0.489080459,
+      "metadata": {
+        "chunk_preview": "(c) Provider shall use its best efforts to provide for employees or contractors to perform the Services, each of whose names, positions, and respective levels of experience and relevant licenses shall be set out in Exhibit A attached hereto (collectively, the \"Provider Representatives\"). Provider may not make any change in the Provider Representatives without the prior consent of the Recipient. Provider Representatives shall be dedicated to solely providing the Services to Recipient and shall not provide any such services or resources to Provider or any other customer of Provider. (d) Recipient acknowledges that this Agreement does not create a fiduciary relationship, partnership, joint venture or relationships of trust or agency between the Parties and that all Services are provided by Provider as an independent contractor",
+        "contract_name": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+        "chunk_index": 0
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT_cleaned_chunk_7",
+      "score": 0.477390319,
+      "metadata": {
+        "chunk_preview": ". Provider shall give the Recipient or its designees all assistance reasonably required to perfect such rights. 2. Compensation. 2.1 Responsibility for Wages and Fees. For such time as any employees of Provider are providing the Services to Recipient under this Agreement, (a) such employees will remain employees of Provider and shall not be deemed to be employees of Recipient for any purpose, and (b) Provider shall be solely responsible for the payment and provision of all wages, bonuses and commissions, employee benefits, including severance and worker's compensation, and the withholding and payment of applicable taxes relating to such employment. 2.2 Terms of Payment and Related Matters. (a) As consideration for provision of the Services following the Effective Date, Recipient shall pay Provider an amount equal to Provider's actual cost of providing the Services plus a 10% service fee",
+        "contract_name": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+        "chunk_index": 7
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.513835073,
+    "lowest_score": 0.477390319,
+    "average_score": 0.4954769732
+  }
+}

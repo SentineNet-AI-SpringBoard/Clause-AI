@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "query": "What specific data protection frameworks (GDPR, SOC2, HIPAA, PCI-DSS) are mentioned?",
+  "timestamp": "2025-12-26T21:50:48.677838",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_65",
+      "score": 0.399795562,
+      "metadata": {
+        "chunk_preview": "3.2 Compliance. Aimmune shall conduct the Development Activities in accordance with sound and ethical business and scientific practices, and in compliance with all Applicable Law, including GCPs and GLPs, and also including all applicable data privacy and data protection laws",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 65
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_43",
+      "score": 0.381675273,
+      "metadata": {
+        "chunk_preview": "1.65 \"Regulatory Authority\" means, in a particular country or regulatory jurisdiction, any applicable Governmental Authority involved in granting Regulatory Approval and/or, to the extent required in such country or regulatory jurisdiction, governmental Pricing Approval of a biopharmaceutical product in such country or regulatory jurisdiction.\n1.66 \"Regulatory Data\" means any and all research data, pharmacology data, chemistry, manufacturing and control data, preclinical data, clinical data and all other documentation submitted, or required to be submitted, to Regulatory Authorities in association with regulatory filings for the Product (including any applicable Drug Master Files, Chemistry, Manufacturing and Control (\"CMC\") data, or similar documentation).",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 43
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned_chunk_83",
+      "score": 0.3337107,
+      "metadata": {
+        "chunk_preview": "-  Environmental protection -  to act in accordance with the applicable statutory and international standards regarding environmental protection; -  to minimize environmental pollution and make continuous improvements in environmental protection; -  to set up or use a reasonable environmental management system(1) -  Supply chain -  to use reasonable efforts to promote among its suppliers compliance with this Code of Conduct; -  to comply with the principles of non discrimination with regard to supplier selection and treatment.\n(1) For further information see www.siemens.com/procurement/cr/code-of-conduct\n EXHIBIT C SIEMENS QUALITY ASSURANCE AGREEMENT Please see attached.",
+        "contract_name": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT",
+        "chunk_index": 83
+      }
+    },
+    {
+      "rank": 4,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_69",
+      "score": 0.310089141,
+      "metadata": {
+        "chunk_preview": "3.4 Records, Reports and Information. Aimmune shall, and shall cause each of the other Aimmune Agreement Entities to, maintain current and accurate records of all Development Activities conducted by it and all data and other information resulting from such work (which records shall include, as applicable, books, records, reports, research notes, charts, graphs, comments, computations, analyses, recordings, photographs, computer programs and documentation thereof (e.g., samples of materials and other graphic or written data generated in connection with the Development Activities)). Such records shall properly reflect all work done and results achieved in the performance of the Development Activities in sufficient detail and in good scientific manner appropriate for regulatory and patent purposes",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 69
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT_cleaned_chunk_2",
+      "score": 0.306045562,
+      "metadata": {
+        "chunk_preview": ". (f) Provider shall at all times during the term of this Agreement maintain, or cause to be maintained, the computer software and computer hardware that is used in connection with the Services with substantially the same degree of care, skill and diligence with which Provider maintains, or causes to be maintained, as of the Effective Date, such computer software and computer hardware for itself, consistent with past practices, as of the Effective Date, including without limitation, with respect to type, quality and timeliness of such maintenance. 1.3 Additional Services. Nothing in this Agreement shall be construed to prevent the Recipient from itself performing or from acquiring services from other providers that are similar to or identical to the Services. 1.4 Intellectual Property",
+        "contract_name": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+        "chunk_index": 2
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.399795562,
+    "lowest_score": 0.306045562,
+    "average_score": 0.3462632476
+  }
+}

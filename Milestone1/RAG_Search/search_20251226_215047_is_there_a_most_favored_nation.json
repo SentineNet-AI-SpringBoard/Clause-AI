@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "query": "Is there a 'Most Favored Nation' (MFN) pricing clause or price adjustment mechanism?",
+  "timestamp": "2025-12-26T21:50:47.817297",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_91",
+      "score": 0.40139389,
+      "metadata": {
+        "chunk_preview": "Aggregate Annual Net Sales Royalty Rate [***] [***]% [***] [***]% [***] [***]% [***] [***]% [***] [***]%\n[***]. 22\nSource: AIMMUNE THERAPEUTICS, INC., 8-K, 2/5/2020\n7.3.2 Royalty Reductions.\n(a) No Valid Claim. On a country-by-country and Product-by-Product basis, if at any time during the Royalty Term with respect to such country and such Product, such Product is not Covered by any Valid Claim of a [***], the royalty rate applied to Net Sales of such Product shall be the royalty rate in Section 7.3.1 reduced by [***] percent ([***]%) for so long as during the Royalty Term such Product is not Covered by a Valid Claim of a [***] in such country.",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 91
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_35",
+      "score": 0.387572289,
+      "metadata": {
+        "chunk_preview": ". If A or B cannot be determined because values for such Product or such other products with which such Product is combined are not available separately in a particular country, then the Parties shall discuss an appropriate allocation for the fair market value of such Product and such other products with which such Product is combined to mutually determine Net Sales for the relevant transactions based on an equitable method of determining the same that takes into account, in the applicable territory, the relative contribution of each Active Ingredient, variations in dosage formulation and relative value to the end user of each Active Ingredient.",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 35
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_98",
+      "score": 0.383203506,
+      "metadata": {
+        "chunk_preview": "(b) With respect to any Securities sold by a National Association of Securities Dealers, Inc. (\"NASD\") member firm (other than Sandler O'Neill) in the Syndicated Community Offering, (i) the compensation payable to Selected Dealers, (ii) any sponsoring dealer's fees; and (iii) a management fee to Sandler O'Neill of one percent (1.0 %) of the aggregate purchase price of the Securities sold in the Syndicated Community Offering. Any fees payable to Sandler O'Neill for Securities sold by Sandler O'Neill under any such agreement shall be limited to an aggregate of six percent (6.0 %) of the purchase price of the Securities sold by Sandler O'Neill and other NASD member firms.",
+        "contract_name": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+        "chunk_index": 98
+      }
+    },
+    {
+      "rank": 4,
+      "id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned_chunk_15",
+      "score": 0.374215126,
+      "metadata": {
+        "chunk_preview": "who assist in the syndicated community, an amount competitive with gross underwriting discounts changed at such time for comparable amounts of stock sold at a comparable price per share in a similar market environment. Fees with respect to purchases affected with the assistance of a broker/dealer other than the Agent shall be transmitted by the Agent to such broker/dealer. The decision to utilize selected broker-dealers will be made by the Bank upon consultation with the Agent. In the event, with respect to any purchases of Shares, fees are paid pursuant to this subparagraph 2(c), such fees shall be in lieu of, and not in addition to, payment pursuant to subparagraph 2(a) and 2(b).",
+        "contract_name": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT",
+        "chunk_index": 15
+      }
+    },
+    {
+      "rank": 5,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_94",
+      "score": 0.371125221,
+      "metadata": {
+        "chunk_preview": "(c) Generic Competition. On a country-by-country and Product-by-Product basis, if at any time during the Royalty Term with respect to such country and such Product there is one or more Generic Product(s) with respect to such Product being sold for [***]) consecutive Calendar Quarters, then [***] for such country and such Product, the royalty rate for such Product shall be reduced, after giving effect to any reduction applicable to such Product in such country pursuant to [***], on a Calendar Quarter basis as follows:\n(i) if the cumulative Net Sales of such Product in such country during such Calendar Quarter are equal to or less than [***] percent ([***]%), but are greater than [***] percent ([***]%), of the Baseline Quarter Net Sales, then the royalty rate will be reduced for such Calendar Quarter by [***] percent ([***]%); and",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 94
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.40139389,
+    "lowest_score": 0.371125221,
+    "average_score": 0.3835020064
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "query": "What are the specific termination for convenience and termination for cause procedures?",
+  "timestamp": "2025-12-26T21:50:51.611173",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement_cleaned_chunk_29",
+      "score": 0.573825896,
+      "metadata": {
+        "chunk_preview": ". 6. TERMINATION a. Each party shall have the right at any time to terminate this Agreement without prejudice to any rights which it may have, whether pursuant to the provisions of this Agreement or otherwise in law or in equity or otherwise, upon the occurrence of any one or more of the following events: i. The other party breaches or fails to perform any of its material obligations provided for in this Agreement; ii. The other party is unable to pay its debts when due, or makes any assignment for the benefit of creditors, or files any petition under the bankruptcy or insolvency laws of any jurisdiction, county or place, or has or suffers a receiver or trustee to be appointed for its business or property, or is adjudicated a bankrupt or an insolvent; or iii. The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement. a",
+        "contract_name": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement",
+        "chunk_index": 29
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement_cleaned_chunk_28",
+      "score": 0.565137923,
+      "metadata": {
+        "chunk_preview": ". c. In order to seek or receive indemnification hereunder in cases involving third-party claims the party seeking indemnification (the \"Indemnified Party\") must have promptly notified the other (the \"Indemnifying Party\") of any claim or litigation of which the Indemnified Party is aware and to which the indemnification relates; and the Indemnified Party must reasonably cooperate with Indemnifying Party in the defense or settlement of such claim or litigation. With regard to any claim or litigation to which the Indemnifying Party itself is not a party, the Indemnifying Party must have afforded the Indemnified Party the opportunity to participate in any compromise, settlement, litigation or other resolution or disposition of such claim or litigation. 6. TERMINATION a",
+        "contract_name": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement",
+        "chunk_index": 28
+      }
+    },
+    {
+      "rank": 3,
+      "id": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement_cleaned_chunk_30",
+      "score": 0.55833441,
+      "metadata": {
+        "chunk_preview": ". The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement. a. In the event that any of these events of default should occur and a party elects to exercise its right to terminate this Agreement, such party shall give notice of termination in writing to the other party, which notice shall specify in reasonable detail the event(s) of default that give rise to such termination. The other party shall have thirty (30) days from the effective date of such notice in which to correct any such default(s) (except those which are not curable), and failing such correction by the end of such thirty (30) day cure period, this Agreement shall thereupon immediately terminate. 7. RIGHTS AND OBLIGATIONS UPON TERMINATION OR EXPIRATION. Upon expiration or termination of this Agreement: a",
+        "contract_name": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement",
+        "chunk_index": 30
+      }
+    },
+    {
+      "rank": 4,
+      "id": "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply Agreement_cleaned_chunk_19",
+      "score": 0.545772612,
+      "metadata": {
+        "chunk_preview": "(e) If control of either party shall pass from the present shareholders or owners or controllers to other persons whom the other party shall in their absolute discretion regard as unsuitable. (f) Either parties voting stock is transferred to any third party to such extent as to result in a change in effective control of the company or its ownership or active management is changed in any other manner. The termination of this agreement shall be without prejudice to the rights of either party to payment or other claims due or accrued up to the termination of this agreement. For termination to be effective, written notice of termination must be served on the other party. Where valid, termination takes effect immediately upon service. 8",
+        "contract_name": "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply Agreement",
+        "chunk_index": 19
+      }
+    },
+    {
+      "rank": 5,
+      "id": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.34_11788308_EX-10.34_Sponsorship Agreement_cleaned_chunk_29",
+      "score": 0.539340079,
+      "metadata": {
+        "chunk_preview": ". 14.2 Each Party may also terminate the Agreement for convenience after Contract Year 2 (as defined in Section 14.4) by providing written notice to the other Party at least sixty (60) calendar days prior to the effective date of such termination 14.3 Except as provided in (i) Section 5.2 for immediate termination subject to cure provisions in Section 14.1 , (ii) Section 14.1 for termination following notice, and (iii) Section 14.5 for immediate termination without notice, if either Party defaults in the performance, or breaches any provision, of this Agreement, then the non- defaulting Party may give written notice to the defaulting Party requiring the default or breach to be cured, and if the default or breach is not cured within fifteen (15) days of the receipt of the notice, this Agreement shall, without prejudice to any accrued right, automatically terminate at the end of the fifteen (15) day period",
+        "contract_name": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.34_11788308_EX-10.34_Sponsorship Agreement",
+        "chunk_index": 29
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.573825896,
+    "lowest_score": 0.539340079,
+    "average_score": 0.5564821839999999
+  }
+}

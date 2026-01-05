@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "query": "Are there any non-solicitation or 'no-hire' restrictions regarding personnel?",
+  "timestamp": "2025-12-26T21:50:51.014901",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement_cleaned_chunk_71",
+      "score": 0.462623596,
+      "metadata": {
+        "chunk_preview": "21.1 Pursuant to the Foreign Corrupt Practices Act of the United States of America, directors, officers, or employees of Distributor shall not offer or pay any bribe to any individual or corporation in connection with the provision or support of any Airspan Products obtained under this Agreement. When other individuals or organizations are required to participate in the sales program covered by this Agreement, they shall be compensated fairly based on the tasks performed. In no circumstances are public servants or holders of public office to be offered or paid any bribe or other benefit, direct or indirect. No contribution in any way related to Airspan shall be made to candidates for public office or to political parties or other political organizations, regardless of whether such contributions are permitted by the laws of the Territory",
+        "contract_name": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+        "chunk_index": 71
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement_cleaned_chunk_3",
+      "score": 0.402985603,
+      "metadata": {
+        "chunk_preview": "1.2 Distributor's relationship to Airspan is that of an independent contractor, and nothing in this Agreement shall constitute Distributor as the agent or employee of Airspan. Distributor shall have no authority to accept any order or make any offer (except as herein stated), or execute any instrument or make any commitment on behalf of Airspan. Specifically, without in any way limiting the generality of the foregoing, Distributor agrees not to make any representation, guarantee, or warranty on Airspan's behalf concerning the Airspan Products, but will refer customers to Airspan's printed literature. Nothing contained in this Agreement is to be construed as a limitation or restriction upon Airspan in the sale or other disposition of any of its products to any person, firm, or corporation inside or outside of the Territory. Airspan will pay no commissions under this Agreement",
+        "contract_name": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+        "chunk_index": 3
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_107",
+      "score": 0.393567115,
+      "metadata": {
+        "chunk_preview": "20\nthat would constitute an \"issuer free writing prospectus,\" as defined in Rule 433 of the Securities Act Regulations, or that would constitute a \"free writing prospectus,\" as defined in Rule 405 of the Securities Act Regulations, required to be filed with the Commission. Any such free writing prospectus consented to by the Company and the Agent is hereinafter referred to as a \"Permitted Free Writing Prospectus.\" The Company represents that it has and will comply with the requirements of Rule 433 of the Securities Act Regulations applicable to any Permitted Free Writing Prospectus, including timely Commission filing where required, legending and record keeping. The Company need not treat any communication as a free writing prospectus if it is exempt from the definition of prospectus pursuant to clause (a) of Section 2(a)(10) of the 1933 Act without regard to Rule 172 or 173 of the Securities Act Regulations.",
+        "contract_name": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+        "chunk_index": 107
+      }
+    },
+    {
+      "rank": 4,
+      "id": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement_cleaned_chunk_75",
+      "score": 0.392947197,
+      "metadata": {
+        "chunk_preview": "Page 23\ncustomer, or prospective customer, or of any political party, or to such party's family, or that are otherwise illegal under applicable law.\nDistributor understands and agrees that Airspan will comply with any legal provision requiring disclosure of, or request from a government or governmental or private customer to disclose, by affidavit or otherwise, the identity of payments made or to be made to Distributor.\n21.3 Neither party may assign this Agreement or subcontract its obligations under this Agreement to another party without the other party's prior, written consent executed by a duly authorized officer. The parties agree that if said assignment is to a subsidiary or affiliate organization, said consent to assignment will not be unreasonably withheld.\n21.4 This Agreement shall be construed in accordance with and governed by the laws of the State of South Dakota.",
+        "contract_name": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+        "chunk_index": 75
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned_chunk_12",
+      "score": 0.380017281,
+      "metadata": {
+        "chunk_preview": ". 3.3. Distributor Personnel. During the Term of this Agreement and any extension thereof, Distributor agrees to use commercially reasonable efforts to employ qualified sales and technical personnel familiar with the Products and Services, including, without limitation, at least one person in Distributor's Oncology Care Systems sales group with a primary responsibility for sales of Products, to perform the marketing and sales requirements as set forth herein. 3.4. Distributor Personnel Sales Training. Distributor shall use commercially reasonable efforts to cause each of its Oncology Care Systems sales personnel with any sales duties related to the Systems to attend any training provided by Accuray in such personnel's Accuray Region pursuant to Section 4.12. 3.5. Offers. Distributor shall inform Accuray of all potential Customers for Multiple LINAC or Multi-Modality Purchases during the Term of this Agreement or any extension thereof",
+        "contract_name": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT",
+        "chunk_index": 12
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.462623596,
+    "lowest_score": 0.380017281,
+    "average_score": 0.40642815839999996
+  }
+}

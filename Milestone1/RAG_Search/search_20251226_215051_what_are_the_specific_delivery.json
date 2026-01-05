@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "query": "What are the specific delivery milestones, acceptance criteria, and rejection procedures?",
+  "timestamp": "2025-12-26T21:50:51.313874",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned_chunk_33",
+      "score": 0.498724,
+      "metadata": {
+        "chunk_preview": "7\n approval, all terms, conditions, requirements and provisions with respect to the Offering imposed by the Commission, the OTS, and the FDIC, if any, will have been complied with by the Company, the MHC and the Bank in all material respects or appropriate waivers will have been obtained and all material notice and waiting periods will have been satisfied, waived or elapsed.",
+        "contract_name": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT",
+        "chunk_index": 33
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_14",
+      "score": 0.465933323,
+      "metadata": {
+        "chunk_preview": "involved, the likelihood of regulatory approval, the likelihood and extent of anticipated or actual profitability of the applicable product, and other technical, legal, scientific and medical considerations",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 14
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned_chunk_75",
+      "score": 0.455647469,
+      "metadata": {
+        "chunk_preview": "SCHEDULE 2.3.2 ACCEPTANCE PROCESS -  Accuray shall have 5 Business Days from date of the submission of a proposed Multiple LINAC Purchase or Multi-Modality Purchases by Siemens in which to either give or withhold approval of such purchase, with any failure to approve or disapprove of such purchase in such period constituting disapproval; -  Such approval may be given by either Accuray's applicable General Regional Manager or a corporate representative of Accuray, expressly designated with such approval authority in writing by Accuray to Siemens; -  Siemens' shall provide any information concerning such proposed purchase and the proposed purchaser as is reasonably requested by Accuray; -  Such approval of any such proposed purchase must not be unreasonably withheld or delayed; -  In determining whether to grant such approval, Accuray may consider, at a minimum: -  Existing exclusivity arrangements between Accuray and Third Parties; -  Prior and current contact with the proposed",
+        "contract_name": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT",
+        "chunk_index": 75
+      }
+    },
+    {
+      "rank": 4,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_141",
+      "score": 0.44180584,
+      "metadata": {
+        "chunk_preview": ". Such approvals remain in full force and effect and no action is pending, or to such counsel's knowledge, threatened respecting the approvals or the Plans; the Holding Company Application, the MHC Application, the Bank Merger Application, the Application for Approval to Acquire a Savings Bank and the Application for Approval to Merge or Consolidate and the Plans comply as to form in all material respects with the applicable requirements of the OTS, the FDIC and the Department, as applicable, include all documents required to be filed as exhibits thereto, and are, to such counsel's knowledge, truthful, accurate and",
+        "contract_name": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+        "chunk_index": 141
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned_chunk_76",
+      "score": 0.437941551,
+      "metadata": {
+        "chunk_preview": "determining whether to grant such approval, Accuray may consider, at a minimum: -  Existing exclusivity arrangements between Accuray and Third Parties; -  Prior and current contact with the proposed purchaser by either Party; -  Other commercial relationships that either Party may have with the proposed purchaser; -  Bona fide concerns about the suitability of the proposed purchaser; and -  Whether Accuray or any of its distributors have obtained any required regulatory clearances and/or import licenses required in connection with the proposed purchase.",
+        "contract_name": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT",
+        "chunk_index": 76
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.498724,
+    "lowest_score": 0.437941551,
+    "average_score": 0.4600104366
+  }
+}

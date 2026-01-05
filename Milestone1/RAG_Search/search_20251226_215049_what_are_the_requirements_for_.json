@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "query": "What are the requirements for the return or secure destruction of sensitive data?",
+  "timestamp": "2025-12-26T21:50:49.865970",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT_cleaned_chunk_4",
+      "score": 0.403578758,
+      "metadata": {
+        "chunk_preview": ". (b) At Recipient's request, Provider shall disclose any such invention, technique, process, device, discovery, improvement, or know-how promptly to Recipient. Provider shall, upon request of Recipient, promptly execute a specific assignment of title to Recipient, and do anything else reasonably necessary to enable Recipient to secure for itself, patent, trade secret, or any other proprietary rights.",
+        "contract_name": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+        "chunk_index": 4
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_157",
+      "score": 0.382979393,
+      "metadata": {
+        "chunk_preview": ". Notwithstanding the foregoing any disclosure which is required by Applicable Law or the rules of the U.S. Securities and Exchange Commission or any securities exchange, as reasonably advised by the disclosing Party's counsel, may be made without the prior consent of the other Party, although, prior to any such legally required disclosure by a Party, such Party shall use reasonable efforts where practicable to give the other Party reasonable notice and an opportunity to comment on the proposed disclosure.",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 157
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT_cleaned_chunk_2",
+      "score": 0.3779383,
+      "metadata": {
+        "chunk_preview": ". (f) Provider shall at all times during the term of this Agreement maintain, or cause to be maintained, the computer software and computer hardware that is used in connection with the Services with substantially the same degree of care, skill and diligence with which Provider maintains, or causes to be maintained, as of the Effective Date, such computer software and computer hardware for itself, consistent with past practices, as of the Effective Date, including without limitation, with respect to type, quality and timeliness of such maintenance. 1.3 Additional Services. Nothing in this Agreement shall be construed to prevent the Recipient from itself performing or from acquiring services from other providers that are similar to or identical to the Services. 1.4 Intellectual Property",
+        "contract_name": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+        "chunk_index": 2
+      }
+    },
+    {
+      "rank": 4,
+      "id": "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply Agreement_cleaned_chunk_12",
+      "score": 0.36884883,
+      "metadata": {
+        "chunk_preview": ". 5.2 Guarantee of packaging quality The Manufacturer further guarantees that the Products, when shipped, are packaged in such a way as to be protected from any foreseeable damage during shipment. 5.3 Rejection of defective products The Customer shall inspect all Products promptly upon receipt thereof and may reject any defective Product, provided that the Customer shall within seven (7) days after receipt of such alleged defective Product, notify the Manufacturer of its rejection and either: (i) request to destroy in field for credit of the value of the defective product and the associated shipping costs (with approval), or (ii) request a Return Material Authorization (\"RMA\") number and within seven (7) days of receipt of the RMA number from the Manufacturer return such rejected Product to the Manufacturer. Products not rejected within the foregoing time periods shall be deemed accepted by the Customer",
+        "contract_name": "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply Agreement",
+        "chunk_index": 12
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_83",
+      "score": 0.357769966,
+      "metadata": {
+        "chunk_preview": "The Company, upon completion of its formation, and in any event no later than Closing Time will have established and maintained disclosure controls and procedures (as\n16\nsuch term is defined in Rule 13a-14 and 15d-14 under the Exchange Act), which (i) are designed to ensure that material information relating to the Company, including its consolidated subsidiaries, is made known to the Company's principal executive officer and its principal financial officer by others within those entities; and (ii) are effective in all material respects to perform the functions for which they were established.",
+        "contract_name": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+        "chunk_index": 83
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.403578758,
+    "lowest_score": 0.357769966,
+    "average_score": 0.37822304939999996
+  }
+}

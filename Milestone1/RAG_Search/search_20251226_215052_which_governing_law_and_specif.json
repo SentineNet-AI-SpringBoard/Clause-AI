@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "query": "Which governing law and specific court jurisdiction apply to this agreement?",
+  "timestamp": "2025-12-26T21:50:52.466474",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "ADIANUTRITION,INC_04_01_2005-EX-10.D2-RESELLER AGREEMENT_cleaned_chunk_33",
+      "score": 0.650623322,
+      "metadata": {
+        "chunk_preview": "6.7 GOVERNING LAW. This Agreement shall be governed by and construed under the laws of the State of California, excluding conflict of laws provisions and excluding the 1980 United Nations Convention on Contracts for the International Sale of Goods. The parties consent to the personal and exclusive jurisdiction of and venue in the state and federal courts of Orange County, California, U.S.A. for any disputes arising out of this Agreement. This Agreement may be executed simultaneously in two or more counterparts, each one of which shall be deemed an original, but all of which shall constitute one and the same instrument.\nIN WITNESS WHEREOF, the following duly authorized representatives have signed this Agreement on behalf of the entities indicated below, as of the date first above written.\nDETTO PIVX ----------------------------------------- --------------------------------------",
+        "contract_name": "ADIANUTRITION,INC_04_01_2005-EX-10.D2-RESELLER AGREEMENT",
+        "chunk_index": 33
+      }
+    },
+    {
+      "rank": 2,
+      "id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT_cleaned_chunk_21",
+      "score": 0.648073256,
+      "metadata": {
+        "chunk_preview": ". 7.2 Governing Law. This Agreement and any claim, controversy or dispute arising out of or related to this Agreement, any of the transactions contemplated hereby and/or the interpretation and enforcement of the rights and duties of the Parties, whether arising in contract, tort, equity or otherwise, shall be governed by and construed in accordance with the domestic laws of the State of Israel (including in respect of the statute of limitations or other limitations period applicable to any such claim, controversy or dispute), without giving effect to any choice or conflict of law provision or rule (whether of the State of Israel or any other jurisdiction) that would cause the application of the laws of any jurisdiction other than the State of Israel. 7.3 Consent to Jurisdiction",
+        "contract_name": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+        "chunk_index": 21
+      }
+    },
+    {
+      "rank": 3,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_203",
+      "score": 0.626174033,
+      "metadata": {
+        "chunk_preview": "15.13.3 Jurisdiction. Each Party (a) irrevocably submits to the exclusive jurisdiction of any United States District Court in California (the \"Court\"), for purposes of any action, suit or other proceeding arising out of this Agreement, (b) agrees not to raise any objection at any time to the laying or maintaining of the venue of any such action, suit or proceeding in any of such Court, and (c) irrevocably waives any claim that such action, suit or other proceeding has been brought in an inconvenient forum and further irrevocably waives the right to object, with respect to such action, suit or other proceeding, that such Court does not have any jurisdiction over such Party. Each Party further agrees that service or any process, summons, notice or document by U.S",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 203
+      }
+    },
+    {
+      "rank": 4,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_202",
+      "score": 0.622368872,
+      "metadata": {
+        "chunk_preview": "15.13 Governing Law and Equitable Relief.\n15.13.1 Governing Law. This Agreement shall be governed by and construed in accordance with the internal laws of the State of California applicable to agreements made and to be performed entirely within such state, without regard to the conflicts of law principles of such state; provided that any matters relating to the construction or effect of any Patent will be governed by the patent laws of the relevant jurisdiction in which such Patent is granted. This Agreement was prepared in the English language, which language shall govern the interpretation of, and any dispute regarding, the terms of this Agreement.\n15.13.2 Equitable Relief. Notwithstanding anything in this Agreement to the contrary, each Party shall have the right to seek injunctive or other equitable relief from a court of competent jurisdiction that may be necessary to avoid irreparable harm or to maintain the status quo.",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 202
+      }
+    },
+    {
+      "rank": 5,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_129",
+      "score": 0.606801033,
+      "metadata": {
+        "chunk_preview": "10.1.2 Authority and Binding Agreement. (i) It has the corporate power and authority and the legal right to enter into this Agreement and perform its obligations hereunder, (ii) it has taken all necessary corporate action on its part required to authorize the execution and delivery of this Agreement and the performance of its obligations hereunder, and (iii) this Agreement has been duly executed and delivered on behalf of such Party, and constitutes a legal, valid, and binding obligation of such Party that is enforceable against it in accordance with its terms, except as enforcement may be affected by bankruptcy, insolvency or other similar laws and by general principles of equity.\n10.1.3 No Conflicts. The execution, delivery and performance of this Agreement by it does not (i) conflict with any agreement, instrument or understanding, oral or written, to which it is a party and by which it may be bound or (ii) violate any Applicable Law.",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 129
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.650623322,
+    "lowest_score": 0.606801033,
+    "average_score": 0.6308081031999999
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "query": "What are the detailed pricing models, fee structures, and commission rates?",
+  "timestamp": "2025-12-26T21:50:47.521944",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_16",
+      "score": 0.576594353,
+      "metadata": {
+        "chunk_preview": "-3-\nof the current bill.\n In the event other broker-dealers are assembled and managed by Capital Resources under a selling syndicate to participate in the Public Offering pursuant to the Selected Dealers' Agreement or participate in the Public Offering as assisting brokers, the Company and the Association will be directly responsible for the payment of selected dealers' commissions to such participating firms or assisting brokers' commissions up to a maximum of four percent (4%) and four percent (4%), respectively, of the amount of stock sold by such firms. Capital Resources' fees are limited to those stated in subparagraph (a) above and all other brokers will be paid fees based upon the capacity in which they are acting in the particular stock sale.",
+        "contract_name": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT",
+        "chunk_index": 16
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_15",
+      "score": 0.559258,
+      "metadata": {
+        "chunk_preview": "(ii) a management fee in the amount of one percent and one-half (1.5%) of the aggregate dollar amount of Shares sold through broker assisted purchases or through selected dealers, if any.\n (b) Capital Resources shall be reimbursed for all reasonable out-of-pocket expenses, including, but not limited to, legal fees, travel, communications and postage, incurred by it whether or not the Conversion is successfully completed as set forth in Section 7 hereof. Capital Resources shall be reimbursed promptly for all out-of-pocket expenses upon receipt by the Company or the Association of a monthly itemized bill summarizing such expenses since the date of the last bill, if any, to the date\n -3-\nof the current bill.",
+        "contract_name": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT",
+        "chunk_index": 15
+      }
+    },
+    {
+      "rank": 3,
+      "id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_87",
+      "score": 0.527754366,
+      "metadata": {
+        "chunk_preview": "-14-\nincluding but not limited to, attorneys' fees, transfer agent, registrar and other agent charges, fees relating to auditing and accounting or other advisors and costs of printing all documents necessary in connection with the Conversion;\nand (e) out-of-pocket expenses incurred by Capital Resources in connection with the Conversion or any of the transactions contemplated hereby, including, without limitation, the fees of its attorneys, and reasonable communication and travel expenses.",
+        "contract_name": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT",
+        "chunk_index": 87
+      }
+    },
+    {
+      "rank": 4,
+      "id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned_chunk_15",
+      "score": 0.508013248,
+      "metadata": {
+        "chunk_preview": "who assist in the syndicated community, an amount competitive with gross underwriting discounts changed at such time for comparable amounts of stock sold at a comparable price per share in a similar market environment. Fees with respect to purchases affected with the assistance of a broker/dealer other than the Agent shall be transmitted by the Agent to such broker/dealer. The decision to utilize selected broker-dealers will be made by the Bank upon consultation with the Agent. In the event, with respect to any purchases of Shares, fees are paid pursuant to this subparagraph 2(c), such fees shall be in lieu of, and not in addition to, payment pursuant to subparagraph 2(a) and 2(b).",
+        "contract_name": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT",
+        "chunk_index": 15
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned_chunk_16",
+      "score": 0.506905079,
+      "metadata": {
+        "chunk_preview": "(d) The Company will bear those expenses of the proposed offering customarily borne by issuers, including, without limitation, regulatory filing fees, \"Blue Sky,\" and NASD filing and registration fees; the fees of the Company's accountants, attorneys, appraiser, transfer agent and registrar, printing, mailing and marketing and syndicate expenses associated with the Offering; the fees set forth in Section 2; and fees for \"Blue Sky\" legal work. If the Agent incurs expenses on behalf of the Company, the Company will reimburse the Agent for such expenses.\n The Agent shall be reimbursed for reasonable out-of-pocket expenses, including costs of travel, meals and lodging, photocopying, telephone, facsimile and couriers. The Agent shall also be reimbursed for its fees of underwriter's counsel (including counsel's out-of-pocket expenses) not to exceed $35,000. The selection of such counsel will be done by the Agent, after consultation with the Bank.",
+        "contract_name": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT",
+        "chunk_index": 16
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.576594353,
+    "lowest_score": 0.506905079,
+    "average_score": 0.5357050092000001
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "query": "What are the specific Force Majeure events and the procedures for claiming relief?",
+  "timestamp": "2025-12-26T21:50:50.434028",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "ADAPTIMMUNETHERAPEUTICSPLC_04_06_2017-EX-10.11-STRATEGIC ALLIANCE AGREEMENT_cleaned_chunk_39",
+      "score": 0.569246292,
+      "metadata": {
+        "chunk_preview": ". 15.8 Force Majeure. In the event that performance of the obligations of a Party hereunder are prevented by events beyond their reasonable control, including, but not limited to, acts of God, regulations or acts of any governmental authority, war, civil commotion, strikes, or other labor disturbances, epidemics, fire, earthquakes, storms or other catastrophes of a similar nature (\"Force Majeure\"), the affected Party will promptly notify the other Party of such event using the procedure defined herein, and the Parties shall be relieved of their respective obligations hereunder to the extent that the performance of such obligations is actually prevented thereby. During the existence of any such condition, the affected Party shall, nevertheless, use its best efforts to remove the cause thereof and resume performance of its obligations hereunder",
+        "contract_name": "ADAPTIMMUNETHERAPEUTICSPLC_04_06_2017-EX-10.11-STRATEGIC ALLIANCE AGREEMENT",
+        "chunk_index": 39
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_20",
+      "score": 0.5499506,
+      "metadata": {
+        "chunk_preview": "1.32 \"Force Majeure\" means any circumstances whatsoever which are not within the reasonable control of the Party affected thereby, potentially including an act of God, war, act of terrorism, insurrection, riot, strike or labor dispute, shortage of materials, fire, explosion, flood, earthquake, government requisition or allocation, breakdown of or damage to plant, equipment or facilities, interruption or delay in transportation, fuel supplies or electrical power, embargo, boycott, order or act of civil or military authority.",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 20
+      }
+    },
+    {
+      "rank": 3,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_187",
+      "score": 0.541088104,
+      "metadata": {
+        "chunk_preview": "15.3 Force Majeure. No Party shall be liable for any failure to perform, or be considered in breach of, its obligations under this Agreement (other than obligations to make payments of money) to the extent such performance has been delayed, interfered with or prevented by an event of Force Majeure, and the obligations of such Party under this Agreement (other than obligations to make payments of money) whose performance is affected by Force Majeure shall be suspended during, but not longer than, the continuance of the event of Force Majeure. Any Party that experiences an event of Force Majeure shall provide prompt notice of such event to the other Party, including and an estimate of the likely period of time during which its performance will be affected, and shall use reasonable efforts to remove the condition constituting Force Majeure",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 187
+      }
+    },
+    {
+      "rank": 4,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_188",
+      "score": 0.489969283,
+      "metadata": {
+        "chunk_preview": ". In the event of a prolonged condition of Force Majeure that makes it unreasonable to continue to perform other activities then being performed by the Parties and their Affiliates pursuant to this Agreement, the Parties shall consult directly as to whether they should appropriately scale back their respective activities in order to avoid waste or inappropriate usage of resources under the circumstances.",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 188
+      }
+    },
+    {
+      "rank": 5,
+      "id": "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply Agreement_cleaned_chunk_29",
+      "score": 0.483721733,
+      "metadata": {
+        "chunk_preview": ". 14.7 Force Majeure Neither party to this agreement is liable to the other for a breach of this agreement when the breach is as a result of the occurrence of one of the events below: (i) The outbreak of hostilities (whether or not accompanied by any formal declaration of war), riot, civil disturbance, or acts of terrorism; or (ii) The act of any government or competent authority (including the cancellation or revocation of any approval, authority or permit); or (iii) Fire, explosion, flood, inclement weather, or natural disaster; or (iv) The declaration of a state of emergency or the invocation of martial law having an effect on commerce generally; or (v) Industrial action (including strikes and lock-outs) that is of a widespread nature affecting the Principal solely or the industry or sector of which the Principal is a part (whether in a vertical sense or horizontal sense); or (vi) Any other cause, impediment or circumstance beyond the reasonable control of any party",
+        "contract_name": "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply Agreement",
+        "chunk_index": 29
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.569246292,
+    "lowest_score": 0.483721733,
+    "average_score": 0.5267952024
+  }
+}

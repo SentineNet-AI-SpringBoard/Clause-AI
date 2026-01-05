@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "query": "How are contract amendments, change orders, and service modifications handled?",
+  "timestamp": "2025-12-26T21:50:50.724814",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "AIRTECHINTERNATIONALGROUPINC_05_08_2000-EX-10.4-FRANCHISE AGREEMENT_cleaned_chunk_88",
+      "score": 0.470326453,
+      "metadata": {
+        "chunk_preview": "7. BINDING EFFECT. This Agreement shall be binding upon and inure to the benefit of Associate and Company and their respective heirs, executors, representatives successors and assigns.\n8. ENTIRE AGREEMENT. This instrument contains the entire agreement of Associate and Company relating to the matters set forth here It may not be changed orally, but only by an agreement in writing, signed by the party against whom enforcement of any waiver, change modification, extension or discharge is sought.\n9. GOVERNING LAW. This instrument shall be governed by and construed under the laws of the State of Texas.",
+        "contract_name": "AIRTECHINTERNATIONALGROUPINC_05_08_2000-EX-10.4-FRANCHISE AGREEMENT",
+        "chunk_index": 88
+      }
+    },
+    {
+      "rank": 2,
+      "id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned_chunk_174",
+      "score": 0.459589,
+      "metadata": {
+        "chunk_preview": "If the foregoing correctly sets forth the arrangement among the Company, the MHC, the Bank and the Agent, please indicate acceptance thereof in\nthe space provided below for that purpose, whereupon this letter and the Agent's acceptance shall constitute a binding agreement.\n Section 18. Entire Agreement. This Agreement, including schedules and exhibits hereto, which are integral parts hereof and incorporated as though set forth in full, constitutes the entire agreement between the parties pertaining to the subject matter hereof superseding any and all prior or contemporaneous oral or prior written agreements, proposals, letters of intent and understandings, and cannot be modified, changed, waived or terminated except by a writing which expressly states that it is an amendment, modification or waiver, refers to this Agreement and is signed by the party\n 39",
+        "contract_name": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT",
+        "chunk_index": 174
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned_chunk_15",
+      "score": 0.452651054,
+      "metadata": {
+        "chunk_preview": ". 3.9. Service Agreements. Distributor will make commercially reasonable efforts to sell a Service Agreement to each Customer. For the avoidance of doubt, (i) the obligations of the parties with respect to the Service Agreement are as set forth in Sections 3.6 and 4.8 and (ii) the failure of Distributor to sell a Service Agreement to any Customer shall not be deemed to be a breach of this Agreement. 3.10. Upgrades. Any Product upgrades released by Accuray (other than Bug Fixes and Safety Updates, which are addressed in Section 4.6.3 and 4.6.4 respectively) can be purchased at the discretion of the Distributor pursuant to the procedures set forth in Section 2.3. Such 5",
+        "contract_name": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT",
+        "chunk_index": 15
+      }
+    },
+    {
+      "rank": 4,
+      "id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT_cleaned_chunk_20",
+      "score": 0.43429184,
+      "metadata": {
+        "chunk_preview": "Any Party may change the address to which notices, requests, demands, claims, and other communications hereunder are to be delivered by giving the other Parties notice in the manner herein set forth. 7.1 Further Assurances. The Parties agree (a) to furnish upon request to each other such further information, (b) to execute and deliver to each other such other documents, and (c) to do such other acts and things, all as the other party may reasonably request for the purpose of carrying out the intent of this Agreement and the documents referred to in this Agreement. 7.2 Governing Law",
+        "contract_name": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+        "chunk_index": 20
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_126",
+      "score": 0.426614761,
+      "metadata": {
+        "chunk_preview": "the Plans, the OTS Regulations and all other applicable material laws, regulations, decisions and orders, including in compliance with all terms, conditions, requirements and provisions precedent to the Reorganization and Additional Stock Issuance imposed upon the Company, the MHCs and the Bank by the Commission, the OTS, the FDIC or any other regulatory or Blue Sky authority.",
+        "contract_name": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+        "chunk_index": 126
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.470326453,
+    "lowest_score": 0.426614761,
+    "average_score": 0.44869462159999995
+  }
+}

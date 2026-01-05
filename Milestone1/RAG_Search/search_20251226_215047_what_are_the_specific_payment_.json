@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "query": "What are the specific payment terms, invoicing cycles, and late payment penalties?",
+  "timestamp": "2025-12-26T21:50:47.236449",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT_cleaned_chunk_8",
+      "score": 0.619002342,
+      "metadata": {
+        "chunk_preview": ". In addition to such amount, in the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, \"Out-of-Pocket Costs\"), Recipient shall reimburse Provider for all such Out-of-Pocket Costs. (b) (i) Provider shall provide Recipient with monthly invoices (\"Invoices\"), which shall set forth in reasonable detail, with such supporting documentation as Recipient may reasonably request with respect to Out-of-Pocket Costs, amounts payable under this Agreement, and (ii) payments pursuant to this Agreement shall be made within fifteen (15) days after the date of receipt of an Invoice by Recipient from Provider. (c) Provider shall allow the Recipient to use [ * * * ] at no cost, until December 31, 2021. 2.3 Invoice Disputes",
+        "contract_name": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+        "chunk_index": 8
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement_cleaned_chunk_25",
+      "score": 0.535785675,
+      "metadata": {
+        "chunk_preview": "[SECTION] 7. PAYMENT TERMS.\n7.1 Airspan will issue an invoice (the \"Invoice\") to Distributor in accordance with the payment terms below. The Invoice specifically will identify the Equipment, Software, or other items shipped, and the Contract Price of such items. Any Installation Services or other services provided by Airspan will be invoiced separately following completion of such services. The Invoice also shall state the total due to Airspan from Distributor (the \"Invoice Total\"), which shall include the Contract Price, and any applicable taxes, duties, and other fees due pursuant to Section 6 of this Agreement. Payment of the Invoice Total is due (without any right of set-off) Net forty-five (45) days after the date of invoice.\n7.2 If Distributor disputes any invoice or part thereof, Distributor must notify Airspan in writing within twenty-five (25) days of the invoice date giving details of the reason for such dispute.",
+        "contract_name": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+        "chunk_index": 25
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ADIANUTRITION,INC_04_01_2005-EX-10.D2-RESELLER AGREEMENT_cleaned_chunk_12",
+      "score": 0.526241362,
+      "metadata": {
+        "chunk_preview": "3.3 PAYMENT. All payments to PivX shall be made within thirty (30) days after the receipt by Detto of the PivX's invoice. Detto shall pay PivX a late charge on outstanding amounts due equal to one and one-half percent (1.50%) per month or the maximum amount allowed by law, whichever is less. All payments shall be made in United States Dollars, free of any withholding tax and of any currency control or other restrictions to PivX. PivX shall have the right, at reasonable times and on reasonable notice, to inspect and audit the books and records of Detto to verify the accuracy of any statements. In the event that such an inspection discloses any error of any amount, the parties shall by appropriate payment promptly adjust for the error",
+        "contract_name": "ADIANUTRITION,INC_04_01_2005-EX-10.D2-RESELLER AGREEMENT",
+        "chunk_index": 12
+      }
+    },
+    {
+      "rank": 4,
+      "id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT_cleaned_chunk_9",
+      "score": 0.489561081,
+      "metadata": {
+        "chunk_preview": ". (c) Provider shall allow the Recipient to use [ * * * ] at no cost, until December 31, 2021. 2.3 Invoice Disputes. In the event of an Invoice dispute, Recipient shall deliver a written statement to Provider prior to the date payment is due on the disputed Invoice listing all disputed items and providing a reasonably detailed description of each disputed item. Amounts not so disputed shall be deemed accepted and shall be paid, notwithstanding disputes on other items. The Parties shall seek to resolve all such disputes expeditiously and in good faith. Provider shall continue performing the Services in accordance with this Agreement pending resolution of any dispute.",
+        "contract_name": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+        "chunk_index": 9
+      }
+    },
+    {
+      "rank": 5,
+      "id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_84",
+      "score": 0.4801054,
+      "metadata": {
+        "chunk_preview": "SECTION 7. Payment of Expenses",
+        "contract_name": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT",
+        "chunk_index": 84
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.619002342,
+    "lowest_score": 0.4801054,
+    "average_score": 0.5301391719999999
+  }
+}

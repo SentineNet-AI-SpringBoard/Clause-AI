@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "query": "What are the audit and reporting obligations regarding regulatory standards?",
+  "timestamp": "2025-12-26T21:50:48.961344",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_72",
+      "score": 0.565658689,
+      "metadata": {
+        "chunk_preview": "(xxxvii) Each of the Company, the MHCs, the Bank and each of the Subsidiaries maintains a system of internal accounting controls sufficient to provide reasonable assurance that (a) transactions are executed in accordance with management's general or specific authorizations; (b) transactions are recorded as necessary to permit preparation of financial statements in conformity with generally accepted accounting principles and to maintain asset accountability; (c) access to assets is permitted only in accordance with management's general or specific authorization; and (d) the recorded accountability for assets is compared with the existing assets at reasonable intervals and appropriate action is taken with respect to any differences.\n(xxxviii) The Company, the MHCs, the Bank and each Subsidiary are in compliance with the applicable financial recordkeeping and reporting requirements of the Currency and Foreign Transaction Reporting Act of 1970, as amended, and the rules and regulations\n14",
+        "contract_name": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+        "chunk_index": 72
+      }
+    },
+    {
+      "rank": 2,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_126",
+      "score": 0.546893179,
+      "metadata": {
+        "chunk_preview": "the Plans, the OTS Regulations and all other applicable material laws, regulations, decisions and orders, including in compliance with all terms, conditions, requirements and provisions precedent to the Reorganization and Additional Stock Issuance imposed upon the Company, the MHCs and the Bank by the Commission, the OTS, the FDIC or any other regulatory or Blue Sky authority.",
+        "contract_name": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+        "chunk_index": 126
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned_chunk_44",
+      "score": 0.518801749,
+      "metadata": {
+        "chunk_preview": ". 4.14. Compliance with Laws. Accuray will be responsible for complying with (i) applicable U.S. laws, (ii) where Products are being shipped to Distributor and unless otherwise agreed by Accuray and Distributor, applicable laws, codes, registrations, regulations, and ordinances related to the export of the Products to Distributor, and (iii) any other applicable laws as they pertain to the Products, the regulatory clearance, and safety in accordance with Accuray's written Specifications for the intended use. In addition, Accuray shall be responsible for compliance with any applicable law, code, registration, regulation, and ordinance related to the export of the Products or Services to Customer and/or Distributor, if any (the \"Export Regulations\"), and Accuray shall be liable for any expenses and/or damages incurred by Distributor due to any non-compliance with such Export Regulations by Accuray (unless Accuray is not responsible for such non-compliance)",
+        "contract_name": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT",
+        "chunk_index": 44
+      }
+    },
+    {
+      "rank": 4,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_65",
+      "score": 0.509140074,
+      "metadata": {
+        "chunk_preview": "(each, a \"Regulatory Agreement\"), nor has the Company, the MHCs, the Bank or any of the Subsidiaries been advised by any Regulatory Agency that it is considering issuing or requesting the issuance of any such Regulatory Agreement; and there is no unresolved violation, criticism or exception by any Regulatory Agency with respect to any report or statement relating to any examinations of the Company, the MHCs, the Bank or any of the Subsidiaries which is expected to have a Material Adverse Effect, or which might materially and adversely affect the properties or assets thereof or which might adversely affect the consummation of the Offerings or the performance of this Agreement",
+        "contract_name": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+        "chunk_index": 65
+      }
+    },
+    {
+      "rank": 5,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_43",
+      "score": 0.509084761,
+      "metadata": {
+        "chunk_preview": "1.65 \"Regulatory Authority\" means, in a particular country or regulatory jurisdiction, any applicable Governmental Authority involved in granting Regulatory Approval and/or, to the extent required in such country or regulatory jurisdiction, governmental Pricing Approval of a biopharmaceutical product in such country or regulatory jurisdiction.\n1.66 \"Regulatory Data\" means any and all research data, pharmacology data, chemistry, manufacturing and control data, preclinical data, clinical data and all other documentation submitted, or required to be submitted, to Regulatory Authorities in association with regulatory filings for the Product (including any applicable Drug Master Files, Chemistry, Manufacturing and Control (\"CMC\") data, or similar documentation).",
+        "contract_name": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+        "chunk_index": 43
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.565658689,
+    "lowest_score": 0.509084761,
+    "average_score": 0.5299156904000001
+  }
+}

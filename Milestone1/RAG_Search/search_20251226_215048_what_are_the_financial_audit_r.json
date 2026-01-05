@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "query": "What are the financial audit rights and who bears the cost of such audits?",
+  "timestamp": "2025-12-26T21:50:48.379668",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned_chunk_128",
+      "score": 0.529385567,
+      "metadata": {
+        "chunk_preview": ". is a firm of independent public accounts within the meaning of Rule 101 of the Code of Professional Ethics of the American Institute of Certified Public Accountants and applicable regulations of the OTS and stating in effect that in its opinion the consolidated financial statements, schedules and related notes of the Bank as of September 30, 1999 and 1998 and for each of the three years in the period ended September 30, 1998, as are included in the Prospectus and covered by their opinion included therein, comply as to form in all material respects with the applicable accounting requirements and related published rules and regulations of the OTS and the 1933 Act; (ii) stating in effect that, on the basis of certain agreed upon procedures (but not an audit in accordance with generally accepted auditing standards) consisting of a reading of the latest available unaudited interim consolidated financial statements of the Bank prepared by the Bank, a reading of the minutes of the meetings",
+        "contract_name": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT",
+        "chunk_index": 128
+      }
+    },
+    {
+      "rank": 2,
+      "id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned_chunk_129",
+      "score": 0.510904372,
+      "metadata": {
+        "chunk_preview": "auditing standards) consisting of a reading of the latest available unaudited interim consolidated financial statements of the Bank prepared by the Bank, a reading of the minutes of the meetings of the Board of Directors and members of the Bank and consultations with officers of the Bank responsible for financial and accounting matters, nothing came to their attention which caused them to believe that: (A) the unaudited financial statements included in the Prospectus are not in conformity with the 1933 Act, applicable accounting requirements of the OTS and generally accepted accounting principles applied on a basis substantially consistent with that of the audited financial statements included in the Prospectus; or (b) during the period from the date of the latest unaudited consolidated financial statements included in the Prospectus to a specified date not more than three business days prior to the date of the Prospectus, except as has been described in the Prospectus, there was any",
+        "contract_name": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT",
+        "chunk_index": 129
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_169",
+      "score": 0.49823761,
+      "metadata": {
+        "chunk_preview": "before income tax expense or net income of the Company, except in all instances for increases or decreases which the Registration Statement and the Prospectus disclose have occurred or may occur; and (iv) in addition to the examination referred to in their opinions and the limited procedures referred to in clause (iii) above, they have carried out certain specified procedures, not constituting an audit, with respect to certain amounts, percentages and financial information which are included in the Registration Statement and Prospectus and which are specified by the Agent, and have found such amounts, percentages and financial information to be in agreement with the relevant accounting, financial and other records of the Company, the MHCs and the Bank identified in such letter.",
+        "contract_name": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+        "chunk_index": 169
+      }
+    },
+    {
+      "rank": 4,
+      "id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_133",
+      "score": 0.479162246,
+      "metadata": {
+        "chunk_preview": "in net income when compared to the like period in 1995 or (7) any change in total assets of the Association in an amount greater than $2,000,000 excluding proceeds from stock subscriptions; and (iii) stating that, in addition to the audit examination referred to in its opinion included in the Offering Prospectus and the performance of the procedures referred to in clause (ii) of this subsection (g), they have compared with the general accounting records of the Company and/or the Association, as applicable, which are subject to the internal controls of the Company and/or the Association, as applicable, accounting system and other data prepared by the Company and/or the Association, as applicable, directly from such accounting records, to the extent specified in such letter, such amounts and/or percentages set forth in the Offering Prospectus as Capital Resources may reasonably request; and they have found such amounts and percentages to be in agreement therewith (subject to rounding).",
+        "contract_name": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT",
+        "chunk_index": 133
+      }
+    },
+    {
+      "rank": 5,
+      "id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_131",
+      "score": 0.475720435,
+      "metadata": {
+        "chunk_preview": "of a reading of the latest available unaudited interim financial statements of the Association prepared by the Association, a reading of the minutes of the meetings of the Board of Directors and members of the Association and consultations with officers of the Association responsible for financial and accounting matters, nothing came to their attention which caused them to believe that: (A) such unaudited financial statements are not in conformity with generally accepted accounting principles applied on a basis substantially consistent with that of the audited financial statements included in the Offering Prospectus; or (B) during the period from the date of the latest financial statements included in the",
+        "contract_name": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT",
+        "chunk_index": 131
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.529385567,
+    "lowest_score": 0.475720435,
+    "average_score": 0.498682046
+  }
+}
