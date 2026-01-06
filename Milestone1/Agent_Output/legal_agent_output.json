@@ -1,0 +1,29 @@
+{
+  "agent_name": "Legal Agent",
+  "model": "google/gemma-2b-it",
+  "timestamp": "2025-12-29T18:03:41.231900",
+  "input_summary": {
+    "num_context_chunks": 25,
+    "combined_text_length": 18562,
+    "source_queries": [
+      "What is the governing law and jurisdiction?",
+      "What happens in case of breach of contract?",
+      "What are the termination clauses and conditions?",
+      "What are the payment terms and conditions?",
+      "What are the confidentiality and non-disclosure obligations?"
+    ]
+  },
+  "output": {
+    "clause_type": "Legal Analysis",
+    "extracted_clauses": [
+      "The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement.",
+      "The other party shall give notice of termination in writing to the other party, which notice shall specify in reasonable detail the event(s) of default that give rise to such termination."
+    ],
+    "risk_level": "low",
+    "confidence": 0.85,
+    "evidence": [
+      "The first sentence of the clause describes different events that can lead to termination."
+    ]
+  },
+  "raw_response": "{\n    \"extracted_clauses\": [\"The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement.\", \"The other party shall give notice of termination in writing to the other party, which notice shall specify in reasonable detail the event(s) of default that give rise to such termination.\"],\n    \"risk_level\": \"low\",\n    \"confidence\": 0.85,\n    \"evidence\": [\"The first sentence of the clause describes different events that can lead to termination.\"]"
+}
