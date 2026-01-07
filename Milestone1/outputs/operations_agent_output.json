@@ -1,0 +1,30 @@
+{
+  "agent_name": "Operations Agent",
+  "model": "google/gemma-2b-it",
+  "timestamp": "2025-12-29T18:06:03.355138",
+  "input_summary": {
+    "num_context_chunks": 15,
+    "combined_text_length": 9497,
+    "source_queries": [
+      "What are the deliverables and project outputs?",
+      "What are the timelines and milestones for delivery?",
+      "What are the service level agreements and SLAs?",
+      "What are the performance standards and obligations?",
+      "What are the operational requirements and responsibilities?"
+    ]
+  },
+  "output": {
+    "clause_type": "Operations Analysis",
+    "extracted_clauses": [
+      "Collectible Concepts Group will obtain any licenses deemed by the Joint Venturers to add value in the marketing of the Products",
+      "Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates for final distribution of the Products"
+    ],
+    "risk_level": "medium",
+    "confidence": 0.8,
+    "evidence": [
+      "The clause specifies that Collectible Concepts Group will obtain any licenses deemed by the Joint Venturers to add value in the marketing of the Products",
+      "The clause also specifies that Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates for final distribution of the Products"
+    ]
+  },
+  "raw_response": "{\n    \"extracted_clauses\": [\n        \"Collectible Concepts Group will obtain any licenses deemed by the Joint Venturers to add value in the marketing of the Products\",\n        \"Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates for final distribution of the Products\"\n    ],\n    \"risk_level\": \"medium\",\n    \"confidence\": 0.8,\n    \"evidence\": [\n        \"The clause specifies that Collectible Concepts Group will obtain any licenses deemed by the Joint Venturers to add value in the marketing of the Products\",\n        \"The clause also specifies that Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates for final distribution of the Products\"\n    ]\n}"
+}
