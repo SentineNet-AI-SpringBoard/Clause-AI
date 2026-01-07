@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "query": "Which governing law and specific court jurisdiction apply to this agreement?",
+  "timestamp": "2026-01-06T13:32:14.487212",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_203",
+      "score": 0.626174927,
+      "metadata": {
+        "chunk_index": 203,
+        "chunk_preview": "15.13.3 Jurisdiction. Each Party (a) irrevocably submits to the exclusive jurisdiction of any United...",
+        "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_014_chunks.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_202",
+      "score": 0.622368872,
+      "metadata": {
+        "chunk_index": 202,
+        "chunk_preview": "15.13 Governing Law and Equitable Relief.\n15.13.1 Governing Law. This Agreement shall be governed by...",
+        "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_014_chunks.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2_cleaned_chunk_12",
+      "score": 0.618779242,
+      "metadata": {
+        "chunk_index": 12,
+        "chunk_preview": "5.2.4 During any period of negotiation or arbitration, the Parties shall continue to meet their resp...",
+        "contract_id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_003_chunks.json"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement_cleaned_chunk_40",
+      "score": 0.609741271,
+      "metadata": {
+        "chunk_index": 40,
+        "chunk_preview": "performance to prevent or restrain breaches or threatened breaches of this Agreement by the Buyer En...",
+        "contract_id": "ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_002_chunks.json"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement_cleaned_chunk_43",
+      "score": 0.608920157,
+      "metadata": {
+        "chunk_index": 43,
+        "chunk_preview": ". (b) EACH PARTY ACKNOWLEDGES AND AGREES THAT ANY CONTROVERSY WHICH MAY ARISE UNDER THIS AGREEMENT I...",
+        "contract_id": "ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_002_chunks.json"
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.626174927,
+    "lowest_score": 0.608920157,
+    "average_score": 0.6171968938
+  }
+}

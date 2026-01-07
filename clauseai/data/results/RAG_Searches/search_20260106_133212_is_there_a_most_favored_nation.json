@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "query": "Is there a 'Most Favored Nation' (MFN) pricing clause or price adjustment mechanism?",
+  "timestamp": "2026-01-06T13:32:12.592176",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_91",
+      "score": 0.401394844,
+      "metadata": {
+        "chunk_index": 91,
+        "chunk_preview": "Aggregate Annual Net Sales Royalty Rate [***] [***]% [***] [***]% [***] [***]% [***] [***]% [***] [*...",
+        "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_014_chunks.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2_cleaned_chunk_3",
+      "score": 0.389233619,
+      "metadata": {
+        "chunk_index": 3,
+        "chunk_preview": "[SECTION] 1. DEFINITIONS\nUnless otherwise defined, capitalised terms, singular or plural, used in th...",
+        "contract_id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_003_chunks.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_35",
+      "score": 0.387574196,
+      "metadata": {
+        "chunk_index": 35,
+        "chunk_preview": ". If A or B cannot be determined because values for such Product or such other products with which s...",
+        "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_014_chunks.json"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_98",
+      "score": 0.383203506,
+      "metadata": {
+        "chunk_index": 98,
+        "chunk_preview": "(b) With respect to any Securities sold by a National Association of Securities Dealers, Inc. (\"NASD...",
+        "contract_id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_001_chunks.json"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned_chunk_15",
+      "score": 0.374214202,
+      "metadata": {
+        "chunk_index": 15,
+        "chunk_preview": "who assist in the syndicated community, an amount competitive with gross underwriting discounts chan...",
+        "contract_id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_011_chunks.json"
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.401394844,
+    "lowest_score": 0.374214202,
+    "average_score": 0.38712407340000005
+  }
+}

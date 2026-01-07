@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "query": "What are the detailed pricing models, fee structures, and commission rates?",
+  "timestamp": "2026-01-06T13:32:12.485387",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_16",
+      "score": 0.576595366,
+      "metadata": {
+        "chunk_index": 16,
+        "chunk_preview": "-3-\nof the current bill.\n In the event other broker-dealers are assembled and managed by Capital Res...",
+        "contract_id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_010_chunks.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_15",
+      "score": 0.559258938,
+      "metadata": {
+        "chunk_index": 15,
+        "chunk_preview": "(ii) a management fee in the amount of one percent and one-half (1.5%) of the aggregate dollar amoun...",
+        "contract_id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_010_chunks.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_87",
+      "score": 0.527754784,
+      "metadata": {
+        "chunk_index": 87,
+        "chunk_preview": "-14-\nincluding but not limited to, attorneys' fees, transfer agent, registrar and other agent charge...",
+        "contract_id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_010_chunks.json"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned_chunk_15",
+      "score": 0.508013308,
+      "metadata": {
+        "chunk_index": 15,
+        "chunk_preview": "who assist in the syndicated community, an amount competitive with gross underwriting discounts chan...",
+        "contract_id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_011_chunks.json"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned_chunk_16",
+      "score": 0.506905615,
+      "metadata": {
+        "chunk_index": 16,
+        "chunk_preview": "(d) The Company will bear those expenses of the proposed offering customarily borne by issuers, incl...",
+        "contract_id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_011_chunks.json"
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.576595366,
+    "lowest_score": 0.506905615,
+    "average_score": 0.5357056022
+  }
+}

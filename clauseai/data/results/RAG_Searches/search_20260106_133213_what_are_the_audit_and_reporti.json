@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "query": "What are the audit and reporting obligations regarding regulatory standards?",
+  "timestamp": "2026-01-06T13:32:13.059280",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_72",
+      "score": 0.565657735,
+      "metadata": {
+        "chunk_index": 72,
+        "chunk_preview": "(xxxvii) Each of the Company, the MHCs, the Bank and each of the Subsidiaries maintains a system of ...",
+        "contract_id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_001_chunks.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_83",
+      "score": 0.549090445,
+      "metadata": {
+        "chunk_index": 83,
+        "chunk_preview": ". (xxxi) Compliance with the Sarbanes-Oxley Act. There is and has been no failure on the part of the...",
+        "contract_id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_012_chunks.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_126",
+      "score": 0.546892226,
+      "metadata": {
+        "chunk_index": 126,
+        "chunk_preview": "the Plans, the OTS Regulations and all other applicable material laws, regulations, decisions and or...",
+        "contract_id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_001_chunks.json"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_84",
+      "score": 0.544586241,
+      "metadata": {
+        "chunk_index": 84,
+        "chunk_preview": ". generally accepted accounting principles (\"GAAP\") and to maintain asset accountability; (iii) acce...",
+        "contract_id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_012_chunks.json"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_95",
+      "score": 0.533329,
+      "metadata": {
+        "chunk_index": 95,
+        "chunk_preview": ". All disclosures contained in the Registration Statement, the General Disclosure Package or the Pro...",
+        "contract_id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_012_chunks.json"
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.565657735,
+    "lowest_score": 0.533329,
+    "average_score": 0.5479111294000001
+  }
+}

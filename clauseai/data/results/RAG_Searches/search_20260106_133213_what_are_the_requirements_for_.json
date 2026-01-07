@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "query": "What are the requirements for the return or secure destruction of sensitive data?",
+  "timestamp": "2026-01-06T13:32:13.355918",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned_chunk_41",
+      "score": 0.46264267,
+      "metadata": {
+        "chunk_index": 41,
+        "chunk_preview": ". You also confirm that you are solely responsible for ensuring that any processing and security obl...",
+        "contract_id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_005_chunks.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT_cleaned_chunk_42",
+      "score": 0.449759483,
+      "metadata": {
+        "chunk_index": 42,
+        "chunk_preview": ". The Contractor shall be entitled to make and keep copies of such records, at its cost and expense....",
+        "contract_id": "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_009_chunks.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT_cleaned_chunk_41",
+      "score": 0.38860321,
+      "metadata": {
+        "chunk_index": 41,
+        "chunk_preview": ". The Contractor shall maintain the privacy of the Investors and Holders in accordance with all appl...",
+        "contract_id": "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_009_chunks.json"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2_cleaned_chunk_5",
+      "score": 0.384239197,
+      "metadata": {
+        "chunk_index": 5,
+        "chunk_preview": "(b) was already lawfully known by the Receiving Party, as evidenced by written records bearing an un...",
+        "contract_id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_003_chunks.json"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_157",
+      "score": 0.3829813,
+      "metadata": {
+        "chunk_index": 157,
+        "chunk_preview": ". Notwithstanding the foregoing any disclosure which is required by Applicable Law or the rules of t...",
+        "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_014_chunks.json"
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.46264267,
+    "lowest_score": 0.3829813,
+    "average_score": 0.41364517199999995
+  }
+}

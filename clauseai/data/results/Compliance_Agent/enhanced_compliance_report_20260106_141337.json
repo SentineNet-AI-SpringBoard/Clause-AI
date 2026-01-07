@@ -1,0 +1,75 @@
+{
+  "report_type": "Enhanced Compliance Analysis Comparison",
+  "timestamp": "2026-01-06T14:13:37.803467",
+  "enhanced_output": {
+    "agent": "Enhanced Compliance Agent",
+    "analysis_type": "Enhanced Multi-Contract Compliance Analysis with Regulatory Keywords",
+    "analysis_timestamp": "2026-01-06T14:13:37.782851",
+    "source_summary": {
+      "total_rag_files": 21,
+      "source_files": [
+        "search_20260106_133212_what_are_the_payment_and_compe.json",
+        "search_20260106_133212_what_are_the_specific_payment_.json",
+        "search_20260106_133212_what_are_the_detailed_pricing_.json",
+        "search_20260106_133212_is_there_a_most_favored_nation.json",
+        "search_20260106_133212_are_there_any_specific_tax_res.json",
+        "search_20260106_133212_what_are_the_financial_audit_r.json",
+        "search_20260106_133212_what_specific_data_protection_.json",
+        "search_20260106_133213_what_are_the_audit_and_reporti.json",
+        "search_20260106_133213_what_are_the_requirements_for_.json",
+        "search_20260106_133213_what_anti_bribery_anti_corrupt.json",
+        "search_20260106_133213_what_are_the_service_level_agr.json",
+        "search_20260106_133213_what_are_the_specific_force_ma.json",
+        "search_20260106_133213_how_are_contract_amendments_ch.json",
+        "search_20260106_133214_are_there_any_non_solicitation.json",
+        "search_20260106_133214_what_are_the_specific_delivery.json",
+        "search_20260106_133214_what_are_the_specific_terminat.json",
+        "search_20260106_133214_what_is_the_exact_scope_of_int.json",
+        "search_20260106_133214_what_are_the_liability_caps_ex.json",
+        "search_20260106_133214_which_governing_law_and_specif.json",
+        "search_20260106_133214_what_are_the_mandatory_dispute.json",
+        "test_contract_rag.json"
+      ],
+      "combined_text_length": 56110
+    },
+    "analysis": {
+      "clause_type": "Enhanced_Compliance_Analysis",
+      "extracted_clauses": [],
+      "risk_level": "unknown",
+      "confidence": 0.0,
+      "evidence": []
+    },
+    "regulatory_frameworks_detected": {},
+    "processing_metadata": {
+      "model": "mistralai/Mistral-7B-Instruct-v0.2",
+      "combined_input": true,
+      "enhanced_keywords": true,
+      "keywords_searched": [
+        "GDPR",
+        "SOC2",
+        "ISO",
+        "HIPAA",
+        "data protection",
+        "privacy",
+        "PHI",
+        "certification"
+      ],
+      "rag_source": "/content/drive/MyDrive/clauseai/data/results/RAG_Searches/COMBINED_COMPLIANCE_RAG_20260106_140609.json"
+    }
+  },
+  "regulatory_keywords_used": [
+    "GDPR",
+    "SOC2",
+    "ISO",
+    "HIPAA",
+    "data protection",
+    "privacy",
+    "PHI",
+    "certification"
+  ],
+  "improvements": {
+    "enhanced_prompt": true,
+    "regulatory_framework_detection": true,
+    "keyword_focused_extraction": true
+  }
+}

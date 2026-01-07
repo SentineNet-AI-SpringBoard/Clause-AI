@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "query": "How are contract amendments, change orders, and service modifications handled?",
+  "timestamp": "2026-01-06T13:32:13.936861",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2_cleaned_chunk_7",
+      "score": 0.474994689,
+      "metadata": {
+        "chunk_index": 7,
+        "chunk_preview": "Source: AZUL SA, F-1/A, 3/3/2017\n[SECTION] 5. GOVERNING LAW - ARBITRATION\n5.1 Governing law:\nPursuan...",
+        "contract_id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_003_chunks.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AIRTECHINTERNATIONALGROUPINC_05_08_2000-EX-10.4-FRANCHISE AGREEMENT_cleaned_chunk_88",
+      "score": 0.470327377,
+      "metadata": {
+        "chunk_index": 88,
+        "chunk_preview": "7. BINDING EFFECT. This Agreement shall be binding upon and inure to the benefit of Associate and Co...",
+        "contract_id": "AIRTECHINTERNATIONALGROUPINC_05_08_2000-EX-10.4-FRANCHISE AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_020_chunks.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned_chunk_33",
+      "score": 0.465727806,
+      "metadata": {
+        "chunk_index": 33,
+        "chunk_preview": "12.4 No Lease of Real Property\nThis Agreement is a services agreement and not a lease of any real pr...",
+        "contract_id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_005_chunks.json"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned_chunk_174",
+      "score": 0.459589958,
+      "metadata": {
+        "chunk_index": 174,
+        "chunk_preview": "If the foregoing correctly sets forth the arrangement among the Company, the MHC, the Bank and the A...",
+        "contract_id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_011_chunks.json"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT_cleaned_chunk_49",
+      "score": 0.455396652,
+      "metadata": {
+        "chunk_index": 49,
+        "chunk_preview": "Section 4.02 Covenants of the Company. The Company hereby covenants and agrees with the Contractor a...",
+        "contract_id": "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_009_chunks.json"
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.474994689,
+    "lowest_score": 0.455396652,
+    "average_score": 0.4652072964
+  }
+}

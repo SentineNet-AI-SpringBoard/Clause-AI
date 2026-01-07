@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "query": "What are the financial audit rights and who bears the cost of such audits?",
+  "timestamp": "2026-01-06T13:32:12.855888",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned_chunk_128",
+      "score": 0.52938658,
+      "metadata": {
+        "chunk_index": 128,
+        "chunk_preview": ". is a firm of independent public accounts within the meaning of Rule 101 of the Code of Professiona...",
+        "contract_id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_011_chunks.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_84",
+      "score": 0.515537322,
+      "metadata": {
+        "chunk_index": 84,
+        "chunk_preview": ". generally accepted accounting principles (\"GAAP\") and to maintain asset accountability; (iii) acce...",
+        "contract_id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_012_chunks.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned_chunk_129",
+      "score": 0.510904372,
+      "metadata": {
+        "chunk_index": 129,
+        "chunk_preview": "auditing standards) consisting of a reading of the latest available unaudited interim consolidated f...",
+        "contract_id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_011_chunks.json"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "BLUEHILLSBANCORP,INC_05_20_2014-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_148",
+      "score": 0.501683295,
+      "metadata": {
+        "chunk_index": 148,
+        "chunk_preview": ". is a firm of independent registered public accountants within the applicable rules of the Public C...",
+        "contract_id": "BLUEHILLSBANCORP,INC_05_20_2014-EX-1.1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_017_chunks.json"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_169",
+      "score": 0.49823764,
+      "metadata": {
+        "chunk_index": 169,
+        "chunk_preview": "before income tax expense or net income of the Company, except in all instances for increases or dec...",
+        "contract_id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_001_chunks.json"
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.52938658,
+    "lowest_score": 0.49823764,
+    "average_score": 0.5111498418
+  }
+}

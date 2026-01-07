@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "query": "What are the mandatory dispute resolution mechanisms like arbitration or mediation?",
+  "timestamp": "2026-01-06T13:32:14.575627",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2_cleaned_chunk_12",
+      "score": 0.648024619,
+      "metadata": {
+        "chunk_index": 12,
+        "chunk_preview": "5.2.4 During any period of negotiation or arbitration, the Parties shall continue to meet their resp...",
+        "contract_id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_003_chunks.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2_cleaned_chunk_8",
+      "score": 0.63689816,
+      "metadata": {
+        "chunk_index": 8,
+        "chunk_preview": "5.2 Arbitration: in the event of a dispute arising out of or relating to this Amendment, including w...",
+        "contract_id": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement2_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_003_chunks.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "AIRTECHINTERNATIONALGROUPINC_05_08_2000-EX-10.4-FRANCHISE AGREEMENT_cleaned_chunk_75",
+      "score": 0.597439826,
+      "metadata": {
+        "chunk_index": 75,
+        "chunk_preview": "A. THE PARTIES AGREE TO SUBMIT ANY CLAIM, CONTROVERSY OR DISPUTE ARISING OUT OF OR RELATING TO THIS ...",
+        "contract_id": "AIRTECHINTERNATIONALGROUPINC_05_08_2000-EX-10.4-FRANCHISE AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_020_chunks.json"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_185",
+      "score": 0.577873766,
+      "metadata": {
+        "chunk_index": 185,
+        "chunk_preview": "Source: AIMMUNE THERAPEUTICS, INC., 8-K, 2/5/2020\narbitration or litigation. To accomplish this obje...",
+        "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_014_chunks.json"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "AIRTECHINTERNATIONALGROUPINC_05_08_2000-EX-10.4-FRANCHISE AGREEMENT_cleaned_chunk_76",
+      "score": 0.561574042,
+      "metadata": {
+        "chunk_index": 76,
+        "chunk_preview": ". THE COSTS AND EXPENSES OF MEDIATION, INCLUDING COMPENSATION AND EXPENSES OF THE MEDIATOR, SHALL BE...",
+        "contract_id": "AIRTECHINTERNATIONALGROUPINC_05_08_2000-EX-10.4-FRANCHISE AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_020_chunks.json"
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.648024619,
+    "lowest_score": 0.561574042,
+    "average_score": 0.6043620826
+  }
+}

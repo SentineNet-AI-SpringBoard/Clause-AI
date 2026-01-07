@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "query": "What are the specific Force Majeure events and the procedures for claiming relief?",
+  "timestamp": "2026-01-06T13:32:13.540231",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "ADAPTIMMUNETHERAPEUTICSPLC_04_06_2017-EX-10.11-STRATEGIC ALLIANCE AGREEMENT_cleaned_chunk_39",
+      "score": 0.569246292,
+      "metadata": {
+        "chunk_index": 39,
+        "chunk_preview": ". 15.8 Force Majeure. In the event that performance of the obligations of a Party hereunder are prev...",
+        "contract_id": "ADAPTIMMUNETHERAPEUTICSPLC_04_06_2017-EX-10.11-STRATEGIC ALLIANCE AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_016_chunks.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_20",
+      "score": 0.549951553,
+      "metadata": {
+        "chunk_index": 20,
+        "chunk_preview": "1.32 \"Force Majeure\" means any circumstances whatsoever which are not within the reasonable control ...",
+        "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_014_chunks.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_187",
+      "score": 0.541088581,
+      "metadata": {
+        "chunk_index": 187,
+        "chunk_preview": "15.3 Force Majeure. No Party shall be liable for any failure to perform, or be considered in breach ...",
+        "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_014_chunks.json"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_188",
+      "score": 0.489969254,
+      "metadata": {
+        "chunk_index": 188,
+        "chunk_preview": ". In the event of a prolonged condition of Force Majeure that makes it unreasonable to continue to p...",
+        "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_014_chunks.json"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned_chunk_54",
+      "score": 0.46453765,
+      "metadata": {
+        "chunk_index": 54,
+        "chunk_preview": "law or public policy with respect to the indemnification and/or contribution provisions contained he...",
+        "contract_id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_011_chunks.json"
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.569246292,
+    "lowest_score": 0.46453765,
+    "average_score": 0.522958666
+  }
+}

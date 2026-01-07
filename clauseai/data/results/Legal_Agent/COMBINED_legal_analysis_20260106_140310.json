@@ -1,0 +1,97 @@
+{
+  "agent": "Legal Agent",
+  "analysis_type": "Combined Multi-Contract Analysis",
+  "analysis_timestamp": "2026-01-06T14:03:10.963591",
+  "source_summary": {
+    "total_rag_files": 21,
+    "source_files": [
+      "search_20260106_133212_what_are_the_payment_and_compe.json",
+      "search_20260106_133212_what_are_the_specific_payment_.json",
+      "search_20260106_133212_what_are_the_detailed_pricing_.json",
+      "search_20260106_133212_is_there_a_most_favored_nation.json",
+      "search_20260106_133212_are_there_any_specific_tax_res.json",
+      "search_20260106_133212_what_are_the_financial_audit_r.json",
+      "search_20260106_133212_what_specific_data_protection_.json",
+      "search_20260106_133213_what_are_the_audit_and_reporti.json",
+      "search_20260106_133213_what_are_the_requirements_for_.json",
+      "search_20260106_133213_what_anti_bribery_anti_corrupt.json",
+      "search_20260106_133213_what_are_the_service_level_agr.json",
+      "search_20260106_133213_what_are_the_specific_force_ma.json",
+      "search_20260106_133213_how_are_contract_amendments_ch.json",
+      "search_20260106_133214_are_there_any_non_solicitation.json",
+      "search_20260106_133214_what_are_the_specific_delivery.json",
+      "search_20260106_133214_what_are_the_specific_terminat.json",
+      "search_20260106_133214_what_is_the_exact_scope_of_int.json",
+      "search_20260106_133214_what_are_the_liability_caps_ex.json",
+      "search_20260106_133214_which_governing_law_and_specif.json",
+      "search_20260106_133214_what_are_the_mandatory_dispute.json",
+      "test_contract_rag.json"
+    ],
+    "contract_ids": [
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "TEST_001"
+    ],
+    "contract_types": [
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown",
+      "unknown"
+    ],
+    "combined_text_length": 56110
+  },
+  "analysis": {
+    "clause_type": "Legal_Analysis_Combined",
+    "extracted_clauses": [
+      "(b) The Contractor's Expenses. Except as otherwise provided in this Agreement, each party shall bear its own expenses.",
+      "3.5 Effect of Termination\nUpon the date of termination, all Customer payment obligations accrued but unpaid prior to termination shall become immediately due and payable."
+    ],
+    "risk_level": "medium",
+    "confidence": 0.6,
+    "evidence": [
+      "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT_cleaned_chunk_20: (b) The Contractor's Expenses. Except as otherwise provided in this Agreement, each party shall bear its own expenses.",
+      "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned_chunk_10: 3.5 Effect of Termination\nUpon the date of termination, all Customer payment obligations accrued but unpaid prior to termination shall become immediately due and payable."
+    ]
+  },
+  "processing_metadata": {
+    "model": "mistralai/Mistral-7B-Instruct-v0.2",
+    "combined_input": true,
+    "rag_source": "/content/drive/MyDrive/clauseai/data/results/RAG_Searches/COMBINED_ALL_RAG_20260106_135944.json",
+    "processing_timestamp": "2026-01-06T14:03:10.963660"
+  }
+}

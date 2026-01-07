@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "query": "What anti-bribery, anti-corruption, or Sanctions/OFAC compliance clauses exist?",
+  "timestamp": "2026-01-06T13:32:13.248728",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_137",
+      "score": 0.684440613,
+      "metadata": {
+        "chunk_index": 137,
+        "chunk_preview": "10.6 Compliance.\n10.6.1 Compliance with Anti-Corruption Laws. In connection with this Agreement, eac...",
+        "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_014_chunks.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_138",
+      "score": 0.592772484,
+      "metadata": {
+        "chunk_index": 138,
+        "chunk_preview": "10.6.2 Prohibited Conduct. In connection with this Agreement, each Party represents, warrants and co...",
+        "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_014_chunks.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_113",
+      "score": 0.539442062,
+      "metadata": {
+        "chunk_index": 113,
+        "chunk_preview": "(xlvi) Compliance with Anti-Money Laundering Laws",
+        "contract_id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_012_chunks.json"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_73",
+      "score": 0.527254105,
+      "metadata": {
+        "chunk_index": 73,
+        "chunk_preview": "Documents (as defined below) of the Transaction Entities or any of their respective Subsidiaries, (B...",
+        "contract_id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_012_chunks.json"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned_chunk_18",
+      "score": 0.510707915,
+      "metadata": {
+        "chunk_index": 18,
+        "chunk_preview": ". A party will not be held responsible for any activities of the other party or the other party's Su...",
+        "contract_id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_004_chunks.json"
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.684440613,
+    "lowest_score": 0.510707915,
+    "average_score": 0.5709234357999999
+  }
+}

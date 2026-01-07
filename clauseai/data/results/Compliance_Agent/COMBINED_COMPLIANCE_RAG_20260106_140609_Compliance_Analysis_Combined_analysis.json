@@ -1,0 +1,17 @@
+{
+  "clause_type": "Compliance_Analysis_Combined",
+  "extracted_clauses": [
+    "(b) The Contractor's Expenses. Except as otherwise provided in this Agreement, each party shall bear its own expenses.",
+    "Section 7. Payment of Expenses",
+    ". -  Payment for Purchases and Work Done: Any materials, services, etc. Contractor has committed to deliver and perform.",
+    "3.5 Effect of Termination\nUpon the date of termination, all Customer payment obligations accrued but not yet paid become immediately due."
+  ],
+  "risk_level": "medium",
+  "confidence": 0.75,
+  "evidence": [
+    "Each party shall bear its own expenses, except as otherwise provided in this Agreement.",
+    "Section 7 of the contract is dedicated to Payment of Expenses.",
+    "Contractor has committed to deliver and perform payment for purchases and work done.",
+    "All Customer payment obligations accrued but not yet paid become immediately due upon termination."
+  ]
+}

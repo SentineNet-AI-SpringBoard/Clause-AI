@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "query": "Are there any non-solicitation or 'no-hire' restrictions regarding personnel?",
+  "timestamp": "2026-01-06T13:32:14.031054",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_220",
+      "score": 0.397395134,
+      "metadata": {
+        "chunk_index": 220,
+        "chunk_preview": "(c) Absence of Obligation to Disclose. The Transaction Entities and the Manager have been advised th...",
+        "contract_id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_012_chunks.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_107",
+      "score": 0.393569,
+      "metadata": {
+        "chunk_index": 107,
+        "chunk_preview": "20\nthat would constitute an \"issuer free writing prospectus,\" as defined in Rule 433 of the Securiti...",
+        "contract_id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_001_chunks.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT_cleaned_chunk_71",
+      "score": 0.393362105,
+      "metadata": {
+        "chunk_index": 71,
+        "chunk_preview": ". Subject to any privacy laws, both the Company and the Contractor will be able to use these lists f...",
+        "contract_id": "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_009_chunks.json"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_149",
+      "score": 0.387466431,
+      "metadata": {
+        "chunk_index": 149,
+        "chunk_preview": "the Prospectus comply with such requirements and, a reasonable amount of time prior to any proposed ...",
+        "contract_id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_012_chunks.json"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned_chunk_36",
+      "score": 0.385702163,
+      "metadata": {
+        "chunk_index": 36,
+        "chunk_preview": "14.6 Publicity and Trademarks\nNeither party grants the other the right to use its or any of its Affi...",
+        "contract_id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_005_chunks.json"
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.397395134,
+    "lowest_score": 0.385702163,
+    "average_score": 0.3914989666
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "agent": "Operations Agent",
+  "analysis_type": "Combined Multi-Contract Operations Analysis",
+  "analysis_timestamp": "2026-01-06T14:25:39.970077",
+  "source_summary": {
+    "total_rag_files": 21,
+    "source_files": [
+      "search_20260106_133212_what_are_the_payment_and_compe.json",
+      "search_20260106_133212_what_are_the_specific_payment_.json",
+      "search_20260106_133212_what_are_the_detailed_pricing_.json",
+      "search_20260106_133212_is_there_a_most_favored_nation.json",
+      "search_20260106_133212_are_there_any_specific_tax_res.json",
+      "search_20260106_133212_what_are_the_financial_audit_r.json",
+      "search_20260106_133212_what_specific_data_protection_.json",
+      "search_20260106_133213_what_are_the_audit_and_reporti.json",
+      "search_20260106_133213_what_are_the_requirements_for_.json",
+      "search_20260106_133213_what_anti_bribery_anti_corrupt.json",
+      "search_20260106_133213_what_are_the_service_level_agr.json",
+      "search_20260106_133213_what_are_the_specific_force_ma.json",
+      "search_20260106_133213_how_are_contract_amendments_ch.json",
+      "search_20260106_133214_are_there_any_non_solicitation.json",
+      "search_20260106_133214_what_are_the_specific_delivery.json",
+      "search_20260106_133214_what_are_the_specific_terminat.json",
+      "search_20260106_133214_what_is_the_exact_scope_of_int.json",
+      "search_20260106_133214_what_are_the_liability_caps_ex.json",
+      "search_20260106_133214_which_governing_law_and_specif.json",
+      "search_20260106_133214_what_are_the_mandatory_dispute.json",
+      "test_contract_rag.json"
+    ],
+    "combined_text_length": 5282
+  },
+  "analysis": {
+    "clause_type": "Operations_Analysis_Combined",
+    "extracted_clauses": [
+      "The Contractor shall provide the Services on a monthly basis commencing on the Effective Date.",
+      "The Customer shall pay the Contractor a fee of $10,000 per month for the Services.",
+      "The Contractor shall meet the following performance metrics: 99.9% uptime, response time under 5 minutes, and resolution time under 2 hours.",
+      "The Service Level Agreement ('SLA') is as follows: The Contractor shall ensure that the System is available 99.9% of the time in any given calendar month.",
+      "The Contractor's operational responsibilities include but are not limited to: system administration, software updates, and security monitoring.",
+      "The Contractor shall adhere to all applicable quality standards and acceptability criteria as set forth by the Customer.",
+      "The Contractor shall provide support and maintenance services during normal business hours.",
+      "Changes to this agreement must be made in writing and agreed upon by both parties.",
+      "There are no non-solicitation provisions in this agreement."
+    ],
+    "risk_level": "medium",
+    "confidence": 0.84,
+    "evidence": [
+      "Effective Date is mentioned in multiple places indicating clear start date for services.",
+      "Performance metrics are clearly stated with specific targets.",
+      "Service Level Agreement is explicitly defined.",
+      "Contractor's operational responsibilities are listed.",
+      "Quality standards and acceptance criteria are referenced.",
+      "Support and maintenance obligations are outlined.",
+      "Change management procedure is included."
+    ]
+  },
+  "processing_metadata": {
+    "model": "mistralai/Mistral-7B-Instruct-v0.2",
+    "combined_input": true,
+    "rag_source": "/content/drive/MyDrive/clauseai/data/results/RAG_Searches/COMBINED_OPERATIONS_RAG_20260106_142041.json"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "query": "What are the specific termination for convenience and termination for cause procedures?",
+  "timestamp": "2026-01-06T13:32:14.216415",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned_chunk_9",
+      "score": 0.561045706,
+      "metadata": {
+        "chunk_index": 9,
+        "chunk_preview": "3.4 Termination for Convenience\nCustomer may terminate this Agreement (including all Service Option ...",
+        "contract_id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_005_chunks.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned_chunk_8",
+      "score": 0.550676346,
+      "metadata": {
+        "chunk_index": 8,
+        "chunk_preview": "3.3 Termination for Cause\nCustomer or IBM may terminate this Agreement for material breach of this A...",
+        "contract_id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_005_chunks.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_223",
+      "score": 0.541237891,
+      "metadata": {
+        "chunk_index": 223,
+        "chunk_preview": ". Each of the Transaction Entities and the Manager irrevocably and unconditionally waives any object...",
+        "contract_id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_012_chunks.json"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned_chunk_58",
+      "score": 0.53877449,
+      "metadata": {
+        "chunk_index": 58,
+        "chunk_preview": ". 6. TERM AND TERMINATION 6.1. Term. Unless otherwise agreed in writing by Accuray and Distributor a...",
+        "contract_id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_004_chunks.json"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "BLUEHILLSBANCORP,INC_05_20_2014-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_180",
+      "score": 0.52592659,
+      "metadata": {
+        "chunk_index": 180,
+        "chunk_preview": "Section 11. Termination. The Agent may terminate this Agreement by giving the notice indicated below...",
+        "contract_id": "BLUEHILLSBANCORP,INC_05_20_2014-EX-1.1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_017_chunks.json"
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.561045706,
+    "lowest_score": 0.52592659,
+    "average_score": 0.5435322046000001
+  }
+}

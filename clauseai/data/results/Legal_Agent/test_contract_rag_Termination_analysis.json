@@ -1,0 +1,18 @@
+{
+  "clause_type": "Termination",
+  "extracted_clauses": [
+    "Either party may terminate this Agreement upon providing 30 days written notice to the other party.",
+    "In the event of material breach, the non-breaching party may terminate immediately.",
+    "Upon termination, all outstanding payments must be settled within 15 business days.",
+    "The terminating party shall have no liability for damages resulting from proper termination."
+  ],
+  "risk_level": "low",
+  "confidence": 0.95,
+  "evidence": [
+    "TERMINATION CLAUSE:",
+    "Either party may terminate this Agreement upon providing 30 days written notice to the other party.",
+    "In the event of material breach, the non-breaching party may terminate immediately.",
+    "Upon termination, all outstanding payments must be settled within 15 business days.",
+    "The terminating party shall have no liability for damages resulting from proper termination."
+  ]
+}

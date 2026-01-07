@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "query": "Are there any specific tax responsibilities or withholding tax requirements?",
+  "timestamp": "2026-01-06T13:32:12.704125",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned_chunk_11",
+      "score": 0.487700522,
+      "metadata": {
+        "chunk_index": 11,
+        "chunk_preview": "4.3 Taxes\n 3\nCustomer will pay or provide appropriate exemption documentation for all taxes, duties,...",
+        "contract_id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_005_chunks.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_105",
+      "score": 0.458368808,
+      "metadata": {
+        "chunk_index": 105,
+        "chunk_preview": ". (xli) Tax Law Compliance. Each of the Transaction Entities and the Subsidiaries has timely filed a...",
+        "contract_id": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_012_chunks.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_100",
+      "score": 0.445989639,
+      "metadata": {
+        "chunk_index": 100,
+        "chunk_preview": "8.3.2 Subject to this Section 8.3.2, Xencor will pay any and all taxes, including withholdings, levi...",
+        "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_014_chunks.json"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_30",
+      "score": 0.441528827,
+      "metadata": {
+        "chunk_index": 30,
+        "chunk_preview": "(a) credits or allowances actually granted for damaged Product, returns or rejections of Product, pr...",
+        "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_014_chunks.json"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_76",
+      "score": 0.42787841,
+      "metadata": {
+        "chunk_index": 76,
+        "chunk_preview": "(xl) The Company, the MHCs, the Bank and each Subsidiary have filed all federal, state and local inc...",
+        "contract_id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_001_chunks.json"
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.487700522,
+    "lowest_score": 0.42787841,
+    "average_score": 0.45229324120000003
+  }
+}

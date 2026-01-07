@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "query": "What is the exact scope of intellectual property assignment versus licensing?",
+  "timestamp": "2026-01-06T13:32:14.303799",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement_cleaned_chunk_32",
+      "score": 0.6025967,
+      "metadata": {
+        "chunk_index": 32,
+        "chunk_preview": "9. PROSECUTION, MAINTENANCE AND ENFORCEMENT 9.1 Responsibility and Cooperation. As between the Parti...",
+        "contract_id": "ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_002_chunks.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_182",
+      "score": 0.557667732,
+      "metadata": {
+        "chunk_index": 182,
+        "chunk_preview": "and all embodiments of intellectual property, and shall assist and not unreasonably interfere with t...",
+        "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_014_chunks.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement_cleaned_chunk_2",
+      "score": 0.521259308,
+      "metadata": {
+        "chunk_index": 2,
+        "chunk_preview": "WHEREAS, Arizona owns certain Copyrights, Know-How, Patents and Trademarks which may be used in the ...",
+        "contract_id": "ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_002_chunks.json"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "ADAPTIMMUNETHERAPEUTICSPLC_04_06_2017-EX-10.11-STRATEGIC ALLIANCE AGREEMENT_cleaned_chunk_14",
+      "score": 0.512683868,
+      "metadata": {
+        "chunk_index": 14,
+        "chunk_preview": ". For clarity the grant of any license under any Invention or assignment of any Invention by either ...",
+        "contract_id": "ADAPTIMMUNETHERAPEUTICSPLC_04_06_2017-EX-10.11-STRATEGIC ALLIANCE AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_016_chunks.json"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement_cleaned_chunk_9",
+      "score": 0.505390167,
+      "metadata": {
+        "chunk_index": 9,
+        "chunk_preview": "(j) \"Arizona Licensed IP\" means the Arizona Licensed Copyrights, the Arizona Licensed Know-How, the ...",
+        "contract_id": "ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_002_chunks.json"
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.6025967,
+    "lowest_score": 0.505390167,
+    "average_score": 0.5399195549999999
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "query": "What are the payment and compensation terms?",
+  "timestamp": "2026-01-06T13:32:12.234828",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT_cleaned_chunk_81",
+      "score": 0.59500891,
+      "metadata": {
+        "chunk_index": 81,
+        "chunk_preview": ". -  Payment for Purchases and Work Done: Any materials, services, etc. Contractor has committed to ...",
+        "contract_id": "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_009_chunks.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_84",
+      "score": 0.552176535,
+      "metadata": {
+        "chunk_index": 84,
+        "chunk_preview": "SECTION 7. Payment of Expenses",
+        "contract_id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_010_chunks.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_97",
+      "score": 0.549068511,
+      "metadata": {
+        "chunk_index": 97,
+        "chunk_preview": "The Company will pay any stock issue and transfer taxes which may be payable with respect to the sal...",
+        "contract_id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_001_chunks.json"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned_chunk_25",
+      "score": 0.529104292,
+      "metadata": {
+        "chunk_index": 25,
+        "chunk_preview": "a. Indemnification payments as provided in Section 8.2;\nb. damages for bodily injury (including deat...",
+        "contract_id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_005_chunks.json"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned_chunk_23",
+      "score": 0.527628,
+      "metadata": {
+        "chunk_index": 23,
+        "chunk_preview": "a. indemnification payments as provided in Section 8.1;\nb. damages for bodily injury (including deat...",
+        "contract_id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_005_chunks.json"
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.59500891,
+    "lowest_score": 0.527628,
+    "average_score": 0.5505972496
+  }
+}

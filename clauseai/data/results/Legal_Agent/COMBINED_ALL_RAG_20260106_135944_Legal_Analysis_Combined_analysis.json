@@ -1,0 +1,13 @@
+{
+  "clause_type": "Legal_Analysis_Combined",
+  "extracted_clauses": [
+    "(b) The Contractor's Expenses. Except as otherwise provided in this Agreement, each party shall bear its own expenses.",
+    "3.5 Effect of Termination\nUpon the date of termination, all Customer payment obligations accrued but unpaid prior to termination shall become immediately due and payable."
+  ],
+  "risk_level": "medium",
+  "confidence": 0.6,
+  "evidence": [
+    "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT_cleaned_chunk_20: (b) The Contractor's Expenses. Except as otherwise provided in this Agreement, each party shall bear its own expenses.",
+    "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned_chunk_10: 3.5 Effect of Termination\nUpon the date of termination, all Customer payment obligations accrued but unpaid prior to termination shall become immediately due and payable."
+  ]
+}

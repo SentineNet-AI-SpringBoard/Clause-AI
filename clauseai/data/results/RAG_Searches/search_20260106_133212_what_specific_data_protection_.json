@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "query": "What specific data protection frameworks (GDPR, SOC2, HIPAA, PCI-DSS) are mentioned?",
+  "timestamp": "2026-01-06T13:32:12.962527",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_65",
+      "score": 0.399796,
+      "metadata": {
+        "chunk_index": 65,
+        "chunk_preview": "3.2 Compliance. Aimmune shall conduct the Development Activities in accordance with sound and ethica...",
+        "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_014_chunks.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned_chunk_43",
+      "score": 0.381676674,
+      "metadata": {
+        "chunk_index": 43,
+        "chunk_preview": "1.65 \"Regulatory Authority\" means, in a particular country or regulatory jurisdiction, any applicabl...",
+        "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_014_chunks.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned_chunk_41",
+      "score": 0.368031979,
+      "metadata": {
+        "chunk_index": 41,
+        "chunk_preview": ". You also confirm that you are solely responsible for ensuring that any processing and security obl...",
+        "contract_id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_005_chunks.json"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned_chunk_40",
+      "score": 0.346113205,
+      "metadata": {
+        "chunk_index": 40,
+        "chunk_preview": "You agree to allow International Business Machines Corporation and entities within its Enterprise to...",
+        "contract_id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_005_chunks.json"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned_chunk_83",
+      "score": 0.333709717,
+      "metadata": {
+        "chunk_index": 83,
+        "chunk_preview": "-  Environmental protection -  to act in accordance with the applicable statutory and international ...",
+        "contract_id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_004_chunks.json"
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.399796,
+    "lowest_score": 0.333709717,
+    "average_score": 0.365865515
+  }
+}

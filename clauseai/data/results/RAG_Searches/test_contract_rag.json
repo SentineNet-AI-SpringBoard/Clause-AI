@@ -1,0 +1,8 @@
+{
+  "contract_id": "TEST_001",
+  "text": "\n    TERMINATION CLAUSE:\n    Either party may terminate this Agreement upon providing 30 days written notice to the other party.\n    In the event of material breach, the non-breaching party may terminate immediately.\n    Upon termination, all outstanding payments must be settled within 15 business days.\n    The terminating party shall have no liability for damages resulting from proper termination.\n    ",
+  "metadata": {
+    "source": "test_contract.pdf",
+    "page": 5
+  }
+}

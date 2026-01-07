@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "query": "What are the liability caps, exclusions of consequential damages, and indemnification limits?",
+  "timestamp": "2026-01-06T13:32:14.396430",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_164",
+      "score": 0.70071888,
+      "metadata": {
+        "chunk_index": 164,
+        "chunk_preview": ". The amount paid or payable by an indemnified party as a result of the losses, claims, damages or l...",
+        "contract_id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_010_chunks.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "BLUEHILLSBANCORP,INC_05_20_2014-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_177",
+      "score": 0.678028107,
+      "metadata": {
+        "chunk_index": 177,
+        "chunk_preview": ". The amount paid or payable by an indemnified party as a result of the losses, claims, damages or l...",
+        "contract_id": "BLUEHILLSBANCORP,INC_05_20_2014-EX-1.1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_017_chunks.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned_chunk_68",
+      "score": 0.668847084,
+      "metadata": {
+        "chunk_index": 68,
+        "chunk_preview": ". 11. LIABILITY. 11.1. Liability for Death or Injury. The liability of any party with respect to dea...",
+        "contract_id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_004_chunks.json"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned_chunk_25",
+      "score": 0.652648032,
+      "metadata": {
+        "chunk_index": 25,
+        "chunk_preview": "a. Indemnification payments as provided in Section 8.2;\nb. damages for bodily injury (including deat...",
+        "contract_id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_005_chunks.json"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned_chunk_23",
+      "score": 0.649776459,
+      "metadata": {
+        "chunk_index": 23,
+        "chunk_preview": "a. indemnification payments as provided in Section 8.1;\nb. damages for bodily injury (including deat...",
+        "contract_id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_005_chunks.json"
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.70071888,
+    "lowest_score": 0.649776459,
+    "average_score": 0.6700037124
+  }
+}

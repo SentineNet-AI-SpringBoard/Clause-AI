@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "query": "What are the specific payment terms, invoicing cycles, and late payment penalties?",
+  "timestamp": "2026-01-06T13:32:12.337049",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT_cleaned_chunk_20",
+      "score": 0.540839255,
+      "metadata": {
+        "chunk_index": 20,
+        "chunk_preview": "(b) The Contractor's Expenses. Except as otherwise provided in this Agreement, each party shall bear...",
+        "contract_id": "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_009_chunks.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned_chunk_10",
+      "score": 0.50607872,
+      "metadata": {
+        "chunk_index": 10,
+        "chunk_preview": "3.5 Effect of&sbsp;Termination\nUpon the date of termination, all Customer payment obligations accrue...",
+        "contract_id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_005_chunks.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1)_cleaned_chunk_7",
+      "score": 0.505774498,
+      "metadata": {
+        "chunk_index": 7,
+        "chunk_preview": ". Another example is if [***], the payment due at that time would be a total of $[***].",
+        "contract_id": "BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1)_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_018_chunks.json"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned_chunk_84",
+      "score": 0.480103523,
+      "metadata": {
+        "chunk_index": 84,
+        "chunk_preview": "SECTION 7. Payment of Expenses",
+        "contract_id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_010_chunks.json"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned_chunk_127",
+      "score": 0.470054626,
+      "metadata": {
+        "chunk_index": 127,
+        "chunk_preview": "SECTION 4. PAYMENT OF EXPENSES",
+        "contract_id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_001_chunks.json"
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.540839255,
+    "lowest_score": 0.470054626,
+    "average_score": 0.5005701244
+  }
+}

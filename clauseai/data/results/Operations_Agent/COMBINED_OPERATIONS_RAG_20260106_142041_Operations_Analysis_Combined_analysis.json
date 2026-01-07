@@ -1,0 +1,25 @@
+{
+  "clause_type": "Operations_Analysis_Combined",
+  "extracted_clauses": [
+    "The Contractor shall provide the Services on a monthly basis commencing on the Effective Date.",
+    "The Customer shall pay the Contractor a fee of $10,000 per month for the Services.",
+    "The Contractor shall meet the following performance metrics: 99.9% uptime, response time under 5 minutes, and resolution time under 2 hours.",
+    "The Service Level Agreement ('SLA') is as follows: The Contractor shall ensure that the System is available 99.9% of the time in any given calendar month.",
+    "The Contractor's operational responsibilities include but are not limited to: system administration, software updates, and security monitoring.",
+    "The Contractor shall adhere to all applicable quality standards and acceptability criteria as set forth by the Customer.",
+    "The Contractor shall provide support and maintenance services during normal business hours.",
+    "Changes to this agreement must be made in writing and agreed upon by both parties.",
+    "There are no non-solicitation provisions in this agreement."
+  ],
+  "risk_level": "medium",
+  "confidence": 0.84,
+  "evidence": [
+    "Effective Date is mentioned in multiple places indicating clear start date for services.",
+    "Performance metrics are clearly stated with specific targets.",
+    "Service Level Agreement is explicitly defined.",
+    "Contractor's operational responsibilities are listed.",
+    "Quality standards and acceptance criteria are referenced.",
+    "Support and maintenance obligations are outlined.",
+    "Change management procedure is included."
+  ]
+}

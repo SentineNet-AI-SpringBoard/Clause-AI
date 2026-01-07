@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "query": "What are the Service Level Agreements (SLAs), uptime requirements, and associated credits?",
+  "timestamp": "2026-01-06T13:32:13.447699",
+  "total_results": 5,
+  "top_k": 5,
+  "min_score": 0.0,
+  "results": [
+    {
+      "rank": 1,
+      "id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned_chunk_37",
+      "score": 0.504827559,
+      "metadata": {
+        "chunk_index": 37,
+        "chunk_preview": ". Accuray shall execute a Service Agreement with the Customer upon receipt of (i) a copy of such Ser...",
+        "contract_id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_004_chunks.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned_chunk_38",
+      "score": 0.492250472,
+      "metadata": {
+        "chunk_index": 38,
+        "chunk_preview": "Alliance Agreement providing, among other things, that Distributor may (at its sole discretion) ente...",
+        "contract_id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_004_chunks.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned_chunk_4",
+      "score": 0.490215302,
+      "metadata": {
+        "chunk_index": 4,
+        "chunk_preview": "i. \"IBM e-business Hosting Center\" means the facility used by IBM to provide the Services.\nj. \"Inter...",
+        "contract_id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_005_chunks.json"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned_chunk_27",
+      "score": 0.48201561,
+      "metadata": {
+        "chunk_index": 27,
+        "chunk_preview": "-------------------------------------------------------------------------------- 11.0 Other Customer...",
+        "contract_id": "BLUEFLYINC_03_27_2002-EX-10.27-e-business Hosting Agreement_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_005_chunks.json"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT_cleaned_chunk_81",
+      "score": 0.475016624,
+      "metadata": {
+        "chunk_index": 81,
+        "chunk_preview": ". -  Payment for Purchases and Work Done: Any materials, services, etc. Contractor has committed to ...",
+        "contract_id": "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT_cleaned",
+        "embedding_dim": 384,
+        "original_file": "contract_009_chunks.json"
+      }
+    }
+  ],
+  "statistics": {
+    "highest_score": 0.504827559,
+    "lowest_score": 0.475016624,
+    "average_score": 0.4888651134
+  }
+}
