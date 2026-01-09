@@ -1,0 +1,31 @@
+{
+  "query": "What are the fees, invoices, and billing requirements?",
+  "timestamp": "2025-12-29T18:04:17.691566",
+  "total_results": 3,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.645880699,
+      "contract_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+      "chunk_index": 11.0,
+      "text": ". In addition to such amount, in the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, \"Out-of-Pocket Costs\"), Recipient shall reimburse Provider for all such Out-of-Pocket Costs. (b) (i) Provider shall provide Recipient with monthly invoices (\"Invoices\"), which shall set forth in reasonable detail, with such supporting documentation as Recipient may reasonably request with respect to Out-of-Pocket Costs, amounts payable under this Agreement, and (ii) payments pursuant to this Agreement shall be made within fifteen (15) days after the date of receipt of an Invoice by Recipient from Provider. (c) Provider shall allow the Recipient to use [ * * * ] at no cost, until December 31, 2021. 2.3 Invoice Disputes",
+      "char_count": 918.0
+    },
+    {
+      "rank": 2,
+      "score": 0.604140341,
+      "contract_id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT",
+      "chunk_index": 86.0,
+      "text": "including but not limited to, attorneys' fees, transfer agent, registrar and other agent charges, fees relating to auditing and accounting or other advisors and costs of printing all documents necessary in connection with the Conversion;\n\nand (e) out-of-pocket expenses incurred by Capital Resources in connection with the Conversion or any of the transactions contemplated hereby, including, without limitation, the fees of its attorneys, and reasonable communication and travel expenses.",
+      "char_count": 489.0
+    },
+    {
+      "rank": 3,
+      "score": 0.556201041,
+      "contract_id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT",
+      "chunk_index": 16.0,
+      "text": "(d) The Company will bear those expenses of the proposed offering customarily borne by issuers, including, without limitation, regulatory filing fees, \"Blue Sky,\" and NASD filing and registration fees; the fees of the Company's accountants, attorneys, appraiser, transfer agent and registrar, printing, mailing and marketing and syndicate expenses associated with the Offering; the fees set forth in Section 2; and fees for \"Blue Sky\" legal work. If the Agent incurs expenses on behalf of the Company, the Company will reimburse the Agent for such expenses.\n\n The Agent shall be reimbursed for reasonable out-of-pocket expenses, including costs of travel, meals and lodging, photocopying, telephone, facsimile and couriers. The Agent shall also be reimbursed for its fees of underwriter's counsel (including counsel's out-of-pocket expenses) not to exceed $35,000. The selection of such counsel will be done by the Agent, after consultation with the Bank.",
+      "char_count": 955.0
+    }
+  ]
+}

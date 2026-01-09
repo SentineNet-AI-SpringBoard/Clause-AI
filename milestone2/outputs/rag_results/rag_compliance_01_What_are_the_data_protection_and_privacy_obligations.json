@@ -1,0 +1,31 @@
+{
+  "query": "What are the data protection and privacy obligations?",
+  "timestamp": "2025-12-29T18:03:43.682646",
+  "total_results": 3,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.612053931,
+      "contract_id": "ADAPTIMMUNETHERAPEUTICSPLC_04_06_2017-EX-10.11-STRATEGIC ALLIANCE AGREEMENT",
+      "chunk_index": 47.0,
+      "text": ". 5.2 Without disclosing Party's prior written consent, receiving Party will: (a) not use any part of or the whole of the Confidential Information for any purpose other than the Purpose; (b) restrict the dissemination of Confidential Information to individuals within its own organization and disclose the Confidential Information only to those of its officers, employees and Affiliates and Joint Research Partners who have a legitimate need to have access to the Confidential Information, who will be bound by confidentiality and non-use commitments no less restrictive than those of this Agreement, and who will have been made aware of the confidential nature of the Confidential Information; (c) protect the Confidential Information by using the same degree of care, but not less than a reasonable degree of care, to prevent the unauthorized use, dissemination, or publication of the Confidential Information as receiving Party uses to protect its own confidential information of a like nature;",
+      "char_count": 997.0
+    },
+    {
+      "rank": 2,
+      "score": 0.611847937,
+      "contract_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+      "chunk_index": 21.0,
+      "text": "4. Confidentiality. 4.1 Confidentiality. During the term of this Agreement and thereafter, the Parties hereto shall, and shall instruct their respective representatives to, maintain in confidence and not disclose the other Party's financial, technical, sales, marketing, development, personnel, and other information, records, or data, including, without limitation, customer lists, supplier lists, trade secrets, designs, product formulations, product specifications or any other proprietary or confidential information, however recorded or preserved, whether written or oral (any such information, \"Confidential Information\"). Each Party hereto shall use the same degree of care, but no less than reasonable care, to protect the other Party's Confidential Information as it uses to protect its own Confidential Information of like nature",
+      "char_count": 839.0
+    },
+    {
+      "rank": 3,
+      "score": 0.555762291,
+      "contract_id": "ADAPTIMMUNETHERAPEUTICSPLC_04_06_2017-EX-10.11-STRATEGIC ALLIANCE AGREEMENT",
+      "chunk_index": 50.0,
+      "text": ". 5.3 The obligations of confidentiality and non-use listed in this Section 5 will not apply to information: (a) which is in the public domain or public knowledge at the time of disclosure, or which subsequently enters the public domain through no fault of receiving Party; (b) which was rightfully in the possession of receiving Party at the time of disclosure by disclosing Party; (c) which is independently developed by receiving Party without use of disclosing Party's Confidential Information; (d) which the receiving Party receives legally from any third party and which is not subject to an obligation of confidentiality; (e) is communicated to the receiving party's IRB or other scientific committee; (f) is required to be disclosed in order to obtain informed consent from patients or subjects who may wish to enroll in the Study, provided, however, that the information will be disclosed only to the extent necessary and will not be provided in answer to unsolicited inquiries by telephone",
+      "char_count": 999.0
+    }
+  ]
+}

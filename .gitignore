@@ -1,0 +1,74 @@
+# Dataset files (keep data out of git)
+data/
+dataset/
+
+# Workspace scratch artifacts (we commit curated outputs under milestone*/outputs instead)
+artifacts/
+
+# Keep milestone deliverables in milestone*/
+!milestone1/
+!milestone2/
+!milestone3/
+
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Processed output files
+plots/
+results/
+
+# Ignore duplicate source notebooks; milestone folders carry the deliverables
+notebooks/
+
+# Model caches (large)
+models_cache/
+notebooks/models_cache/
+
+# Local environment variables (do not commit secrets)
+.env
+.env.*
+!.env.example

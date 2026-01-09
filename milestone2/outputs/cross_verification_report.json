@@ -1,0 +1,249 @@
+{
+  "timestamp": "2025-12-29T18:06:03.690361",
+  "verification_summary": {
+    "total_agents_verified": 4,
+    "overall_grounding_score": 0.7692307692307693,
+    "total_claims": 13,
+    "total_grounded": 10
+  },
+  "agent_reports": [
+    {
+      "agent_name": "Legal Agent",
+      "total_claims": 3,
+      "grounded_claims": 3,
+      "ungrounded_claims": 0,
+      "grounding_score": 1.0,
+      "verification_status": "✅ WELL GROUNDED",
+      "context_sources": [
+        "search_01_What_are_the_termination_clauses_and_conditions.json",
+        "search_02_What_happens_in_case_of_breach_of_contract.json",
+        "search_03_What_are_the_confidentiality_and_non-disclosure_ob.json",
+        "search_04_What_are_the_payment_terms_and_conditions.json",
+        "search_05_What_is_the_governing_law_and_jurisdiction.json"
+      ],
+      "clause_verification": [
+        {
+          "clause_id": 0,
+          "clause_text": "The other party asserts any rights in or to the terminating party's intellectual property in violati...",
+          "is_grounded": true,
+          "grounding_score": 1.0,
+          "matched_text": ". 6. TERMINATION a. Each party shall have the right at any time to terminate this Agreement without prejudice to any rig...",
+          "matched_query": "What are the termination clauses and conditions?",
+          "matched_contract_id": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement",
+          "matched_chunk_index": 38.0,
+          "matched_rag_file": "search_01_What_are_the_termination_clauses_and_conditions.json"
+        },
+        {
+          "clause_id": 1,
+          "clause_text": "The other party shall give notice of termination in writing to the other party, which notice shall s...",
+          "is_grounded": true,
+          "grounding_score": 0.628,
+          "matched_text": ". The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreeme...",
+          "matched_query": "What are the termination clauses and conditions?",
+          "matched_contract_id": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement",
+          "matched_chunk_index": 39.0,
+          "matched_rag_file": "search_01_What_are_the_termination_clauses_and_conditions.json"
+        }
+      ],
+      "evidence_verification": [
+        {
+          "evidence_id": 0,
+          "evidence_text": "The first sentence of the clause describes different events that can lead to termination.",
+          "is_grounded": true,
+          "grounding_score": 0.423,
+          "matched_text": "6. GENERAL PROVISIONS\n\n6.1 CONFIDENTIALITY. By virtue of this Agreement, each party may have access to information that ...",
+          "matched_query": "What are the confidentiality and non-disclosure obligations?",
+          "matched_contract_id": "ADIANUTRITION,INC_04_01_2005-EX-10.D2-RESELLER AGREEMENT",
+          "matched_chunk_index": 28.0,
+          "matched_rag_file": "search_03_What_are_the_confidentiality_and_non-disclosure_ob.json"
+        }
+      ],
+      "ungrounded_items": []
+    },
+    {
+      "agent_name": "Compliance Agent",
+      "total_claims": 2,
+      "grounded_claims": 1,
+      "ungrounded_claims": 1,
+      "grounding_score": 0.5,
+      "verification_status": "⚠️ PARTIALLY GROUNDED",
+      "context_sources": [
+        "rag_compliance_01_What_are_the_data_protection_and_privacy_obligations.json",
+        "rag_compliance_02_What_regulatory_requirements_must_be_followed.json",
+        "rag_compliance_03_What_are_the_audit_and_reporting_requirements.json",
+        "rag_compliance_04_What_are_the_confidentiality_and_non_disclosure_obligations.json"
+      ],
+      "clause_verification": [
+        {
+          "clause_id": 0,
+          "clause_text": "The receiving party will not disclose the other party's confidential information to any third partie...",
+          "is_grounded": true,
+          "grounding_score": 0.491,
+          "matched_text": "other party within ten (10) days of disclosure. Each party shall hold the other party's Confidential Information in conf...",
+          "matched_query": "What are the confidentiality and non-disclosure obligations?",
+          "matched_contract_id": "2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ Agency Agreement",
+          "matched_chunk_index": 27.0,
+          "matched_rag_file": "rag_compliance_04_What_are_the_confidentiality_and_non_disclosure_obligations.json"
+        }
+      ],
+      "evidence_verification": [
+        {
+          "evidence_id": 0,
+          "evidence_text": "The clause clearly requires the receiving party to maintain confidentiality of the other party's con...",
+          "is_grounded": false,
+          "grounding_score": 0.395,
+          "matched_text": ". The audit shall be limited to pertinent records kept by Aimmune and its Affiliates and Sublicensees for any year endin...",
+          "matched_query": "What are the audit and reporting requirements?",
+          "matched_contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+          "matched_chunk_index": 110.0,
+          "matched_rag_file": "rag_compliance_03_What_are_the_audit_and_reporting_requirements.json"
+        }
+      ],
+      "ungrounded_items": [
+        {
+          "type": "evidence",
+          "text": "The clause clearly requires the receiving party to maintain confidentiality of the other party's confidential information.",
+          "score": 0.39473684210526316
+        }
+      ]
+    },
+    {
+      "agent_name": "Finance Agent",
+      "total_claims": 4,
+      "grounded_claims": 4,
+      "ungrounded_claims": 0,
+      "grounding_score": 1.0,
+      "verification_status": "✅ WELL GROUNDED",
+      "context_sources": [
+        "rag_finance_01_What_are_the_payment_terms_and_conditions.json",
+        "rag_finance_02_What_are_the_fees_invoices_and_billing_requirements.json",
+        "rag_finance_03_What_are_the_penalties_and_late_fees_for_non_payment.json",
+        "rag_finance_04_What_is_the_financial_liability_and_indemnification.json"
+      ],
+      "clause_verification": [
+        {
+          "clause_id": 0,
+          "clause_text": "In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision ...",
+          "is_grounded": true,
+          "grounding_score": 1.0,
+          "matched_text": ". In addition to such amount, in the event that Provider incurs reasonable and documented out-of-pocket expenses in the ...",
+          "matched_query": "What are the fees, invoices, and billing requirements?",
+          "matched_contract_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+          "matched_chunk_index": 11.0,
+          "matched_rag_file": "rag_finance_02_What_are_the_fees_invoices_and_billing_requirements.json"
+        },
+        {
+          "clause_id": 1,
+          "clause_text": "), Recipient shall reimburse Provider for all such Out-of-Pocket Costs.",
+          "is_grounded": true,
+          "grounding_score": 1.0,
+          "matched_text": ". In addition to such amount, in the event that Provider incurs reasonable and documented out-of-pocket expenses in the ...",
+          "matched_query": "What are the fees, invoices, and billing requirements?",
+          "matched_contract_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+          "matched_chunk_index": 11.0,
+          "matched_rag_file": "rag_finance_02_What_are_the_fees_invoices_and_billing_requirements.json"
+        },
+        {
+          "clause_id": 2,
+          "clause_text": "Provider shall provide Recipient with monthly invo",
+          "is_grounded": true,
+          "grounding_score": 1.0,
+          "matched_text": ". In addition to such amount, in the event that Provider incurs reasonable and documented out-of-pocket expenses in the ...",
+          "matched_query": "What are the fees, invoices, and billing requirements?",
+          "matched_contract_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+          "matched_chunk_index": 11.0,
+          "matched_rag_file": "rag_finance_02_What_are_the_fees_invoices_and_billing_requirements.json"
+        }
+      ],
+      "evidence_verification": [
+        {
+          "evidence_id": 0,
+          "evidence_text": "The clause clearly defines the scope of Out-of-Pocket Costs and requires Recipient to reimburse Prov...",
+          "is_grounded": true,
+          "grounding_score": 0.422,
+          "matched_text": "(d) The Company will bear those expenses of the proposed offering customarily borne by issuers, including, without limit...",
+          "matched_query": "What are the fees, invoices, and billing requirements?",
+          "matched_contract_id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT",
+          "matched_chunk_index": 16.0,
+          "matched_rag_file": "rag_finance_02_What_are_the_fees_invoices_and_billing_requirements.json"
+        }
+      ],
+      "ungrounded_items": []
+    },
+    {
+      "agent_name": "Operations Agent",
+      "total_claims": 4,
+      "grounded_claims": 2,
+      "ungrounded_claims": 2,
+      "grounding_score": 0.5,
+      "verification_status": "⚠️ PARTIALLY GROUNDED",
+      "context_sources": [
+        "rag_operations_01_What_are_the_deliverables_and_project_outputs.json",
+        "rag_operations_02_What_are_the_timelines_and_milestones_for_delivery.json",
+        "rag_operations_03_What_are_the_service_level_agreements_and_SLAs.json",
+        "rag_operations_04_What_are_the_performance_standards_and_obligations.json",
+        "rag_operations_05_What_are_the_operational_requirements_and_responsibilities.json"
+      ],
+      "clause_verification": [
+        {
+          "clause_id": 0,
+          "clause_text": "Collectible Concepts Group will obtain any licenses deemed by the Joint Venturers to add value in th...",
+          "is_grounded": true,
+          "grounding_score": 0.464,
+          "matched_text": "- --------------------------------------------------------------------------------\n\nservices; (3) dollar size and timing...",
+          "matched_query": "What are the deliverables and project outputs?",
+          "matched_contract_id": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+          "matched_chunk_index": 11.0,
+          "matched_rag_file": "rag_operations_01_What_are_the_deliverables_and_project_outputs.json"
+        },
+        {
+          "clause_id": 1,
+          "clause_text": "Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates for final distr...",
+          "is_grounded": false,
+          "grounding_score": 0.385,
+          "matched_text": ". For example, if a Purchase Order was submitted on June 1, with a requested delivery date of December 1, any expedited ...",
+          "matched_query": "What are the timelines and milestones for delivery?",
+          "matched_contract_id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT",
+          "matched_chunk_index": 26.0,
+          "matched_rag_file": "rag_operations_02_What_are_the_timelines_and_milestones_for_delivery.json"
+        }
+      ],
+      "evidence_verification": [
+        {
+          "evidence_id": 0,
+          "evidence_text": "The clause specifies that Collectible Concepts Group will obtain any licenses deemed by the Joint Ve...",
+          "is_grounded": true,
+          "grounding_score": 0.435,
+          "matched_text": "- --------------------------------------------------------------------------------\n\nservices; (3) dollar size and timing...",
+          "matched_query": "What are the deliverables and project outputs?",
+          "matched_contract_id": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+          "matched_chunk_index": 11.0,
+          "matched_rag_file": "rag_operations_01_What_are_the_deliverables_and_project_outputs.json"
+        },
+        {
+          "evidence_id": 1,
+          "evidence_text": "The clause also specifies that Pivotal Self Service Tech, Inc. will provide fulfillment services thr...",
+          "is_grounded": false,
+          "grounding_score": 0.347,
+          "matched_text": ". For example, if a Purchase Order was submitted on June 1, with a requested delivery date of December 1, any expedited ...",
+          "matched_query": "What are the timelines and milestones for delivery?",
+          "matched_contract_id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT",
+          "matched_chunk_index": 26.0,
+          "matched_rag_file": "rag_operations_02_What_are_the_timelines_and_milestones_for_delivery.json"
+        }
+      ],
+      "ungrounded_items": [
+        {
+          "type": "clause",
+          "text": "Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates for final distribution of the Products",
+          "score": 0.38461538461538464
+        },
+        {
+          "type": "evidence",
+          "text": "The clause also specifies that Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates for final distribution of the Products",
+          "score": 0.3470031545741325
+        }
+      ]
+    }
+  ]
+}

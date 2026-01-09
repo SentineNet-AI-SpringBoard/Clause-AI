@@ -1,0 +1,47 @@
+{
+  "query": "What are the payment terms and conditions?",
+  "timestamp": "2025-12-29T18:01:52.500916",
+  "total_results": 5,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.611403525,
+      "contract_id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT",
+      "chunk_index": 83.0,
+      "text": "SECTION 7. Payment of Expenses",
+      "char_count": 30.0
+    },
+    {
+      "rank": 2,
+      "score": 0.602244437,
+      "contract_id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+      "chunk_index": 127.0,
+      "text": "SECTION 4. PAYMENT OF EXPENSES",
+      "char_count": 30.0
+    },
+    {
+      "rank": 3,
+      "score": 0.59881407,
+      "contract_id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT",
+      "chunk_index": 97.0,
+      "text": "(vii) The execution and delivery of this Agreement and the consummation of the transactions contemplated hereby, have been duly and validly authorized by all necessary action on the part of the Company, the MHC and the Bank; and this Agreement is a valid and binding obligation of the Company, the MHC and the Bank, enforceable in accordance with its terms, except as the enforceability thereof may be limited by (i) bankruptcy, insolvency, reorganization, moratorium, conservatorship, receivership or other similar laws now or hereafter in effect relating to or affecting the enforcement of creditors' rights generally or the rights of creditors of savings institutions, the deposits of which are insured by the FDIC and their holding companies, (ii) general equitable principles, (iii) laws relating to the safety and soundness of insured depository institutions and their holding companies, and (iv) applicable law or public policy with respect to the indemnification and/or contribution",
+      "char_count": 990.0
+    },
+    {
+      "rank": 4,
+      "score": 0.56959635,
+      "contract_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+      "chunk_index": 10.0,
+      "text": ". Provider shall give the Recipient or its designees all assistance reasonably required to perfect such rights. 2. Compensation. 2.1 Responsibility for Wages and Fees. For such time as any employees of Provider are providing the Services to Recipient under this Agreement, (a) such employees will remain employees of Provider and shall not be deemed to be employees of Recipient for any purpose, and (b) Provider shall be solely responsible for the payment and provision of all wages, bonuses and commissions, employee benefits, including severance and worker's compensation, and the withholding and payment of applicable taxes relating to such employment. 2.2 Terms of Payment and Related Matters. (a) As consideration for provision of the Services following the Effective Date, Recipient shall pay Provider an amount equal to Provider's actual cost of providing the Services plus a 10% service fee",
+      "char_count": 899.0
+    },
+    {
+      "rank": 5,
+      "score": 0.566990912,
+      "contract_id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT",
+      "chunk_index": 33.0,
+      "text": "approval, all terms, conditions, requirements and provisions with respect to the Offering imposed by the Commission, the OTS, and the FDIC, if any, will have been complied with by the Company, the MHC and the Bank in all material respects or appropriate waivers will have been obtained and all material notice and waiting periods will have been satisfied, waived or elapsed.",
+      "char_count": 374.0
+    }
+  ]
+}

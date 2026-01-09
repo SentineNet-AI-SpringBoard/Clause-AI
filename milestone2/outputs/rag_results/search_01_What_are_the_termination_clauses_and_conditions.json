@@ -1,0 +1,47 @@
+{
+  "query": "What are the termination clauses and conditions?",
+  "timestamp": "2025-12-29T18:01:51.486237",
+  "total_results": 5,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.724399626,
+      "contract_id": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement",
+      "chunk_index": 38.0,
+      "text": ". 6. TERMINATION a. Each party shall have the right at any time to terminate this Agreement without prejudice to any rights which it may have, whether pursuant to the provisions of this Agreement or otherwise in law or in equity or otherwise, upon the occurrence of any one or more of the following events: i. The other party breaches or fails to perform any of its material obligations provided for in this Agreement; ii. The other party is unable to pay its debts when due, or makes any assignment for the benefit of creditors, or files any petition under the bankruptcy or insolvency laws of any jurisdiction, county or place, or has or suffers a receiver or trustee to be appointed for its business or property, or is adjudicated a bankrupt or an insolvent; or iii. The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement. a",
+      "char_count": 893.0
+    },
+    {
+      "rank": 2,
+      "score": 0.662545204,
+      "contract_id": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement",
+      "chunk_index": 39.0,
+      "text": ". The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement. a. In the event that any of these events of default should occur and a party elects to exercise its right to terminate this Agreement, such party shall give notice of termination in writing to the other party, which notice shall specify in reasonable detail the event(s) of default that give rise to such termination. The other party shall have thirty (30) days from the effective date of such notice in which to correct any such default(s) (except those which are not curable), and failing such correction by the end of such thirty (30) day cure period, this Agreement shall thereupon immediately terminate. 7. RIGHTS AND OBLIGATIONS UPON TERMINATION OR EXPIRATION. Upon expiration or termination of this Agreement: a",
+      "char_count": 842.0
+    },
+    {
+      "rank": 3,
+      "score": 0.654132843,
+      "contract_id": "2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ Agency Agreement",
+      "chunk_index": 23.0,
+      "text": "(g) the other party makes an assignment of the majority of its assets for the benefit of its creditors.\n\n8.5 EFFECTS OF TERMINATION. Upon expiration or termination of this Agreement for any reason: (a) all rights granted herein shall terminate, (b) i-Escrow shall pay all amounts owed to 2TheMart within six (6) weeks of termination, and (c) each party shall remove the other party's content and Marks from their servers. Notwithstanding the foregoing, unless this Agreement was terminated for a material breach, all provisions of this Agreement shall survive to the extent necessary for i-Escrow to complete any Customer transactions which are pending at the time of expiration or termination. Sections 1, 7, 8.5 [EFFECTS OF TERMINATION], 9, 10, 11 and 12 shall survive expiration or termination of this Agreement.",
+      "char_count": 815.0
+    },
+    {
+      "rank": 4,
+      "score": 0.653184,
+      "contract_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+      "chunk_index": 15.0,
+      "text": ". 3.4 Insolvency. In the event that either Party hereto shall (a) file a petition in bankruptcy, (b) become or be declared insolvent, or become the subject of any proceedings (not dismissed within sixty (60) days) related to its liquidation, insolvency or the appointment of a receiver, (c) make an assignment on behalf of all or substantially all of its creditors, or (d) take any corporate action for its winding up or dissolution, then the other party shall have the right to terminate this Agreement by providing written notice in accordance with Section 6.6. 3.5 Effect of Termination. Upon termination of this Agreement in its entirety pursuant to Section 3.1, all obligations of the Parties hereto shall terminate, except for the provisions of Section 2.2, and the entirety of Sections 4, 5 and 6, which shall survive any termination or expiration of this Agreement",
+      "char_count": 872.0
+    },
+    {
+      "rank": 5,
+      "score": 0.651215553,
+      "contract_id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT",
+      "chunk_index": 95.0,
+      "text": ". In addition to the foregoing, the following provisions shall survive any termination or expiration of this Agreement: Section 3.8 (Warranty); Section 3.11 (Compliance with Laws); Section 4.6 (Warranty); Section 6.2 (Effect of Termination); Section 6.3 (No Termination Compensation); Section 6.4 (Accruals); Section 7 (Dispute Resolution); Section 8 (Confidentiality); Section 9 (Intellectual Property Rights); Section 10 (Indemnities), Section 11 (Liability) and Section 12 (Miscellaneous Provisions). 12.13. Force Majeure. Neither party will be responsible for any failure or delay in its performance under this Agreement (except for the payment of money) due to causes beyond its reasonable control, including, but not limited to, labor disputes, strikes, lockouts, shortages of or inability to obtain labor, energy, raw materials or supplies, war, acts of terror, riot, acts of God or governmental action. 12.14. Amendments",
+      "char_count": 928.0
+    }
+  ]
+}
