@@ -32,9 +32,14 @@ Milestone 1 Implementation: Progress Report The first milestone focused on envir
 
 
 Data Pipeline Details
+
 Source Data: 510 text files from the full_contract_txt folder.
+
 Processing: Documents were transformed using LangChain, converted into chunks, and stored as embeddings in Pinecone.
+
 Retrieval: The system generated 20 RAG search files to serve as the context for specialized agents.
+
 Issues Faced:
 Instead using API Key for embedding sentence transformer model - all-minilm-l6-v2
+
 Before using gemma-2b-it as teh base model several other models like Qwen2.5, Mistral-7B where tried - but due the large size teh models failed to load in VSCode witha CPU memory of 16gb RAM
