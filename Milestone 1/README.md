@@ -1,30 +1,82 @@
-Milestone 1 - Documentation
+Milestone 1: Project planning, setup and exploratory data analysis
 
-Milestone Objective
+1. Environment setup
+   i. Python environment congiguration
+   ii. Installation of required libraries:
+       a) Lang chain
+       b) Lang graph
+       c) Pinecone
+       d) Data processing libraries
+   iii. Folder structure creation for dataset, processed files, chunks, embeddings
+2. Dataset Understanding & Loading
+   i. contract dataset (CUAD-style legal contracts) loaded:
+       a) folder of raw contract text files
+       b)  json file
+       c) master_clauses.csv
 
-Environment setup with sentence transfomer all-minilm-l6-v2 and Pinecone vector database.
-Implement document upload and basic parsing of contract text.
-Define the role structure for AI analyst agents (Compliance, Finance, Legal, Operations).
-Conduct initial experiments on small sample contracts
-Technical Implementation
+3. Exploratory Data Analysis (EDA)
+   Performed EDA on the contract text corpus without modifying or cleaning the data.
+   Key analyses include:
+   a) Number of contract files
+   b) Distribution of contract sizes and lengths
+   c) Word count statistics per contract
+   d) Identification of empty or missing files
+   e) Detection of null or malformed entries
+   f) Frequency analysis of common legal terms
 
-Vector Database: Pinecone for efficient storage and retrieval of contract embeddings.
-LLM: google/gemma-2b-it used for domain-specific clause extraction.
-Sentence Transformer - all-minilm-l6-v2
-Data Pipeline:
-Input: Raw contract data (510 text files) was loaded from the full_contract_txt folder.
-Processing: Text was transformed using LangChain and split into manageable chunks.
-Vectorization: Chunks were converted into embeddings and stored in Pinecone.
-Retrieval: The system generated 20 rag_search files to serve as context for the analysis agents.
-Multi-Agent Analysis Results: In this milestone, four specialized agents processed the retrieved data and findings are given below:
+   Visualizations created:
+   a) Histogram of contract lengths
+   b) Boxplot of text length distribution
+   c) Bar chart of top legal keywords
+   d) Scatter plot of file size vs word count
 
-Compliance - Data protection, privacy, and regulatory obligations - High - 1.0
-Finance - Payment terms, billing, and out-of-pocket reimbursements - Medium - 0.7
-Operations - Deliverables, SLAs, and fulfillment responsibilities - Medium - 0.8
-Legal - IP rights, termination conditions, and governing law - Low - 0.85
-Key Clause Extractions:
+4. Text Cleaning & Normalization
+   
+Operations performed:
+a) Removal of page headers and footers
+b)  Whitespace normalization
+c)  Removal of repeated line breaks
+d) Removal of noisy characters (tabs, non-ASCII symbols)
+e) Fixing hyphenation across line breaks
+f) Standardizing casing while preserving section headers
+g) Retaining structural markers such as clause headings
+h) Cleaned files were saved as new transformed files, preserving original raw data.
 
-Compliance: Strict non-disclosure requirements; confidential information cannot be shared with third parties without prior written consent.
-Finance: Recipients are obligated to reimburse providers including license fees and subcontractor payments.
-Operations: Specific entities are tasked with obtaining marketing licenses and handling product fulfillment.
-Legal: Defined events of default and requirements for written notice detailing the grounds for termination.
+5. Sentence Splitting & Chunking
+   a) Cleaned contract text was split into manageable chunks
+   b) Chunk size and overlap were configured to preserve context
+   c) Sentence boundaries were maintained
+   d) Chunked outputs were stored as structured JSON files
+This step prepares the data for embedding and retrieval.
+
+7. Embedding Preparation & Vectorization
+   a) Chunk embeddings were generated using an embedding model
+   b) Vectors were normalized for cosine similarity
+    c) Embeddings were stored locally in structured JSON format
+   d) Embedding statistics and dimensional checks were performed
+This step enables semantic search and retrieval in later stages.
+
+9. Pinecone Vector Database Setup
+     a) Pinecone client initialization
+    b) Vector index creation
+    c) Upsert of embedded contract chunks
+    d) Verification of stored vectors
+    e) Semantic search testing using sample queries
+    f) Visualization of similarity score distributions
+   
+11. Agent-Level Analysis
+     a) Definition of a standard agent output schema
+    b) Creation of individual agent logic for domain analysis
+    c) Execution of domain-specific analysis for:
+      i. Legal Agent
+      ii. Compliance Agent
+     iii. Finance Agent
+      iv. Operations Agent
+       Each agent produced structured JSON outputs containing:
+       i. Extracted clauses
+       ii. Risk assessment
+       iii. Confidence scores
+       iv. Evidence references
+These outputs serve as inputs for coordination and orchestration in Milestone 2.
+
+Readme inside milestone 1
