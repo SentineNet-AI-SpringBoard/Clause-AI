@@ -1,1 +1,21 @@
-
+{
+  "clause_type": "Finance",
+  "extracted_clauses": [
+    "Payment is due net 30 days from invoice date.",
+    "Late payments will incur a 2% monthly penalty fee.",
+    "An additional late fee of $50 applies for payments overdue by more than 15 days.",
+    "All fees are non-refundable once services are rendered.",
+    "Interest charges of 1.5% per month apply to overdue balances.",
+    "Payment default may result in service suspension and additional penalties."
+  ],
+  "risk_level": "high",
+  "confidence": 0.8690225501855215,
+  "evidence": [
+    "Payment is due net 30 days from invoice date.",
+    "Late payments will incur a 2% monthly penalty fee.",
+    "An additional late fee of $50 applies for payments overdue by more than 15 days.",
+    "All fees are non-refundable once services are rendered.",
+    "Interest charges of 1.5% per month apply to overdue balances.",
+    "Payment default may result in service suspension and additional penalties."
+  ]
+}
