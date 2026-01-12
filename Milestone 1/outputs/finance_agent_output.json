@@ -1,30 +1,29 @@
 {
-  "agent_name": "Operations Agent",
+  "agent_name": "Finance Agent",
   "model": "google/gemma-2b-it",
-  "timestamp": "2025-12-29T18:06:03.355138",
+  "timestamp": "2025-12-29T18:05:09.898683",
   "input_summary": {
-    "num_context_chunks": 15,
-    "combined_text_length": 9497,
+    "num_context_chunks": 12,
+    "combined_text_length": 8365,
     "source_queries": [
-      "What are the deliverables and project outputs?",
-      "What are the timelines and milestones for delivery?",
-      "What are the service level agreements and SLAs?",
-      "What are the performance standards and obligations?",
-      "What are the operational requirements and responsibilities?"
+      "What are the payment terms and conditions?",
+      "What are the fees, invoices, and billing requirements?",
+      "What are the penalties and late fees for non-payment?",
+      "What is the financial liability and indemnification?"
     ]
   },
   "output": {
-    "clause_type": "Operations Analysis",
+    "clause_type": "Finance Analysis",
     "extracted_clauses": [
-      "Collectible Concepts Group will obtain any licenses deemed by the Joint Venturers to add value in the marketing of the Products",
-      "Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates for final distribution of the Products"
+      "In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, ",
+      "), Recipient shall reimburse Provider for all such Out-of-Pocket Costs.",
+      "Provider shall provide Recipient with monthly invo"
     ],
     "risk_level": "medium",
-    "confidence": 0.8,
+    "confidence": 0.7,
     "evidence": [
-      "The clause specifies that Collectible Concepts Group will obtain any licenses deemed by the Joint Venturers to add value in the marketing of the Products",
-      "The clause also specifies that Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates for final distribution of the Products"
+      "The clause clearly defines the scope of Out-of-Pocket Costs and requires Recipient to reimburse Provider for such expenses."
     ]
   },
-  "raw_response": "{\n    \"extracted_clauses\": [\n        \"Collectible Concepts Group will obtain any licenses deemed by the Joint Venturers to add value in the marketing of the Products\",\n        \"Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates for final distribution of the Products\"\n    ],\n    \"risk_level\": \"medium\",\n    \"confidence\": 0.8,\n    \"evidence\": [\n        \"The clause specifies that Collectible Concepts Group will obtain any licenses deemed by the Joint Venturers to add value in the marketing of the Products\",\n        \"The clause also specifies that Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates for final distribution of the Products\"\n    ]\n}"
+  "raw_response": "{\n    \"extracted_clauses\": [\n        \"In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, \"Out-of-Pocket Costs\"), Recipient shall reimburse Provider for all such Out-of-Pocket Costs.\",\n        \"Provider shall provide Recipient with monthly invo\"\n    ],\n    \"risk_level\": \"medium\",\n    \"confidence\": 0.7,\n    \"evidence\": [\n        \"The clause clearly defines the scope of Out-of-Pocket Costs and requires Recipient to reimburse Provider for such expenses.\"\n    ]\n}"
 }
