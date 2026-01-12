@@ -1,1 +1,23 @@
-
+{
+  "clause_type": "Operations",
+  "extracted_clauses": [
+    "The Contractor guarantees 99.9% uptime for all services under this SLA.",
+    "Project timeline is divided into three milestones over 6 months.",
+    "Milestone 1: Requirements gathering - 30 days from project start.",
+    "Milestone 2: Development and testing - 90 days from Milestone 1 completion.",
+    "Milestone 3: Deployment and go-live - 60 days from Milestone 2 completion.",
+    "Response time for critical issues: within 1 hour as per SLA requirements.",
+    "All deliverables must meet the timeline specified in the project schedule."
+  ],
+  "risk_level": "low",
+  "confidence": 0.8569456458091735,
+  "evidence": [
+    "The Contractor guarantees 99.9% uptime for all services under this SLA.",
+    "Project timeline is divided into three milestones over 6 months.",
+    "Milestone 1: Requirements gathering - 30 days from project start.",
+    "Milestone 2: Development and testing - 90 days from Milestone 1 completion.",
+    "Milestone 3: Deployment and go-live - 60 days from Milestone 2 completion.",
+    "Response time for critical issues: within 1 hour as per SLA requirements.",
+    "All deliverables must meet the timeline specified in the project schedule."
+  ]
+}
