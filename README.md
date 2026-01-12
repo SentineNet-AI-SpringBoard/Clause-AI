@@ -1,15 +1,23 @@
 
 ClauseAI: AI-PoweredContract Analysis
 
+
+
 Project Overview ClauseAI is an AI-powered system designed to automate the process of contract analysis, improving efficiency and precision while generating customized, actionable reports. It leverages a multi-agent framework where each AI agent specializes in a distinct domain—such as compliance, finance, and operations—to deliver comprehensive and professional insights.
 
+
+
 System Architecture & Methodology The system employs a LangGraph architecture, where each node represents a specialized contract analysis function.
+
+
 
 Core Workflow
 Input Phase: Users upload contract documents or connect to external legal data APIs.
 AI Planning Phase: A Coordinator agent assigns tasks to specialized domain agents.
 Analysis Phase: Domain agents perform multi-turn discussions with expert AI submodules and execute parallelized data extraction.
 Reporting Phase: The system synthesizes multi-agent outputs into concise, professional summaries.
+
+
 Technology Stack
 
 Programming Language: Python 3.x
@@ -18,7 +26,10 @@ Vector Database: Pinecone
 Models: OpenAI API (Architecture) and Gemma-2b-it (Milestone 1 Implementation)
 Parsing: PyPDF2, python-docx
 Frontend: Streamlit
+
+
 Milestone 1 Implementation: Progress Report The first milestone focused on environment setup and the establishment of the RAG (Retrieval-Augmented Generation) pipeline.
+
 
 Data Pipeline Details
 Source Data: 510 text files from the full_contract_txt folder.
