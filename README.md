@@ -19,14 +19,11 @@ ClauseAI is a multi-agent contract analysis system designed to extract, validate
 Python 3.10+
 
 **Core Frameworks & Libraries**
-  1. LangGraph – Multi-agent orchestration and state management
-  2. LangChain – Text splitting and pipeline utilities
-  3. Sentence Transformers / Hugging Face – Embedding generation
-  4. Pinecone – Vector database for semantic search
-  5. gemma model – Agent reasoning
-  6. NumPy, Pandas – Data handling
-  7. Matplotlib – Visualizations
-  8. Jupyter Notebook – Experimentation and milestone development
+  1. LangChain & LangGraph – Multi-agent orchestration and state management
+  2. Pinecone – Vector database for semantic search
+  3. NumPy, Pandas – Data handling
+  4. Matplotlib – Visualizations
+  5. Jupyter Notebook – Experimentation and milestone development
 
 **Models Used**
 1. Sentence-Transformer / Hugging Face embedding models
@@ -34,11 +31,6 @@ Python 3.10+
 
 **Milestone 1 Implementation**
 The first milestone focused on environment setup and the establishment of the RAG (Retrieval-Augmented Generation) pipeline.
-
-**Data Pipeline Details**
-  1. Source Data: 510 text files from the full_contract_txt folder.
-  2. Processing: Documents were transformed using LangChain, converted into chunks, and stored as embeddings in Pinecone.
-  3. Retrieval: The system generated 20 RAG search files to serve as the context for specialized agents.
 
 **Issues Faced:**
   1. Instead using API Key for embedding sentence transformer model - all-minilm-l6-v2
