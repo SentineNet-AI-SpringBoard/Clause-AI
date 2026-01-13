@@ -1,0 +1,602 @@
+{
+  "coordinator_metadata": {
+    "generated_date": "2025-12-26T20:14:20.811213",
+    "total_queries": 5,
+    "routing_rules": {
+      "Legal": [
+        "termination",
+        "governing law",
+        "jurisdiction",
+        "indemnity",
+        "liability",
+        "dispute",
+        "arbitration",
+        "confidentiality",
+        "intellectual property",
+        "warranties",
+        "representation",
+        "indemnification",
+        "hold harmless"
+      ],
+      "Compliance": [
+        "gdpr",
+        "audit",
+        "regulatory",
+        "data protection",
+        "privacy",
+        "compliance",
+        "certification",
+        "standard",
+        "regulation",
+        "policy",
+        "security",
+        "iso"
+      ],
+      "Finance": [
+        "payment",
+        "fee",
+        "penalty",
+        "invoice",
+        "cost",
+        "price",
+        "charge",
+        "late",
+        "overdue",
+        "financial",
+        "budget",
+        "expense",
+        "fees"
+      ],
+      "Operations": [
+        "deliverable",
+        "timeline",
+        "sla",
+        "milestone",
+        "deadline",
+        "performance",
+        "service",
+        "uptime",
+        "response time",
+        "support",
+        "maintenance",
+        "schedule"
+      ]
+    }
+  },
+  "query_results": [
+    {
+      "query": "What are the payment penalties?",
+      "timestamp": "2025-12-26T20:13:50.230885",
+      "routed_to": [
+        "Finance"
+      ],
+      "match_details": {
+        "Finance": [
+          "payment"
+        ]
+      },
+      "agent_responses": {
+        "Finance": {
+          "status": "available",
+          "risk_level": "high",
+          "confidence": 0.9,
+          "clauses_found": 3,
+          "categories": [
+            "fees",
+            "late",
+            "payment",
+            "penalty"
+          ],
+          "full_output": {
+            "agent_name": "Finance Agent - Dynamic",
+            "agent_type": "Finance",
+            "clause_type": "Finance",
+            "extracted_clauses": [
+              "PAYMENT TERMS: Payment due within 30 days of invoice.",
+              "Late payments incur 5% penalty per month.",
+              "All fees must be paid in full."
+            ],
+            "risk_level": "high",
+            "confidence": 0.9,
+            "evidence": [
+              "PAYMENT TERMS: Payment due within 30 days of invoice.",
+              "Late payments incur 5% penalty per month.",
+              "All fees must be paid in full."
+            ],
+            "detected_categories": [
+              "fees",
+              "late",
+              "payment",
+              "penalty"
+            ],
+            "source_tracking": [
+              {
+                "clause": "PAYMENT TERMS: Payment due within 30 days of invoice.",
+                "category": "payment",
+                "source_info": {
+                  "source_file": "finance_contract.txt",
+                  "line_number": 2,
+                  "section": "Unknown Section",
+                  "original_line": "PAYMENT TERMS: Payment due within 30 days of invoice."
+                }
+              },
+              {
+                "clause": "Late payments incur 5% penalty per month.",
+                "category": "payment",
+                "source_info": {
+                  "source_file": "finance_contract.txt",
+                  "line_number": 3,
+                  "section": "Unknown Section",
+                  "original_line": "Late payments incur 5% penalty per month."
+                }
+              },
+              {
+                "clause": "All fees must be paid in full.",
+                "category": "payment",
+                "source_info": {
+                  "source_file": "finance_contract.txt",
+                  "line_number": 4,
+                  "section": "Unknown Section",
+                  "original_line": "All fees must be paid in full."
+                }
+              }
+            ],
+            "timestamp": "2025-12-26T20:12:02.207254"
+          }
+        }
+      }
+    },
+    {
+      "query": "Show me the project milestones and timeline",
+      "timestamp": "2025-12-26T20:13:50.231001",
+      "routed_to": [
+        "Operations"
+      ],
+      "match_details": {
+        "Operations": [
+          "timeline",
+          "milestone"
+        ]
+      },
+      "agent_responses": {
+        "Operations": {
+          "status": "available",
+          "risk_level": "high",
+          "confidence": 0.9,
+          "clauses_found": 4,
+          "categories": [
+            "deliverables",
+            "milestones",
+            "obligations",
+            "timelines"
+          ],
+          "full_output": {
+            "agent_name": "Operations Agent - Dynamic",
+            "agent_type": "Operations",
+            "clause_type": "Operations",
+            "extracted_clauses": [
+              "DELIVERABLES: Weekly reports required.",
+              "Timeline: 90 days for project completion.",
+              "Milestones: Phase 1 (30 days), Phase 2 (60 days).",
+              "9% uptime required."
+            ],
+            "risk_level": "high",
+            "confidence": 0.9,
+            "evidence": [
+              "DELIVERABLES: Weekly reports required.",
+              "Timeline: 90 days for project completion.",
+              "Milestones: Phase 1 (30 days), Phase 2 (60 days).",
+              "9% uptime required."
+            ],
+            "detected_categories": [
+              "deliverables",
+              "milestones",
+              "obligations",
+              "timelines"
+            ],
+            "source_tracking": [
+              {
+                "clause": "DELIVERABLES: Weekly reports required.",
+                "category": "deliverables",
+                "source_info": {
+                  "source_file": "operations_contract.txt",
+                  "line_number": 2,
+                  "section": "Unknown Section",
+                  "original_line": "DELIVERABLES: Weekly reports required."
+                }
+              },
+              {
+                "clause": "Timeline: 90 days for project completion.",
+                "category": "timelines",
+                "source_info": {
+                  "source_file": "operations_contract.txt",
+                  "line_number": 3,
+                  "section": "Unknown Section",
+                  "original_line": "Timeline: 90 days for project completion."
+                }
+              },
+              {
+                "clause": "Milestones: Phase 1 (30 days), Phase 2 (60 days).",
+                "category": "milestones",
+                "source_info": {
+                  "source_file": "operations_contract.txt",
+                  "line_number": 4,
+                  "section": "Unknown Section",
+                  "original_line": "Milestones: Phase 1 (30 days), Phase 2 (60 days)."
+                }
+              },
+              {
+                "clause": "9% uptime required.",
+                "category": "obligations",
+                "source_info": {
+                  "source_file": "operations_contract.txt",
+                  "line_number": 5,
+                  "section": "Unknown Section",
+                  "original_line": "SLA: 99.9% uptime required."
+                }
+              }
+            ],
+            "timestamp": "2025-12-26T20:12:02.207461"
+          }
+        }
+      }
+    },
+    {
+      "query": "What is the indemnity clause?",
+      "timestamp": "2025-12-26T20:13:50.231052",
+      "routed_to": [
+        "Legal"
+      ],
+      "match_details": {
+        "Legal": [
+          "indemnity"
+        ]
+      },
+      "agent_responses": {
+        "Legal": {
+          "status": "available",
+          "risk_level": "high",
+          "confidence": 0.9,
+          "clauses_found": 4,
+          "categories": [
+            "governing_law",
+            "indemnity",
+            "liability",
+            "termination"
+          ],
+          "full_output": {
+            "agent_name": "Legal Agent - Dynamic",
+            "agent_type": "Legal",
+            "clause_type": "Legal",
+            "extracted_clauses": [
+              "TERMINATION: Either party may terminate with 60 days notice.",
+              "GOVERNING LAW: This agreement shall be governed by Delaware law.",
+              "INDEMNIFICATION: Each party shall indemnify the other.",
+              "LIABILITY: Liability limited to fees paid."
+            ],
+            "risk_level": "high",
+            "confidence": 0.9,
+            "evidence": [
+              "TERMINATION: Either party may terminate with 60 days notice.",
+              "GOVERNING LAW: This agreement shall be governed by Delaware law.",
+              "INDEMNIFICATION: Each party shall indemnify the other.",
+              "LIABILITY: Liability limited to fees paid."
+            ],
+            "detected_categories": [
+              "governing_law",
+              "indemnity",
+              "liability",
+              "termination"
+            ],
+            "source_tracking": [
+              {
+                "clause": "TERMINATION: Either party may terminate with 60 days notice.",
+                "category": "termination",
+                "source_info": {
+                  "source_file": "legal_contract.txt",
+                  "line_number": 2,
+                  "section": "Unknown Section",
+                  "original_line": "TERMINATION: Either party may terminate with 60 days notice."
+                }
+              },
+              {
+                "clause": "GOVERNING LAW: This agreement shall be governed by Delaware law.",
+                "category": "governing_law",
+                "source_info": {
+                  "source_file": "legal_contract.txt",
+                  "line_number": 3,
+                  "section": "Unknown Section",
+                  "original_line": "GOVERNING LAW: This agreement shall be governed by Delaware law."
+                }
+              },
+              {
+                "clause": "INDEMNIFICATION: Each party shall indemnify the other.",
+                "category": "liability",
+                "source_info": {
+                  "source_file": "legal_contract.txt",
+                  "line_number": 4,
+                  "section": "Unknown Section",
+                  "original_line": "INDEMNIFICATION: Each party shall indemnify the other."
+                }
+              },
+              {
+                "clause": "LIABILITY: Liability limited to fees paid.",
+                "category": "liability",
+                "source_info": {
+                  "source_file": "legal_contract.txt",
+                  "line_number": 5,
+                  "section": "Unknown Section",
+                  "original_line": "LIABILITY: Liability limited to fees paid."
+                }
+              }
+            ],
+            "timestamp": "2025-12-26T20:12:02.207516"
+          }
+        }
+      }
+    },
+    {
+      "query": "Are there any GDPR compliance requirements?",
+      "timestamp": "2025-12-26T20:13:50.231083",
+      "routed_to": [
+        "Compliance"
+      ],
+      "match_details": {
+        "Compliance": [
+          "gdpr",
+          "compliance"
+        ]
+      },
+      "agent_responses": {
+        "Compliance": {
+          "status": "available",
+          "risk_level": "high",
+          "confidence": 0.95,
+          "clauses_found": 4,
+          "categories": [
+            "audit",
+            "certification",
+            "gdpr",
+            "regulatory",
+            "security"
+          ],
+          "full_output": {
+            "agent_name": "Compliance Agent - Dynamic",
+            "agent_type": "Compliance",
+            "clause_type": "Compliance",
+            "extracted_clauses": [
+              "DATA PROTECTION: Must comply with GDPR requirements.",
+              "AUDIT: Annual audits required for regulatory compliance.",
+              "SECURITY: All data must be encrypted and secure.",
+              "CERTIFICATION: ISO 27001 certification mandatory."
+            ],
+            "risk_level": "high",
+            "confidence": 0.95,
+            "evidence": [
+              "DATA PROTECTION: Must comply with GDPR requirements.",
+              "AUDIT: Annual audits required for regulatory compliance.",
+              "SECURITY: All data must be encrypted and secure.",
+              "CERTIFICATION: ISO 27001 certification mandatory."
+            ],
+            "detected_categories": [
+              "audit",
+              "certification",
+              "gdpr",
+              "regulatory",
+              "security"
+            ],
+            "source_tracking": [
+              {
+                "clause": "DATA PROTECTION: Must comply with GDPR requirements.",
+                "category": "gdpr",
+                "source_info": {
+                  "source_file": "compliance_contract.txt",
+                  "line_number": 2,
+                  "section": "Unknown Section",
+                  "original_line": "DATA PROTECTION: Must comply with GDPR requirements."
+                }
+              },
+              {
+                "clause": "AUDIT: Annual audits required for regulatory compliance.",
+                "category": "regulatory",
+                "source_info": {
+                  "source_file": "compliance_contract.txt",
+                  "line_number": 3,
+                  "section": "Unknown Section",
+                  "original_line": "AUDIT: Annual audits required for regulatory compliance."
+                }
+              },
+              {
+                "clause": "SECURITY: All data must be encrypted and secure.",
+                "category": "security",
+                "source_info": {
+                  "source_file": "compliance_contract.txt",
+                  "line_number": 4,
+                  "section": "Unknown Section",
+                  "original_line": "SECURITY: All data must be encrypted and secure."
+                }
+              },
+              {
+                "clause": "CERTIFICATION: ISO 27001 certification mandatory.",
+                "category": "certification",
+                "source_info": {
+                  "source_file": "compliance_contract.txt",
+                  "line_number": 5,
+                  "section": "Unknown Section",
+                  "original_line": "CERTIFICATION: ISO 27001 certification mandatory."
+                }
+              }
+            ],
+            "timestamp": "2025-12-26T20:12:02.207558"
+          }
+        }
+      }
+    },
+    {
+      "query": "What are the termination terms and payment obligations?",
+      "timestamp": "2025-12-26T20:13:50.231112",
+      "routed_to": [
+        "Legal",
+        "Finance"
+      ],
+      "match_details": {
+        "Legal": [
+          "termination"
+        ],
+        "Finance": [
+          "payment"
+        ]
+      },
+      "agent_responses": {
+        "Legal": {
+          "status": "available",
+          "risk_level": "high",
+          "confidence": 0.9,
+          "clauses_found": 4,
+          "categories": [
+            "governing_law",
+            "indemnity",
+            "liability",
+            "termination"
+          ],
+          "full_output": {
+            "agent_name": "Legal Agent - Dynamic",
+            "agent_type": "Legal",
+            "clause_type": "Legal",
+            "extracted_clauses": [
+              "TERMINATION: Either party may terminate with 60 days notice.",
+              "GOVERNING LAW: This agreement shall be governed by Delaware law.",
+              "INDEMNIFICATION: Each party shall indemnify the other.",
+              "LIABILITY: Liability limited to fees paid."
+            ],
+            "risk_level": "high",
+            "confidence": 0.9,
+            "evidence": [
+              "TERMINATION: Either party may terminate with 60 days notice.",
+              "GOVERNING LAW: This agreement shall be governed by Delaware law.",
+              "INDEMNIFICATION: Each party shall indemnify the other.",
+              "LIABILITY: Liability limited to fees paid."
+            ],
+            "detected_categories": [
+              "governing_law",
+              "indemnity",
+              "liability",
+              "termination"
+            ],
+            "source_tracking": [
+              {
+                "clause": "TERMINATION: Either party may terminate with 60 days notice.",
+                "category": "termination",
+                "source_info": {
+                  "source_file": "legal_contract.txt",
+                  "line_number": 2,
+                  "section": "Unknown Section",
+                  "original_line": "TERMINATION: Either party may terminate with 60 days notice."
+                }
+              },
+              {
+                "clause": "GOVERNING LAW: This agreement shall be governed by Delaware law.",
+                "category": "governing_law",
+                "source_info": {
+                  "source_file": "legal_contract.txt",
+                  "line_number": 3,
+                  "section": "Unknown Section",
+                  "original_line": "GOVERNING LAW: This agreement shall be governed by Delaware law."
+                }
+              },
+              {
+                "clause": "INDEMNIFICATION: Each party shall indemnify the other.",
+                "category": "liability",
+                "source_info": {
+                  "source_file": "legal_contract.txt",
+                  "line_number": 4,
+                  "section": "Unknown Section",
+                  "original_line": "INDEMNIFICATION: Each party shall indemnify the other."
+                }
+              },
+              {
+                "clause": "LIABILITY: Liability limited to fees paid.",
+                "category": "liability",
+                "source_info": {
+                  "source_file": "legal_contract.txt",
+                  "line_number": 5,
+                  "section": "Unknown Section",
+                  "original_line": "LIABILITY: Liability limited to fees paid."
+                }
+              }
+            ],
+            "timestamp": "2025-12-26T20:12:02.207516"
+          }
+        },
+        "Finance": {
+          "status": "available",
+          "risk_level": "high",
+          "confidence": 0.9,
+          "clauses_found": 3,
+          "categories": [
+            "fees",
+            "late",
+            "payment",
+            "penalty"
+          ],
+          "full_output": {
+            "agent_name": "Finance Agent - Dynamic",
+            "agent_type": "Finance",
+            "clause_type": "Finance",
+            "extracted_clauses": [
+              "PAYMENT TERMS: Payment due within 30 days of invoice.",
+              "Late payments incur 5% penalty per month.",
+              "All fees must be paid in full."
+            ],
+            "risk_level": "high",
+            "confidence": 0.9,
+            "evidence": [
+              "PAYMENT TERMS: Payment due within 30 days of invoice.",
+              "Late payments incur 5% penalty per month.",
+              "All fees must be paid in full."
+            ],
+            "detected_categories": [
+              "fees",
+              "late",
+              "payment",
+              "penalty"
+            ],
+            "source_tracking": [
+              {
+                "clause": "PAYMENT TERMS: Payment due within 30 days of invoice.",
+                "category": "payment",
+                "source_info": {
+                  "source_file": "finance_contract.txt",
+                  "line_number": 2,
+                  "section": "Unknown Section",
+                  "original_line": "PAYMENT TERMS: Payment due within 30 days of invoice."
+                }
+              },
+              {
+                "clause": "Late payments incur 5% penalty per month.",
+                "category": "payment",
+                "source_info": {
+                  "source_file": "finance_contract.txt",
+                  "line_number": 3,
+                  "section": "Unknown Section",
+                  "original_line": "Late payments incur 5% penalty per month."
+                }
+              },
+              {
+                "clause": "All fees must be paid in full.",
+                "category": "payment",
+                "source_info": {
+                  "source_file": "finance_contract.txt",
+                  "line_number": 4,
+                  "section": "Unknown Section",
+                  "original_line": "All fees must be paid in full."
+                }
+              }
+            ],
+            "timestamp": "2025-12-26T20:12:02.207254"
+          }
+        }
+      }
+    }
+  ]
+}
