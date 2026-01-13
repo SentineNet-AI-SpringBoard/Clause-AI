@@ -38,3 +38,5 @@ ClauseAI: AI-PoweredContract Analysis
     2. Issues Faced:
         1. Initially the agent output gave empty string - the pre-computed data was not store properly
         2. No other majors issues where ffaced during the compilation of the entire notebook
+6. Milestone 3 Implementation: Progress Report
+   Here the parallel processing for multi-domain extraction is carried right now - after that the cross refinement with storing the data in vector db in pincone is supposed to be done - after which the app.py will be upadted to check the posting using postman or anyother API
