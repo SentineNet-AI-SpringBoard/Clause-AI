@@ -1,0 +1,81 @@
+{
+    "domains": {
+        "legal": {
+            "query_template": "Identify clauses related to:\n- Termination\n- Indemnification\n- Governing law\n- Jurisdiction\n- Liability and remedies",
+            "retrieved_chunks_count": 5,
+            "extracted_clauses": [
+                "Termination for cause clause identified.",
+                "Limitation of liability clause identified."
+            ],
+            "validation": {
+                "is_valid": true,
+                "issues": []
+            },
+            "summary": {
+                "risk_level": "Medium",
+                "confidence": 0.7,
+                "validated": true
+            }
+        },
+        "compliance": {
+            "query_template": "Identify clauses related to:\n- Regulatory compliance\n- Data protection\n- Audits and reporting",
+            "retrieved_chunks_count": 0,
+            "extracted_clauses": [
+                "The vendor shall comply with all applicable data protection laws.",
+                "Annual audits may be conducted by the client."
+            ],
+            "validation": {
+                "is_valid": true,
+                "issues": []
+            },
+            "summary": {
+                "risk_level": "Medium",
+                "confidence": 0.78,
+                "validated": true
+            },
+            "timestamp": "2026-01-13T14:54:50.901946"
+        },
+        "finance": {
+            "query_template": "Identify clauses related to:\n- Payment terms\n- Late payment penalties\n- Interest on overdue amounts\n- Invoicing conditions",
+            "retrieved_chunks_count": 0,
+            "extracted_clauses": [
+                "Payment terms are Net 30 days from invoice date.",
+                "Late payments may incur a penalty of 2% per month."
+            ],
+            "validation": {
+                "is_valid": true,
+                "issues": []
+            },
+            "summary": {
+                "risk_level": "Medium",
+                "confidence": 0.72,
+                "validated": true
+            },
+            "timestamp": "2026-01-13T14:55:49.028818"
+        },
+        "operations": {
+            "query_template": "Identify clauses related to:\n- Service levels (SLA)\n- Timelines and milestones\n- Deliverables\n- Uptime and availability commitments",
+            "retrieved_chunks_count": 1,
+            "extracted_clauses": [
+                "Service level obligations identified."
+            ],
+            "validation": {
+                "is_valid": true,
+                "issues": []
+            },
+            "summary": {
+                "risk_level": "Medium",
+                "confidence": 0.7,
+                "validated": true
+            }
+        }
+    },
+    "overall_risk": "Medium",
+    "highest_risk_domain": "legal",
+    "highest_risk_clauses": [
+        "Termination for cause clause identified.",
+        "Limitation of liability clause identified."
+    ],
+    "overall_confidence": 0.73,
+    "timestamp": "2026-01-13T15:12:14.573780"
+}
