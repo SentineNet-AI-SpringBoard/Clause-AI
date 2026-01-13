@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "generated_date": "2026-01-02T12:43:51.813502",
+    "report_type": "LangGraph Execution Comparison",
+    "graph_version": "1.0"
+  },
+  "original_graph": {
+    "execution_order": [
+      "Finance",
+      "Operations",
+      "Legal",
+      "Compliance",
+      "Summarizer"
+    ],
+    "timestamps": {
+      "Finance": {
+        "start": "2026-01-02T12:40:44.578493",
+        "end": "2026-01-02T12:40:44.578929",
+        "duration_seconds": 0.000436
+      },
+      "Operations": {
+        "start": "2026-01-02T12:40:44.579390",
+        "end": "2026-01-02T12:40:44.579562",
+        "duration_seconds": 0.000172
+      },
+      "Legal": {
+        "start": "2026-01-02T12:40:44.579854",
+        "end": "2026-01-02T12:40:44.579974",
+        "duration_seconds": 0.00012
+      },
+      "Compliance": {
+        "start": "2026-01-02T12:40:44.580225",
+        "end": "2026-01-02T12:40:44.580347",
+        "duration_seconds": 0.000122
+      },
+      "Summarizer": {
+        "start": "2026-01-02T12:40:44.580556",
+        "end": "2026-01-02T12:40:44.580561",
+        "duration_seconds": 5e-06
+      }
+    },
+    "total_duration": 0.0008550000000000001,
+    "final_summary": {
+      "query": "Analyze this comprehensive contract for all risks and obligations",
+      "execution_order": [
+        "Finance",
+        "Operations",
+        "Legal",
+        "Compliance"
+      ],
+      "total_nodes": 4,
+      "timestamps": {
+        "Finance": {
+          "start": "2026-01-02T12:40:44.578493",
+          "end": "2026-01-02T12:40:44.578929",
+          "duration_seconds": 0.000436
+        },
+        "Operations": {
+          "start": "2026-01-02T12:40:44.579390",
+          "end": "2026-01-02T12:40:44.579562",
+          "duration_seconds": 0.000172
+        },
+        "Legal": {
+          "start": "2026-01-02T12:40:44.579854",
+          "end": "2026-01-02T12:40:44.579974",
+          "duration_seconds": 0.00012
+        },
+        "Compliance": {
+          "start": "2026-01-02T12:40:44.580225",
+          "end": "2026-01-02T12:40:44.580347",
+          "duration_seconds": 0.000122
+        },
+        "Summarizer": {
+          "start": "2026-01-02T12:40:44.580556",
+          "end": "2026-01-02T12:40:44.580561",
+          "duration_seconds": 5e-06
+        }
+      },
+      "agent_results": {
+        "finance": {
+          "risk": "high",
+          "clauses": 2,
+          "categories": [
+            "late",
+            "payment",
+            "penalty"
+          ]
+        },
+        "operations": {
+          "risk": "high",
+          "clauses": 7,
+          "categories": [
+            "deliverables",
+            "milestones",
+            "obligations",
+            "performance",
+            "timelines"
+          ]
+        },
+        "legal": {
+          "risk": "high",
+          "clauses": 3,
+          "categories": [
+            "indemnity",
+            "liability",
+            "termination"
+          ]
+        },
+        "compliance": {
+          "risk": "high",
+          "clauses": 2,
+          "categories": [
+            "audit",
+            "certification",
+            "gdpr",
+            "regulatory"
+          ]
+        }
+      }
+    }
+  },
+  "modified_graph": {
+    "execution_order": [
+      "Finance",
+      "Operations",
+      "Compliance",
+      "Legal",
+      "Summarizer"
+    ],
+    "timestamps": {
+      "Finance": {
+        "start": "2026-01-02T12:42:48.357811",
+        "end": "2026-01-02T12:42:48.358678",
+        "duration_seconds": 0.000867
+      },
+      "Operations": {
+        "start": "2026-01-02T12:42:48.359237",
+        "end": "2026-01-02T12:42:48.359468",
+        "duration_seconds": 0.000231
+      },
+      "Compliance": {
+        "start": "2026-01-02T12:42:48.359814",
+        "end": "2026-01-02T12:42:48.359955",
+        "duration_seconds": 0.000141
+      },
+      "Legal": {
+        "start": "2026-01-02T12:42:48.360257",
+        "end": "2026-01-02T12:42:48.360386",
+        "duration_seconds": 0.000129
+      },
+      "Summarizer": {
+        "start": "2026-01-02T12:42:48.360636",
+        "end": "2026-01-02T12:42:48.360641",
+        "duration_seconds": 5e-06
+      }
+    },
+    "total_duration": 0.001373,
+    "final_summary": {
+      "query": "Analyze this comprehensive contract for all risks and obligations",
+      "execution_order": [
+        "Finance",
+        "Operations",
+        "Compliance",
+        "Legal"
+      ],
+      "total_nodes": 4,
+      "timestamps": {
+        "Finance": {
+          "start": "2026-01-02T12:42:48.357811",
+          "end": "2026-01-02T12:42:48.358678",
+          "duration_seconds": 0.000867
+        },
+        "Operations": {
+          "start": "2026-01-02T12:42:48.359237",
+          "end": "2026-01-02T12:42:48.359468",
+          "duration_seconds": 0.000231
+        },
+        "Compliance": {
+          "start": "2026-01-02T12:42:48.359814",
+          "end": "2026-01-02T12:42:48.359955",
+          "duration_seconds": 0.000141
+        },
+        "Legal": {
+          "start": "2026-01-02T12:42:48.360257",
+          "end": "2026-01-02T12:42:48.360386",
+          "duration_seconds": 0.000129
+        },
+        "Summarizer": {
+          "start": "2026-01-02T12:42:48.360636",
+          "end": "2026-01-02T12:42:48.360641",
+          "duration_seconds": 5e-06
+        }
+      },
+      "agent_results": {
+        "finance": {
+          "risk": "high",
+          "clauses": 2,
+          "categories": [
+            "late",
+            "payment",
+            "penalty"
+          ]
+        },
+        "operations": {
+          "risk": "high",
+          "clauses": 7,
+          "categories": [
+            "deliverables",
+            "milestones",
+            "obligations",
+            "performance",
+            "timelines"
+          ]
+        },
+        "legal": {
+          "risk": "high",
+          "clauses": 3,
+          "categories": [
+            "indemnity",
+            "liability",
+            "termination"
+          ]
+        },
+        "compliance": {
+          "risk": "high",
+          "clauses": 2,
+          "categories": [
+            "audit",
+            "certification",
+            "gdpr",
+            "regulatory"
+          ]
+        }
+      }
+    }
+  },
+  "comparison": {
+    "order_change": "Compliance and Legal positions swapped",
+    "original_sequence": "Finance \u2192 Operations \u2192 Legal \u2192 Compliance \u2192 Summarizer",
+    "modified_sequence": "Finance \u2192 Operations \u2192 Compliance \u2192 Legal \u2192 Summarizer"
+  }
+}
