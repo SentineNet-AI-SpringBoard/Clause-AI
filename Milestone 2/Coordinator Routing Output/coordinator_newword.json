@@ -1,0 +1,284 @@
+{
+  "new_task": "Add Indemnity Keyword to Routing",
+  "approach": "Loading from agent outputs",
+  "decision": "Added to Legal Agent",
+  "reasoning": "Indemnity is a legal protection concept related to liability and indemnification",
+  "keywords_added": [
+    "indemnity"
+  ],
+  "routing_rules_updated": {
+    "legal": [
+      "termination",
+      "terminate",
+      "cancel",
+      "cancellation",
+      "governing law",
+      "jurisdiction",
+      "venue",
+      "applicable law",
+      "liability",
+      "liable",
+      "damages",
+      "limitation of liability",
+      "indemnity"
+    ],
+    "compliance": [
+      "gdpr",
+      "data protection",
+      "privacy",
+      "personal data",
+      "audit",
+      "auditing",
+      "inspection",
+      "review",
+      "regulatory",
+      "regulation",
+      "compliance",
+      "legal requirement"
+    ],
+    "finance": [
+      "payment",
+      "pay",
+      "paid",
+      "payable",
+      "remittance",
+      "fee",
+      "fees",
+      "charge",
+      "charges",
+      "cost",
+      "penalty",
+      "penalties",
+      "late fee",
+      "late payment"
+    ],
+    "operations": [
+      "deliverable",
+      "deliver",
+      "delivery",
+      "output",
+      "timeline",
+      "deadline",
+      "schedule",
+      "due date",
+      "sla",
+      "service level",
+      "performance",
+      "kpi",
+      "metric"
+    ]
+  },
+  "test_results": [
+    {
+      "query": "What are the indemnity provisions?",
+      "original": {
+        "agents": [
+          "legal",
+          "compliance",
+          "finance",
+          "operations"
+        ],
+        "reason": "no_matches_fallback_all_agents",
+        "scores": {},
+        "matches": {},
+        "approach": "offline_precomputed"
+      },
+      "enhanced": {
+        "agents": [
+          "legal"
+        ],
+        "reason": "keyword_match",
+        "scores": {
+          "legal": 1
+        },
+        "matches": {
+          "legal": [
+            "indemnity"
+          ]
+        },
+        "approach": "offline_precomputed"
+      },
+      "improvement": 1
+    },
+    {
+      "query": "Show indemnity and liability clauses",
+      "original": {
+        "agents": [
+          "legal"
+        ],
+        "reason": "keyword_match",
+        "scores": {
+          "legal": 1
+        },
+        "matches": {
+          "legal": [
+            "liability"
+          ]
+        },
+        "approach": "offline_precomputed"
+      },
+      "enhanced": {
+        "agents": [
+          "legal"
+        ],
+        "reason": "keyword_match",
+        "scores": {
+          "legal": 2
+        },
+        "matches": {
+          "legal": [
+            "liability",
+            "indemnity"
+          ]
+        },
+        "approach": "offline_precomputed"
+      },
+      "improvement": 1
+    },
+    {
+      "query": "Indemnification and indemnity obligations",
+      "original": {
+        "agents": [
+          "legal",
+          "compliance",
+          "finance",
+          "operations"
+        ],
+        "reason": "no_matches_fallback_all_agents",
+        "scores": {},
+        "matches": {},
+        "approach": "offline_precomputed"
+      },
+      "enhanced": {
+        "agents": [
+          "legal"
+        ],
+        "reason": "keyword_match",
+        "scores": {
+          "legal": 1
+        },
+        "matches": {
+          "legal": [
+            "indemnity"
+          ]
+        },
+        "approach": "offline_precomputed"
+      },
+      "improvement": 1
+    },
+    {
+      "query": "Does the contract include indemnity protections?",
+      "original": {
+        "agents": [
+          "legal",
+          "compliance",
+          "finance",
+          "operations"
+        ],
+        "reason": "no_matches_fallback_all_agents",
+        "scores": {},
+        "matches": {},
+        "approach": "offline_precomputed"
+      },
+      "enhanced": {
+        "agents": [
+          "legal"
+        ],
+        "reason": "keyword_match",
+        "scores": {
+          "legal": 1
+        },
+        "matches": {
+          "legal": [
+            "indemnity"
+          ]
+        },
+        "approach": "offline_precomputed"
+      },
+      "improvement": 1
+    },
+    {
+      "query": "Indemnity caps and financial liability limits",
+      "original": {
+        "agents": [
+          "legal"
+        ],
+        "reason": "keyword_match",
+        "scores": {
+          "legal": 1
+        },
+        "matches": {
+          "legal": [
+            "liability"
+          ]
+        },
+        "approach": "offline_precomputed"
+      },
+      "enhanced": {
+        "agents": [
+          "legal"
+        ],
+        "reason": "keyword_match",
+        "scores": {
+          "legal": 2
+        },
+        "matches": {
+          "legal": [
+            "liability",
+            "indemnity"
+          ]
+        },
+        "approach": "offline_precomputed"
+      },
+      "improvement": 1
+    },
+    {
+      "query": "Payment terms with indemnity requirements",
+      "original": {
+        "agents": [
+          "finance"
+        ],
+        "reason": "keyword_match",
+        "scores": {
+          "finance": 2
+        },
+        "matches": {
+          "finance": [
+            "payment",
+            "pay"
+          ]
+        },
+        "approach": "offline_precomputed"
+      },
+      "enhanced": {
+        "agents": [
+          "finance",
+          "legal"
+        ],
+        "reason": "keyword_match",
+        "scores": {
+          "legal": 1,
+          "finance": 2
+        },
+        "matches": {
+          "legal": [
+            "indemnity"
+          ],
+          "finance": [
+            "payment",
+            "pay"
+          ]
+        },
+        "approach": "offline_precomputed"
+      },
+      "improvement": 1
+    }
+  ],
+  "improvement_metrics": {
+    "total_tests": 6,
+    "routing_improved": 6,
+    "improvement_rate": "100.0%",
+    "total_score_improvement": 6
+  },
+  "note": "This updates routing logic only."
+}
