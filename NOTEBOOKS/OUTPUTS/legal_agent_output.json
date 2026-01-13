@@ -1,0 +1,44 @@
+{
+    "extracted_clauses": [
+        {
+            "clause_type": "legal",
+            "clause_text": "Termination clause: Either party may terminate with 30 days notice."
+        },
+        {
+            "clause_type": "legal",
+            "clause_text": "Indemnity clause: The vendor shall indemnify the client for all losses."
+        },
+        {
+            "clause_type": "legal",
+            "clause_text": "Indemnity clause: The vendor shall indemnify the client for all losses."
+        },
+        {
+            "clause_type": "legal",
+            "clause_text": "Termination clause: Either party may terminate with 30 days notice."
+        }
+    ],
+    "risk_level": "high",
+    "confidence": 0.55,
+    "evidence": [
+        {
+            "source": "Contract A",
+            "score": 0.6870031356811523,
+            "text": "Termination clause: Either party may terminate with 30 days notice."
+        },
+        {
+            "source": "Contract B",
+            "score": 0.5045853853225708,
+            "text": "Indemnity clause: The vendor shall indemnify the client for all losses."
+        },
+        {
+            "source": "Contract B",
+            "score": 0.6453893184661865,
+            "text": "Indemnity clause: The vendor shall indemnify the client for all losses."
+        },
+        {
+            "source": "Contract A",
+            "score": 0.3611565828323364,
+            "text": "Termination clause: Either party may terminate with 30 days notice."
+        }
+    ]
+}
