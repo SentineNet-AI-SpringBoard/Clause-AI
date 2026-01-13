@@ -1,0 +1,81 @@
+{
+  "query": "Review termination clauses, GDPR compliance, and payment penalties",
+  "agents_executed": [
+    "legal",
+    "compliance",
+    "finance"
+  ],
+  "outputs": {
+    "legal": {
+      "clause_type": "Legal",
+      "extracted_clauses": [
+        "This Service Agreement may be terminated by either party with 30 days written notice.",
+        "Either party may terminate this Agreement immediately if the other party materially breaches any term.",
+        "This agreement is governed by the laws of California.",
+        "Any disputes shall be resolved in the courts of San Francisco County."
+      ],
+      "risk_level": "medium",
+      "confidence": 0.7975917428731918,
+      "evidence": [
+        "This Service Agreement may be terminated by either party with 30 days written notice.",
+        "Either party may terminate this Agreement immediately if the other party materially breaches any term.",
+        "This agreement is governed by the laws of California.",
+        "Any disputes shall be resolved in the courts of San Francisco County."
+      ]
+    },
+    "compliance": {
+      "clause_type": "Compliance",
+      "extracted_clauses": [
+        "The Contractor shall comply with all GDPR requirements for data protection.",
+        "All personal data must be encrypted and stored in SOC2 certified facilities.",
+        "The service maintains ISO 27001 certification for information security.",
+        "HIPAA compliance is maintained for all healthcare-related data.",
+        "Data breach notification must be provided within 72 hours as per GDPR."
+      ],
+      "risk_level": "low",
+      "confidence": 0.8918654084205628,
+      "evidence": [
+        "The Contractor shall comply with all GDPR requirements for data protection.",
+        "All personal data must be encrypted and stored in SOC2 certified facilities.",
+        "The service maintains ISO 27001 certification for information security.",
+        "HIPAA compliance is maintained for all healthcare-related data.",
+        "Data breach notification must be provided within 72 hours as per GDPR."
+      ]
+    },
+    "finance": {
+      "clause_type": "Finance",
+      "extracted_clauses": [
+        "Payment is due net 30 days from invoice date.",
+        "Late payments will incur a 2% monthly penalty fee.",
+        "An additional late fee of $50 applies for payments overdue by more than 15 days.",
+        "All fees are non-refundable once services are rendered.",
+        "Interest charges of 1.5% per month apply to overdue balances.",
+        "Payment default may result in service suspension and additional penalties."
+      ],
+      "risk_level": "high",
+      "confidence": 0.8690225501855215,
+      "evidence": [
+        "Payment is due net 30 days from invoice date.",
+        "Late payments will incur a 2% monthly penalty fee.",
+        "An additional late fee of $50 applies for payments overdue by more than 15 days.",
+        "All fees are non-refundable once services are rendered.",
+        "Interest charges of 1.5% per month apply to overdue balances.",
+        "Payment default may result in service suspension and additional penalties."
+      ]
+    }
+  },
+  "summary": {
+    "total_agents": 3,
+    "total_clauses": 15,
+    "risk_levels": {
+      "legal": "medium",
+      "compliance": "low",
+      "finance": "high"
+    },
+    "confidence_scores": {
+      "legal": 0.7975917428731918,
+      "compliance": 0.8918654084205628,
+      "finance": 0.8690225501855215
+    }
+  }
+}
