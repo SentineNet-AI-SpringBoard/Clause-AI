@@ -1,0 +1,19 @@
+{
+  "task": "Remove Agent and Observe State Changes",
+  "removed_agent": "finance",
+  "original_flow": "compliance \u2192 legal \u2192 finance \u2192 operations",
+  "modified_flow": "compliance \u2192 legal \u2192 operations",
+  "observations": {
+    "finance_state": "empty (not executed)",
+    "other_agents": "executed normally",
+    "total_clauses_with_finance": 8,
+    "total_clauses_without_finance": 5,
+    "clauses_difference": 3
+  },
+  "key_learnings": [
+    "Agents can be dynamically added/removed from graph",
+    "Unexecuted agents leave their state keys empty",
+    "Graph execution is flexible and modular",
+    "State structure remains consistent regardless of executed agents"
+  ]
+}
