@@ -1,7 +1,7 @@
-# 🧠 Multi-Agent Contract Analysis System (Milestone 2)
+# 🧠 Milestone2_Planning_Agent_Orchestration
 
 ## 📌 Project Overview
-This project implements a **multi-agent contract analysis system** using **rule-based coordination**, **LangGraph-based orchestration**, **RAG-powered pipelines**, and a **final coordinator layer** to produce a unified legal, compliance, finance, and operations risk assessment.
+This project implements a **Planning_Agent_Orchestration** using **rule-based coordination**, **LangGraph-based orchestration**, **RAG-powered pipelines**, and a **final coordinator layer** to produce a unified legal, compliance, finance, and operations risk assessment.
 
 Milestone 2 focuses on **agent orchestration, conditional routing, memory persistence, domain-specific pipelines, and coordinator-based output merging**.
 
@@ -240,4 +240,5 @@ All pipelines consume **real RAG-retrieved chunks** and do **not hallucinate res
 ✔ Completed successfully
 ✔ All tasks implemented
 ✔ Outputs saved as JSON
+
 ✔ Ready for Milestone 3 (Parallel execution / API layer)
