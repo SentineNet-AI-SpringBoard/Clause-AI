@@ -1,0 +1,117 @@
+==========================================================================================================================================================================================
+COORDINATOR EXECUTION SUMMARY REPORT
+==========================================================================================================================================================================================
+
+Generated: 2026-01-13 19:17:52
+
+==========================================================================================================================================================================================
+
+Coordinator
+Data Source: Pre-computed JSON files from agent runs
+Processing: Keyword-based routing + JSON aggregation
+Response Time: FAST
+
+
+==========================================================================================================================================================================================
+
+OVERALL STATISTICS
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Total Queries Processed: 5
+Total Agents Routed: 5
+Total Clauses Retrieved: 9
+Average Agents per Query: 1.0
+Average Clauses per Query: 1.8
+
+
+==========================================================================================================================================================================================
+
+AGENT DATA SOURCES
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+LEGAL:
+  File: legal_agent_output.json
+  Source: From Legal Agent
+  Contracts: 1
+  Clauses: 2
+
+COMPLIANCE:
+  File: compliance_agent_output.json
+  Source: From Compliance Agent
+  Contracts: 1
+  Clauses: 1
+
+FINANCE:
+  File: finance_agent_output.json
+  Source: From Finance Agent
+  Contracts: 1
+  Clauses: 3
+
+OPERATIONS:
+  File: operations_agent_output.json
+  Source: From Operations Agent
+  Contracts: 1
+  Clauses: 2
+
+
+==========================================================================================================================================================================================================
+
+ROUTING CONFIGURATION
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+LEGAL (12 keywords):
+  termination, terminate, cancel, cancellation, governing law, jurisdiction, venue, applicable law, liability, liable, damages, limitation of liability
+
+COMPLIANCE (12 keywords):
+  gdpr, data protection, privacy, personal data, audit, auditing, inspection, review, regulatory, regulation, compliance, legal requirement
+
+FINANCE (14 keywords):
+  payment, pay, paid, payable, remittance, fee, fees, charge, charges, cost, penalty, penalties, late fee, late payment
+
+OPERATIONS (13 keywords):
+  deliverable, deliver, delivery, output, timeline, deadline, schedule, due date, sla, service level, performance, kpi, metric
+
+
+====================================================================================================================================================================================================================
+
+QUERY EXECUTION DETAILS
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+Query 1: "What are the termination clauses and governing law provisions?"
+  Routing Reason: keyword_match
+  Agents Routed: legal
+  Clauses Found: 2
+  Approach: offline_precomputed
+
+
+Query 2: "Show GDPR compliance and data protection requirements"
+  Routing Reason: keyword_match
+  Agents Routed: compliance
+  Clauses Found: 1
+  Approach: offline_precomputed
+
+
+Query 3: "Payment terms, fees, and late payment penalties"
+  Routing Reason: keyword_match
+  Agents Routed: finance
+  Clauses Found: 3
+  Approach: offline_precomputed
+
+
+Query 4: "Deliverable timelines and milestone requirements"
+  Routing Reason: keyword_match
+  Agents Routed: operations
+  Clauses Found: 2
+  Approach: offline_precomputed
+
+
+Query 5: "Complete contract analysis covering legal, compliance, finance, and operations"
+  Routing Reason: keyword_match
+  Agents Routed: compliance
+  Clauses Found: 1
+  Approach: offline_precomputed
+
+
+=============================================================================================================================================================================================================
+END OF REPORT
+==============================================================================================================================================================================================================
