@@ -26,8 +26,14 @@ Agent to Agent Communication.
 
 
 Outcome
+
+
 Loads pre-computed results from JSON files for each agent, reporting total contracts analyzed and total clauses extracted.
+
 Calculates a Confidence Aggregate and Confidence Range for the analysis - identifies the Highest-Risk Clause across all agent domains.
+
 Conditional routing can save approximately 75% of execution time compared to sequential processing by skipping irrelevant agents.
+
 Overall statistics - total queries processed, average agents routed per query, and average clauses retrieved.
+
 Generates a final risk summary including recommendations and validation status for pipelines.
