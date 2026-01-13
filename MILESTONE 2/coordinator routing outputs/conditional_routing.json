@@ -1,0 +1,59 @@
+{
+  "test_case_1_legal": {
+    "query": "Review termination clause",
+    "execution_order": [
+      "Legal"
+    ],
+    "agents_executed": 1,
+    "populated_states": [
+      "legal"
+    ]
+  },
+  "test_case_2_finance": {
+    "query": "Check late payment penalties",
+    "execution_order": [
+      "Finance"
+    ],
+    "agents_executed": 1,
+    "populated_states": [
+      "finance"
+    ]
+  },
+  "test_case_3_multiple": {
+    "query": "Check GDPR compliance and payment terms",
+    "execution_order": [
+      "Compliance"
+    ],
+    "agents_executed": 1,
+    "populated_states": [
+      "compliance"
+    ],
+    "limitation": "Only first matching agent executed"
+  },
+  "enhanced_routing_tests": {
+    "Review data breach notification procedures": {
+      "execution_order": [
+        "Compliance"
+      ],
+      "agent": "Compliance"
+    },
+    "What is the refund policy for early termination?": {
+      "execution_order": [
+        "Legal"
+      ],
+      "agent": "Legal"
+    },
+    "Check project deadline and milestone schedule": {
+      "execution_order": [
+        "Operations"
+      ],
+      "agent": "Operations"
+    },
+    "Analyze contract dispute resolution process": {
+      "execution_order": [
+        "Legal"
+      ],
+      "agent": "Legal"
+    }
+  }
+}
