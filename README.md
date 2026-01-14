@@ -1,3 +1,7 @@
+Project Overview: ClauseAI Contract Analysis System
+This repository contains a multi-stage pipeline designed to automate the extraction and analysis of key provisions within legal contracts. By leveraging a multi-agent architecture, the system provides structured insights into legal risks and financial obligations
+
+
 Project Architecture
 The project is organized into two primary milestones that move from raw data preparation to autonomous AI analysis.
 
