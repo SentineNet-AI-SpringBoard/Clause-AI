@@ -1,0 +1,35 @@
+{
+    "timestamp": "2026-01-13T11:33:40.114474",
+    "query": "Review termination and payment terms.",
+    "execution_path": [
+        "legal_agent",
+        "compliance_agent",
+        "finance_agent",
+        "operations_agent"
+    ],
+    "agent_summaries": {
+        "legal": {
+            "status": "completed",
+            "risk_assessment": "Medium",
+            "found_clauses": [
+                "Section 4.2: Termination for Cause"
+            ]
+        },
+        "finance": {
+            "status": "completed",
+            "payment_terms": "Net 30",
+            "penalties": "2% late fee"
+        },
+        "compliance": {
+            "status": "completed",
+            "regulations": [
+                "GDPR Article 28"
+            ],
+            "risk_level": "High"
+        },
+        "operations": {
+            "status": "completed",
+            "delivery_timeline": "90 days"
+        }
+    }
+}
