@@ -1,0 +1,10 @@
+[
+  {
+    "text": "Delivery timeline: Products must be delivered within 10 days.",
+    "source": "SLA A"
+  },
+  {
+    "text": "Service level agreement: Response time must be under 24 hours.",
+    "source": "SLA B"
+  }
+]

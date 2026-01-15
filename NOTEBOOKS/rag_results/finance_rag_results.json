@@ -1,0 +1,32 @@
+[
+  {
+    "query": "Find payment terms and schedules.",
+    "results": [
+      {
+        "score": 0.5128814578056335,
+        "text": "Payment terms: 50% upfront, 50% on completion.",
+        "source": "Contract C"
+      },
+      {
+        "score": 0.3243407905101776,
+        "text": "Penalty clause: Late payments will incur 2% interest per month.",
+        "source": "Contract D"
+      }
+    ]
+  },
+  {
+    "query": "Identify penalties and interest clauses.",
+    "results": [
+      {
+        "score": 0.6685371398925781,
+        "text": "Penalty clause: Late payments will incur 2% interest per month.",
+        "source": "Contract D"
+      },
+      {
+        "score": 0.383633017539978,
+        "text": "Payment terms: 50% upfront, 50% on completion.",
+        "source": "Contract C"
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+{
+    "legal": {
+        "risk_level": "HIGH",
+        "issues": [
+            "Termination ambiguity"
+        ],
+        "confidence": 0.82
+    },
+    "compliance": {
+        "risk_level": "MEDIUM",
+        "issues": [
+            "Data privacy concern"
+        ],
+        "confidence": 0.76
+    },
+    "finance": {
+        "risk_level": "LOW",
+        "issues": [
+            "Late payment clause"
+        ],
+        "confidence": 0.9
+    },
+    "operations": {
+        "risk_level": "MEDIUM",
+        "issues": [
+            "SLA not defined"
+        ],
+        "confidence": 0.85
+    }
+}

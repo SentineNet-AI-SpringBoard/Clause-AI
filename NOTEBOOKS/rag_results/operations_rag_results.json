@@ -1,0 +1,32 @@
+[
+  {
+    "query": "Check delivery timelines.",
+    "results": [
+      {
+        "score": 0.6297461986541748,
+        "text": "Delivery timeline: Products must be delivered within 10 days.",
+        "source": "SLA A"
+      },
+      {
+        "score": 0.3288229703903198,
+        "text": "Service level agreement: Response time must be under 24 hours.",
+        "source": "SLA B"
+      }
+    ]
+  },
+  {
+    "query": "Find service level agreements.",
+    "results": [
+      {
+        "score": 0.5035352110862732,
+        "text": "Service level agreement: Response time must be under 24 hours.",
+        "source": "SLA B"
+      },
+      {
+        "score": 0.18170401453971863,
+        "text": "Delivery timeline: Products must be delivered within 10 days.",
+        "source": "SLA A"
+      }
+    ]
+  }
+]
