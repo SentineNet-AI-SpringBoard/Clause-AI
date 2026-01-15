@@ -1,25 +1,18 @@
-Here is a "human-typed" and simple content for your Milestone 2 README. This focuses on the AI agents and the LangGraph orchestrator you built.
+Milestone 2: Multi-Agent Orchestration
+This folder contains the core logic for the ClauseAI agentic system. The goal of this milestone was to move beyond simple text processing and create a team of AI agents that can analyze contracts collaboratively.
 
-README.md Contents
-(Copy and paste everything between the lines below)
+Contents
+1. Static Orchestrator (main_orchestrator.py)
+This was the initial version of our system. It uses a fixed workflow to route contract sections to Legal and Finance agents based on predefined rules. It is a reliable way to handle standard, predictable documents.
 
-Milestone 2: AI Orchestrator & Multi-Agent System
-Now that the data preparation is done, this second milestone is where the "intelligence" happens. I've built an AI Orchestrator that uses LangGraph to manage different specialized agents.
+2. Dynamic Controller (dynamic_orchestrator.py)
+This is the upgraded version of the system. Instead of following a fixed path, it uses a central "Controller" to manage the workflow in real-time.
 
-What I built in this step
-The goal was to move away from a single prompt and instead create a team of AI experts that work together. Here is the breakdown:
+Signal-Based Routing: The controller monitors the output of each agent. If a "High Risk" signal is detected, it automatically routes the task to a Compliance or Legal expert.
 
-The Orchestrator: This is the "brain" (found in main_orchestrator.py). it takes the cleaned contract and decides which expert needs to look at it first.
+Memory Management: It is designed to check for existing analysis in a vector database (Pinecone) to avoid redundant processing.
 
-Legal & Finance Agents: Instead of one general AI, I created specialized roles. The Legal agent looks for risks, while the Finance agent focuses on payment terms and dates.
+Adaptive Logic: The system can change its plan during execution based on the specific content it finds within a contract.
 
-The Workflow (The Graph): I used LangGraph to create a loop. If an agent finds a problem, it can pass the info back to the orchestrator to get more details.
-
-Final Output: Everything the agents find is saved into a clean JSON file (final_contract_analysis.json) so it’s easy for a human to read.
-
-How to run the AI
-Make sure your .env file has your OPENAI_API_KEY.
-
-Run python main_orchestrator.py.
-
-The system will pick up a contract from the Milestone 1 folder, process it, and show you the agent's logic in the terminal.
+3. Agent Configurations (agents_setup.py)
+This file contains the personas and system prompts for our specialized agents, ensuring they maintain a professional and focused tone during analysis.
