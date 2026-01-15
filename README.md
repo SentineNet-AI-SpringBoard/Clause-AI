@@ -1,26 +1,20 @@
 Project Overview: ClauseAI Contract Analysis System
-This repository contains a multi-stage pipeline designed to automate the extraction and analysis of key provisions within legal contracts. By leveraging a multi-agent architecture, the system provides structured insights into legal risks and financial obligations
+This project focuses on the development of an automated pipeline for legal contract analysis. The repository tracks the progression of the system from a basic data processing script to a sophisticated, event-driven multi-agent architecture.
 
+Phase 1: Foundation and Data Engineering
+The initial milestone was dedicated to building a reliable data pipeline. High-quality analysis is only possible with clean input, so the focus here was on preparing unstructured legal text for the AI.
 
-Project Architecture
-The project is organized into two primary milestones that move from raw data preparation to autonomous AI analysis.
+Data Standardization: I developed specialized Python scripts to clean raw contract text, ensuring consistent formatting and encoding.
 
-Milestone 1: Data Preparation and Exploratory Analysis
-The foundation of the project focused on transforming unstructured legal documents into a format suitable for machine learning models.
+Exploratory Analysis: I conducted a structural review of the documents to identify recurring legal terminology and clause patterns, which helped inform the design of the agent prompts.
 
-Data Preprocessing: Implemented Python-based cleaning scripts to standardize text, remove noise (special characters and inconsistent whitespace), and handle encoding issues.
+Phase 2: Intelligent Multi-Agent Orchestration
+The second milestone involved the transition from simple scripts to an intelligent system capable of collaborative reasoning. I built a team of specialized agents—Legal, Finance, and Compliance—to review the documents.
 
-Exploratory Data Analysis (EDA): Performed statistical analysis on the contract corpus to identify common legal terminology and document structures.
+Static Routing: The first version of the orchestrator used a fixed logic to distribute tasks. While effective, it followed a rigid path regardless of the contract's specific nuances.
 
-Objective: Ensuring high data integrity to prevent "garbage-in, garbage-out" scenarios during the inference phase.
+Dynamic Controller: In the latest update, I upgraded the system to a signal-driven architecture. This "Controller" acts as an active manager that evaluates the state of the analysis in real-time.
 
-Milestone 2: Multi-Agent Orchestration
-The second phase involved building a sophisticated "brain" for the system using LangGraph and specialized AI agents.
+Memory Integration: The system now queries a Pinecone vector database before initiating new tasks. If a similar analysis already exists in memory, it retrieves that data to save time and API costs.
 
-Central Orchestrator: Developed a routing logic that acts as a project manager, distributing specific contract sections to the appropriate subject matter experts.
-
-Specialized Agents: Defined distinct roles for a Legal Agent (focused on liability and risk) and a Financial Agent (focused on payment terms and fiscal obligations).
-
-State Management: Utilized a graph-based workflow to allow agents to share context and refine their findings before producing a final report.
-
-Output: The system generates a comprehensive final_contract_analysis.json file, providing a structured summary of all identified clauses.
+Event-Driven Triggers: The agents now produce "signals." For example, if the Legal Agent identifies a high-risk liability clause, the Controller automatically triggers a Compliance review without needing a manual instruction.
