@@ -1,0 +1,22 @@
+{
+  "contract_id": "CNT-2024-017",
+  "timestamp": "2026-01-14T14:37:18.556118",
+  "final_analysis": {
+    "legal": {
+      "risk_level": "HIGH",
+      "confidence": 0.82
+    },
+    "compliance": {
+      "risk_level": "MEDIUM",
+      "confidence": 0.76
+    },
+    "finance": {
+      "risk_level": "LOW",
+      "confidence": 0.71
+    },
+    "operations": {
+      "risk_level": "MEDIUM",
+      "confidence": 0.79
+    }
+  }
+}
