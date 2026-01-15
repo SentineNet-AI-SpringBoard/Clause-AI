@@ -1,92 +1,96 @@
 import os
-from typing import TypedDict, List, Optional
+from typing import TypedDict, List
 
 # --- 1. STATE DEFINITION ---
-# This keeps track of everything happening in the "live" session
 class AgentState(TypedDict):
     task: str
-    plan: List[str]
-    current_agent: str
     results: List[str]
-    signals: dict  # Dynamic signals: {'risk': 'high', 'confidence': 0.5}
-    memory_found: bool
+    signals: dict
+    memory_checked: bool
 
 # --- 2. THE AGENT TOOLS ---
 def legal_agent(state: AgentState):
     print("⚖️ [Legal Agent]: Analyzing liability and risk...")
-    # Simulate finding a high risk
-    return {"results": ["Found high-risk indemnity clause."], "signals": {"risk": "high"}}
+    return {
+        "results": ["Found high-risk indemnity clause in Section 4."], 
+        "signals": {"risk": "high"}
+    }
 
 def finance_agent(state: AgentState):
     print("💰 [Finance Agent]: Checking payment terms and penalties...")
-    return {"results": ["Payment terms are Net-30."], "signals": {"risk": "low"}}
+    return {
+        "results": ["Payment terms are Net-30 with 2% late fee."], 
+        "signals": {"risk": "low"}
+    }
 
 def pinecone_memory_check(task: str):
-    # This is where you'd connect to Pinecone. 
-    # For now, it returns False to simulate "No previous memory found."
+    # Simulating a search in Pinecone Vector DB
     print("🔍 [Memory]: Checking Pinecone for existing analysis...")
-    return False 
+    return False # Set to True to see how the Controller skips work
 
 # --- 3. THE DYNAMIC CONTROLLER (The "Brain") ---
 def controller(state: AgentState):
     print("\n🤖 [Controller]: Evaluating live signals...")
     
-    # Check 1: Memory Signal
-    if state.get("memory_found") is None:
-        exists = pinecone_memory_check(state['task'])
-        if exists:
-            print("✨ [Controller]: Memory found! Skipping to END.")
+    # Check 1: Memory Signal (Run only once at the start)
+    if not state['memory_checked']:
+        state['memory_checked'] = True
+        if pinecone_memory_check(state['task']):
+            print("✨ [Controller]: Memory found! Ending process.")
             return "end"
     
-    # Check 2: Risk Signal (Event-Driven)
-    if state['signals'].get('risk') == 'high':
-        print("⚠️ [Controller]: High risk detected! Routing to Legal Expert.")
+    # Check 2: Event-Driven Trigger (If risk is high, we might need a specific action)
+    if state['signals'].get('risk') == 'high' and "Legal" not in str(state['results']):
         return "legal_agent"
 
-    # Check 3: Logic Routing
-    if "price" in state['task'].lower() or "pay" in state['task'].lower():
-        return "finance_agent"
+    # Check 3: Logic Routing based on keywords if no results exist yet
+    if len(state['results']) == 0:
+        if "pay" in state['task'].lower() or "price" in state['task'].lower():
+            return "finance_agent"
+        else:
+            return "legal_agent"
     
-    return "legal_agent"
+    # Check 4: Termination
+    print("✅ [Controller]: All necessary agents have reported. Ending.")
+    return "end"
 
-# --- 4. THE EXECUTION LOOP (Simulating the Live System) ---
-def run_dynamic_system(user_query: str):
-    # Initialize State
+# --- 4. THE EXECUTION ENGINE ---
+def run_clause_ai(user_query: str):
+    # Initialize the Live State
     state: AgentState = {
         "task": user_query,
         "results": [],
         "signals": {},
-        "memory_found": False,
-        "current_agent": ""
+        "memory_checked": False
     }
 
-    # Step 1: Controller decides first move
+    # Start the loop
     next_step = controller(state)
     
-    # Step 2: Loop until finished
-    limit = 0
-    while next_step != "end" and limit < 3:
+    max_iterations = 5
+    count = 0
+    
+    while next_step != "end" and count < max_iterations:
         if next_step == "legal_agent":
             output = legal_agent(state)
         elif next_step == "finance_agent":
             output = finance_agent(state)
         
-        # Update State with Agent findings
-        state['results'].extend(output.get("results", []))
-        state['signals'].update(output.get("signals", {}))
+        # Update the live state with new findings
+        state['results'].extend(output['results'])
+        state['signals'].update(output['signals'])
         
-        # Controller decides next move based on NEW signals
+        # Ask the Controller what to do next based on NEW signals
         next_step = controller(state)
-        
-        # Safety break to avoid infinite loops
-        if "High-risk" in str(state['results']):
-            next_step = "end" 
-        limit += 1
+        count += 1
 
-    print("\n✅ Final Analysis Result:", state['results'])
+    print("\n--- FINAL SYSTEM REPORT ---")
+    for i, res in enumerate(state['results'], 1):
+        print(f"{i}. {res}")
 
-# --- START THE SYSTEM ---
+# --- START ---
 if __name__ == "__main__":
     print("--- STARTING LIVE AGENTIC SYSTEM ---")
-    query = "Analyze the payment and liability clauses in this contract."
-    run_dynamic_system(query)
+    # Test Query
+    query = "Please analyze the payment terms of this contract."
+    run_clause_ai(query)
