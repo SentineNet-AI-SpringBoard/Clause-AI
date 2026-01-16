@@ -1,0 +1,120 @@
+{
+  "execution_metadata": {
+    "query": "Analyze contract for termination, GDPR compliance, data protection, privacy obligations, regulatory requirements, audit and reporting requirements, confidentiality and non-disclosure obligations, payment terms, deliverables, project outputs, timelines and milestones for delivery, performance standards and obligations, operational requirements and responsibilities, service level agreements and SLAs.",
+    "coordinator_model": "gemma2:9b",
+    "vector_store": "Pinecone",
+    "timestamp": "20260115_145315",
+    "execution_status": "success"
+  },
+  "routing": {
+    "approach": "dynamic_llm_coordinator",
+    "agents_routed": [
+      "legal",
+      "compliance",
+      "finance",
+      "operations"
+    ],
+    "reasoning": "The query touches upon legal clauses (termination), data protection and privacy regulations, financial terms (payment), and operational aspects (deliverables, timelines, SLAs)."
+  },
+  "execution_order": [
+    "routing",
+    "legal",
+    "compliance",
+    "finance",
+    "operations",
+    "aggregation"
+  ],
+  "agent_results": {
+    "legal": {
+      "status": "completed",
+      "source": "pinecone_vector_store",
+      "clauses_retrieved": 2,
+      "avg_relevance": 0.312097579,
+      "max_relevance": 0.335806876
+    },
+    "compliance": {
+      "status": "completed",
+      "source": "pinecone_vector_store",
+      "clauses_retrieved": 1,
+      "avg_relevance": 0.226619259,
+      "max_relevance": 0.226619259
+    },
+    "finance": {
+      "status": "completed",
+      "source": "pinecone_vector_store",
+      "clauses_retrieved": 3,
+      "avg_relevance": 0.25561271599999996,
+      "max_relevance": 0.349198371
+    },
+    "operations": {
+      "status": "completed",
+      "source": "pinecone_vector_store",
+      "clauses_retrieved": 2,
+      "avg_relevance": 0.21443798400000003,
+      "max_relevance": 0.26036647
+    }
+  },
+  "all_clauses": [
+    {
+      "clause": "In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, ",
+      "risk_level": "medium",
+      "confidence": 0.7,
+      "relevance_score": 0.349198371,
+      "agent": "finance"
+    },
+    {
+      "clause": "The other party shall give notice of termination in writing to the other party, which notice shall specify in reasonable detail the event(s) of default that give rise to such termination.",
+      "risk_level": "low",
+      "confidence": 0.85,
+      "relevance_score": 0.335806876,
+      "agent": "legal"
+    },
+    {
+      "clause": "The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement.",
+      "risk_level": "low",
+      "confidence": 0.85,
+      "relevance_score": 0.288388282,
+      "agent": "legal"
+    },
+    {
+      "clause": "Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates for final distribution of the Products",
+      "risk_level": "medium",
+      "confidence": 0.8,
+      "relevance_score": 0.26036647,
+      "agent": "operations"
+    },
+    {
+      "clause": "The receiving party will not disclose the other party's confidential information to any third parties without the other party's prior written consent.",
+      "risk_level": "high",
+      "confidence": 1,
+      "relevance_score": 0.226619259,
+      "agent": "compliance"
+    },
+    {
+      "clause": "), Recipient shall reimburse Provider for all such Out-of-Pocket Costs.",
+      "risk_level": "medium",
+      "confidence": 0.7,
+      "relevance_score": 0.217951804,
+      "agent": "finance"
+    },
+    {
+      "clause": "Provider shall provide Recipient with monthly invo",
+      "risk_level": "medium",
+      "confidence": 0.7,
+      "relevance_score": 0.199687973,
+      "agent": "finance"
+    },
+    {
+      "clause": "Collectible Concepts Group will obtain any licenses deemed by the Joint Venturers to add value in the marketing of the Products",
+      "risk_level": "medium",
+      "confidence": 0.8,
+      "relevance_score": 0.168509498,
+      "agent": "operations"
+    }
+  ],
+  "summary": {
+    "total_agents_executed": 4,
+    "total_clauses_retrieved": 8,
+    "workflow_type": "Dynamic LLM-based coordination with Pinecone retrieval"
+  }
+}

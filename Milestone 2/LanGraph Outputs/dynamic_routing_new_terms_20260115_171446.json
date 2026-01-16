@@ -1,0 +1,111 @@
+{
+  "task": "Dynamic LLM Routing with New Terms (No Keyword Mapping)",
+  "coordinator_model": "gemma2:9b",
+  "approach": "Dynamic LLM-based semantic routing",
+  "advantage": "No manual keyword management required",
+  "test_queries": 8,
+  "queries_tested": [
+    "Review dispute resolution and arbitration clause",
+    "Check PCI DSS compliance report",
+    "Calculate interest rate on late charges",
+    "Project implementation timeline and go-live date",
+    "Contract breach and warranty issues",
+    "Data breach incident response procedure",
+    "Payment schedule with currency exchange rates",
+    "Sprint deliverables and acceptance criteria"
+  ],
+  "routing_results": [
+    {
+      "query": "Review dispute resolution and arbitration clause",
+      "routed_agents": [],
+      "executed_agents": [
+        "legal"
+      ],
+      "reasoning": "",
+      "clauses_retrieved": 2,
+      "success": true
+    },
+    {
+      "query": "Check PCI DSS compliance report",
+      "routed_agents": [],
+      "executed_agents": [
+        "compliance"
+      ],
+      "reasoning": "",
+      "clauses_retrieved": 1,
+      "success": true
+    },
+    {
+      "query": "Calculate interest rate on late charges",
+      "routed_agents": [],
+      "executed_agents": [
+        "finance"
+      ],
+      "reasoning": "",
+      "clauses_retrieved": 3,
+      "success": true
+    },
+    {
+      "query": "Project implementation timeline and go-live date",
+      "routed_agents": [],
+      "executed_agents": [
+        "operations"
+      ],
+      "reasoning": "",
+      "clauses_retrieved": 1,
+      "success": true
+    },
+    {
+      "query": "Contract breach and warranty issues",
+      "routed_agents": [],
+      "executed_agents": [
+        "legal"
+      ],
+      "reasoning": "",
+      "clauses_retrieved": 2,
+      "success": true
+    },
+    {
+      "query": "Data breach incident response procedure",
+      "routed_agents": [],
+      "executed_agents": [
+        "compliance"
+      ],
+      "reasoning": "",
+      "clauses_retrieved": 1,
+      "success": true
+    },
+    {
+      "query": "Payment schedule with currency exchange rates",
+      "routed_agents": [],
+      "executed_agents": [
+        "finance"
+      ],
+      "reasoning": "",
+      "clauses_retrieved": 2,
+      "success": true
+    },
+    {
+      "query": "Sprint deliverables and acceptance criteria",
+      "routed_agents": [],
+      "executed_agents": [
+        "operations"
+      ],
+      "reasoning": "",
+      "clauses_retrieved": 2,
+      "success": true
+    }
+  ],
+  "statistics": {
+    "total_queries": 8,
+    "successful_routes": 8,
+    "success_rate": "100.0%",
+    "multi_agent_queries": 0
+  },
+  "agent_usage": {
+    "legal": 2,
+    "compliance": 2,
+    "finance": 2,
+    "operations": 2
+  }
+}
