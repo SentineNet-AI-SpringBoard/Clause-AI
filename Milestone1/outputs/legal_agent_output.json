@@ -1,29 +1,46 @@
 {
-  "agent_name": "Legal Agent",
-  "model": "google/gemma-2b-it",
-  "timestamp": "2025-12-29T18:03:41.231900",
-  "input_summary": {
-    "num_context_chunks": 25,
-    "combined_text_length": 18562,
-    "source_queries": [
-      "What is the governing law and jurisdiction?",
-      "What happens in case of breach of contract?",
-      "What are the termination clauses and conditions?",
-      "What are the payment terms and conditions?",
-      "What are the confidentiality and non-disclosure obligations?"
-    ]
-  },
-  "output": {
-    "clause_type": "Legal Analysis",
-    "extracted_clauses": [
-      "The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement.",
-      "The other party shall give notice of termination in writing to the other party, which notice shall specify in reasonable detail the event(s) of default that give rise to such termination."
-    ],
-    "risk_level": "low",
-    "confidence": 0.85,
-    "evidence": [
-      "The first sentence of the clause describes different events that can lead to termination."
-    ]
-  },
-  "raw_response": "{\n    \"extracted_clauses\": [\"The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement.\", \"The other party shall give notice of termination in writing to the other party, which notice shall specify in reasonable detail the event(s) of default that give rise to such termination.\"],\n    \"risk_level\": \"low\",\n    \"confidence\": 0.85,\n    \"evidence\": [\"The first sentence of the clause describes different events that can lead to termination.\"]"
+  "clause_type": "Legal Analysis",
+  "extracted_clauses": [
+    {
+      "clause_id": "6.01",
+      "text": "This Agreement may be terminated prior to the end of the Offer Period by Acquiror if a condition for withdrawal of the Offer has occurred. This Agreement shall be automatically terminated if the Offer has been withdrawn or the Offer is not successful due to the failure of obtaining the minimum threshold. This Agreement may not be terminated after the end of the Offer Period if the Offer is successful.",
+      "risk_level": "high",
+      "confidence": 0.95,
+      "evidence": [
+        "This Agreement may be terminated prior to the end of the Offer Period by Acquiror if a condition for withdrawal of the Offer has occurred.",
+        "This Agreement shall be automatically terminated if the Offer has been withdrawn or the Offer is not successful due to the failure of obtaining the minimum threshold.",
+        "This Agreement may not be terminated after the end of the Offer Period if the Offer is successful."
+      ]
+    },
+    {
+      "clause_id": "6.02",
+      "text": "Any Party desiring to terminate this Agreement pursuant to Section 6.01 shall give written notice of such termination to the other Party to this Agreement.",
+      "risk_level": "low",
+      "confidence": 0.9,
+      "evidence": [
+        "Any Party desiring to terminate this Agreement pursuant to Section 6.01 shall give written notice of such termination to the other Party to this Agreement."
+      ]
+    },
+    {
+      "clause_id": "6.03",
+      "text": "In the event of the termination of this Agreement as provided in Section 6.01, this Agreement shall forthwith become void and there shall be no liability on the part of any Party to this Agreement or any Financing Party except as set forth in Article V 19.C. EXTENSION OF NOTICE.",
+      "risk_level": "medium",
+      "confidence": 0.85,
+      "evidence": [
+        "In the event of the termination of this Agreement as provided in Section 6.01, this Agreement shall forthwith become void and there shall be no liability on the part of any Party to this Agreement or any Financing Party except as set forth in Article V 19.C. EXTENSION OF NOTICE."
+      ]
+    },
+    {
+      "clause_id": "16.1",
+      "text": "without prejudice to any other rights under this Agreement and/or at Law, either Party shall be entitled to terminate all or part of this Agreement by Notice of termination, as per Clauses 16.4 (\"Termination procedure\") and 16.6 (\"Consequences of termination\"), in the following events:",
+      "risk_level": "medium",
+      "confidence": 0.92,
+      "evidence": [
+        "without prejudice to any other rights under this Agreement and/or at Law, either Party shall be entitled to terminate all or part of this Agreement by Notice of termination, as per Clauses 16.4 (\"Termination procedure\") and 16.6 (\"Consequences of termination\"), in the following events:"
+      ]
+    }
+  ],
+  "risk_level": "high",
+  "confidence": 0.88,
+  "evidence": []
 }

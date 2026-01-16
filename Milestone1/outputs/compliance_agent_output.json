@@ -1,27 +1,14 @@
 {
-  "agent_name": "Compliance Agent",
-  "model": "google/gemma-2b-it",
-  "timestamp": "2025-12-29T18:04:16.940875",
-  "input_summary": {
-    "num_context_chunks": 12,
-    "combined_text_length": 8761,
-    "source_queries": [
-      "What are the data protection and privacy obligations?",
-      "What regulatory requirements must be followed?",
-      "What are the audit and reporting requirements?",
-      "What are the confidentiality and non-disclosure obligations?"
-    ]
-  },
-  "output": {
-    "clause_type": "Compliance Analysis",
-    "extracted_clauses": [
-      "The receiving party will not disclose the other party's confidential information to any third parties without the other party's prior written consent."
-    ],
-    "risk_level": "high",
-    "confidence": 1.0,
-    "evidence": [
-      "The clause clearly requires the receiving party to maintain confidentiality of the other party's confidential information."
-    ]
-  },
-  "raw_response": "{\n    \"extracted_clauses\": [\"The receiving party will not disclose the other party's confidential information to any third parties without the other party's prior written consent.],\n    \"risk_level\": \"high\",\n    \"confidence\": 1.0,\n    \"evidence\": [\"The clause clearly requires the receiving party to maintain confidentiality of the other party's confidential information.\"]\n}"
+  "clause_type": "Compliance",
+  "extracted_clauses": [
+    "16.1 Privacy and Security Matters. Concurrently with the execution of this Agreement, the Parties are executing a HIPAA Business Associate Agreement (the \"BAA\") in the form attached hereto as Exhibit E.",
+    "16.2 Technical Standards. The Company will provide Allscripts with Updates so that the Subscription Software Services can be implemented and configured to comply in all material respects with applicable privacy and security standards (e.g., HITECH, HIPAA, and Omnibus rule) within a reasonably practicable timeframe (based on the scope of required enhancements and other factors) after their final, formal adoption and publication by the Secretary of the U.S. Department of Health and Human Services.",
+    "18. The Company will ensure that all protected health information (PHI), personally identifiable information (PII) or payment card information (PCI) is (1) encrypted at rest and (2) encrypted while moving in or out of the Company's data center.",
+    "5.1 Compliance with Laws. Biocept and Life Technologies and their respective Affiliates each agree to perform their respective obligations under this Agreement in compliance with all applicable Laws, in the Territory, including but not limited to applicable regulations, rules, and policies of third party payers that pay for the Assay.",
+    "5.2 Privacy. Biocept and Life Technologies and their respective Affiliates agree to protect the privacy and provide for the security of any information that relates to a patient's past, present, or future physical or mental health or condition in accordance with HIPAA, and any other applicable federal and state privacy laws and regulations in the Territory. Each party agrees to execute one or more Business Associate Agreements (as defined under HIPAA) as the other party, or its providers or payers, may from time to time request.",
+    "Parts 50, 56, and 58, and, with respect to clinical Studies, the requirements of the Statement of Investigator, FDA Form 1572 (as described in 21 312.53), the terms of which are incorporated by reference into any Study Order pertaining to a clinical Study (and the Principal Investigator for any such clinical Study shall complete, sign, and deliver a Form 1572 to LBIO prior to the commencement of such Study); the United States Health Insurance Portability and Accountability Act of 1996, as amended by the HITECH Act, including the Standards for Privacy of Individually Identifiable Health Information; the EU Data Protection Directive; and all other applicable privacy, security and data protection laws (collectively, this sub-clause (i), \"Laws\")"
+  ],
+  "risk_level": "high",
+  "confidence": 0.95,
+  "evidence": []
 }

@@ -1,29 +1,56 @@
 {
-  "agent_name": "Finance Agent",
-  "model": "google/gemma-2b-it",
-  "timestamp": "2025-12-29T18:05:09.898683",
-  "input_summary": {
-    "num_context_chunks": 12,
-    "combined_text_length": 8365,
-    "source_queries": [
-      "What are the payment terms and conditions?",
-      "What are the fees, invoices, and billing requirements?",
-      "What are the penalties and late fees for non-payment?",
-      "What is the financial liability and indemnification?"
-    ]
-  },
-  "output": {
-    "clause_type": "Finance Analysis",
-    "extracted_clauses": [
-      "In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, ",
-      "), Recipient shall reimburse Provider for all such Out-of-Pocket Costs.",
-      "Provider shall provide Recipient with monthly invo"
-    ],
-    "risk_level": "medium",
-    "confidence": 0.7,
-    "evidence": [
-      "The clause clearly defines the scope of Out-of-Pocket Costs and requires Recipient to reimburse Provider for such expenses."
-    ]
-  },
-  "raw_response": "{\n    \"extracted_clauses\": [\n        \"In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, \"Out-of-Pocket Costs\"), Recipient shall reimburse Provider for all such Out-of-Pocket Costs.\",\n        \"Provider shall provide Recipient with monthly invo\"\n    ],\n    \"risk_level\": \"medium\",\n    \"confidence\": 0.7,\n    \"evidence\": [\n        \"The clause clearly defines the scope of Out-of-Pocket Costs and requires Recipient to reimburse Provider for such expenses.\"\n    ]\n}"
+  "clause_type": "Finance",
+  "extracted_clauses": [
+    {
+      "clause_text": "litigation to collect the amount owed and Seller prevails in the litigation, Buyer will reimburse Seller for actual, reasonable, substantiated out-of-pocket expenses incurred by Seller in collecting the delinquent amount and accrued late payment fees on the delinquent amount.",
+      "risk_level": "high",
+      "confidence": 0.95,
+      "evidence": [
+        "litigation to collect the amount owed and Seller prevails in the litigation, Buyer will reimburse Seller for actual, reasonable, substantiated out-of-pocket expenses incurred by Seller in collecting the delinquent amount and accrued late payment fees on the delinquent amount."
+      ]
+    },
+    {
+      "clause_text": "If Buyer fails to pay Seller an amount owed under this Agreement by the invoice due date, then Buyer will owe Seller: (i) the delinquent amount; and (ii) a late payment fee equal to two percent (2%) of the delinquent amount for each full or partial calendar month past the invoice due date that the delinquent amount remains unpaid.",
+      "risk_level": "high",
+      "confidence": 0.98,
+      "evidence": [
+        "If Buyer fails to pay Seller an amount owed under this Agreement by the invoice due date, then Buyer will owe Seller: (i) the delinquent amount; and (ii) a late payment fee equal to two percent (2%) of the delinquent amount for each full or partial calendar month past the invoice due date that the delinquent amount remains unpaid."
+      ]
+    },
+    {
+      "clause_text": "Delinquent payments are subject to a late payment charge of one and one half percent (1.5%) per month commencing sixty (60) days from the invoice date.",
+      "risk_level": "high",
+      "confidence": 0.95,
+      "evidence": [
+        "Delinquent payments are subject to a late payment charge of one and one half percent (1.5%) per month commencing sixty (60) days from the invoice date."
+      ]
+    },
+    {
+      "clause_text": "Client agrees to reimburse Agent for any attorney's fees and any other costs associated with collecting delinquent payments.",
+      "risk_level": "medium",
+      "confidence": 0.85,
+      "evidence": [
+        "Client agrees to reimburse Agent for any attorney's fees and any other costs associated with collecting delinquent payments."
+      ]
+    },
+    {
+      "clause_text": "All fees due to Licensor under this Agreement shall be paid in U.S. Dollars. Fees due to Licensor from invoices rendered by Licensee during the first year of the term hereof will be payable one hundred and twenty (120) days after the date of the Licensee's invoice to a Redistributor or Customer, as the case may be. Fees due to Licensor from invoices rendered on or after the first day of the thirteenth (13th) month through and including the last day of the eighteenth (18th) month of the term hereof will be payable ninety (90) days after the date of such invoice. Fees due to Licensor from invoices rendered thereafter will be payable sixty (60) days after the date of such invoice.",
+      "risk_level": "medium",
+      "confidence": 0.9,
+      "evidence": [
+        "All fees due to Licensor under this Agreement shall be paid in U.S. Dollars. Fees due to Licensor from invoices rendered by Licensee during the first year of the term hereof will be payable one hundred and twenty (120) days after the date of the Licensee's invoice to a Redistributor or Customer, as the case may be. Fees due to Licensor from invoices rendered on or after the first day of the thirteenth (13th) month through and including the last day of the eighteenth (18th) month of the term hereof will be payable ninety (90) days after the date of such invoice. Fees due to Licensor from invoices rendered thereafter will be payable sixty (60) days after the date of such invoice."
+      ]
+    },
+    {
+      "clause_text": "Any amount that is not paid when due will bear simple interest from the date such amount is due until the date payment is made at a rate equal to 10% per annum.",
+      "risk_level": "medium",
+      "confidence": 0.8,
+      "evidence": [
+        "Any amount that is not paid when due will bear simple interest from the date such amount is due until the date payment is made at a rate equal to 10% per annum."
+      ]
+    }
+  ],
+  "risk_level": "high",
+  "confidence": 0.85,
+  "evidence": []
 }
