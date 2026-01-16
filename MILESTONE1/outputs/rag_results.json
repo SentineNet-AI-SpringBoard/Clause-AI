@@ -1,0 +1,30 @@
+{
+    "query": "What are the termination clauses in this contract?",
+    "results": [
+        {
+            "score": 0.760976791,
+            "text": ". clauses 5.6 (effect of termination), 6 (confidential information), 7 (proprietary rights), 9 (limitation of liability), 10 (indemnification) and 11 (general) shall survive the termination or expiration of this agreement.",
+            "source": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT_chunks"
+        },
+        {
+            "score": 0.748637259,
+            "text": "32.3. termination, howsoever or whenever occasioned shall be subject to any rights and remedies either party may have under this agreement or in law.\n\n 32.4. the following clauses shall survive termination for whatever cause of this agreement: clauses 4.2, 5, 10.2, 20.4, 23.2, 25-28, 30-34 inclusive.\n\n33. rights upon termination\n\n upon termination of this agreement and for a period of six (6) months thereafter, the publishers will have the following rights and obligations:",
+            "source": "HEALTHGATEDATACORP_11_24_1999-EX-10.1-HOSTING AND MANAGEMENT AGREEMENT (1)_chunks"
+        },
+        {
+            "score": 0.74013716,
+            "text": ". 1. terms a. this agreement shall remain in effect for the duration of the initial term, unless earlier terminated pursuant to the provision entitled \"termination of agreement\". after the initial term, this agreement shall continue on a month to month basis until terminated by either party upon thirty (30) days prior written notice to the other setting forth the effective date of such termination. the termination of any purchase order shall not affect the obligations of either party to the other party pursuant to any other purchase order or to this agreement. the termination of this agreement shall terminate the obligations of either party to the other party pursuant to any purchase order and those obligations pursuant to this agreement, except as to obligations that are identified herein or in a terminated purchase order as surviving termination. b",
+            "source": "FTENETWORKS,INC_02_18_2016-EX-99.4-STRATEGIC ALLIANCE AGREEMENT_chunks"
+        },
+        {
+            "score": 0.739027,
+            "text": "termination section 6.01 termination. this agreement may be terminated prior to the end of the offer period by acquiror if a condition for withdrawal of the offer has occurred. this agreement shall be automatically terminated if the offer has been withdrawn or the offer is not successful due to the failure of obtaining the minimum threshold. this agreement may not be terminated after the end of the offer period if the offer is successful. section 6.02 notice of termination. any party desiring to terminate this agreement pursuant to section 6.01 shall give written notice of such termination to the other party to this agreement. section 6.03 effect of termination. in the event of the termination of this agreement as provided in section 6.01, this agreement shall forthwith become void and there shall be no liability on the part of any party to this agreement or any financing party except as set forth in article v",
+            "source": "SUCAMPOPHARMACEUTICALS,INC_11_04_2015-EX-10.2-STRATEGIC ALLIANCE AGREEMENT_chunks"
+        },
+        {
+            "score": 0.738603592,
+            "text": "8.02 effect of termination. subject to section 4.03, upon termination or expiration of this agreement, other than with respect to any amounts then the subject of a good faith dispute, the company shall pay to contractor and contractor shall pay to the company all monies due in respect of the services provided.",
+            "source": "CCAINDUSTRIESINC_04_14_2014-EX-10.1-OUTSOURCING AGREEMENT_chunks"
+        }
+    ]
+}
