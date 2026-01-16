@@ -33,35 +33,6 @@ By the end of this milestone, the system is capable of:
 
 ---
 
-## 🏗️ Project Structure (Milestone 1)
-
-```
-CLAUSEAI/
-│
-├── dataset/
-│   ├── chunks/              # Contract chunks (JSON)
-│   └── embeddings/          # Embeddings (JSON)
-│
-├── Notebooks/
-│   ├── Milestone1_Planning_&_Setup.ipynb
-│   └── output/
-│       ├── rag_search_results/
-│       │   ├── rag_legal_*.json
-│       │   ├── rag_compliance_*.json
-│       │   ├── rag_finance_*.json
-│       │   └── rag_operations_*.json
-│       │
-│       ├── legal_agent_output.json
-│       ├── compliance_agent_output.json
-│       ├── finance_agent_output.json
-│       └── operations_agent_output.json
-│
-├── requirements.txt
-└── README.md
-```
-
----
-
 ## ⚙️ Milestone 1 Workflow
 
 ### **1. Contract Preprocessing**
