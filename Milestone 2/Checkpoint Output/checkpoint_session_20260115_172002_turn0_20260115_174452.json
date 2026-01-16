@@ -1,0 +1,87 @@
+{
+  "session_id": "session_20260115_172002",
+  "turn_number": 0,
+  "timestamp": "20260115_172002",
+  "query": "Analyze contract for termination clauses and payment terms",
+  "memory": [
+    {
+      "agent": "routing",
+      "timestamp": "2026-01-15T17:41:37.069309",
+      "turn": 0,
+      "routed_agents": [
+        "legal",
+        "finance"
+      ],
+      "reasoning": "Keyword-based fallback routing",
+      "summary": "Routing: Selected legal, finance"
+    },
+    {
+      "agent": "legal",
+      "timestamp": "2026-01-15T17:41:40.406162",
+      "turn": 0,
+      "clauses_retrieved": 2,
+      "avg_relevance": 0.4178414345,
+      "sample_clauses": [
+        "The other party shall give notice of termination in writing to the other party, which notice shall s",
+        "The other party asserts any rights in or to the terminating party's intellectual property in violati"
+      ],
+      "summary": "Legal: Retrieved 2 clauses (avg relevance: 0.418)"
+    },
+    {
+      "agent": "finance",
+      "timestamp": "2026-01-15T17:41:40.776630",
+      "turn": 0,
+      "clauses_retrieved": 3,
+      "avg_relevance": 0.2624114453333333,
+      "sample_clauses": [
+        "In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision ",
+        "), Recipient shall reimburse Provider for all such Out-of-Pocket Costs."
+      ],
+      "summary": "Finance: Retrieved 3 clauses (avg: 0.262)"
+    },
+    {
+      "agent": "aggregation",
+      "timestamp": "2026-01-15T17:41:40.778659",
+      "turn": 0,
+      "total_clauses": 5,
+      "top_score": 0.488929749,
+      "summary": "Aggregation: Consolidated 5 clauses"
+    },
+    {
+      "agent": "routing",
+      "timestamp": "2026-01-15T17:44:52.613981",
+      "turn": 0,
+      "routed_agents": [
+        "legal",
+        "finance"
+      ],
+      "reasoning": "The query requests analysis of 'termination clauses' which falls under legal domain and 'payment terms' which falls under finance domain.",
+      "summary": "Routing: Selected legal, finance"
+    },
+    {
+      "agent": "aggregation",
+      "timestamp": "2026-01-15T17:44:52.615610",
+      "turn": 0,
+      "total_clauses": 0,
+      "top_score": 0.488929749,
+      "summary": "Aggregation: Consolidated 0 clauses"
+    }
+  ],
+  "conversation_history": [],
+  "routed_agents": [
+    "legal",
+    "finance"
+  ],
+  "routing_reasoning": "The query requests analysis of 'termination clauses' which falls under legal domain and 'payment terms' which falls under finance domain.",
+  "execution_order": [
+    "routing",
+    "legal",
+    "finance",
+    "aggregation",
+    "routing",
+    "aggregation"
+  ],
+  "total_clauses_retrieved": 0,
+  "coordinator_model": "gemma2:9b",
+  "vector_store": "Pinecone"
+}
