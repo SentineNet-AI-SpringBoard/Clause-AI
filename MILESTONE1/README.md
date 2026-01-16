@@ -16,7 +16,7 @@ By the end of this milestone, the system is capable of:
 
 ---
 
-## 🎯 Milestone 1 Objectives
+## 🎯 Objectives
 
 ✔ Prepare and preprocess contract data
 ✔ Generate semantic embeddings
@@ -33,7 +33,7 @@ By the end of this milestone, the system is capable of:
 
 ---
 
-## ⚙️ Milestone 1 Workflow
+## ⚙️ Workflow
 
 ### **1. Contract Preprocessing**
 
@@ -73,7 +73,7 @@ This ensures full traceability of retrieval results.
 
 ---
 
-## 🤖 Multi-Agent System (Milestone 1)
+## 🤖 Multi-Agent System
 
 Each agent receives retrieved RAG context and performs domain-specific risk analysis.
 
