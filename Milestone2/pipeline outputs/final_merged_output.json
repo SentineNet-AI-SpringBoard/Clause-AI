@@ -1,0 +1,116 @@
+{
+  "legal": {
+    "clause_type": "Legal",
+    "extracted_clauses": [
+      "Either Party may terminate this Agreement prior to its expiration upon the occurrence of either of the following: (i) the other Party becomes insolvent, or institutes (or there is instituted against it) proceedings in bankruptcy, insolvency, reorganization or dissolution, makes an assignment for the benefit of creditors or becomes nationalized or has any of its material assets confiscated or expropriated; or (ii) the other Party (in this case, the \"breaching Party\") fails to perform any of its obligations hereunder and fails to correct such failure within Ninety (90) calendar days after receiving written demand therefore from the non-breaching Party, specifying the failure in sufficient detail for the breaching Party to correct such failure; provided, however, that upon a second breach of the same obligation by such Party, the other Party may forthwith terminate this Agreement upon notice to the breaching Party.",
+      "Each party shall have the right at any time to terminate this Agreement without prejudice to any rights which it may have, whether pursuant to the provisions of this Agreement or otherwise in law or in equity or otherwise, upon the occurrence of any one or more of the following events: i. The other party breaches or fails to perform any of its material obligations provided for in this Agreement; ii. The other party is unable to pay its debts when due, or makes any assignment for the benefit of creditors, or files any petition under the bankruptcy or insolvency laws of any jurisdiction, county or place, or has or suffers a receiver or trustee to be appointed for its business or property, or is adjudicated a bankrupt or an insolvent; or iii. The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement."
+    ],
+    "risk_level": "Medium",
+    "confidence": 0.95,
+    "evidence": [
+      "\"Either Party may terminate this Agreement prior to its expiration upon the occurrence of either of the following: (i) the other Party becomes insolvent, or institutes (or there is instituted against it) proceedings in bankruptcy, insolvency, reorganization or dissolution, makes an assignment for the benefit of creditors or becomes nationalized or has any of its material assets confiscated or expropriated; or (ii) the other Party (in this case, the \"breaching Party\") fails to perform any of its obligations hereunder and fails to correct such failure within Ninety (90) calendar days after receiving written demand therefore from the non-breaching Party, specifying the failure in sufficient detail for the breaching Party to correct such failure; provided, however, that upon a second breach of the same obligation by such Party, the other Party may forthwith terminate this Agreement upon notice to the breaching Party.\"",
+      "\"Each party shall have the right at any time to terminate this Agreement without prejudice to any rights which it may have, whether pursuant to the provisions of this Agreement or otherwise in law or in equity or otherwise, upon the occurrence of any one or more of the following events: i. The other party breaches or fails to perform any of its material obligations provided for in this Agreement; ii. The other party is unable to pay its debts when due, or makes any assignment for the benefit of creditors, or files any petition under the bankruptcy or insolvency laws of any jurisdiction, county or place, or has or suffers a receiver or trustee to be appointed for its business or property, or is adjudicated a bankrupt or an insolvent; or iii. The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement.\""
+    ]
+  },
+  "compliance": {
+    "clause_type": "Compliance",
+    "extracted_clauses": [
+      "It is contemplated that in the course of the performance of this Agreement each Party may, from time to time, disclose proprietary and confidential information to the other (\"Confidential Information\")",
+      "The parties agree to ensure that they will at all times comply with the provisions and obligations imposed by the Data Protection Act 1984, the EU Data Protection Directive 95/46 and any implementing legislation in the United Kingdom.",
+      "Both parties agree to indemnify each other in respect of any unauthorised disclosure of data by them.",
+      "You agree to abide by all applicable laws pertaining to the privacy of consumer, employee, and transactional information (\"Privacy Laws\")",
+      "You agree to comply with our standards and policies that we may issue (without any obligation to do so) pertaining to the privacy of consumer, employee, and transactional information. If there is a conflict between our standards and policies and Privacy Laws, you agree to: (a) comply with the requirements of Privacy Laws; (b) immediately give us written notice of such conflict; and (c) promptly and fully cooperate with us and our counsel in determining the most effective way, if any, to meet our standards and policies pertaining to privacy within the bounds of Privacy Laws.",
+      "You agree to not publish, disseminate, implement, revise, or rescind a data privacy policy without our prior written consent as to such policy."
+    ],
+    "risk_level": "high",
+    "confidence": 0.95,
+    "evidence": []
+  },
+  "finance": {
+    "clause_type": "Finance",
+    "extracted_clauses": [
+      {
+        "clause_text": "If Buyer fails to pay Seller an amount owed under this Agreement by the invoice due date, then Buyer will owe Seller: (i) the delinquent amount; and (ii) a late payment fee equal to two percent (2%) of the delinquent amount for each full or partial calendar month past the invoice due date that the delinquent amount remains unpaid.",
+        "risk_level": "high",
+        "confidence": 0.95,
+        "evidence": [
+          "Late Fees and Collection Costs. If Buyer fails to pay Seller an amount owed under this Agreement by the invoice due date, then Buyer will owe Seller: (i) the delinquent amount; and (ii) a late payment fee equal to two percent (2%) of the delinquent amount for each full or partial calendar month past the invoice due date that the delinquent amount remains unpaid."
+        ]
+      },
+      {
+        "clause_text": "Owner shall pay Service Provider within thirty (30) days after the invoice date. Fees are conditioned upon timely payment and any past due balance will accrue interest at the monthly rate of one and one half percent (1.5%).",
+        "risk_level": "medium",
+        "confidence": 0.9,
+        "evidence": [
+          "2.3 Terms of Payment. Owner shall pay Service Provider within thirty (30) days after the invoice date.",
+          "2.4 Taxes. Notwithstanding any provision in this Agreement to the contrary, amounts set forth in this Agreement are inclusive of sales, use, ad valorem, business or any other taxes duties, or other fees, assessments, or charges payable by Service Provider on the Services provided by Service Provider hereunder.",
+          "2.5 User has No Obligation to Pay. Owner and Service Provider each acknowledge that User shall have no obligation to pay any amounts whatsoever under this Agreement."
+        ]
+      },
+      {
+        "clause_text": "Allscripts shall invoice the Company for Legacy Customers (as defined on Exhibit H) quarterly fees in accordance with Exhibit F [***].",
+        "risk_level": "low",
+        "confidence": 0.8,
+        "evidence": [
+          "ARTICLE 3. TERM; TERMINATION (iii) Legacy Customer's Fee. Allscripts shall invoice the Company for Legacy Customers (as defined on Exhibit H) quarterly fees in accordance with Exhibit F [***]."
+        ]
+      },
+      {
+        "clause_text": "Each party will submit each invoice in electronic format, via such delivery means and to such address as are specified by Allscripts and the Company in writing from time to time. Each party will pay all properly invoiced fees within [***] after its receipt of a proper invoice therefor. All payments hereunder will be invoiced in U.S. Dollars. All payments hereunder will be made by wire transfer to the account specified by each Party; provided that a Party shall provide at least [***] advance notice of any changes to its account.",
+        "risk_level": "medium",
+        "confidence": 0.85,
+        "evidence": [
+          "17.3 Payment Terms (a) Each party will submit each invoice in electronic format, via such delivery means and to such address as are specified by Allscripts and the Company in writing from time to time.",
+          "17.3 Payment Terms (b) Subject to the terms and conditions of this Section 17.3, each party will pay all properly invoiced fees within [***] after its receipt of a proper invoice therefor.",
+          "17.3 Payment Terms (c) Payment of Fees. On the first Business Day of each month, or as soon thereafter as practicable, the Contractor shall provide the Company with a written invoice for the previous month's fees and expenses that are payable with respect to Notes issued up to the last day of such month.. Such fees and expenses will be due and payable by the later of the fifteenth (15 ) day of every month or fifteen (15) days after the date such invoice is received."
+        ]
+      }
+    ],
+    "risk_level": "high",
+    "confidence": 0.88,
+    "evidence": []
+  },
+  "operations": {
+    "clause_type": "Operations",
+    "extracted_clauses": [
+      {
+        "clause_text": "Service Provider shall perform the Services and its obligations under this Agreement in a manner that (a) insures the operation of the SEF within all required operational parameters and requirements, (b) preserves all warranties provided by manufacturers, suppliers, or Service Providers who provided materials or labor under the EPC Agreement relating to the SEF, subject to Force Majeure, (c) maintains the SEF, and (d) seeks to minimize the variable operating costs of and wear and tear on the SEF, including using commercially reasonable efforts to achieve industry standard levels of SEF availability.",
+        "risk_level": "medium",
+        "confidence": 0.95,
+        "evidence": [
+          "Service Provider shall perform the Services and its obligations under this Agreement in a manner that (a) insures the operation of the SEF within all required operational parameters and requirements"
+        ]
+      },
+      {
+        "clause_text": "C. Dependencies - Obligations, technology requirements.\nD. Deliverables - Identifiable work product resulting from the Task.\nE. Fee - Fixed price or time & materials rates and payment schedules.\nF. Special Terms - Terms applicable to this specific effort not addressed by this Agreement.",
+        "risk_level": "low",
+        "confidence": 0.98,
+        "evidence": [
+          "C. Dependencies - Obligations, technology requirements.",
+          "D. Deliverables - Identifiable work product resulting from the Task.",
+          "E. Fee - Fixed price or time & materials rates and payment schedules.",
+          "F. Special Terms - Terms applicable to this specific effort not addressed by this Agreement."
+        ]
+      },
+      {
+        "clause_text": "The Services may be replaced, amended, superseded, or supplemented from time to time by agreement between the Company and the Contractor.",
+        "risk_level": "low",
+        "confidence": 0.95,
+        "evidence": [
+          "The Services may be replaced, amended, superseded, or supplemented from time to time by agreement between the Company and the Contractor."
+        ]
+      }
+    ],
+    "risk_level": "medium",
+    "confidence": 0.85,
+    "evidence": []
+  },
+  "confidence_scores": {
+    "legal": 0.95,
+    "compliance": 0.95,
+    "finance": 0.88,
+    "operations": 0.85
+  },
+  "total_clauses": 15,
+  "overall_risk": "high"
+}

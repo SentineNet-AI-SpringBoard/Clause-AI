@@ -1,0 +1,22 @@
+{
+  "query": "Identify clauses related to:\n- Termination\n- Governing law\n- Jurisdiction\n- Indemnity\n- Legal obligations and liabilities",
+  "retrieved_chunks": 5,
+  "analysis": {
+    "clause_type": "Legal",
+    "extracted_clauses": [
+      "Either Party may terminate this Agreement prior to its expiration upon the occurrence of either of the following: (i) the other Party becomes insolvent, or institutes (or there is instituted against it) proceedings in bankruptcy, insolvency, reorganization or dissolution, makes an assignment for the benefit of creditors or becomes nationalized or has any of its material assets confiscated or expropriated; or (ii) the other Party (in this case, the \"breaching Party\") fails to perform any of its obligations hereunder and fails to correct such failure within Ninety (90) calendar days after receiving written demand therefore from the non-breaching Party, specifying the failure in sufficient detail for the breaching Party to correct such failure; provided, however, that upon a second breach of the same obligation by such Party, the other Party may forthwith terminate this Agreement upon notice to the breaching Party.",
+      "Each party shall have the right at any time to terminate this Agreement without prejudice to any rights which it may have, whether pursuant to the provisions of this Agreement or otherwise in law or in equity or otherwise, upon the occurrence of any one or more of the following events: i. The other party breaches or fails to perform any of its material obligations provided for in this Agreement; ii. The other party is unable to pay its debts when due, or makes any assignment for the benefit of creditors, or files any petition under the bankruptcy or insolvency laws of any jurisdiction, county or place, or has or suffers a receiver or trustee to be appointed for its business or property, or is adjudicated a bankrupt or an insolvent; or iii. The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement."
+    ],
+    "risk_level": "Medium",
+    "confidence": 0.95,
+    "evidence": [
+      "\"Either Party may terminate this Agreement prior to its expiration upon the occurrence of either of the following: (i) the other Party becomes insolvent, or institutes (or there is instituted against it) proceedings in bankruptcy, insolvency, reorganization or dissolution, makes an assignment for the benefit of creditors or becomes nationalized or has any of its material assets confiscated or expropriated; or (ii) the other Party (in this case, the \"breaching Party\") fails to perform any of its obligations hereunder and fails to correct such failure within Ninety (90) calendar days after receiving written demand therefore from the non-breaching Party, specifying the failure in sufficient detail for the breaching Party to correct such failure; provided, however, that upon a second breach of the same obligation by such Party, the other Party may forthwith terminate this Agreement upon notice to the breaching Party.\"",
+      "\"Each party shall have the right at any time to terminate this Agreement without prejudice to any rights which it may have, whether pursuant to the provisions of this Agreement or otherwise in law or in equity or otherwise, upon the occurrence of any one or more of the following events: i. The other party breaches or fails to perform any of its material obligations provided for in this Agreement; ii. The other party is unable to pay its debts when due, or makes any assignment for the benefit of creditors, or files any petition under the bankruptcy or insolvency laws of any jurisdiction, county or place, or has or suffers a receiver or trustee to be appointed for its business or property, or is adjudicated a bankrupt or an insolvent; or iii. The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement.\""
+    ]
+  },
+  "summary": {
+    "risk_level": "Medium",
+    "confidence": 0.95,
+    "num_clauses": 2
+  }
+}

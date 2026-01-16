@@ -1,0 +1,44 @@
+{
+  "query": "Identify clauses related to:\n- Operational deliverables\n- Timelines and milestones\n- Service obligations\n- Performance standards (SLAs)",
+  "retrieved_chunks": 5,
+  "analysis": {
+    "clause_type": "Operations",
+    "extracted_clauses": [
+      {
+        "clause_text": "Service Provider shall perform the Services and its obligations under this Agreement in a manner that (a) insures the operation of the SEF within all required operational parameters and requirements, (b) preserves all warranties provided by manufacturers, suppliers, or Service Providers who provided materials or labor under the EPC Agreement relating to the SEF, subject to Force Majeure, (c) maintains the SEF, and (d) seeks to minimize the variable operating costs of and wear and tear on the SEF, including using commercially reasonable efforts to achieve industry standard levels of SEF availability.",
+        "risk_level": "medium",
+        "confidence": 0.95,
+        "evidence": [
+          "Service Provider shall perform the Services and its obligations under this Agreement in a manner that (a) insures the operation of the SEF within all required operational parameters and requirements"
+        ]
+      },
+      {
+        "clause_text": "C. Dependencies - Obligations, technology requirements.\nD. Deliverables - Identifiable work product resulting from the Task.\nE. Fee - Fixed price or time & materials rates and payment schedules.\nF. Special Terms - Terms applicable to this specific effort not addressed by this Agreement.",
+        "risk_level": "low",
+        "confidence": 0.98,
+        "evidence": [
+          "C. Dependencies - Obligations, technology requirements.",
+          "D. Deliverables - Identifiable work product resulting from the Task.",
+          "E. Fee - Fixed price or time & materials rates and payment schedules.",
+          "F. Special Terms - Terms applicable to this specific effort not addressed by this Agreement."
+        ]
+      },
+      {
+        "clause_text": "The Services may be replaced, amended, superseded, or supplemented from time to time by agreement between the Company and the Contractor.",
+        "risk_level": "low",
+        "confidence": 0.95,
+        "evidence": [
+          "The Services may be replaced, amended, superseded, or supplemented from time to time by agreement between the Company and the Contractor."
+        ]
+      }
+    ],
+    "risk_level": "medium",
+    "confidence": 0.85,
+    "evidence": []
+  },
+  "summary": {
+    "risk_level": "medium",
+    "confidence": 0.85,
+    "num_clauses": 3
+  }
+}
