@@ -1,26 +1,39 @@
-# Clause-AI
+#  CLAUSEAI
 
-# 📑 CLAUSEAI — Multi-Agent Contract Risk Analysis using RAG
+### AI Tool to Read and Analyze Legal Contracts Automatically
+
+---
 
 ## 📌 Project Overview
 
-CLAUSEAI is an AI-powered contract analysis system that uses **Retrieval-Augmented Generation (RAG)** and **multi-agent LLM architecture** to automatically extract, analyze, and assess risks from legal contracts.
+ClauseAI is an AI-powered system designed to **automate legal contract analysis**, improving efficiency and precision while generating customized, actionable reports.
+It leverages a **Retrieval-Augmented Generation (RAG)** pipeline combined with a **multi-agent architecture**, where each AI agent specializes in a distinct contract domain such as **Legal, Compliance, Finance, and Operations**.
 
-The system processes raw contract documents, creates semantic embeddings, stores them in a Pinecone vector database, retrieves relevant contract clauses using RAG, and passes them to specialized AI agents to detect risks in different domains.
+This project implements an end-to-end pipeline to:
+
+* Read contract documents
+* Retrieve relevant clauses using semantic search
+* Analyze risks using specialized AI agents
+* Produce structured, traceable risk reports
+
+The overall objective and workflow follow the design described in the project document:
+“ClauseAI is an AI-powered system designed to automate the process of contract analysis, leveraging a multi-agent framework where each AI agent specializes in a distinct domain such as compliance, finance, and operations to deliver comprehensive insights.” 
 
 ---
 
 ## 🎯 Project Objectives
 
-* Extract relevant contract clauses using semantic search (RAG)
-* Build domain-specific AI agents for:
+* Automate extraction of key contract clauses
+* Perform semantic search using Pinecone vector database
+* Implement RAG-based retrieval for relevant context
+* Build domain-specific AI agents:
 
-  * Legal Risk Analysis
-  * Compliance Risk Analysis
-  * Finance Risk Analysis
-  * Operations Risk Analysis
-* Assess risk levels (Low / Medium / High)
-* Store traceable outputs for reproducibility
+  * Legal Risk Agent
+  * Compliance Risk Agent
+  * Finance Risk Agent
+  * Operations Risk Agent
+* Assess contract risk levels (Low / Medium / High)
+* Generate traceable and reproducible JSON reports
 
 ---
 
@@ -29,14 +42,9 @@ The system processes raw contract documents, creates semantic embeddings, stores
 ```
 CLAUSEAI/
 │
-├── Data/
-│   ├── Raw/
-│   │   ├── full_contract_txt/
-│   │   ├── CUAD_v1.json
-│   │   └── master_clauses.csv
-│   └── dataset/
-│       ├── chunks/
-│       └── embeddings/
+├── dataset/
+│   ├── chunks/              # Contract chunks (JSON)
+│   └── embeddings/          # Embeddings (JSON)
 │
 ├── Notebooks/
 │   ├── Milestone1_Planning_&_Setup.ipynb
@@ -51,136 +59,49 @@ CLAUSEAI/
 │       ├── legal_agent_output.json
 │       ├── compliance_agent_output.json
 │       ├── finance_agent_output.json
-│       ├── operations_agent_output.json
+│       └── operations_agent_output.json
 │
-├── Apps/
-├── Artifacts/
+├── Data/
+│   └── Raw/
+│       ├── full_contract_txt/
+│       ├── CUAD_v1.json
+│       └── master_clauses.csv
+│
 ├── requirements.txt
 └── README.md
 ```
+### How It Works
+1. [cite_start]**Classify**: Identifies the contract type[cite: 24].
+2. [cite_start]**Retrieve**: Extracts relevant clauses via Pinecone[cite: 25, 44].
+3. [cite_start]**Plan**: Coordinator agent assigns tasks to specialized domains[cite: 8].
+4. [cite_start]**Execute**: Parallel processing executes multiple analyses concurrently[cite: 18].
+5. [cite_start]**Report**: Synthesizes outputs into a professional summary[cite: 14].
 
 ---
 
-## ⚙️ Pipeline Workflow
+## 📂 Project Structure
+```text
+Clause-AI/
+├── milestone1/        # Project Planning, Setup & EDA
+├── milestone2/        # Agent Coordination & Classification
+├── milestone3/        # Parallel Processing & Risk Analysis
+├── .env.example       # Template for environment variables
+├── requirements.txt   # Python dependencies
+└── README.md          # Main documentation
 
-### **1. Data Preparation**
+## 🧰 Technology Stack
 
-* Raw contract texts loaded from CUAD dataset
-* Contracts cleaned and split into semantic chunks
-* Metadata such as contract_id, chunk_index, word_count stored
+**Programming Language:** Python 3.x
 
-### **2. Embedding Generation**
+**Libraries & Frameworks:**
 
-* SentenceTransformer model: `all-MiniLM-L6-v2`
-* Embeddings generated for each chunk
-* Stored as JSON files in `dataset/embeddings/`
-
-### **3. Pinecone Vector Database**
-
-* Pinecone index created (`cuad-index`)
-* Embeddings + metadata upserted
-* Enables semantic similarity search
-
-### **4. RAG Search Wrapper**
-
-* User queries converted to embeddings
-* Pinecone retrieves top-k relevant chunks
-* Results saved as traceable JSON files in:
-
-  ```
-  Notebooks/output/rag_search_results/
-  ```
-
----
-
-## 🤖 Multi-Agent Architecture
-
-Each agent receives RAG-retrieved context and performs specialized analysis.
-
-### 🧑‍⚖️ Legal Agent
-
-* Identifies legal clauses (Termination, Jurisdiction, Governing Law)
-* Extracts clause text
-* Assesses legal risk
-
-Output:
-
-```
-Notebooks/output/legal_agent_output.json
-```
-
----
-
-### 🛡️ Compliance Agent
-
-* Detects regulatory & policy risks
-* Focus on GDPR, SOC2, ISO27001, HIPAA
-* Extracts compliance obligations
-* Assesses compliance risk
-
-Output:
-
-```
-Notebooks/output/compliance_agent_output.json
-```
-
----
-
-### 💰 Finance Agent
-
-* Identifies payment terms, penalties, late fees
-* Detects financial liabilities and indemnifications
-* Assesses financial risk
-
-Output:
-
-```
-Notebooks/output/finance_agent_output.json
-```
-
----
-
-### ⚙️ Operations Agent
-
-* Extracts deliverables, timelines, milestones
-* Identifies SLAs and performance standards
-* Assesses execution risk
-
-Output:
-
-```
-Notebooks/output/operations_agent_output.json
-```
-
----
-
-## 📊 Risk Levels
-
-| Risk Level | Description                                                         |
-| ---------- | ------------------------------------------------------------------- |
-| LOW        | Standard terms, clear obligations, reasonable conditions            |
-| MEDIUM     | Some ambiguity, moderate penalties, partial compliance              |
-| HIGH       | Harsh penalties, unclear obligations, missing regulatory safeguards |
-
----
-
-## 💾 Traceability
-
-All RAG search queries are saved as JSON files to ensure:
-
-* Full traceability of retrieved clauses
-* Reproducibility of agent decisions
-* Debugging and auditability
-
----
-
-## 🧰 Tech Stack
-
-* Python
 * SentenceTransformers (`all-MiniLM-L6-v2`)
 * Pinecone Vector Database
-* OpenAI / LLM-based BaseAgent Framework
-* JSON-based traceable artifacts
+* RAG Retrieval Pipeline
+* Multi-Agent LLM Framework
+* JSON-based artifacts
+
+The project technology stack is aligned with the system design described in the project document. 
 
 ---
 
@@ -192,19 +113,19 @@ All RAG search queries are saved as JSON files to ensure:
 pip install -r requirements.txt
 ```
 
-2. Run Milestone 1 Notebook:
+2. Run Milestone 1 notebook:
 
 ```
 Notebooks/Milestone1_Planning_&_Setup.ipynb
 ```
 
-3. Run Milestone 2 Notebook:
+3. Run Milestone 2 notebook:
 
 ```
 Notebooks/Milestone2.ipynb
 ```
 
-4. Outputs will be saved in:
+4. Outputs generated at:
 
 ```
 Notebooks/output/
@@ -212,39 +133,4 @@ Notebooks/output/
 
 ---
 
-## 📌 Key Highlights
-
-* End-to-End RAG pipeline for contract analysis
-* Multi-agent specialization for domain risks
-* Traceable and reproducible outputs
-* Scalable architecture for future extensions
-
----
-
-## 👩‍🎓 Student Project
-
-This project was developed as part of an AI-based Legal Contract Analysis system using RAG and multi-agent LLM architecture.
-
----
-
-## ✅ Final Outputs
-
-```
-Notebooks/output/
-├── legal_agent_output.json
-├── compliance_agent_output.json
-├── finance_agent_output.json
-└── operations_agent_output.json
-```
-
-Each file contains:
-
-* Extracted clauses
-* Risk level
-* Confidence score
-* Supporting evidence
-
----
-
-
-
+ClauseAI delivers an **end-to-end AI-based contract analysis system** using RAG and multi-agent architecture, enabling automated legal, compliance, finance, and operational risk detection from complex contracts.
