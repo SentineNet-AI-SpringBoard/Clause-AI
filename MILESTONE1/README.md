@@ -2,7 +2,7 @@
 
 ---
 
-## 📌 Milestone 1 Overview
+##  Milestone 1 Overview
 
 Milestone 1 focuses on building the **core Retrieval-Augmented Generation (RAG) pipeline** and **domain-specific AI agents** for automated contract risk analysis.
 
@@ -16,7 +16,7 @@ By the end of this milestone, the system is capable of:
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 ✔ Prepare and preprocess contract data
 ✔ Generate semantic embeddings
@@ -33,7 +33,7 @@ By the end of this milestone, the system is capable of:
 
 ---
 
-## ⚙️ Workflow
+## Workflow
 
 ### **1. Contract Preprocessing**
 
@@ -73,13 +73,13 @@ This ensures full traceability of retrieval results.
 
 ---
 
-## 🤖 Multi-Agent System
+## Multi-Agent System
 
 Each agent receives retrieved RAG context and performs domain-specific risk analysis.
 
 ---
 
-### 🧑‍⚖️ Legal Agent
+### Legal Agent
 
 **Purpose:**
 Extracts legal clauses such as termination, governing law, jurisdiction, indemnification.
@@ -92,7 +92,7 @@ Notebooks/output/legal_agent_output.json
 
 ---
 
-### 🛡️ Compliance Agent
+### Compliance Agent
 
 **Purpose:**
 Detects regulatory and policy risks focusing on:
@@ -110,7 +110,7 @@ Notebooks/output/compliance_agent_output.json
 
 ---
 
-### 💰 Finance Agent
+### Finance Agent
 
 **Purpose:**
 Analyzes financial obligations including:
@@ -128,7 +128,7 @@ Notebooks/output/finance_agent_output.json
 
 ---
 
-### ⚙️ Operations Agent
+### Operations Agent
 
 **Purpose:**
 Extracts operational obligations such as:
@@ -146,7 +146,7 @@ Notebooks/output/operations_agent_output.json
 
 ---
 
-## 📊 Risk Classification
+## Risk Classification
 
 | Risk Level | Meaning                                    |
 | ---------- | ------------------------------------------ |
@@ -156,7 +156,7 @@ Notebooks/output/operations_agent_output.json
 
 ---
 
-## 💾 Traceability
+## Traceability
 
 Every RAG query result is stored as JSON.
 This ensures:
@@ -167,7 +167,7 @@ This ensures:
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 * Python
 * SentenceTransformers (`all-MiniLM-L6-v2`)
@@ -178,7 +178,7 @@ This ensures:
 
 ---
 
-## 🚀 How to Run Milestone 1
+## How to Run Milestone 1
 
 1. Install dependencies:
 
@@ -200,7 +200,7 @@ Notebooks/output/
 
 ---
 
-## ✅ Milestone 1 Completion Summary
+## Milestone 1 Completion Summary
 
 ✔ Contract chunking and preprocessing
 ✔ Embedding generation
@@ -213,7 +213,7 @@ Notebooks/output/
 
 ---
 
-## 📌 Next Milestone
+## Next Milestone
 
 **Milestone 2** will extend the system with:
 
@@ -224,6 +224,6 @@ Notebooks/output/
 
 ---
 
-## 🎉 Milestone 1 Successfully Completed
+## Milestone 1 Successfully Completed
 
 End-to-end RAG + Multi-Agent Contract Analysis pipeline implemented.
