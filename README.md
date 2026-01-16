@@ -1,3 +1,12 @@
+# AI Tool to Read and Analyze Legal Contracts Automatically
+
+## Milestone 1 – RAG Pipeline Setup & Initial Testing
+[View Milestone 1](Milestone1/Readme.md)
+
+## Milestone 2 – Multi-Agent Orchestration & Planning Module
+[View Milestone 2](Milestone%202/Readme.md)
+
+
 **Milestone 1 – RAG Pipeline Setup & Initial Testing**
 **Objective**
 
