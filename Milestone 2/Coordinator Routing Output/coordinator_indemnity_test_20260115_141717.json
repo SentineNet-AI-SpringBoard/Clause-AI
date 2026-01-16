@@ -1,0 +1,229 @@
+{
+  "task": "Test Coordinator with 'Indemnity' Keyword",
+  "coordinator_model": "gemma2:9b",
+  "approach": "Dynamic LLM-based routing with Pinecone retrieval",
+  "decision": "Indemnity queries should route to Legal Agent",
+  "reasoning": "Indemnity is a legal protection concept related to liability and indemnification",
+  "test_timestamp": "20260115_141717",
+  "test_queries": [
+    "What are the indemnity provisions?",
+    "Show indemnity and liability clauses",
+    "Indemnification and indemnity obligations",
+    "Does the contract include indemnity protections?",
+    "Indemnity caps and financial liability limits",
+    "Payment terms with indemnity requirements"
+  ],
+  "results": [
+    {
+      "query": "What are the indemnity provisions?",
+      "routing": {
+        "agents": [
+          "legal"
+        ],
+        "reasoning": "The query specifically asks about 'indemnity provisions', which fall under the domain of contract law and are handled by the LEGAL agent.",
+        "approach": "dynamic_llm_coordinator",
+        "model": "gemma2:9b",
+        "scores": {
+          "legal": 1
+        }
+      },
+      "agent_results": {
+        "legal": {
+          "clauses_count": 2,
+          "clauses": [
+            "The other party shall give notice of termination in writing to the other party, which notice shall specify in reasonable detail the event(s) of default that give rise to such termination.",
+            "The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement."
+          ],
+          "scores": [
+            0.411738396,
+            0.385311127
+          ]
+        }
+      },
+      "legal_selected": true,
+      "legal_primary": true,
+      "total_clauses": 2
+    },
+    {
+      "query": "Show indemnity and liability clauses",
+      "routing": {
+        "agents": [
+          "legal"
+        ],
+        "reasoning": "The query specifically requests 'indemnity and liability clauses', which fall under the domain of contract law handled by the LEGAL agent.",
+        "approach": "dynamic_llm_coordinator",
+        "model": "gemma2:9b",
+        "scores": {
+          "legal": 1
+        }
+      },
+      "agent_results": {
+        "legal": {
+          "clauses_count": 2,
+          "clauses": [
+            "The other party shall give notice of termination in writing to the other party, which notice shall specify in reasonable detail the event(s) of default that give rise to such termination.",
+            "The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement."
+          ],
+          "scores": [
+            0.319609672,
+            0.306523353
+          ]
+        }
+      },
+      "legal_selected": true,
+      "legal_primary": true,
+      "total_clauses": 2
+    },
+    {
+      "query": "Indemnification and indemnity obligations",
+      "routing": {
+        "agents": [
+          "legal"
+        ],
+        "reasoning": "Indemnification and indemnity obligations are legal concepts related to liability and contractual protections.",
+        "approach": "dynamic_llm_coordinator",
+        "model": "gemma2:9b",
+        "scores": {
+          "legal": 1
+        }
+      },
+      "agent_results": {
+        "legal": {
+          "clauses_count": 2,
+          "clauses": [
+            "The other party shall give notice of termination in writing to the other party, which notice shall specify in reasonable detail the event(s) of default that give rise to such termination.",
+            "The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement."
+          ],
+          "scores": [
+            0.397559166,
+            0.348427773
+          ]
+        }
+      },
+      "legal_selected": true,
+      "legal_primary": true,
+      "total_clauses": 2
+    },
+    {
+      "query": "Does the contract include indemnity protections?",
+      "routing": {
+        "agents": [
+          "legal"
+        ],
+        "reasoning": "The query specifically asks about indemnity protections, which fall under the domain of contract law and legal rights.",
+        "approach": "dynamic_llm_coordinator",
+        "model": "gemma2:9b",
+        "scores": {
+          "legal": 1
+        }
+      },
+      "agent_results": {
+        "legal": {
+          "clauses_count": 2,
+          "clauses": [
+            "The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement.",
+            "The other party shall give notice of termination in writing to the other party, which notice shall specify in reasonable detail the event(s) of default that give rise to such termination."
+          ],
+          "scores": [
+            0.467674285,
+            0.355257064
+          ]
+        }
+      },
+      "legal_selected": true,
+      "legal_primary": true,
+      "total_clauses": 2
+    },
+    {
+      "query": "Indemnity caps and financial liability limits",
+      "routing": {
+        "agents": [
+          "legal",
+          "finance"
+        ],
+        "reasoning": "Indemnity caps and financial liability limits fall under both legal (contractual obligations) and financial (monetary limitations) domains.",
+        "approach": "dynamic_llm_coordinator",
+        "model": "gemma2:9b",
+        "scores": {
+          "legal": 1,
+          "finance": 1
+        }
+      },
+      "agent_results": {
+        "legal": {
+          "clauses_count": 0,
+          "clauses": [],
+          "scores": []
+        },
+        "finance": {
+          "clauses_count": 2,
+          "clauses": [
+            "In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, ",
+            "), Recipient shall reimburse Provider for all such Out-of-Pocket Costs."
+          ],
+          "scores": [
+            0.384741783,
+            0.321653396
+          ]
+        }
+      },
+      "legal_selected": true,
+      "legal_primary": true,
+      "total_clauses": 2
+    },
+    {
+      "query": "Payment terms with indemnity requirements",
+      "routing": {
+        "agents": [
+          "finance",
+          "legal"
+        ],
+        "reasoning": "The query mentions 'payment terms' which falls under the domain of FINANCE. Additionally, 'indemnity requirements' are legal obligations and fall under LEGAL.",
+        "approach": "dynamic_llm_coordinator",
+        "model": "gemma2:9b",
+        "scores": {
+          "finance": 1,
+          "legal": 1
+        }
+      },
+      "agent_results": {
+        "finance": {
+          "clauses_count": 3,
+          "clauses": [
+            "In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, ",
+            "), Recipient shall reimburse Provider for all such Out-of-Pocket Costs.",
+            "Provider shall provide Recipient with monthly invo"
+          ],
+          "scores": [
+            0.4635849,
+            0.443634063,
+            0.392348289
+          ]
+        },
+        "legal": {
+          "clauses_count": 0,
+          "clauses": [],
+          "scores": []
+        }
+      },
+      "legal_selected": true,
+      "legal_primary": false,
+      "total_clauses": 3
+    }
+  ],
+  "metrics": {
+    "total_queries": 6,
+    "legal_as_primary": 5,
+    "legal_as_primary_rate": "83.3%",
+    "legal_selected": 6,
+    "legal_selected_rate": "100.0%",
+    "total_clauses_retrieved": 13,
+    "avg_clauses_per_query": 2.17,
+    "queries_with_results": 6,
+    "retrieval_success_rate": "100.0%"
+  },
+  "routing_approaches": {
+    "dynamic_llm_coordinator": 6
+  },
+  "note": "Dynamic LLM coordinator automatically understands 'indemnity' without explicit rules"
+}

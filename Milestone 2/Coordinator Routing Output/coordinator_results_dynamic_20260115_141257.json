@@ -1,0 +1,309 @@
+{
+  "metadata": {
+    "coordinator_name": "Dynamic LLM Coordinator",
+    "coordinator_model": "gemma2:9b",
+    "coordinator_approach": "Dynamic LLM routing with Pinecone retrieval",
+    "execution_timestamp": "20260115_141257",
+    "description": "Uses Gemma-2-9b-it for intelligent query routing and Pinecone for vector-based clause retrieval",
+    "total_queries_processed": 5,
+    "successful_queries": 5,
+    "failed_queries": 0,
+    "total_agents_routed": 8,
+    "total_clauses_retrieved": 7,
+    "avg_agents_per_query": 1.6,
+    "avg_clauses_per_query": 1.4,
+    "routing_approaches": {
+      "dynamic_llm_coordinator": 5
+    },
+    "vector_store": {
+      "type": "Pinecone",
+      "index_name": "contract-agents",
+      "total_vectors": 8,
+      "dimension": 384
+    },
+    "processing_details": {
+      "data_source": "Pinecone Vector Store",
+      "routing_method": "LLM-based dynamic coordination",
+      "retrieval_method": "Vector similarity search",
+      "model_provider": "Ollama (local)",
+      "response_time": "Dynamic (LLM + vector search)"
+    }
+  },
+  "queries": [
+    {
+      "query": "What are the termination clauses and governing law provisions?",
+      "coordinator_model": "gemma2:9b",
+      "approach": "dynamic_llm_with_pinecone",
+      "routing": {
+        "agents": [
+          "legal"
+        ],
+        "reasoning": "The query specifically asks about termination clauses and governing law provisions, which fall under the domain of contract law handled by the LEGAL agent.",
+        "approach": "dynamic_llm_coordinator",
+        "model": "gemma2:9b",
+        "scores": {
+          "legal": 1
+        },
+        "retrieved_data": {
+          "legal": {
+            "clauses": [
+              "The other party shall give notice of termination in writing to the other party, which notice shall specify in reasonable detail the event(s) of default that give rise to such termination.",
+              "The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement."
+            ],
+            "scores": [
+              0.63147831,
+              0.447977066
+            ],
+            "count": 2
+          }
+        }
+      },
+      "agent_results": {
+        "legal": {
+          "agent_name": "legal",
+          "source": "pinecone_vector_store",
+          "clauses_retrieved": 2,
+          "clauses": [
+            "The other party shall give notice of termination in writing to the other party, which notice shall specify in reasonable detail the event(s) of default that give rise to such termination.",
+            "The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement."
+          ],
+          "relevance_scores": [
+            0.63147831,
+            0.447977066
+          ]
+        }
+      },
+      "summary": {
+        "total_agents_routed": 1,
+        "total_clauses_retrieved": 2,
+        "routing_approach": "dynamic_llm_coordinator"
+      }
+    },
+    {
+      "query": "What are the data protection and privacy obligations?",
+      "coordinator_model": "gemma2:9b",
+      "approach": "dynamic_llm_with_pinecone",
+      "routing": {
+        "agents": [
+          "compliance"
+        ],
+        "reasoning": "The query specifically asks about data protection and privacy obligations, which fall under the domain of compliance.",
+        "approach": "dynamic_llm_coordinator",
+        "model": "gemma2:9b",
+        "scores": {
+          "compliance": 1
+        },
+        "retrieved_data": {
+          "compliance": {
+            "clauses": [
+              "The receiving party will not disclose the other party's confidential information to any third parties without the other party's prior written consent."
+            ],
+            "scores": [
+              0.395079613
+            ],
+            "count": 1
+          }
+        }
+      },
+      "agent_results": {
+        "compliance": {
+          "agent_name": "compliance",
+          "source": "pinecone_vector_store",
+          "clauses_retrieved": 1,
+          "clauses": [
+            "The receiving party will not disclose the other party's confidential information to any third parties without the other party's prior written consent."
+          ],
+          "relevance_scores": [
+            0.395079613
+          ]
+        }
+      },
+      "summary": {
+        "total_agents_routed": 1,
+        "total_clauses_retrieved": 1,
+        "routing_approach": "dynamic_llm_coordinator"
+      }
+    },
+    {
+      "query": "Payment terms, fees, and late payment penalties",
+      "coordinator_model": "gemma2:9b",
+      "approach": "dynamic_llm_with_pinecone",
+      "routing": {
+        "agents": [
+          "finance"
+        ],
+        "reasoning": "The query explicitly mentions payment terms, fees, and late payment penalties, which fall under the domain of financial considerations.",
+        "approach": "dynamic_llm_coordinator",
+        "model": "gemma2:9b",
+        "scores": {
+          "finance": 1
+        },
+        "retrieved_data": {
+          "finance": {
+            "clauses": [
+              "In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, ",
+              "), Recipient shall reimburse Provider for all such Out-of-Pocket Costs."
+            ],
+            "scores": [
+              0.48751834,
+              0.380993903
+            ],
+            "count": 2
+          }
+        }
+      },
+      "agent_results": {
+        "finance": {
+          "agent_name": "finance",
+          "source": "pinecone_vector_store",
+          "clauses_retrieved": 2,
+          "clauses": [
+            "In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, ",
+            "), Recipient shall reimburse Provider for all such Out-of-Pocket Costs."
+          ],
+          "relevance_scores": [
+            0.48751834,
+            0.380993903
+          ]
+        }
+      },
+      "summary": {
+        "total_agents_routed": 1,
+        "total_clauses_retrieved": 2,
+        "routing_approach": "dynamic_llm_coordinator"
+      }
+    },
+    {
+      "query": "Deliverable timelines and milestone requirements",
+      "coordinator_model": "gemma2:9b",
+      "approach": "dynamic_llm_with_pinecone",
+      "routing": {
+        "agents": [
+          "operations"
+        ],
+        "reasoning": "The query explicitly mentions 'deliverable timelines and milestone requirements', which fall under the domain of project management and operational aspects handled by the OPERATIONS agent.",
+        "approach": "dynamic_llm_coordinator",
+        "model": "gemma2:9b",
+        "scores": {
+          "operations": 1
+        },
+        "retrieved_data": {
+          "operations": {
+            "clauses": [
+              "Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates for final distribution of the Products"
+            ],
+            "scores": [
+              0.362075835
+            ],
+            "count": 1
+          }
+        }
+      },
+      "agent_results": {
+        "operations": {
+          "agent_name": "operations",
+          "source": "pinecone_vector_store",
+          "clauses_retrieved": 1,
+          "clauses": [
+            "Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates for final distribution of the Products"
+          ],
+          "relevance_scores": [
+            0.362075835
+          ]
+        }
+      },
+      "summary": {
+        "total_agents_routed": 1,
+        "total_clauses_retrieved": 1,
+        "routing_approach": "dynamic_llm_coordinator"
+      }
+    },
+    {
+      "query": "Complete contract analysis covering legal, compliance, finance, and operations",
+      "coordinator_model": "gemma2:9b",
+      "approach": "dynamic_llm_with_pinecone",
+      "routing": {
+        "agents": [
+          "legal",
+          "compliance",
+          "finance",
+          "operations"
+        ],
+        "reasoning": "The user explicitly requests analysis covering legal, compliance, finance, and operations aspects of the contract.",
+        "approach": "dynamic_llm_coordinator",
+        "model": "gemma2:9b",
+        "scores": {
+          "legal": 1,
+          "compliance": 1,
+          "finance": 1,
+          "operations": 1
+        },
+        "retrieved_data": {
+          "legal": {
+            "clauses": [],
+            "scores": [],
+            "count": 0
+          },
+          "compliance": {
+            "clauses": [],
+            "scores": [],
+            "count": 0
+          },
+          "finance": {
+            "clauses": [
+              "In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, "
+            ],
+            "scores": [
+              0.336586
+            ],
+            "count": 1
+          },
+          "operations": {
+            "clauses": [],
+            "scores": [],
+            "count": 0
+          }
+        }
+      },
+      "agent_results": {
+        "legal": {
+          "agent_name": "legal",
+          "source": "pinecone_vector_store",
+          "clauses_retrieved": 0,
+          "clauses": [],
+          "relevance_scores": []
+        },
+        "compliance": {
+          "agent_name": "compliance",
+          "source": "pinecone_vector_store",
+          "clauses_retrieved": 0,
+          "clauses": [],
+          "relevance_scores": []
+        },
+        "finance": {
+          "agent_name": "finance",
+          "source": "pinecone_vector_store",
+          "clauses_retrieved": 1,
+          "clauses": [
+            "In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, "
+          ],
+          "relevance_scores": [
+            0.336586
+          ]
+        },
+        "operations": {
+          "agent_name": "operations",
+          "source": "pinecone_vector_store",
+          "clauses_retrieved": 0,
+          "clauses": [],
+          "relevance_scores": []
+        }
+      },
+      "summary": {
+        "total_agents_routed": 4,
+        "total_clauses_retrieved": 1,
+        "routing_approach": "dynamic_llm_coordinator"
+      }
+    }
+  ]
+}
