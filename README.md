@@ -72,7 +72,6 @@ CLAUSEAI/
 ```
 ---
 
-## 📂 Project Structure
 ```text
 Clause-AI/
 ├── milestone1/        # Project Planning, Setup & EDA
