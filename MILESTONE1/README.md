@@ -2,7 +2,7 @@
 
 ---
 
-##  Milestone 1 Overview
+## Overview
 
 Milestone 1 focuses on building the **core Retrieval-Augmented Generation (RAG) pipeline** and **domain-specific AI agents** for automated contract risk analysis.
 
