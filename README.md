@@ -1,4 +1,4 @@
-# ClauseAI – Intelligent Multi-Agent Contract Analysis Platform
+# ClauseAI – Multi-Agent Contract Analysis System
 
 ## Overview
 
