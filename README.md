@@ -70,13 +70,6 @@ CLAUSEAI/
 ├── requirements.txt
 └── README.md
 ```
-### How It Works
-1. [cite_start]**Classify**: Identifies the contract type[cite: 24].
-2. [cite_start]**Retrieve**: Extracts relevant clauses via Pinecone[cite: 25, 44].
-3. [cite_start]**Plan**: Coordinator agent assigns tasks to specialized domains[cite: 8].
-4. [cite_start]**Execute**: Parallel processing executes multiple analyses concurrently[cite: 18].
-5. [cite_start]**Report**: Synthesizes outputs into a professional summary[cite: 14].
-
 ---
 
 ## 📂 Project Structure
@@ -88,6 +81,8 @@ Clause-AI/
 ├── .env.example       # Template for environment variables
 ├── requirements.txt   # Python dependencies
 └── README.md          # Main documentation
+```
+---
 
 ## 🧰 Technology Stack
 
