@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 ClauseAI is an AI-powered system designed to **automate legal contract analysis**, improving efficiency and precision while generating customized, actionable reports.
 It leverages a **Retrieval-Augmented Generation (RAG)** pipeline combined with a **multi-agent architecture**, where each AI agent specializes in a distinct contract domain such as **Legal, Compliance, Finance, and Operations**.
@@ -21,7 +21,7 @@ The overall objective and workflow follow the design described in the project do
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 * Automate extraction of key contract clauses
 * Perform semantic search using Pinecone vector database
@@ -37,7 +37,7 @@ The overall objective and workflow follow the design described in the project do
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 CLAUSEAI/
@@ -83,7 +83,7 @@ Clause-AI/
 ```
 ---
 
-## 🧰 Technology Stack
+##  Technology Stack
 
 **Programming Language:** Python 3.x
 
@@ -99,7 +99,7 @@ The project technology stack is aligned with the system design described in the 
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Install dependencies:
 
