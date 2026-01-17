@@ -44,5 +44,20 @@ ClauseAI: AI-PoweredContract Analysis
         2. No other majors issues where ffaced during the compilation of the entire notebook
            
 6. Milestone 3 Implementation: Progress Report
-   
-   Here the parallel processing for multi-domain extraction is carried right now - after that the cross refinement with storing the data in vector db in pincone is supposed to be done - after which the app.py will be upadted to check the posting using postman or anyother API
+
+   This milestone focus on parallel execution of each agent, shared memory for all the agents, cross-agent refinement to enhance the risk level of each agent analysis, JSON output and final Human-readable risk report template generation.
+   1. Data Pipeline Details
+         1. Milestone3.ipynb Notebook:
+               1. Source Data - agent output retreived from pinecone index "clauseai-agents"
+               2. Model - gemma2:9B
+               3. Processing - Parallel execution of the agents is performed - created a shared memory for all the agents - cross-agent refinement of each agent conducted for risk enhancement - updated the refined risk pinecone - generated template for both JSON output and  Human-Readable Risk Analysis Report
+               4. Risk Enhancement - legal agent risk changed from "low" to "medium" - finance and operations agent risk changed from "medium" to "high" - compliance risk remained the same "high"
+         3. app.py:
+               1. Source Data - Milestone 3 output directory
+               2. APIs - FastAPI, Pydantic, Uvicorn
+               3. Functions - load the combined agent outputs, pinecone agent output retreival, model analysis
+               4. Method - POST "analyze" - GET "health" "root end" - 200 
+               5. Error - for invalid or short contract - 400
+   3. Issues Faced
+         1. Minor issues with requirements_api.txt - resolved by uninstalling and reinstalling
+         2. Model timeout=60 - failed to call the model - increased to 600
