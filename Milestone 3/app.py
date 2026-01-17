@@ -311,9 +311,8 @@ async def quick_analysis(contract_text: str = Body(..., embed=True)):
 if __name__ == "__main__":
     import uvicorn
 
-    print("=" * 80)
-    print("CONTRACT ANALYSIS API – MILESTONE 3")
-    print("=" * 80)
+    print("CONTRACT ANALYSIS API")
+
     print(f"Output directory: {MILESTONE3_OUTPUT}")
     print("Docs: http://localhost:8000/docs")
 
@@ -323,3 +322,4 @@ if __name__ == "__main__":
         port=8000,
         reload=True,
     )
+
