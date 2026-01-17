@@ -1,0 +1,74 @@
+{
+  "aggregation_type": "post-refinement-agent-outputs",
+  "generated_at": "2026-01-16T21:18:20.937559",
+  "agents": {
+    "legal": {
+      "agent_name": "legal",
+      "risk_level": "medium",
+      "confidence": 0.88,
+      "clause_type": "Legal Analysis (Cross-Agent Refined)",
+      "num_escalation_reasons": 2,
+      "escalation_reasons": [
+        "Compliance identified high-risk confidentiality violations that have legal implications",
+        "Multiple domains (2) showing medium risk increases overall legal exposure"
+      ],
+      "timestamp": "2026-01-16T18:11:02.891918",
+      "refinement_iteration": 1,
+      "has_escalation": true
+    },
+    "finance": {
+      "agent_name": "finance",
+      "risk_level": "high",
+      "confidence": 0.85,
+      "clause_type": "Finance Analysis (Cross-Agent Refined)",
+      "num_escalation_reasons": 3,
+      "escalation_reasons": [
+        "Legal risk escalated to medium, increasing financial liability exposure",
+        "High compliance risk may result in regulatory fines and penalties",
+        "Operations risk combined with payment obligations creates cash flow uncertainty"
+      ],
+      "timestamp": "2026-01-16T18:48:57.579407",
+      "refinement_iteration": 1,
+      "has_escalation": true
+    },
+    "compliance": {
+      "agent_name": "compliance",
+      "risk_level": "high",
+      "confidence": 0.9,
+      "clause_type": "Compliance Analysis (Cross-Agent Refined)",
+      "num_escalation_reasons": 4,
+      "escalation_reasons": [
+        "Combined high financial and compliance risks create critical contractual exposure",
+        "Confidentiality breaches may trigger both regulatory fines and financial penalties",
+        "Financial penalty clauses amplify the cost of compliance violations",
+        "Pattern detected: 3 domains show elevated risk, suggesting systemic contract issues"
+      ],
+      "timestamp": "2026-01-16T18:58:48.586295",
+      "refinement_iteration": 1,
+      "has_escalation": true
+    },
+    "operations": {
+      "agent_name": "operations",
+      "risk_level": "high",
+      "confidence": 0.92,
+      "clause_type": "Operations Analysis (Cross-Agent Refined)",
+      "num_escalation_reasons": 6,
+      "escalation_reasons": [
+        "Legal risk escalation to medium introduces operational uncertainty",
+        "Termination and IP clauses may restrict operational flexibility",
+        "2 domains at high/critical risk indicate systemic operational challenges",
+        "Cross-domain risks may cascade into service delivery failures",
+        "Financial penalties reduce operational budget for licensing and fulfillment",
+        "Confidentiality requirements may restrict information sharing with affiliates and subcontractors"
+      ],
+      "timestamp": "2026-01-16T19:12:40.812081",
+      "refinement_iteration": 1,
+      "has_escalation": true
+    }
+  },
+  "summary": {
+    "total_agents": 4,
+    "agents_with_escalations": 4,
+    "total_escalation_reasons": 15
+  }
+}
