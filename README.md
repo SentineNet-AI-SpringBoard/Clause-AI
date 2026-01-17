@@ -72,5 +72,5 @@ The system evolved from a linear pipeline to a scalable, context-aware multi-age
 ClauseAI combines **retrieval-augmented generation** with **multi-agent orchestration** to deliver scalable, explainable contract analysis. Its modular design and LangGraph-based execution provide a strong foundation for enterprise-grade contract intelligence systems.
 
 
-Just tell me 👍
+
 
