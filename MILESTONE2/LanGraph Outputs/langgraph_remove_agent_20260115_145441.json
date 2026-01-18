@@ -1,0 +1,59 @@
+{
+  "task": "Remove Agent and Observe State Changes",
+  "removed_agent": "finance",
+  "query": "Analyze contract for payment terms, termination clauses, and GDPR compliance",
+  "coordinator_model": "gemma2:9b",
+  "timestamp": "20260115_145441",
+  "routing": {
+    "llm_routed_agents": [
+      "finance",
+      "compliance"
+    ],
+    "reasoning": "The query mentions payment terms (Finance) and GDPR compliance (Compliance).",
+    "approach": "dynamic_llm_coordinator"
+  },
+  "execution": {
+    "execution_order": [
+      "routing",
+      "compliance",
+      "aggregation"
+    ],
+    "agents_executed": [
+      "compliance"
+    ],
+    "finance_in_routed": true,
+    "finance_executed": false
+  },
+  "state_analysis": {
+    "legal": {
+      "status": "empty",
+      "clauses": 0
+    },
+    "compliance": {
+      "status": "completed",
+      "clauses": 1
+    },
+    "finance": {
+      "status": "removed_from_graph",
+      "state": {},
+      "clauses": 0,
+      "note": "Agent not in workflow - state remains empty"
+    },
+    "operations": {
+      "status": "empty",
+      "clauses": 0
+    }
+  },
+  "totals": {
+    "total_clauses_retrieved": 1,
+    "execution_status": "success"
+  },
+  "key_learnings": [
+    "Agents can be removed from graph dynamically",
+    "LLM may route to removed agent, but it won't execute",
+    "Removed agent's state remains empty (no error)",
+    "Workflow continues normally with remaining agents",
+    "Dynamic coordination handles missing agents gracefully",
+    "State structure consistent regardless of available agents"
+  ]
+}

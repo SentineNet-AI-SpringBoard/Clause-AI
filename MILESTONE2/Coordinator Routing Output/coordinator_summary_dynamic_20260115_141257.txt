@@ -1,0 +1,124 @@
+====================================================================================================
+DYNAMIC COORDINATOR EXECUTION SUMMARY REPORT
+====================================================================================================
+
+Generated: 2026-01-15 14:12:57
+Coordinator Model: gemma2:9b
+Vector Store: Pinecone (Index: contract-agents)
+
+====================================================================================================
+
+COORDINATOR CONFIGURATION
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Name: Dynamic LLM Coordinator
+Model: gemma2:9b (via Ollama)
+Approach: LLM-based intelligent routing
+Data Source: Pinecone Vector Store
+Retrieval Method: Semantic similarity search
+Total Vectors in Store: 8
+
+
+====================================================================================================
+
+OVERALL STATISTICS
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Total Queries Processed: 5
+  Successful: 5
+  Failed: 0
+Total Agents Routed: 8
+Total Clauses Retrieved: 7
+Average Agents per Query: 1.60
+Average Clauses per Query: 1.40
+
+
+====================================================================================================
+
+ROUTING APPROACH BREAKDOWN
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Dynamic Llm Coordinator                  :   5 queries (100.0%)
+
+
+====================================================================================================
+
+AGENT USAGE ANALYSIS
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+COMPLIANCE:
+  Queries Handled: 2 (40.0%)
+  Total Clauses Retrieved: 1
+  Average Clauses per Query: 0.50
+  Average Relevance Score: 0.395
+  Maximum Relevance Score: 0.395
+
+FINANCE:
+  Queries Handled: 2 (40.0%)
+  Total Clauses Retrieved: 3
+  Average Clauses per Query: 1.50
+  Average Relevance Score: 0.402
+  Maximum Relevance Score: 0.488
+
+LEGAL:
+  Queries Handled: 2 (40.0%)
+  Total Clauses Retrieved: 2
+  Average Clauses per Query: 1.00
+  Average Relevance Score: 0.540
+  Maximum Relevance Score: 0.631
+
+OPERATIONS:
+  Queries Handled: 2 (40.0%)
+  Total Clauses Retrieved: 1
+  Average Clauses per Query: 0.50
+  Average Relevance Score: 0.362
+  Maximum Relevance Score: 0.362
+
+
+====================================================================================================
+
+QUERY EXECUTION DETAILS
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+Query 1: "What are the termination clauses and governing law provisions?"
+  Status: SUCCESS
+  Routing Approach: dynamic_llm_coordinator
+  Agents Routed: legal
+  Reasoning: The query specifically asks about termination clauses and governing law provisions, which fall under the domain of contract law handled by the LEGAL agent.
+  Clauses Retrieved: 2
+    LEGAL: 2 clauses (avg relevance: 0.540)
+
+
+Query 2: "What are the data protection and privacy obligations?"
+  Status: SUCCESS
+  Routing Approach: dynamic_llm_coordinator
+  Agents Routed: compliance
+  Reasoning: The query specifically asks about data protection and privacy obligations, which fall under the domain of compliance.
+  Clauses Retrieved: 1
+    COMPLIANCE: 1 clauses (avg relevance: 0.395)
+
+
+Query 3: "Payment terms, fees, and late payment penalties"
+  Status: SUCCESS
+  Routing Approach: dynamic_llm_coordinator
+  Agents Routed: finance
+  Reasoning: The query explicitly mentions payment terms, fees, and late payment penalties, which fall under the domain of financial considerations.
+  Clauses Retrieved: 2
+    FINANCE: 2 clauses (avg relevance: 0.434)
+
+
+Query 4: "Deliverable timelines and milestone requirements"
+  Status: SUCCESS
+  Routing Approach: dynamic_llm_coordinator
+  Agents Routed: operations
+  Reasoning: The query explicitly mentions 'deliverable timelines and milestone requirements', which fall under the domain of project management and operational aspects handled by the OPERATIONS agent.
+  Clauses Retrieved: 1
+    OPERATIONS: 1 clauses (avg relevance: 0.362)
+
+
+Query 5: "Complete contract analysis covering legal, compliance, finance, and operations"
+  Status: SUCCESS
+  Routing Approach: dynamic_llm_coordinator
+  Agents Routed: legal, compliance, finance, operations
+  Reasoning: The user explicitly requests analysis covering legal, compliance, finance, and operations aspects of the contract.
+  Clauses Retrieved: 1
+    FINANCE: 1 clauses (avg relevance: 0.337)
+END OF REPORT

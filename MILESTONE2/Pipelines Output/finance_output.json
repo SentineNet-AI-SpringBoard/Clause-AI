@@ -1,0 +1,87 @@
+{
+  "pipeline": "Finance Pipeline",
+  "timestamp": "2026-01-15T21:50:18.098151",
+  "model": "gemma2:9b",
+  "model_config": {
+    "timeout": 360,
+    "max_tokens": 800
+  },
+  "pinecone_index": "contract-agents",
+  "score_threshold": 0.1,
+  "results": {
+    "status": "success",
+    "model": "gemma2:9b",
+    "output": {
+      "finance_analysis": "##  Financial Analysis of Service Agreement\n\nBased on the provided clauses, here's a structured analysis of the financial terms:\n\n**1. Payment Terms:**\n\n* **Schedules & Due Dates:** The contract lacks specific details regarding payment schedules and due dates. Clause 3 mentions \"monthly invoices,\" suggesting a monthly billing cycle, but no specific due date is stated.\n* **Invoice Generation & Delivery:** Provider will issue monthly invoices to Recipient.  The method of invoice delivery (e.g., email, postal mail) is not specified.\n* **Payment Methods & Processing:** The contract doesn't explicitly mention acceptable payment methods.\n\n**2. Fee Structure:**\n\n* **Types & Amounts:** \n    *  The contract mentions \"Out-of-Pocket Costs\" which Provider can be reimbursed for by Recipient (Clause 1 & 2). This includes license fees, payments to third-party service providers, and subcontractors. The exact amounts are not defined.\n    * No information is provided about any fixed fees or recurring charges for the services themselves.\n\n* **Billing Cycles:** Monthly billing is implied based on Clause 3.\n\n**3. Penalties & Late Fees:**\n\n*  The contract does not mention any specific penalties or late fees for delayed payments.\n\n**4. Interest Rates:**\n\n* The contract does not specify any interest rates or compounding terms.\n\n**5. Financial Liability:**\n\n* **Caps & Obligations:**\n    * Provider's financial liability is limited to reimbursement of \"reasonable and documented Out-of-Pocket Costs\" (Clause 1 & 2).\n    * Recipient's financial obligation is to reimburse Provider for all incurred \"Out-of-Pocket Costs.\"\n* **Risks:**\n    *  **Provider:** Risk of incurring significant \"Out-of-Pocket Costs\" without clear budget or cost control mechanisms. Potential risk of delayed reimbursement from Recipient.\n    * **Recipient:** Risk of unexpected and potentially high costs related to Provider's \"Out-of-Pocket Expenses.\"\n\n**6. Risk Assessment:** \n\n**Medium** due to the lack of clarity regarding payment schedules, fee structures for services, and potential for significant \"Out-of-Pocket Costs\" that could impact both parties financially.\n\n**7. Total Financial Obligations:**\n\n*  Uncalculable without further information on service fees, scope of work, and potential \"Out-of-Pocket Expenses.\"\n\n\n**8. Key Recommendations:**\n\n* **Negotiate Clear Payment Terms:** Define specific payment schedules, due dates, acceptable payment methods, and invoicing procedures.\n* **Establish Fee Structure for Services:** Clearly outline the fees for services provided, including any recurring charges or usage-based fees.\n* **Define \"Out-of-Pocket Costs\" in Detail:** Specify allowable expenses and establish a process for documentation, approval, and reimbursement of these costs.\n* **Consider Penalties & Late Fees:** Include provisions for penalties or late fees to incentivize timely payments and mitigate financial risk.\n* **Include Interest Rate Clauses:**  Specify interest rates applicable to overdue payments to protect both parties' financial interests.\n\n\n\nBy addressing these recommendations, the contract can be revised to provide greater clarity, transparency, and financial protection for both Provider and Recipient.",
+      "extracted_clauses": [
+        "##  Financial Analysis of Service Agreement",
+        "Based on the provided clauses, here's a structured analysis of the financial terms:",
+        "**1. Payment Terms:**",
+        "* **Schedules & Due Dates:** The contract lacks specific details regarding payment schedules and due dates. Clause 3 mentions \"monthly invoices,\" suggesting a monthly billing cycle, but no specific due date is stated.",
+        "* **Invoice Generation & Delivery:** Provider will issue monthly invoices to Recipient.  The method of invoice delivery (e.g., email, postal mail) is not specified.",
+        "* **Payment Methods & Processing:** The contract doesn't explicitly mention acceptable payment methods.",
+        "**2. Fee Structure:**",
+        "*  The contract mentions \"Out-of-Pocket Costs\" which Provider can be reimbursed for by Recipient (Clause 1 & 2). This includes license fees, payments to third-party service providers, and subcontractors. The exact amounts are not defined.",
+        "* No information is provided about any fixed fees or recurring charges for the services themselves.",
+        "* **Billing Cycles:** Monthly billing is implied based on Clause 3.",
+        "**3. Penalties & Late Fees:**",
+        "*  The contract does not mention any specific penalties or late fees for delayed payments.",
+        "**4. Interest Rates:**",
+        "* The contract does not specify any interest rates or compounding terms.",
+        "**5. Financial Liability:**",
+        "* Provider's financial liability is limited to reimbursement of \"reasonable and documented Out-of-Pocket Costs\" (Clause 1 & 2).",
+        "* Recipient's financial obligation is to reimburse Provider for all incurred \"Out-of-Pocket Costs.\"",
+        "*  **Provider:** Risk of incurring significant \"Out-of-Pocket Costs\" without clear budget or cost control mechanisms. Potential risk of delayed reimbursement from Recipient.",
+        "* **Recipient:** Risk of unexpected and potentially high costs related to Provider's \"Out-of-Pocket Expenses.\"",
+        "**Medium** due to the lack of clarity regarding payment schedules, fee structures for services, and potential for significant \"Out-of-Pocket Costs\" that could impact both parties financially.",
+        "**7. Total Financial Obligations:**",
+        "*  Uncalculable without further information on service fees, scope of work, and potential \"Out-of-Pocket Expenses.\"",
+        "* **Negotiate Clear Payment Terms:** Define specific payment schedules, due dates, acceptable payment methods, and invoicing procedures.",
+        "* **Establish Fee Structure for Services:** Clearly outline the fees for services provided, including any recurring charges or usage-based fees.",
+        "* **Define \"Out-of-Pocket Costs\" in Detail:** Specify allowable expenses and establish a process for documentation, approval, and reimbursement of these costs.",
+        "* **Consider Penalties & Late Fees:** Include provisions for penalties or late fees to incentivize timely payments and mitigate financial risk.",
+        "* **Include Interest Rate Clauses:**  Specify interest rates applicable to overdue payments to protect both parties' financial interests.",
+        "By addressing these recommendations, the contract can be revised to provide greater clarity, transparency, and financial protection for both Provider and Recipient."
+      ],
+      "risk_level": "medium",
+      "confidence": 0.85
+    }
+  },
+  "validation": {
+    "validation_passed": true,
+    "validation_checks": [
+      "Clauses extracted: 28",
+      "Risk level assessed: medium",
+      "Confidence score: 0.85",
+      "Analysis length: 3218 characters",
+      "Financial terms found: payment, fee, invoice, interest, billing, liability, cost"
+    ],
+    "extracted_clauses_count": 28,
+    "risk_level": "medium",
+    "confidence": 0.85,
+    "completeness_score": 0.0
+  },
+  "risk_summary": {
+    "timestamp": "2026-01-15T21:50:18.098151",
+    "total_clauses": 28,
+    "risk_level": "medium",
+    "confidence": 0.85,
+    "validation_passed": true,
+    "financial_risks": [
+      "Moderate financial obligations",
+      "Standard penalty terms apply"
+    ],
+    "recommendations": [
+      "Monitor invoice timelines closely",
+      "Set up automated payment reminders",
+      "Review interest calculation methods"
+    ],
+    "key_findings": [
+      "**1. Payment Terms:**",
+      "* **Schedules & Due Dates:** The contract lacks specific details regarding payment schedules and due dates. Clause 3 mentions \"monthly invoices,\" suggesting a monthly billing cycle, but no specific due date is stated.",
+      "* **Invoice Generation & Delivery:** Provider will issue monthly invoices to Recipient.  The method of invoice delivery (e.g., email, postal mail) is not specified.",
+      "* **Payment Methods & Processing:** The contract doesn't explicitly mention acceptable payment methods.",
+      "**2. Fee Structure:**"
+    ]
+  }
+}
