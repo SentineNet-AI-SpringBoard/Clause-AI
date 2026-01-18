@@ -1,92 +1,88 @@
-# ClauseAI
+ClauseAI: AI-Powered Contract Analysis System
+1. Project Overview
 
-## Milestone 1 – Progress Report
+ClauseAI is an intelligent contract analysis platform designed to streamline and automate contract review processes. The system enhances accuracy, reduces manual effort, and produces domain-specific, actionable insights through structured reports. It is built on a multi-agent AI framework, where each agent focuses on a specific analysis domain—such as Compliance, Finance, Legal, and Operations—to ensure a holistic and professional evaluation of contracts.
 
----
+2. System Architecture and Methodology
 
-## 1. Project Overview
+ClauseAI follows a LangGraph-based architectural design, where each node represents a dedicated contract analysis function performed by a specialized agent.
 
-ClauseAI is an AI-powered system designed to automate contract analysis by improving efficiency and accuracy while generating structured, actionable insights. The system follows a multi-agent framework, where each AI agent specializes in a specific domain such as compliance, finance, and operations to provide comprehensive contract evaluation.
+2.1 Core Workflow
 
----
+Input Stage
+Users upload contract documents directly or integrate external legal data sources through APIs.
 
-## 2. System Architecture & Methodology
+AI Planning Stage
+A centralized Coordinator Agent determines the analysis flow and assigns responsibilities to relevant domain agents.
 
-ClauseAI is built using a **LangGraph-based architecture**, where each node represents a specialized contract analysis function.
+Analysis Stage
+Domain-specific agents conduct in-depth evaluations using multi-turn reasoning with expert AI submodules. Data extraction and reasoning are executed in a parallelized manner for efficiency.
 
-### 2.1 Core Workflow
+Reporting Stage
+Outputs from all agents are aggregated and transformed into clear, concise, and professional contract analysis summaries.
 
-**Input Phase**
+3. Technology Stack
 
-* Users upload contract documents or provide access to external legal data sources.
+Programming Language: Python 3.x
 
-**AI Planning Phase**
+Agent Orchestration: LangChain and LangGraph
 
-* A Coordinator Agent analyzes the task and assigns responsibilities to domain-specific agents.
+Vector Database: Pinecone
 
-**Analysis Phase**
+Models: OpenAI API (for architectural design) and Gemma-2b-it (Milestone 1 implementation)
 
-* Specialized agents perform multi-turn reasoning and execute parallel data extraction using a **Retrieval-Augmented Generation (RAG)** approach.
+Document Parsing: PyPDF2, python-docx
 
-**Reporting Phase**
+Frontend Interface: Streamlit
 
-* Outputs from all agents are consolidated into concise and professional summaries.
+4. Milestone 1 Implementation – Progress Summary
 
----
+The first milestone focused on environment configuration and the successful deployment of a Retrieval-Augmented Generation (RAG) pipeline.
 
-## 3. Technology Stack
+4.1 Data Pipeline Overview
 
-* **Programming Language:** Python 3.x
-* **Agent Orchestration:** LangChain, LangGraph
-* **Vector Database:** Pinecone
-* **Models Used:**
+Source Data
+A collection of 510 text files stored in the full_contract_txt directory.
 
-  * OpenAI API (Architectural Design)
-  * Gemma-2B-IT (Milestone 1 Implementation)
-* **Document Parsing:** PyPDF2, python-docx
-* **Frontend:** Streamlit
+Processing Workflow
+Documents were processed using LangChain, segmented into manageable chunks, and converted into embeddings stored within Pinecone.
 
----
+Retrieval Setup
+A total of 20 RAG search files were generated to provide contextual input for the specialized agents.
 
-## 4. Milestone 1 Implementation Details
+4.2 Challenges Encountered
 
-The first milestone focused on setting up the development environment and implementing the **Retrieval-Augmented Generation (RAG) pipeline**.
+Embedding generation initially relied on API keys for the sentence-transformer model (all-MiniLM-L6-v2).
 
-### 4.1 Data Pipeline
+Prior to finalizing Gemma-2b-it as the base model, alternatives such as Qwen2.5 and Mistral-7B were tested. However, due to their large model sizes, they failed to load in VS Code under a 16GB CPU RAM constraint.
 
-**Source Data**
+5. Milestone 2 Implementation – Progress Summary
 
-* 510 text files from the `full_contract_txt` directory
+This milestone emphasized agent coordination, routing logic, and the construction of LangGraph nodes, enabling structured agent-to-agent communication.
 
-**Processing**
+5.1 Data Pipeline Overview
 
-* Documents processed using LangChain
-* Text chunking applied for efficient embedding generation
-* Chunks converted into vector embeddings
+Source Data
+Four pre-generated JSON output files corresponding to Legal, Compliance, Finance, and Operations agents, produced using the Gemma-2b-it model.
 
-**Storage**
+Processing Workflow
 
-* Generated embeddings stored in the Pinecone vector database
+Agent outputs were treated as pre-computed data.
 
-**Retrieval**
+Routing rules and coordinator logic were implemented using keyword-based decision mechanisms.
 
-* 20 RAG-based search context files created
-* These files serve as contextual input for specialized agent analysis
+LangGraph was initialized with all agents added as nodes, with the Legal Agent serving as the entry point.
 
----
+Collaborative Agent Execution
 
-## 5. Issues Faced During Milestone 1
+The Compliance Agent identifies risks and records them in shared memory.
 
-### Embedding Model Constraints
+The Finance Agent references this memory to detect associated financial risks.
 
-* Instead of local embedding generation, an API-based approach was used for the Sentence Transformer model (**all-MiniLM-L6-v2**) due to resource limitations.
+The Legal Agent performs final validation and consolidation.
 
-### Large Model Memory Limitations
+5.2 Challenges Encountered
 
-* Several large language models such as **Qwen 2.5** and **Mistral-7B** were tested.
-* These models failed to load locally due to CPU memory constraints (**16 GB RAM**) in VS Code.
+Initial agent outputs returned empty strings due to improper storage of pre-computed data.
 
-### Model Selection Decision
-
-* **Gemma-2B-IT** was selected as the base model for Milestone 1 due to its lower memory footprint and stable local performance.
-
+No major issues were observed during the compilation and execution of the complete notebook after resolution.
