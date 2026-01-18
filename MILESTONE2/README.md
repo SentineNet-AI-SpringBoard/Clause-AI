@@ -1,25 +1,46 @@
-Milestone 2 - Documentation
-
+Milestone 2 
 1. Objective
-    1. Develop the Planning Module to generate and coordinate specialized agents
-    2. Implement API integration for contract upload and domain classification.
-    3. Design basic prompt templates for agent communication.
-    4. Validate inter-agent coordination using LangGraph.
-2. Technical Implementations
-    1. LangGraph to design and validate inter-agent coordination.
-    2. Module to generate and coordinate specialized agents - Legal, Compliance, Finance, and Operations.
-    3. Model Based Routing - gemma2:9B
-    4. Output retrived from Pinecone
-    5. Sequential Execution along with Conditional Routing.
-3. Agent Shared Memory and Communication Details
-    1. GraphState with Memory - presist data across agent nodes.
-    2. Compliance Agent analyse the risk and adds it to memory.
-    3. Finance Agent reads this for any extra penalities.
-    4. Legal Agent - Final validation and writes to the shared memory.
-    5. Agent to Agent Communication.
+
+Build a Planning Module capable of creating and managing multiple specialized AI agents.
+
+Integrate APIs to enable contract uploading and automatic domain classification.
+
+Create structured prompt templates to support effective agent-to-agent interaction.
+
+Verify and test inter-agent workflows using the LangGraph framework.
+
+2. Technical Implementation
+
+Utilized LangGraph to design, manage, and validate communication between agents.
+
+Developed a module to instantiate and coordinate domain-specific agents, including Legal, Compliance, Finance, and Operations.
+
+Implemented model-based routing using gemma2:9B to direct queries intelligently.
+
+Retrieved contextual and analytical data from Pinecone vector storage.
+
+Enabled sequential execution combined with conditional routing to optimize processing flow.
+
+3. Agent Shared Memory and Communication
+
+Implemented a GraphState with persistent memory to maintain shared context across agent nodes.
+
+The Compliance Agent evaluates potential risks and records findings in shared memory.
+
+The Finance Agent accesses this memory to assess financial implications or penalties.
+
+The Legal Agent performs final verification and updates the shared memory with validation results.
+
+Ensured smooth agent-to-agent communication through shared state management.
+
 4. Outcome
-    1. Loads pre-computed results from pinecone for each agent, reporting total contracts analyzed and total clauses extracted.
-    2. Calculates a Confidence Aggregate and Confidence Range for the analysis - identifies the Highest-Risk Clause across all agent domains.
-    3. Conditional routing can save approximately 75% of execution time compared to sequential processing by skipping irrelevant agents.
-    4. Overall statistics - total queries processed, average agents routed per query, and average clauses retrieved.
-    5. Generates a final risk summary including recommendations and validation status for pipelines.
+
+Successfully loaded pre-processed contract insights from Pinecone, including total contracts analyzed and clauses extracted per agent.
+
+Computed a Confidence Aggregate and Confidence Range, identifying the highest-risk clause across all domains.
+
+Achieved approximately 75% reduction in execution time by using conditional routing to bypass unnecessary agents.
+
+Generated comprehensive system metrics such as total queries processed, average agents invoked per query, and average clauses retrieved.
+
+Produced a consolidated final risk assessment report, including recommendations and overall pipeline validation status.
