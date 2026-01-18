@@ -18,18 +18,18 @@ By the end of this milestone, the system is capable of:
 
 ## Objectives
 
-✔ Prepare and preprocess contract data
-✔ Generate semantic embeddings
-✔ Build Pinecone vector database
-✔ Implement RAG search wrapper
-✔ Create multi-agent architecture:
+ Prepare and preprocess contract data
+ Generate semantic embeddings
+ Build Pinecone vector database
+ Implement RAG search wrapper
+ Create multi-agent architecture:
 
 * Legal Agent
 * Compliance Agent
 * Finance Agent
 * Operations Agent
 
-✔ Save all RAG and Agent outputs for traceability
+ Save all RAG and Agent outputs for traceability
 
 ---
 
@@ -202,14 +202,14 @@ Notebooks/output/
 
 ## Milestone 1 Completion Summary
 
-✔ Contract chunking and preprocessing
-✔ Embedding generation
-✔ Pinecone vector database setup
-✔ RAG retrieval system
-✔ Legal Agent built
-✔ Compliance Agent built
-✔ Finance Agent built
-✔ Operations Agent built
+ Contract chunking and preprocessing
+ Embedding generation
+ Pinecone vector database setup
+ RAG retrieval system
+ Legal Agent built
+ Compliance Agent built
+ Finance Agent built
+ Operations Agent built
 
 ---
 
