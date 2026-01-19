@@ -1,1 +1,1 @@
-
+All refined outputs
