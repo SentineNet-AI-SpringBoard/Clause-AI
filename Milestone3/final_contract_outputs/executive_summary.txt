@@ -1,0 +1,11 @@
+
+EXECUTIVE SUMMARY
+
+Contract ID: contract_001
+Overall Risk Level: High
+
+Key Highlights:
+- Legal risk: Medium
+- Financial risk: High
+- Compliance risk: High
+- Operations risk: Medium

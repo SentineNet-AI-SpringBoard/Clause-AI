@@ -1,0 +1,15 @@
+
+EXECUTIVE SUMMARY
+
+Contract ID: contract_001
+Overall Risk Level: High
+
+This contract has been assessed across legal, financial, compliance, and operational areas.
+
+Key observations:
+- Legal risk is moderate due to termination conditions and jurisdiction requirements.
+- Financial risk is high because of strict payment deadlines, late fees, and interest charges.
+- Compliance risk is high due to extensive regulatory, privacy, and data protection obligations, including HIPAA requirements.
+- Operational risk is moderate, mainly related to service level management and resource commitments.
+
+Overall, this contract presents a high level of risk, primarily driven by financial penalties and regulatory compliance obligations. Careful monitoring and strong internal controls are recommended before execution.

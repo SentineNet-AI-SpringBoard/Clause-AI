@@ -1,0 +1,79 @@
+
+CONTRACT ANALYSIS REPORT
+
+Generated At:
+2026-01-18T10:41:27.693684Z
+
+Contract ID:
+contract_001
+
+----------------------------------
+EXECUTIVE SUMMARY
+----------------------------------
+This report provides a simplified analysis of the contract risks across multiple dimensions.
+The overall contract risk is classified as HIGH.
+
+----------------------------------
+LEGAL FINDINGS
+----------------------------------
+- Termination:
+  • The contract allows termination with 30 days’ notice if obligations are not met.
+  • Risk Level: Medium
+
+- Governing Law:
+  • The agreement is governed by the laws of the State of Delaware.
+  • Risk Level: Low
+
+- Jurisdiction:
+  • Legal disputes must be resolved exclusively in Delaware courts.
+  • Risk Level: Medium
+
+----------------------------------
+FINANCE FINDINGS
+----------------------------------
+- Late Fees:
+  • Late payments attract penalties of up to 2% per month.
+  • Additional late charges of 1.5% per month may apply.
+  • Risk Level: High
+
+- Interest on Delayed Payments:
+  • Unpaid amounts accrue interest at 10% per annum.
+  • Risk Level: High
+
+----------------------------------
+COMPLIANCE FINDINGS
+----------------------------------
+- Regulatory & Privacy Obligations:
+  • The contract includes HIPAA, HITECH, and healthcare data protection requirements.
+  • Business Associate Agreements (BAAs) may be required.
+  • Risk Level: High
+
+- Data Security:
+  • Sensitive data must be encrypted at rest and in transit.
+  • Risk Level: High
+
+- Legal Compliance:
+  • All activities must comply with applicable laws and regulations.
+  • Risk Level: Medium
+
+----------------------------------
+OPERATIONS FINDINGS
+----------------------------------
+- Service Levels:
+  • SLAs are subject to periodic review and modification.
+  • Risk Level: Medium
+
+- Resource Commitments:
+  • Both parties must allocate sufficient personnel and resources.
+  • Risk Level: Medium
+
+- Availability Measurement:
+  • Service availability is formally defined and measured.
+  • Risk Level: Low
+
+----------------------------------
+OVERALL RISK ASSESSMENT
+----------------------------------
+Overall Contract Risk: HIGH
+
+The high overall risk is mainly driven by financial penalties and strict compliance requirements.
