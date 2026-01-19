@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-01-16T16:44:19.269099",
+  "agents_compared": 4,
+  "risk_comparison": [
+    {
+      "agent": "legal",
+      "risk_level": "low",
+      "confidence": 0.85,
+      "num_clauses": 2,
+      "namespace": "legal_intermediate",
+      "session_id": "m3_4ddffbdafb3e_20260116_142038",
+      "model_used": "N/A",
+      "has_recommendations": true
+    },
+    {
+      "agent": "compliance",
+      "risk_level": "high",
+      "confidence": 1,
+      "num_clauses": 1,
+      "namespace": "compliance_intermediate",
+      "session_id": "m3_4ddffbdafb3e_20260116_142038",
+      "model_used": "N/A",
+      "has_recommendations": true
+    },
+    {
+      "agent": "finance",
+      "risk_level": "medium",
+      "confidence": 0.7,
+      "num_clauses": 3,
+      "namespace": "finance_intermediate",
+      "session_id": "m3_4ddffbdafb3e_20260116_142038",
+      "model_used": "N/A",
+      "has_recommendations": true
+    },
+    {
+      "agent": "operations",
+      "risk_level": "medium",
+      "confidence": 0.8,
+      "num_clauses": 2,
+      "namespace": "operations_intermediate",
+      "session_id": "m3_4ddffbdafb3e_20260116_142038",
+      "model_used": "N/A",
+      "has_recommendations": true
+    }
+  ],
+  "aggregate_metrics": {
+    "total_risk_score": 6.85,
+    "average_risk_score": 1.71,
+    "overall_risk_level": "MEDIUM",
+    "average_confidence": 0.84
+  },
+  "model_synthesis": "No relevant memories found to analyze."
+}
