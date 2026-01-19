@@ -1,0 +1,178 @@
+{
+  "retrieval_timestamp": "2026-01-16T17:01:39.416907",
+  "total_matches": 5,
+  "agent_groups": {
+    "unknown": [
+      {
+        "id": "m3_4ddffbdafb3e_20260116_142038_routing_decision",
+        "agent_name": null,
+        "risk_level": null,
+        "confidence": null,
+        "num_clauses": null,
+        "clauses_analyzed": null,
+        "contract_id": "4ddffbdafb3e",
+        "session_id": "m3_4ddffbdafb3e_20260116_142038",
+        "model": "gemma2:9b",
+        "processing_stage": "routing_decision",
+        "similarity_score": 0.407337666,
+        "timestamp": "2026-01-16T13:33:40.916423",
+        "execution_time": null,
+        "has_recommendations": null
+      }
+    ],
+    "legal": [
+      {
+        "id": "m3_4ddffbdafb3e_20260116_142038_legal",
+        "agent_name": "legal",
+        "risk_level": "low",
+        "confidence": 0.85,
+        "num_clauses": 2,
+        "clauses_analyzed": 2,
+        "contract_id": "4ddffbdafb3e",
+        "session_id": "m3_4ddffbdafb3e_20260116_142038",
+        "model": "gemma2:9b",
+        "processing_stage": "ollama_enhanced",
+        "similarity_score": 0.34058094,
+        "timestamp": "2026-01-16T14:36:23.100878",
+        "execution_time": 280.08372259140015,
+        "has_recommendations": true
+      }
+    ],
+    "compliance": [
+      {
+        "id": "m3_4ddffbdafb3e_20260116_142038_compliance",
+        "agent_name": "compliance",
+        "risk_level": "high",
+        "confidence": 1,
+        "num_clauses": 1,
+        "clauses_analyzed": 1,
+        "contract_id": "4ddffbdafb3e",
+        "session_id": "m3_4ddffbdafb3e_20260116_142038",
+        "model": "gemma2:9b",
+        "processing_stage": "ollama_enhanced",
+        "similarity_score": 0.337529659,
+        "timestamp": "2026-01-16T14:36:23.100878",
+        "execution_time": 163.77646160125732,
+        "has_recommendations": true
+      }
+    ],
+    "finance": [
+      {
+        "id": "m3_4ddffbdafb3e_20260116_142038_finance",
+        "agent_name": "finance",
+        "risk_level": "medium",
+        "confidence": 0.7,
+        "num_clauses": 3,
+        "clauses_analyzed": 3,
+        "contract_id": "4ddffbdafb3e",
+        "session_id": "m3_4ddffbdafb3e_20260116_142038",
+        "model": "gemma2:9b",
+        "processing_stage": "ollama_enhanced",
+        "similarity_score": 0.514842033,
+        "timestamp": "2026-01-16T14:36:23.100878",
+        "execution_time": 425.29136872291565,
+        "has_recommendations": true
+      }
+    ],
+    "operations": [
+      {
+        "id": "m3_4ddffbdafb3e_20260116_142038_operations",
+        "agent_name": "operations",
+        "risk_level": "medium",
+        "confidence": 0.8,
+        "num_clauses": 2,
+        "clauses_analyzed": 2,
+        "contract_id": "4ddffbdafb3e",
+        "session_id": "m3_4ddffbdafb3e_20260116_142038",
+        "model": "gemma2:9b",
+        "processing_stage": "ollama_enhanced",
+        "similarity_score": 0.350951225,
+        "timestamp": "2026-01-16T14:36:23.100878",
+        "execution_time": 588.5664720535278,
+        "has_recommendations": true
+      }
+    ]
+  },
+  "raw_matches": [
+    {
+      "id": "m3_4ddffbdafb3e_20260116_142038_finance",
+      "agent_name": "finance",
+      "risk_level": "medium",
+      "confidence": 0.7,
+      "num_clauses": 3,
+      "clauses_analyzed": 3,
+      "contract_id": "4ddffbdafb3e",
+      "session_id": "m3_4ddffbdafb3e_20260116_142038",
+      "model": "gemma2:9b",
+      "processing_stage": "ollama_enhanced",
+      "similarity_score": 0.514842033,
+      "timestamp": "2026-01-16T14:36:23.100878",
+      "execution_time": 425.29136872291565,
+      "has_recommendations": true
+    },
+    {
+      "id": "m3_4ddffbdafb3e_20260116_142038_routing_decision",
+      "agent_name": null,
+      "risk_level": null,
+      "confidence": null,
+      "num_clauses": null,
+      "clauses_analyzed": null,
+      "contract_id": "4ddffbdafb3e",
+      "session_id": "m3_4ddffbdafb3e_20260116_142038",
+      "model": "gemma2:9b",
+      "processing_stage": "routing_decision",
+      "similarity_score": 0.407337666,
+      "timestamp": "2026-01-16T13:33:40.916423",
+      "execution_time": null,
+      "has_recommendations": null
+    },
+    {
+      "id": "m3_4ddffbdafb3e_20260116_142038_operations",
+      "agent_name": "operations",
+      "risk_level": "medium",
+      "confidence": 0.8,
+      "num_clauses": 2,
+      "clauses_analyzed": 2,
+      "contract_id": "4ddffbdafb3e",
+      "session_id": "m3_4ddffbdafb3e_20260116_142038",
+      "model": "gemma2:9b",
+      "processing_stage": "ollama_enhanced",
+      "similarity_score": 0.350951225,
+      "timestamp": "2026-01-16T14:36:23.100878",
+      "execution_time": 588.5664720535278,
+      "has_recommendations": true
+    },
+    {
+      "id": "m3_4ddffbdafb3e_20260116_142038_legal",
+      "agent_name": "legal",
+      "risk_level": "low",
+      "confidence": 0.85,
+      "num_clauses": 2,
+      "clauses_analyzed": 2,
+      "contract_id": "4ddffbdafb3e",
+      "session_id": "m3_4ddffbdafb3e_20260116_142038",
+      "model": "gemma2:9b",
+      "processing_stage": "ollama_enhanced",
+      "similarity_score": 0.34058094,
+      "timestamp": "2026-01-16T14:36:23.100878",
+      "execution_time": 280.08372259140015,
+      "has_recommendations": true
+    },
+    {
+      "id": "m3_4ddffbdafb3e_20260116_142038_compliance",
+      "agent_name": "compliance",
+      "risk_level": "high",
+      "confidence": 1,
+      "num_clauses": 1,
+      "clauses_analyzed": 1,
+      "contract_id": "4ddffbdafb3e",
+      "session_id": "m3_4ddffbdafb3e_20260116_142038",
+      "model": "gemma2:9b",
+      "processing_stage": "ollama_enhanced",
+      "similarity_score": 0.337529659,
+      "timestamp": "2026-01-16T14:36:23.100878",
+      "execution_time": 163.77646160125732,
+      "has_recommendations": true
+    }
+  ]
+}

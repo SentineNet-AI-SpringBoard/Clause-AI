@@ -1,0 +1,94 @@
+{
+  "agent_name": "operations_refined",
+  "timestamp": "2026-01-16T19:12:40.812081",
+  "refinement_iteration": 1,
+  "original_assessment": {
+    "risk_level": "medium",
+    "confidence": 0.8,
+    "num_clauses": 2,
+    "execution_time": 588.5664720535278,
+    "has_recommendations": true,
+    "processing_stage": "ollama_enhanced",
+    "model": "gemma2:9b",
+    "session_id": "m3_4ddffbdafb3e_20260116_142038",
+    "extracted_clauses": []
+  },
+  "refined_assessment": {
+    "risk_level": "high",
+    "confidence": 0.92,
+    "clause_type": "Operations Analysis (Cross-Agent Refined)",
+    "extracted_clauses": [],
+    "evidence": [],
+    "escalation_reasons": [
+      "Legal risk escalation to medium introduces operational uncertainty",
+      "Termination and IP clauses may restrict operational flexibility",
+      "2 domains at high/critical risk indicate systemic operational challenges",
+      "Cross-domain risks may cascade into service delivery failures",
+      "Financial penalties reduce operational budget for licensing and fulfillment",
+      "Confidentiality requirements may restrict information sharing with affiliates and subcontractors"
+    ],
+    "model_justification": "While the initial operations risk assessment was 'medium', cross-agent influences from finance ('high'), compliance ('high'), and legal ('medium') significantly elevate the overall risk. The finance agent highlights potential regulatory fines and penalties, while the compliance agent points to confidentiality breaches and operational risks combined with payment obligations. Legal concerns regarding contract interpretation and enforcement further contribute to the heightened risk."
+  },
+  "cross_agent_context": {
+    "operations": {
+      "risk_level": "medium",
+      "confidence": 0.8,
+      "num_clauses": 2,
+      "execution_time": 588.5664720535278,
+      "has_recommendations": true,
+      "processing_stage": "ollama_enhanced",
+      "model": "gemma2:9b",
+      "session_id": "m3_4ddffbdafb3e_20260116_142038",
+      "extracted_clauses": []
+    },
+    "finance": {
+      "risk_level": "medium",
+      "confidence": 0.7,
+      "num_clauses": 3,
+      "execution_time": 425.29136872291565,
+      "has_recommendations": true,
+      "processing_stage": "ollama_enhanced",
+      "model": "gemma2:9b",
+      "session_id": "m3_4ddffbdafb3e_20260116_142038",
+      "extracted_clauses": []
+    },
+    "compliance": {
+      "risk_level": "high",
+      "confidence": 1,
+      "num_clauses": 1,
+      "execution_time": 163.77646160125732,
+      "has_recommendations": true,
+      "processing_stage": "ollama_enhanced",
+      "model": "gemma2:9b",
+      "session_id": "m3_4ddffbdafb3e_20260116_142038",
+      "extracted_clauses": []
+    },
+    "legal": {
+      "risk_level": "low",
+      "confidence": 0.85,
+      "num_clauses": 2,
+      "execution_time": 280.08372259140015,
+      "has_recommendations": true,
+      "processing_stage": "ollama_enhanced",
+      "model": "gemma2:9b",
+      "session_id": "m3_4ddffbdafb3e_20260116_142038",
+      "extracted_clauses": []
+    }
+  },
+  "cross_agent_influences": {
+    "legal": "medium",
+    "finance": "high",
+    "compliance": "high"
+  },
+  "escalation_triggers": {
+    "legal_escalated": true,
+    "finance_escalated": true,
+    "compliance_escalated": false
+  },
+  "operational_risks": {
+    "licensing_risk": "high",
+    "fulfillment_risk": "high",
+    "vendor_management_risk": "high",
+    "delivery_timeline_risk": "high"
+  }
+}
