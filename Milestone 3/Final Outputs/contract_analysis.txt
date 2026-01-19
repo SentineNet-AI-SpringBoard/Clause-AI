@@ -1,1 +1,98 @@
+EXECUTIVE SUMMARY
+======================================================================
+Contract ID        : 4ddffbdafb3e
+Analysis Timestamp : 2026-01-16T20:07:47.588572
+Overall Risk       : MEDIUM
+Average Confidence : 89%
+Weighted Risk Score: 2.44 / 4.00
 
+OVERALL RISK ASSESSMENT
+======================================================================
+- Critical: 0 agent(s)
+- High    : 3 agent(s)
+- Medium  : 1 agent(s)
+- Low     : 0 agent(s)
+- Unknown : 0 agent(s)
+Highest Risk Domain: Operations
+
+LEGAL ANALYSIS
+----------------------------------------------------------------------
+Final Risk Level   : MEDIUM
+Confidence         : 88%
+Original Risk      : low
+Clauses Analyzed   : 2
+Escalation Reasons: None
+
+COMPLIANCE ANALYSIS
+----------------------------------------------------------------------
+Final Risk Level   : HIGH
+Confidence         : 90%
+Original Risk      : high
+Clauses Analyzed   : 1
+Escalation Reasons: None
+
+FINANCIAL ANALYSIS
+----------------------------------------------------------------------
+Final Risk Level   : HIGH
+Confidence         : 85%
+Original Risk      : medium
+Clauses Analyzed   : 3
+Escalation Reasons: None
+
+OPERATIONAL ANALYSIS
+----------------------------------------------------------------------
+Final Risk Level   : HIGH
+Confidence         : 92%
+Original Risk      : medium
+Clauses Analyzed   : 2
+Escalation Reasons: None
+
+HIGH-RISK CLAUSES
+======================================================================
+[LEGAL] LEGAL-1 (Risk: MEDIUM)
+Clause Text: The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement.
+Reason     : Clause contributes to medium risk classification
+
+[LEGAL] LEGAL-2 (Risk: MEDIUM)
+Clause Text: The other party shall give notice of termination in writing to the other party, which notice shall specify in reasonable detail the event(s) of default that give rise to such termination.
+Reason     : Clause contributes to medium risk classification
+
+[COMPLIANCE] COMPLIANCE-1 (Risk: HIGH)
+Clause Text: The receiving party will not disclose the other party's confidential information to any third parties without the other party's prior written consent.
+Reason     : Clause contributes to high risk classification
+
+[FINANCE] FINANCE-1 (Risk: HIGH)
+Clause Text: In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service prov...
+Reason     : Clause contributes to high risk classification
+
+[FINANCE] FINANCE-2 (Risk: HIGH)
+Clause Text: Recipient shall reimburse Provider for all such Out-of-Pocket Costs.
+Reason     : Clause contributes to high risk classification
+
+[FINANCE] FINANCE-3 (Risk: HIGH)
+Clause Text: Provider shall provide Recipient with monthly invo
+Reason     : Clause contributes to high risk classification
+
+[OPERATIONS] OPERATIONS-1 (Risk: HIGH)
+Clause Text: Collectible Concepts Group will obtain any licenses deemed by the Joint Venturers to add value in the marketing of the Products
+Reason     : Clause contributes to high risk classification
+
+[OPERATIONS] OPERATIONS-2 (Risk: HIGH)
+Clause Text: Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates for final distribution of the Products
+Reason     : Clause contributes to high risk classification
+
+RISK ESCALATIONS
+======================================================================
+Refinement Escalations (Risk Changed): 3
+- Legal: low -> medium
+- Finance: medium -> high
+- Operations: medium -> high
+
+Agent-Level Escalations:
+- None
+
+Total Escalation Reasons Identified: 8
+
+CONCLUSION & RECOMMENDATIONS
+======================================================================
+This contract presents moderate risk. Review and mitigation are advised.
