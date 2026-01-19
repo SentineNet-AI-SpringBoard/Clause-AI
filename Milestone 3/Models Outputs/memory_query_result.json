@@ -1,0 +1,132 @@
+{
+  "unfiltered_query_detailed": {
+    "query": "obligations responsibilities requirements",
+    "retrieval_method": "Pinecone Vector Search",
+    "timestamp": "2026-01-12T17:33:01.436809",
+    "total_results": 4,
+    "agent_distribution": {
+      "compliance": 1,
+      "finance": 1,
+      "legal": 1,
+      "operations": 1
+    },
+    "memories": [
+      {
+        "id": "e4b50f06f1c3_compliance",
+        "agent": "compliance",
+        "risk_level": "high",
+        "confidence": 1,
+        "similarity_score": 0.3284,
+        "num_clauses": 1
+      },
+      {
+        "id": "e4b50f06f1c3_finance",
+        "agent": "finance",
+        "risk_level": "medium",
+        "confidence": 0.7,
+        "similarity_score": 0.2914,
+        "num_clauses": 3
+      },
+      {
+        "id": "e4b50f06f1c3_legal",
+        "agent": "legal",
+        "risk_level": "low",
+        "confidence": 0.85,
+        "similarity_score": 0.2396,
+        "num_clauses": 2
+      },
+      {
+        "id": "e4b50f06f1c3_operations",
+        "agent": "operations",
+        "risk_level": "medium",
+        "confidence": 0.8,
+        "similarity_score": 0.2078,
+        "num_clauses": 2
+      }
+    ]
+  },
+  "obligations responsibilities requirements_detailed": {
+    "query": "obligations responsibilities requirements",
+    "retrieval_method": "Pinecone Vector Search",
+    "timestamp": "2026-01-16T16:35:50.594920",
+    "total_results": 5,
+    "agent_distribution": {
+      "legal": 1,
+      "compliance": 1,
+      "finance": 1,
+      "operations": 1,
+      "unknown": 1
+    },
+    "avg_confidence": 0.67,
+    "risk_distribution": {
+      "low": 1,
+      "high": 1,
+      "medium": 2,
+      "unknown": 1
+    },
+    "enhanced_memories": 4,
+    "memories": [
+      {
+        "id": "m3_4ddffbdafb3e_20260116_142038_legal",
+        "agent": "legal",
+        "risk_level": "low",
+        "confidence": 0.85,
+        "similarity_score": 0.3215,
+        "num_clauses": 2,
+        "namespace": "legal_intermediate",
+        "session_id": "m3_4ddffbdafb3e_20260116_142038",
+        "has_recommendations": true,
+        "model_used": null
+      },
+      {
+        "id": "m3_4ddffbdafb3e_20260116_142038_compliance",
+        "agent": "compliance",
+        "risk_level": "high",
+        "confidence": 1,
+        "similarity_score": 0.3161,
+        "num_clauses": 1,
+        "namespace": "compliance_intermediate",
+        "session_id": "m3_4ddffbdafb3e_20260116_142038",
+        "has_recommendations": true,
+        "model_used": null
+      },
+      {
+        "id": "m3_4ddffbdafb3e_20260116_142038_finance",
+        "agent": "finance",
+        "risk_level": "medium",
+        "confidence": 0.7,
+        "similarity_score": 0.3143,
+        "num_clauses": 3,
+        "namespace": "finance_intermediate",
+        "session_id": "m3_4ddffbdafb3e_20260116_142038",
+        "has_recommendations": true,
+        "model_used": null
+      },
+      {
+        "id": "m3_4ddffbdafb3e_20260116_142038_operations",
+        "agent": "operations",
+        "risk_level": "medium",
+        "confidence": 0.8,
+        "similarity_score": 0.3128,
+        "num_clauses": 2,
+        "namespace": "operations_intermediate",
+        "session_id": "m3_4ddffbdafb3e_20260116_142038",
+        "has_recommendations": true,
+        "model_used": null
+      },
+      {
+        "id": "m3_4ddffbdafb3e_20260116_142038_routing_decision",
+        "agent": null,
+        "risk_level": null,
+        "confidence": null,
+        "similarity_score": 0.1071,
+        "num_clauses": null,
+        "namespace": "routing_decisions",
+        "session_id": "m3_4ddffbdafb3e_20260116_142038",
+        "has_recommendations": false,
+        "model_used": null
+      }
+    ],
+    "model_synthesis": "## Analysis of User Query: Obligations, Responsibilities, Requirements\n\n**1. Direct Answer:**\n\nThe contract analysis reveals potential obligations, responsibilities, and requirements related to **legal compliance**, **financial matters**, and **operational procedures**.  Specific details about these obligations are embedded within clauses analyzed by the \"LEGAL\", \"COMPLIANCE\", \"FINANCE\", and \"OPERATIONS\" agents. \n\n**2. Risk Assessment and Key Concerns:**\n\n* **High Risk:** The \"COMPLIANCE\" agent highlights a high risk level, indicating potential significant legal or regulatory issues within the contract. This requires immediate attention.\n* **Medium Risk:**  The \"FINANCE\" and \"OPERATIONS\" agents indicate medium risk levels, suggesting areas that need careful review to ensure financial stability and smooth operational execution.\n\n**3. Specific Recommendations:**\n\n* **Prioritize Compliance Review:** Immediately engage legal counsel to thoroughly analyze the clauses identified by the \"COMPLIANCE\" agent.  \n* **Financial Due Diligence:** Conduct a detailed review of the \"FINANCE\" agent's findings, focusing on potential financial liabilities, payment terms, and risk mitigation strategies. \n* **Operational Efficiency Assessment:** Analyze the \"OPERATIONS\" agent's findings to identify potential bottlenecks, resource allocation issues, or areas requiring process improvement.\n\n**4. Action Items with Priority:**\n\n**High Priority:**\n\n1. **Schedule Legal Consultation:**  Engage legal counsel within 24 hours to review clauses flagged by the \"COMPLIANCE\" agent.\n2. **Gather Relevant Financial Documents:** Collect all financial-related clauses identified by the \"FINANCE\" agent for further analysis.\n\n**Medium Priority:**\n\n3. **Operational Process Mapping:** Map out key operational processes mentioned in the \"OPERATIONS\" agent's findings to identify potential areas for improvement.\n4. **Develop Mitigation Strategies:**  Based on legal and financial analyses, develop mitigation strategies to address identified risks.\n\n\nThis structured approach will help you effectively navigate the complexities of your contract and minimize potential risks. Remember, proactive analysis and timely action are crucial for successful contract management."
+  }
+}
