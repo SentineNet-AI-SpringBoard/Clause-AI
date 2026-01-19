@@ -1,1 +1,149 @@
-
+{
+  "contract_id": "4ddffbdafb3e",
+  "contract_metadata": {
+    "analysis_timestamp": "2026-01-16T20:07:47.588572",
+    "analysis_type": "multi-agent-rag-cross-refinement",
+    "model_used": "gemma2:9b",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "agents_deployed": [
+      "legal",
+      "compliance",
+      "finance",
+      "operations"
+    ],
+    "refinement_iterations": 1768572143,
+    "total_agents": 4,
+    "refined_agents": 4,
+    "version": "1.0"
+  },
+  "agent_assessments": {
+    "legal": {
+      "original_risk": "low",
+      "final_risk": "medium",
+      "original_confidence": 0.85,
+      "final_confidence": 0.88,
+      "num_clauses": 2,
+      "refinement_escalated": true,
+      "escalation_reasons": []
+    },
+    "compliance": {
+      "original_risk": "high",
+      "final_risk": "high",
+      "original_confidence": 1.0,
+      "final_confidence": 0.9,
+      "num_clauses": 1,
+      "refinement_escalated": false,
+      "escalation_reasons": []
+    },
+    "finance": {
+      "original_risk": "medium",
+      "final_risk": "high",
+      "original_confidence": 0.7,
+      "final_confidence": 0.85,
+      "num_clauses": 3,
+      "refinement_escalated": true,
+      "escalation_reasons": []
+    },
+    "operations": {
+      "original_risk": "medium",
+      "final_risk": "high",
+      "original_confidence": 0.8,
+      "final_confidence": 0.92,
+      "num_clauses": 2,
+      "refinement_escalated": true,
+      "escalation_reasons": []
+    }
+  },
+  "overall_assessment": {
+    "overall_risk": "MEDIUM",
+    "overall_confidence": 0.887,
+    "weighted_risk_score": 2.442,
+    "risk_distribution": {
+      "critical": 0,
+      "high": 3,
+      "medium": 1,
+      "low": 0,
+      "unknown": 0
+    },
+    "highest_risk_domain": "operations",
+    "total_clauses_analyzed": 8
+  },
+  "high_risk_clauses": [
+    {
+      "clause_id": "COMPLIANCE-1",
+      "agent": "compliance",
+      "risk_level": "high",
+      "confidence": 0.9,
+      "clause_text": "The receiving party will not disclose the other party's confidential information to any third parties without the other party's prior written consent.",
+      "evidence": "The clause clearly requires the receiving party to maintain confidentiality of the other party's confidential information.",
+      "escalation_reasons": []
+    },
+    {
+      "clause_id": "FINANCE-1",
+      "agent": "finance",
+      "risk_level": "high",
+      "confidence": 0.85,
+      "clause_text": "In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, ",
+      "evidence": "The clause clearly defines the scope of Out-of-Pocket Costs and requires Recipient to reimburse Provider for such expenses.",
+      "escalation_reasons": []
+    },
+    {
+      "clause_id": "FINANCE-2",
+      "agent": "finance",
+      "risk_level": "high",
+      "confidence": 0.85,
+      "clause_text": "), Recipient shall reimburse Provider for all such Out-of-Pocket Costs.",
+      "evidence": "",
+      "escalation_reasons": []
+    },
+    {
+      "clause_id": "FINANCE-3",
+      "agent": "finance",
+      "risk_level": "high",
+      "confidence": 0.85,
+      "clause_text": "Provider shall provide Recipient with monthly invo",
+      "evidence": "",
+      "escalation_reasons": []
+    },
+    {
+      "clause_id": "OPERATIONS-1",
+      "agent": "operations",
+      "risk_level": "high",
+      "confidence": 0.92,
+      "clause_text": "Collectible Concepts Group will obtain any licenses deemed by the Joint Venturers to add value in the marketing of the Products",
+      "evidence": "The clause specifies that Collectible Concepts Group will obtain any licenses deemed by the Joint Venturers to add value in the marketing of the Products",
+      "escalation_reasons": []
+    },
+    {
+      "clause_id": "OPERATIONS-2",
+      "agent": "operations",
+      "risk_level": "high",
+      "confidence": 0.92,
+      "clause_text": "Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates for final distribution of the Products",
+      "evidence": "The clause also specifies that Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates for final distribution of the Products",
+      "escalation_reasons": []
+    }
+  ],
+  "confidence_metrics": {
+    "average_confidence": 0.887,
+    "median_confidence": 0.89,
+    "standard_deviation": 0.03,
+    "confidence_range": {
+      "min": 0.85,
+      "max": 0.92
+    },
+    "most_confident_agent": "operations",
+    "least_confident_agent": "finance"
+  },
+  "risk_escalations": {
+    "refinement_escalations": 3,
+    "refinement_escalated_agents": [
+      "legal",
+      "finance",
+      "operations"
+    ],
+    "clause_level_escalation_reasons": 0,
+    "escalation_reasons": []
+  },
+  "generated_at": "2026-01-16T20:07:47.588572"
+}
