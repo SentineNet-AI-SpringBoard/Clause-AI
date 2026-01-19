@@ -1,1 +1,67 @@
+FINAL CONTRACT ESCALATION SUMMARY
+========================================
+Contract ID        : 4ddffbdafb3e
+Generated At       : 2026-01-16T20:07:47.588572
+Overall Risk       : MEDIUM
+Average Confidence : 89%
+Weighted Risk Score: 2.44 / 4.00
 
+REFINEMENT ESCALATIONS (RISK CHANGED)
+----------------------------------------
+- Legal: low -> medium
+- Finance: medium -> high
+- Operations: medium -> high
+
+CLAUSE-LEVEL ESCALATIONS
+----------------------------------------
+[LEGAL] LEGAL-1
+  Risk Level : medium
+  Clause     : The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement.
+  Reason     : Clause contributes to medium risk classification
+
+[LEGAL] LEGAL-2
+  Risk Level : medium
+  Clause     : The other party shall give notice of termination in writing to the other party, which notice shall specify in reasonable detail the event(s) of default that giv...
+  Reason     : Clause contributes to medium risk classification
+
+[COMPLIANCE] COMPLIANCE-1
+  Risk Level : high
+  Clause     : The receiving party will not disclose the other party's confidential information to any third parties without the other party's prior written consent.
+  Reason     : Clause contributes to high risk classification
+
+[FINANCE] FINANCE-1
+  Risk Level : high
+  Clause     : In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees ...
+  Reason     : Clause contributes to high risk classification
+
+[FINANCE] FINANCE-2
+  Risk Level : high
+  Clause     : ), Recipient shall reimburse Provider for all such Out-of-Pocket Costs.
+  Reason     : Clause contributes to high risk classification
+
+[FINANCE] FINANCE-3
+  Risk Level : high
+  Clause     : Provider shall provide Recipient with monthly invo
+  Reason     : Clause contributes to high risk classification
+
+[OPERATIONS] OPERATIONS-1
+  Risk Level : high
+  Clause     : Collectible Concepts Group will obtain any licenses deemed by the Joint Venturers to add value in the marketing of the Products
+  Reason     : Clause contributes to high risk classification
+
+[OPERATIONS] OPERATIONS-2
+  Risk Level : high
+  Clause     : Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates for final distribution of the Products
+  Reason     : Clause contributes to high risk classification
+
+
+AGENT-LEVEL ESCALATIONS (NO DIRECT CLAUSE)
+----------------------------------------
+No agent-level escalation reasons
+
+ESCALATION SUMMARY
+----------------------------------------
+Total Refinement Escalations : 3
+Clause-Level Escalations     : 8
+Agent-Level Escalations      : 0
+Total Escalation Reasons     : 8
