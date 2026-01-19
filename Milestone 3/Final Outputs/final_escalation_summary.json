@@ -1,1 +1,165 @@
-
+{
+  "contract_id": "4ddffbdafb3e",
+  "generated_at": "2026-01-16T20:07:47.588572",
+  "overall_assessment": {
+    "overall_risk": "MEDIUM",
+    "average_confidence": 0.887,
+    "weighted_risk_score": 2.442,
+    "highest_risk_domain": "operations",
+    "risk_distribution": {
+      "critical": 0,
+      "high": 3,
+      "medium": 1,
+      "low": 0,
+      "unknown": 0
+    }
+  },
+  "refinement_escalations": {
+    "count": 3,
+    "agents": [
+      "legal",
+      "finance",
+      "operations"
+    ]
+  },
+  "clause_level_escalations": {
+    "count": 8,
+    "clauses": [
+      {
+        "agent": "legal",
+        "clause_id": "LEGAL-1",
+        "risk_level": "medium",
+        "clause_text": "The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement.",
+        "escalation_reason": "Clause contributes to medium risk classification"
+      },
+      {
+        "agent": "legal",
+        "clause_id": "LEGAL-2",
+        "risk_level": "medium",
+        "clause_text": "The other party shall give notice of termination in writing to the other party, which notice shall specify in reasonable detail the event(s) of default that give rise to such termination.",
+        "escalation_reason": "Clause contributes to medium risk classification"
+      },
+      {
+        "agent": "compliance",
+        "clause_id": "COMPLIANCE-1",
+        "risk_level": "high",
+        "clause_text": "The receiving party will not disclose the other party's confidential information to any third parties without the other party's prior written consent.",
+        "escalation_reason": "Clause contributes to high risk classification"
+      },
+      {
+        "agent": "finance",
+        "clause_id": "FINANCE-1",
+        "risk_level": "high",
+        "clause_text": "In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, ",
+        "escalation_reason": "Clause contributes to high risk classification"
+      },
+      {
+        "agent": "finance",
+        "clause_id": "FINANCE-2",
+        "risk_level": "high",
+        "clause_text": "), Recipient shall reimburse Provider for all such Out-of-Pocket Costs.",
+        "escalation_reason": "Clause contributes to high risk classification"
+      },
+      {
+        "agent": "finance",
+        "clause_id": "FINANCE-3",
+        "risk_level": "high",
+        "clause_text": "Provider shall provide Recipient with monthly invo",
+        "escalation_reason": "Clause contributes to high risk classification"
+      },
+      {
+        "agent": "operations",
+        "clause_id": "OPERATIONS-1",
+        "risk_level": "high",
+        "clause_text": "Collectible Concepts Group will obtain any licenses deemed by the Joint Venturers to add value in the marketing of the Products",
+        "escalation_reason": "Clause contributes to high risk classification"
+      },
+      {
+        "agent": "operations",
+        "clause_id": "OPERATIONS-2",
+        "risk_level": "high",
+        "clause_text": "Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates for final distribution of the Products",
+        "escalation_reason": "Clause contributes to high risk classification"
+      }
+    ]
+  },
+  "agent_level_escalations": {
+    "count": 0,
+    "agents": []
+  },
+  "all_escalation_reasons": {
+    "total_reasons": 8,
+    "reasons": [
+      {
+        "agent": "legal",
+        "clause_id": "LEGAL-1",
+        "reason": "Clause contributes to medium risk classification"
+      },
+      {
+        "agent": "legal",
+        "clause_id": "LEGAL-2",
+        "reason": "Clause contributes to medium risk classification"
+      },
+      {
+        "agent": "compliance",
+        "clause_id": "COMPLIANCE-1",
+        "reason": "Clause contributes to high risk classification"
+      },
+      {
+        "agent": "finance",
+        "clause_id": "FINANCE-1",
+        "reason": "Clause contributes to high risk classification"
+      },
+      {
+        "agent": "finance",
+        "clause_id": "FINANCE-2",
+        "reason": "Clause contributes to high risk classification"
+      },
+      {
+        "agent": "finance",
+        "clause_id": "FINANCE-3",
+        "reason": "Clause contributes to high risk classification"
+      },
+      {
+        "agent": "operations",
+        "clause_id": "OPERATIONS-1",
+        "reason": "Clause contributes to high risk classification"
+      },
+      {
+        "agent": "operations",
+        "clause_id": "OPERATIONS-2",
+        "reason": "Clause contributes to high risk classification"
+      }
+    ]
+  },
+  "agents_summary": {
+    "legal": {
+      "original_risk": "low",
+      "final_risk": "medium",
+      "confidence": 0.88,
+      "num_clauses": 2,
+      "refinement_escalated": true
+    },
+    "compliance": {
+      "original_risk": "high",
+      "final_risk": "high",
+      "confidence": 0.9,
+      "num_clauses": 1,
+      "refinement_escalated": false
+    },
+    "finance": {
+      "original_risk": "medium",
+      "final_risk": "high",
+      "confidence": 0.85,
+      "num_clauses": 3,
+      "refinement_escalated": true
+    },
+    "operations": {
+      "original_risk": "medium",
+      "final_risk": "high",
+      "confidence": 0.92,
+      "num_clauses": 2,
+      "refinement_escalated": true
+    }
+  }
+}
