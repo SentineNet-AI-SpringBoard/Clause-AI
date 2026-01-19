@@ -1,6 +1,0 @@
-{
-  "query": "Check indemnity obligations for vendor",
-  "detected_keyword": "indemnity",
-  "routed_to": "legal",
-  "success": true
-}
