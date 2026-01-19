@@ -1,0 +1,47 @@
+{
+  "refinement_timestamp": "2026-01-16T19:42:51.173671",
+  "refinement_approach": "cross-agent multi-turn reasoning (complete)",
+  "agents_refined": [
+    "legal",
+    "finance",
+    "compliance",
+    "operations"
+  ],
+  "refinement_results": {
+    "legal": {
+      "original": "low",
+      "final": "medium",
+      "confidence_change": "85% \u2192 88%",
+      "escalated": true,
+      "escalation_count": 2
+    },
+    "finance": {
+      "original": "medium",
+      "final": "high",
+      "confidence_change": "70% \u2192 85%",
+      "escalated": true,
+      "escalation_count": 3
+    },
+    "compliance": {
+      "original": "high",
+      "final": "high",
+      "confidence_change": "100% \u2192 90%",
+      "escalated": false,
+      "escalation_count": 4
+    },
+    "operations": {
+      "original": "medium",
+      "final": "high",
+      "confidence_change": "80% \u2192 92%",
+      "escalated": true,
+      "escalation_count": 6
+    }
+  },
+  "aggregate_metrics": {
+    "total_agents": 4,
+    "total_escalations": 3,
+    "total_escalation_reasons": 15,
+    "escalation_rate": 75.0,
+    "highest_impact_agent": "operations"
+  }
+}
