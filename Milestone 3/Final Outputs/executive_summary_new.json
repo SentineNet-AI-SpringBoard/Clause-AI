@@ -1,1 +1,11 @@
-
+{
+  "contract_id": "4ddffbdafb3e",
+  "analysis_timestamp": "2026-01-16T20:07:47.588572",
+  "overall_risk": "MEDIUM",
+  "average_confidence": 0.887,
+  "high_risk_clauses": 6,
+  "refinement_escalations": 3,
+  "escalation_reasons": 0,
+  "highest_risk_domain": "operations",
+  "requires_immediate_attention": false
+}
