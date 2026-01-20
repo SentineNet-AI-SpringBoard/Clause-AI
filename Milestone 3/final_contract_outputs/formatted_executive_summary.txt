@@ -1,0 +1,25 @@
+# EXECUTIVE SUMMARY
+
+Executive-level summary of contract insights and risks.
+
+## Legal Analysis
+► Risk: Medium
+► Confidence: 0.75
+► Clauses Found: 3
+
+## Finance Analysis
+► Risk: ⚠ HIGH RISK
+► Confidence: 0.95
+► Clauses Found: 3
+
+## Compliance Analysis
+► Risk: ⚠ HIGH RISK
+► Confidence: 0.96
+► Clauses Found: 7
+
+## Operations Analysis
+► Risk: Medium
+► Confidence: 0.96
+► Clauses Found: 3
+
+### Overall Contract Risk: High
