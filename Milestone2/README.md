@@ -1,6 +1,7 @@
 Milestone 2 - Multi-Agent Coordination & Reasoning
 
 Overview
+
 Milestone 2 focuses on building coordinated domain-specific agents and enabling interaction between them. The goal is to move from independent clause extraction to collaborative, multi-agent reasoning using shared state and orchestration.
 
 Key Objectives Achieved
