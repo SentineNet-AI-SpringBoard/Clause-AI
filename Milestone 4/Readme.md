@@ -43,7 +43,8 @@ set BACKEND_URL=http://127.0.0.1:8000
 streamlit run app.py
 ```
 
-##Authentication Flow
+## Authentication Flow
+
 1.User accesses the Streamlit UI.
 
 2.User logs in using credentials.
@@ -57,7 +58,8 @@ streamlit run app.py
 6.The UI uses the authenticated session for all subsequent requests.
 
 
-##Analysis Workflow
+## Analysis Workflow
+
 1.Authenticated user uploads one or more files.
 
 2.User enters a question or analysis prompt.
@@ -97,7 +99,7 @@ executive
 
 simple
 
-##History Management
+## History Management
 
 Every analysis request and response is stored in the backend SQLite database.
 
