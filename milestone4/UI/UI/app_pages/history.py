@@ -1,6 +1,18 @@
+from __future__ import annotations
+
+from datetime import datetime
+from typing import Any, Dict, Optional
+
 import streamlit as st
 
 from services.history import delete_run, get_run, list_runs
+from utils.report_pdf import make_pdf_filename, run_to_pdf_bytes
+
+
+@st.cache_data(show_spinner=False, ttl=60)
+def _get_run_cached(token: str, run_id: int) -> Optional[Dict[str, Any]]:
+    # Cache avoids re-fetching all runs on each Streamlit rerun.
+    return get_run(token=token, run_id=int(run_id))
 
 
 def history_page():
@@ -48,11 +60,15 @@ def history_page():
         with st.expander(f"{created_at} — {mode} — {len(files)} file(s) :: {question}"):
             st.caption(f"Run ID: {run_id}")
 
+            # Fetch run details once for downloads / preview.
+            loaded = _get_run_cached(token, run_id)
+
             b1, b2, b3 = st.columns([2, 2, 2])
             with b1:
                 if st.button("Open in Dashboard", key=f"history_open_{run_id}", use_container_width=True):
                     try:
                         loaded = get_run(token=token, run_id=run_id)
+                        _get_run_cached.clear()
                     except Exception as e:
                         loaded = None
                         st.session_state["history_load_error"] = f"Failed to load saved analysis: {e}"
@@ -76,11 +92,29 @@ def history_page():
                     st.session_state.page = "dashboard"
                     st.rerun()
             with b2:
-                if st.button("View JSON", key=f"history_view_{run_id}", use_container_width=True):
-                    loaded = get_run(token=token, run_id=run_id)
-                    if loaded:
-                        st.json(loaded)
+                if loaded:
+                    pdf_bytes = run_to_pdf_bytes(loaded)
+                    file_name = make_pdf_filename(mode=loaded.get("mode"), run_id=loaded.get("id"))
+                    st.download_button(
+                        "Download Report",
+                        data=pdf_bytes,
+                        file_name=file_name,
+                        mime="application/pdf",
+                        use_container_width=True,
+                        key=f"history_dl_pdf_{run_id}",
+                    )
+                else:
+                    st.download_button(
+                        "Download Report",
+                        data=b"",
+                        file_name=make_pdf_filename(mode=mode, run_id=run_id),
+                        mime="application/pdf",
+                        use_container_width=True,
+                        disabled=True,
+                        key=f"history_dl_pdf_{run_id}",
+                    )
             with b3:
                 if st.button("Delete", key=f"history_delete_{run_id}", use_container_width=True):
                     delete_run(token=token, run_id=run_id)
+                    _get_run_cached.clear()
                     st.rerun()

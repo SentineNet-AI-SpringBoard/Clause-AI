@@ -1,8 +1,14 @@
-import streamlit as st
+from __future__ import annotations
+
 import time
-import json
+from datetime import datetime, timezone
+from typing import Any, Dict, List
+
+import streamlit as st
 from services.analysis import ContractAnalyzer
 from services.history import save_run
+
+from utils.report_pdf import make_pdf_filename, run_to_pdf_bytes
 
 def dashboard_page():
     # Surface any history-load error from sidebar/history page.
@@ -179,8 +185,6 @@ def dashboard_page():
         # If no question provided, use a default analysis question.
         if not q:
             q = "Summarize key risks, payment terms, termination, liability, and compliance obligations."
-
-        st.markdown("### Final Executive Report")
         progress = st.progress(0)
         status = st.empty()
         reports = []
@@ -203,6 +207,7 @@ def dashboard_page():
         progress.empty()
         status.empty()
         st.session_state["report_results"] = reports
+        st.session_state["last_report_created_at"] = datetime.now(timezone.utc).isoformat()
 
         # Persist run for history (only when logged in).
         if user_email and token:
@@ -223,6 +228,24 @@ def dashboard_page():
     # Render report results ONLY if Launch Analysis has been clicked.
     report_results = st.session_state.get("report_results")
     if report_results:
+        st.markdown("---")
+        st.markdown("### Final Executive Report")
+
+        run = {
+            "mode": "analysis",
+            "created_at": st.session_state.get("last_report_created_at") or datetime.now(timezone.utc).isoformat(),
+            "question": (st.session_state.get("query_box_input") or "").strip(),
+            "tone": tone,
+            "results": report_results if isinstance(report_results, list) else [],
+        }
+        st.download_button(
+            "Download Report",
+            data=run_to_pdf_bytes(run),
+            file_name=make_pdf_filename(mode="analysis", run_id="latest"),
+            mime="application/pdf",
+            use_container_width=True,
+            key="dashboard_dl_pdf",
+        )
         for i, r in enumerate(report_results):
             if isinstance(r, dict) and r.get("error"):
                 with st.expander(f"⚠️ {r.get('filename', 'file')} — ERROR"):
