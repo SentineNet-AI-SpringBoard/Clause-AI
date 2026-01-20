@@ -77,7 +77,7 @@ streamlit run app.py
 
 ## Backend API Interaction
 
-###Analyze Endpoint
+### Analyze Endpoint
 
 Method: POST
 
