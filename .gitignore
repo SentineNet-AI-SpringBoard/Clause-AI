@@ -75,6 +75,9 @@ Thumbs.db
 plots/
 results/
 
+# Local helper scripts
+tools/
+
 # Ignore duplicate source notebooks; milestone folders carry the deliverables
 notebooks/
 
