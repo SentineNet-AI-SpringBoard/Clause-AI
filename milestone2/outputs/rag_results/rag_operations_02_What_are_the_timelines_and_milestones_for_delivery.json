@@ -1,0 +1,31 @@
+{
+  "query": "What are the timelines and milestones for delivery?",
+  "timestamp": "2025-12-29T18:05:10.647434",
+  "total_results": 3,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.43127346,
+      "contract_id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT",
+      "chunk_index": 13.0,
+      "text": ". 2.4. Standard Lead Time. As of the Effective Time and to the best of Accuray's knowledge, Accuray's standard lead time for delivery of Products is six months. 3. DUTIES OF DISTRIBUTOR 3.1. Independent Distributor. Distributor shall be and must at all times make it clear that it is an independent entity contracting with Accuray, and is not the employee, representative or agent of Accuray. Distributor does not have the ability or authority to enter into any legal agreements or obligations that would bind Accuray in any manner. 3.2. Market Knowledge, Promotion and Sales. Distributor will develop a thorough and complete understanding of the Products and Services. Distributor will use its knowledge and understanding to identify and cultivate potential Customers",
+      "char_count": 768.0
+    },
+    {
+      "rank": 2,
+      "score": 0.425132751,
+      "contract_id": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT",
+      "chunk_index": 26.0,
+      "text": ". For example, if a Purchase Order was submitted on June 1, with a requested delivery date of December 1, any expedited delivery expenses required in order to ensure delivery by December 1 shall be borne by Accuray, while if the requested delivery date was October 1, any expedited delivery expenses required in order to ensure delivery by October 1 shall be borne by Distributor. 4.2. Product and Service Pricing. Accuray will provide its then current U.S. list pricing for its Products and Services to Siemens once per year during the Term of this Agreement and any extension thereof, or upon request from Siemens. All prices will be stated in US Dollars, unless another currency is agreed upon in writing by Accuray. 4.3. Product Specifications and Promotional Literature. Accuray will provide product specifications and promotional literature to Distributor from time to time during the Term of this Agreement and any extension thereof",
+      "char_count": 939.0
+    },
+    {
+      "rank": 3,
+      "score": 0.415494,
+      "contract_id": "2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ Agency Agreement",
+      "chunk_index": 30.0,
+      "text": "12.3 PUBLICITY. Prior to the release of any press releases or other similar promotional materials related to this Agreement, the releasing party shall submit a written request for approval to the other party with a copy of the materials to be released, which\n\nSource: 2THEMART COM INC, 10-12G, 8/26/1999\n\nrequest shall be made no less than three (3) business days prior to the requested release date. A party shall not unreasonably withhold or delay the granting of its approval of such materials, and such approval shall be provided to the other party within one (1) business day of receipt",
+      "char_count": 591.0
+    }
+  ]
+}

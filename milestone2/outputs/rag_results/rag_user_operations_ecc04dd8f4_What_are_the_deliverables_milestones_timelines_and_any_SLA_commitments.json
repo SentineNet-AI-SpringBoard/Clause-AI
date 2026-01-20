@@ -1,0 +1,47 @@
+{
+  "query": "User question: What are the deliverables, milestones, timelines, and any SLA commitments?\nFind the most relevant operations clauses (deliverables, timelines, SLAs, obligations) in this contract and return exact clause text.",
+  "timestamp": "2025-12-29T18:46:54.739083",
+  "total_results": 5,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.456004143,
+      "contract_id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+      "chunk_index": 148.0,
+      "text": "(xx) The information in the Prospectus under \"Risk Factors,\" \"We Intend to Continue to Pay Quarterly Cash Dividends,\" \"Regulation,\" \"Taxation,\" \"The Offering,\" \"The Reorganization,\" \"Restrictions on Acquisition of Alliance Bancorp and Alliance Bank and Related Anti-Takeover Provisions\" \"Description of Alliance Bancorp Capital Stock,\" and \"Legal and Tax Opinions\" to the extent that it constitutes matters of law, summaries of legal matters, documents or proceedings, or legal conclusions, has been reviewed by them and is complete and accurate in all material respects.\n\n(xxi) There are no contracts, indentures, mortgages, loan agreements, notes, leases or other instruments required to be described or referred to in the Registration Statement and Prospectus or to be filed as exhibits thereto other than those described or referred to therein or filed as exhibits thereto and the descriptions thereof or references thereto are correct, and no default exists, and no event has",
+      "char_count": 980.0
+    },
+    {
+      "rank": 2,
+      "score": 0.447122604,
+      "contract_id": "ACCELERATEDTECHNOLOGIESHOLDINGCORP_04_24_2003-EX-10.13-JOINT VENTURE AGREEMENT",
+      "chunk_index": 14.0,
+      "text": "Its: ____________________________________\n\nDate: ___________________________________\n\nFor Pivotal Self Service Tech, Inc. By: ___________________________________\n\nIts: ____________________________________ Date: __________________________________\n\n GENERAL RESPONSIBILITIES OF THE PARTIES\n\nCollectible Concepts Group will:",
+      "char_count": 321.0
+    },
+    {
+      "rank": 3,
+      "score": 0.440730035,
+      "contract_id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+      "chunk_index": 186.0,
+      "text": "SECTION 8. REPRESENTATIONS, WARRANTIES AND AGREEMENTS TO SURVIVE DELIVERY. All representations, warranties and agreements contained in this Agreement, or contained in certificates of officers of the Company, the MHCs or the Bank submitted pursuant hereto, shall remain operative and in full force and effect, regardless of any investigation made by or on behalf of the Agent or any controlling person, or by or on behalf of the Company, and shall survive delivery of the Securities.\n\nSECTION 9. TERMINATION OF AGREEMENT.",
+      "char_count": 520.0
+    },
+    {
+      "rank": 4,
+      "score": 0.436637878,
+      "contract_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+      "chunk_index": 5.0,
+      "text": ". (e) Notwithstanding anything to the contrary in this Section 1.2: (a) in the event that Provider uses any subcontractors to perform any Services, Provider is not released from responsibility for its obligations under this Agreement; (b) Provider shall remain fully responsible, financially and otherwise, for the Services provided by each subcontractor to the same extent as if Provider had performed the Services itself (subject to the limitations set forth in this Agreement) and agrees to pay the fees and expenses of any such subcontractor; (c) Provider shall remain ultimately responsible for ensuring that the Services are provided and any such subcontractor performs any such obligations in accordance with the terms of this Agreement, and (d) the obligations with respect to the nature, quality and standards of care set forth in Section 1.2 are satisfied with respect to any Service provided by any subcontractor",
+      "char_count": 923.0
+    },
+    {
+      "rank": 5,
+      "score": 0.425366431,
+      "contract_id": "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply Agreement",
+      "chunk_index": 4.0,
+      "text": "2. PROVISION OF DOCUMENTATION 2.1 Provision by the Manufacturer The Manufacturer agrees to supply to the Customer, within a reasonable period of time, all documentation and information relating to the Products and their Manufacture as is required for the registration of the Products in the Territories as listed in Schedule C of this document. The party responsible for documentation fees and costs will be the Customer. 2.2 Provision by the Customer The Customer agrees to supply to the Manufacturer at its own expense, within a reasonable period of time, all documentation and information as is reasonably required by or would be beneficial to the Manufacturer in the performance of its obligations under this agreement. 3. COVENANTS BY THE MANUFACTURER 3.1 Compliance with Local Laws and Regulations The Manufacturer covenants that it is and will remain for the term of this agreement in compliance with any and all Local Laws and Regulations",
+      "char_count": 946.0
+    }
+  ]
+}

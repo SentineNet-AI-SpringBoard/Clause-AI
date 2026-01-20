@@ -1,0 +1,27 @@
+{
+  "agent_name": "Compliance Agent",
+  "model": "google/gemma-2b-it",
+  "timestamp": "2025-12-29T18:04:16.940875",
+  "input_summary": {
+    "num_context_chunks": 12,
+    "combined_text_length": 8761,
+    "source_queries": [
+      "What are the data protection and privacy obligations?",
+      "What regulatory requirements must be followed?",
+      "What are the audit and reporting requirements?",
+      "What are the confidentiality and non-disclosure obligations?"
+    ]
+  },
+  "output": {
+    "clause_type": "Compliance Analysis",
+    "extracted_clauses": [
+      "The receiving party will not disclose the other party's confidential information to any third parties without the other party's prior written consent."
+    ],
+    "risk_level": "high",
+    "confidence": 1.0,
+    "evidence": [
+      "The clause clearly requires the receiving party to maintain confidentiality of the other party's confidential information."
+    ]
+  },
+  "raw_response": "{\n    \"extracted_clauses\": [\"The receiving party will not disclose the other party's confidential information to any third parties without the other party's prior written consent.],\n    \"risk_level\": \"high\",\n    \"confidence\": 1.0,\n    \"evidence\": [\"The clause clearly requires the receiving party to maintain confidentiality of the other party's confidential information.\"]\n}"
+}

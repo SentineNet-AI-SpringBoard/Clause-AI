@@ -1,0 +1,31 @@
+{
+  "query": "What are the audit and reporting requirements?",
+  "timestamp": "2025-12-29T18:03:44.246248",
+  "total_results": 3,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.568864822,
+      "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+      "chunk_index": 110.0,
+      "text": ". The audit shall be limited to pertinent records kept by Aimmune and its Affiliates and Sublicensees for any year ending not more than [***] ([***]) months prior to the date of the written notice. An audit under this Section 8.4 shall not occur more than [***] in any Calendar Year, except in the case of any subsequent \"for cause\" audit. The accounting firm shall disclose to Xencor only whether the reports are correct or incorrect and the specific details concerning any discrepancies. No other information shall be provided to Xencor. The accounting firm shall provide Aimmune with a copy of any disclosures or reports made to Xencor and Aimmune shall have an opportunity to discuss such disclosures or reports with Xencor and the accounting firm. Information, disclosures, or reports arising from any such examination shall be Confidential Information of Aimmune subject to the confidentiality and other obligations of ARTICLE 12",
+      "char_count": 935.0
+    },
+    {
+      "rank": 2,
+      "score": 0.548823297,
+      "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+      "chunk_index": 111.0,
+      "text": ". Information, disclosures, or reports arising from any such examination shall be Confidential Information of Aimmune subject to the confidentiality and other obligations of ARTICLE 12. Prompt adjustments shall be made by the Parties to reflect the results of such audit. Xencor shall bear the full cost of such audit unless such audit discloses an underpayment of more than [***] percent ([***]%) of the payments due under this Agreement, in which case, [***].",
+      "char_count": 461.0
+    },
+    {
+      "rank": 3,
+      "score": 0.54313755,
+      "contract_id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+      "chunk_index": 169.0,
+      "text": "before income tax expense or net income of the Company, except in all instances for increases or decreases which the Registration Statement and the Prospectus disclose have occurred or may occur; and (iv) in addition to the examination referred to in their opinions and the limited procedures referred to in clause (iii) above, they have carried out certain specified procedures, not constituting an audit, with respect to certain amounts, percentages and financial information which are included in the Registration Statement and Prospectus and which are specified by the Agent, and have found such amounts, percentages and financial information to be in agreement with the relevant accounting, financial and other records of the Company, the MHCs and the Bank identified in such letter.",
+      "char_count": 788.0
+    }
+  ]
+}

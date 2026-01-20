@@ -1,10 +1,21 @@
-# Dataset files
-data/raw/CUAD_v1/
-*.csv
-*.json
-*.txt
-*.pdf
-*.xlsx
+# Dataset files (keep data out of git)
+data/
+dataset/
+
+# Workspace scratch artifacts (we commit curated outputs under milestone*/outputs instead)
+artifacts/
+
+# Runtime outputs (local/dev)
+milestone3/outputs/api_memory/
+milestone3/outputs/*.sqlite3
+milestone3/outputs/*.db
+*.sqlite3
+*.db
+
+# Keep milestone deliverables in milestone*/
+!milestone1/
+!milestone2/
+!milestone3/
 
 # Python cache and temporary files
 __pycache__/
@@ -31,6 +42,9 @@ wheels/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
+# Pytest cache
+.pytest_cache/
+
 # Virtual environments
 venv/
 env/
@@ -44,6 +58,10 @@ venv.bak/
 *.swp
 *.swo
 
+# Streamlit / benchmarking artifacts
+.streamlit/
+.benchmarks/
+
 # OS generated files
 .DS_Store
 .DS_Store?
@@ -53,10 +71,21 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 
-# Processed output files (exclude from artifacts folder)
-artifacts/contracts_clean_text.csv
-*.png
-*.jpg
-*.jpeg
+# Processed output files
 plots/
 results/
+
+# Local helper scripts
+tools/
+
+# Ignore duplicate source notebooks; milestone folders carry the deliverables
+notebooks/
+
+# Model caches (large)
+models_cache/
+notebooks/models_cache/
+
+# Local environment variables (do not commit secrets)
+.env
+.env.*
+!.env.example

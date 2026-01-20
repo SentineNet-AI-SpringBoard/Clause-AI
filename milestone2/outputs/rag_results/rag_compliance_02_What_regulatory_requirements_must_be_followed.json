@@ -1,0 +1,31 @@
+{
+  "query": "What regulatory requirements must be followed?",
+  "timestamp": "2025-12-29T18:03:43.962744",
+  "total_results": 3,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.493924081,
+      "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+      "chunk_index": 45.0,
+      "text": "1.65 \"Regulatory Authority\" means, in a particular country or regulatory jurisdiction, any applicable Governmental Authority involved in granting Regulatory Approval and/or, to the extent required in such country or regulatory jurisdiction, governmental Pricing Approval of a biopharmaceutical product in such country or regulatory jurisdiction.\n\n1.66 \"Regulatory Data\" means any and all research data, pharmacology data, chemistry, manufacturing and control data, preclinical data, clinical data and all other documentation submitted, or required to be submitted, to Regulatory Authorities in association with regulatory filings for the Product (including any applicable Drug Master Files, Chemistry, Manufacturing and Control (\"CMC\") data, or similar documentation).",
+      "char_count": 768.0
+    },
+    {
+      "rank": 2,
+      "score": 0.483369827,
+      "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+      "chunk_index": 14.0,
+      "text": "involved, the likelihood of regulatory approval, the likelihood and extent of anticipated or actual profitability of the applicable product, and other technical, legal, scientific and medical considerations",
+      "char_count": 206.0
+    },
+    {
+      "rank": 3,
+      "score": 0.472812653,
+      "contract_id": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT",
+      "chunk_index": 35.0,
+      "text": ". The Company has obtained all material licenses, permits and other governmental authorizations currently required for the conduct of its business; all such licenses, permits and governmental authorizations are in full force and effect, and the Company is in all material respects complying with all laws, rules, regulations and orders applicable to the operation of its business.",
+      "char_count": 380.0
+    }
+  ]
+}
