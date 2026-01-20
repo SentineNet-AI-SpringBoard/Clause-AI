@@ -1,7 +1,6 @@
-/* ================= IMPORT FONTS ================= */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lexend:wght@700;900&display=swap');
 
-/* ================= ROOT VARIABLES ================= */
 :root {
     --ai-blue: #6ea8ff;
     --ai-blue-glow: rgba(110,168,255,0.25);
@@ -16,11 +15,7 @@
     --border-soft: rgba(255,255,255,0.12);
 }
 
-/* ================================================= */
-/* ============ AI BRAIN GHOST BACKGROUND =========== */
-/* ================================================= */
 
-/* Brain image layer */
 .stApp::before {
     content: "";
     position: fixed;
@@ -36,7 +31,6 @@
     pointer-events: none;
 }
 
-/* Dark + light overlay */
 .stApp::after {
     content: "";
     position: fixed;
@@ -57,20 +51,17 @@
     pointer-events: none;
 }
 
-/* Foreground content */
 section.main,
 div.block-container {
     position: relative;
     z-index: 2;
 }
 
-/* ================= BASE APP ================= */
 .stApp {
     font-family: 'Inter', sans-serif;
     color: var(--text-main) !important;
 }
 
-/* ================= TYPOGRAPHY ================= */
 h1 {
     font-size: 2.6rem !important;
     letter-spacing: -0.6px;
@@ -82,7 +73,6 @@ p, span, label {
     color: var(--text-muted) !important;
 }
 
-/* ================= INPUTS ================= */
 input[type="text"],
 input[type="password"],
 .stTextArea textarea {
@@ -92,7 +82,6 @@ input[type="password"],
     border-radius: 10px !important;
 }
 
-/* ================= SELECT BOX ================= */
 .stSelectbox div[data-baseweb="select"] {
     background-color: var(--panel-deep) !important;
     border: 1px solid var(--border-soft) !important;
@@ -106,10 +95,6 @@ input[type="password"],
 ul[data-baseweb="menu"] {
     background-color: var(--panel-deep) !important;
 }
-
-/* ================================================= */
-/* ================= 3D GLASS CARDS ================= */
-/* ================================================= */
 
 .glass-card {
     background: linear-gradient(
@@ -135,7 +120,6 @@ ul[data-baseweb="menu"] {
     transform: translateY(-10px);
 }
 
-/* ================= INFO BOXES ================= */
 .info-box {
     background: linear-gradient(
         160deg,
@@ -154,11 +138,7 @@ ul[data-baseweb="menu"] {
     color: var(--ai-blue) !important;
 }
 
-/* ================================================= */
-/* ================= FILE UPLOADER ================= */
-/* ================================================= */
 
-/* Upload container */
 [data-testid="stFileUploader"] {
     background:
         radial-gradient(
@@ -187,7 +167,6 @@ ul[data-baseweb="menu"] {
     justify-content: center !important;
 }
 
-/* Dropzone layout */
 section[data-testid="stFileUploaderDropzone"] {
     display: flex !important;
     flex-direction: column !important;
@@ -199,7 +178,6 @@ section[data-testid="stFileUploaderDropzone"] {
     text-align: center !important;
 }
 
-/* Inner wrapper fix */
 section[data-testid="stFileUploaderDropzone"] > div {
     display: flex !important;
     flex-direction: column !important;
@@ -215,7 +193,6 @@ section[data-testid="stFileUploaderDropzone"] svg {
     margin: 0 auto !important;
 }
 
-/* Upload text */
 section[data-testid="stFileUploaderDropzone"] span,
 section[data-testid="stFileUploaderDropzone"] small,
 section[data-testid="stFileUploaderDropzone"] div {
@@ -226,7 +203,6 @@ section[data-testid="stFileUploaderDropzone"] div {
     color: #c7d2fe !important;
 }
 
-/* Upload button */
 section[data-testid="stFileUploaderDropzone"] button {
     margin-top: 8px !important;
     align-self: center !important;
@@ -247,13 +223,11 @@ section[data-testid="stFileUploaderDropzone"] button {
         inset 0 1px 1px rgba(255,255,255,0.25);
 }
 
-/* 🔴 Hide Streamlit default file chip */
 [data-testid="stFileUploader"]
 section[data-testid="stFileUploaderFile"] {
     display: none !important;
 }
 
-/* ================= PRIMARY BUTTONS ================= */
 .stButton > button {
     background: linear-gradient(
         180deg,
@@ -270,7 +244,6 @@ section[data-testid="stFileUploaderFile"] {
         inset 0 1px 1px rgba(255,255,255,0.25);
 }
 
-/* ================= SIDEBAR ================= */
 [data-testid="stSidebar"] {
     background: linear-gradient(
         180deg,
@@ -279,8 +252,8 @@ section[data-testid="stFileUploaderFile"] {
     ) !important;
 }
 
-/* ================= STREAMLIT CLEANUP ================= */
 div.block-container { padding-top: 5rem !important; }
 #MainMenu { visibility: hidden; }
 footer { visibility: hidden; }
 header { background: transparent !important; }
+
