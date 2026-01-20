@@ -2,120 +2,91 @@
 
 ## Overview
 
-ClauseAI is an AI-powered contract intelligence system designed to automatically interpret, analyze, and validate contractual clauses across multiple functional domains. The platform adopts a modular, multi-agent architecture where domain-specific agents collaborate to provide structured, explainable, and actionable insights from complex legal documents.
-
-The system is orchestrated using LangGraph, enabling dynamic agent execution, shared state management, and inter-agent reasoning. This design ensures scalability, flexibility, and transparency throughout the contract analysis workflow.
-
----
+ClauseAI is an AI-driven platform for automated contract analysis, designed to extract, validate, and interpret clauses across Legal, Compliance, Finance, and Operations domains. It uses a modular, multi-agent architecture with LangGraph for orchestrating agents, shared state management, and inter-agent reasoning, ensuring scalable, transparent, and explainable insights.
 
 ## Key Capabilities
 
-- Contract ingestion and preprocessing from PDF and TXT formats  
-- Clause-level document segmentation with configurable overlap  
-- Dense vector embedding generation for semantic understanding  
-- Vector-based storage and similarity-based retrieval  
-- Domain-specific analysis agents:
-  - Legal
-  - Compliance
-  - Finance
-  - Operations
-- Rule-based and conditional agent routing  
-- Multi-agent orchestration using LangGraph  
-- Shared memory for agent-to-agent communication  
-- Cross-domain validation and reasoning to enhance confidence and accuracy  
-
----
+* Contract ingestion and preprocessing from PDF and TXT files
+* Clause-level segmentation with configurable overlap
+* Dense vector embeddings for semantic understanding
+* Vector-based storage and similarity search
+* Domain-specific agents: Legal, Compliance, Finance, Operations
+* Rule-based and conditional agent routing
+* Multi-agent orchestration using LangGraph
+* Shared memory for inter-agent communication
+* Cross-domain validation to improve accuracy and confidence
 
 ## Technology Stack
 
-### Programming Language
-- Python 3.10+
+* **Python 3.10+**
+* **LangChain & LangGraph:** Agent orchestration and structured workflow
+* **Pinecone:** Vector database for clause embeddings
+* **NumPy & Pandas:** Data processing and analysis
+* **Matplotlib:** Visualizations
+* **Jupyter Notebook:** Experimentation and prototyping
 
-### Core Frameworks & Libraries
-- **LangChain & LangGraph**  
-  Used for agent orchestration, state management, and structured workflow execution  
+## Models
 
-- **Pinecone**  
-  Vector database for semantic indexing and retrieval of clause embeddings  
+* Sentence-Transformer and Hugging Face models for embeddings
+* Gemma-based model for agent reasoning
 
-- **NumPy & Pandas**  
-  Data processing, transformation, and analysis  
+## Milestone 1 – Foundational RAG Pipeline
 
-- **Matplotlib**  
-  Visualization and exploratory analysis  
+Established core workflow for contract ingestion, semantic retrieval, and agent reasoning.
 
-- **Jupyter Notebook**  
-  Experimentation, prototyping, and milestone-based development  
+* Document ingestion and preprocessing
+* Clause chunking with overlap
+* Embedding generation and vector storage
+* Retrieval of relevant clauses
 
----
+**Challenges:**
 
-## Models Utilized
+* API-based embedding replaced with local `all-MiniLM-L6-v2` model
+* Evaluated larger models (Qwen 2.5, Mistral-7B) but limited RAM (16GB) prevented loading
+* Selected Gemma model for efficiency and reasoning performance
 
-- Sentence-Transformer and Hugging Face models for embedding generation  
-- Gemma-based language model for agent reasoning and response generation  
+## Milestone 2 – Multi-Agent Orchestration
 
----
+Transitioned from linear RAG to coordinated multi-agent system.
 
-## Milestone 1: Foundational RAG Pipeline
+* Domain-specific agents for Legal, Compliance, Finance, Operations
+* Shared state for inter-agent communication
+* Agent pipelines modeled with LangGraph nodes and edges
+* Rule-based and conditional agent execution
+* Sequential and parallel execution patterns
+* Cross-agent refinement for overlapping insights
 
-The first milestone focused on setting up the development environment and implementing the foundational Retrieval-Augmented Generation (RAG) pipeline. This phase established the core workflow required for contract ingestion, semantic retrieval, and agent-based reasoning.
+**Outcomes:**
 
-### Implemented Components
+* Context-aware reasoning replacing keyword-based analysis
+* Consistent domain analyses via shared memory
+* Modular and extensible architecture supporting future growth
 
-- Document ingestion and preprocessing  
-- Clause chunking with overlap handling  
-- Embedding generation and vector storage  
-- Semantic retrieval for relevant clause selection  
+## Milestone 3 – Advanced Reasoning and Validation
 
-### Challenges and Observations
+Focused on enhancing agent intelligence with cross-domain validation, structured output schemas, and explainable reasoning.
 
-- Initial embedding generation relied on API-based solutions before transitioning to a locally hosted sentence transformer model (`all-MiniLM-L6-v2`)  
-- Multiple large language models, including Qwen 2.5 and Mistral-7B, were evaluated as base models  
-- Due to hardware limitations (16 GB CPU RAM), larger models could not be reliably loaded in the local VS Code environment  
-- A Gemma-based model was ultimately selected for its balance between computational efficiency and reasoning performance  
+* Implementation of advanced validation logic for clause extraction
+* Standardized output schemas for all agents ensuring consistency
+* Cross-agent reasoning to reconcile conflicting or overlapping insights
+* Enhanced evidence tracing and confidence scoring
+* Integration of operational workflows for end-to-end automated analysis
 
----
+**Outcomes:**
 
-## Milestone 2: Multi-Agent Pipelines and Orchestration
-
-The second milestone focused on evolving the system from a linear RAG pipeline to a coordinated, multi-agent architecture capable of structured reasoning across multiple domains. This phase introduced agent specialization, shared state management, and dynamic execution flows using LangGraph.
-
-### Key Enhancements
-
-- Design and implementation of domain-specific agents for Legal, Compliance, Finance, and Operations  
-- Definition of agent responsibilities and scoped reasoning boundaries  
-- Introduction of a shared state object to enable agent-to-agent communication  
-- Construction of agent pipelines using LangGraph nodes and edges  
-- Rule-based and conditional routing of agents based on document context and analysis outcomes  
-- Support for sequential and parallel agent execution patterns  
-- Cross-agent refinement logic to reconcile overlapping or conflicting insights  
-
-### Orchestration with LangGraph
-
-- LangGraph was used to model agents as graph nodes with well-defined inputs and outputs  
-- Agent execution flow was controlled using conditional edges and runtime signals  
-- The shared state enabled agents to reference prior analyses, reducing redundant computation  
-- This orchestration approach improved modularity, debuggability, and extensibility of the system  
-
-### Outcomes
-
-- Transition from static, keyword-driven analysis to dynamic, context-aware reasoning  
-- Improved consistency across domain analyses through shared memory  
-- Enhanced scalability by enabling independent agent evolution  
-- Strong foundation for future event-driven execution and user-interactive workflows  
-
----
+* Improved accuracy and reliability of agent outputs
+* Transparent, traceable reasoning across multiple domains
+* Strong foundation for enterprise-grade deployment and interactive contract exploration
+* Reduced risk of hallucinations or unsupported conclusions
 
 ## Future Scope
 
-- Event-driven agent execution based on confidence thresholds and risk escalation  
-- Persistent long-term memory for agents across multiple contracts  
-- UI-driven contract exploration and follow-up querying  
-- Explainability layers with evidence tracing and confidence scoring  
-- Support for additional document formats and large-scale contract repositories  
-
----
+* Event-driven agent execution and risk escalation
+* Persistent memory across multiple contracts
+* UI for interactive contract exploration
+* Explainability with evidence tracking and confidence scoring
+* Support for additional document formats and large-scale repositories
 
 ## Summary
 
-ClauseAI demonstrates a scalable and modular approach to contract intelligence by combining retrieval-augmented generation with coordinated multi-agent reasoning. Through structured pipelines and LangGraph-based orchestration, the system enables comprehensive, explainable, and extensible contract analysis workflows.
+ClauseAI combines retrieval-augmented generation with multi-agent orchestration to provide scalable, explainable, and extensible contract intelligence, enabling automated, cross-domain, and reliable contract analysis workflows.
