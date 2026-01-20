@@ -1,0 +1,23 @@
+{
+  "query": "Identify clauses related to:\n- Regulatory compliance\n- Data protection\n- Audits and reporting\n- Privacy and security obligations",
+  "retrieved_chunks": 5,
+  "analysis": {
+    "clause_type": "Compliance",
+    "extracted_clauses": [
+      "It is contemplated that in the course of the performance of this Agreement each Party may, from time to time, disclose proprietary and confidential information to the other (\"Confidential Information\")",
+      "The parties agree to ensure that they will at all times comply with the provisions and obligations imposed by the Data Protection Act 1984, the EU Data Protection Directive 95/46 and any implementing legislation in the United Kingdom.",
+      "Both parties agree to indemnify each other in respect of any unauthorised disclosure of data by them.",
+      "You agree to abide by all applicable laws pertaining to the privacy of consumer, employee, and transactional information (\"Privacy Laws\")",
+      "You agree to comply with our standards and policies that we may issue (without any obligation to do so) pertaining to the privacy of consumer, employee, and transactional information. If there is a conflict between our standards and policies and Privacy Laws, you agree to: (a) comply with the requirements of Privacy Laws; (b) immediately give us written notice of such conflict; and (c) promptly and fully cooperate with us and our counsel in determining the most effective way, if any, to meet our standards and policies pertaining to privacy within the bounds of Privacy Laws.",
+      "You agree to not publish, disseminate, implement, revise, or rescind a data privacy policy without our prior written consent as to such policy."
+    ],
+    "risk_level": "high",
+    "confidence": 0.95,
+    "evidence": []
+  },
+  "summary": {
+    "risk_level": "high",
+    "confidence": 0.95,
+    "num_clauses": 6
+  }
+}

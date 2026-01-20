@@ -1,0 +1,53 @@
+{
+  "query": "Identify clauses related to:\n- Payment terms\n- Fees and invoicing\n- Penalties or late fees\n- Financial liability",
+  "retrieved_chunks": 5,
+  "analysis": {
+    "clause_type": "Finance",
+    "extracted_clauses": [
+      {
+        "clause_text": "If Buyer fails to pay Seller an amount owed under this Agreement by the invoice due date, then Buyer will owe Seller: (i) the delinquent amount; and (ii) a late payment fee equal to two percent (2%) of the delinquent amount for each full or partial calendar month past the invoice due date that the delinquent amount remains unpaid.",
+        "risk_level": "high",
+        "confidence": 0.95,
+        "evidence": [
+          "Late Fees and Collection Costs. If Buyer fails to pay Seller an amount owed under this Agreement by the invoice due date, then Buyer will owe Seller: (i) the delinquent amount; and (ii) a late payment fee equal to two percent (2%) of the delinquent amount for each full or partial calendar month past the invoice due date that the delinquent amount remains unpaid."
+        ]
+      },
+      {
+        "clause_text": "Owner shall pay Service Provider within thirty (30) days after the invoice date. Fees are conditioned upon timely payment and any past due balance will accrue interest at the monthly rate of one and one half percent (1.5%).",
+        "risk_level": "medium",
+        "confidence": 0.9,
+        "evidence": [
+          "2.3 Terms of Payment. Owner shall pay Service Provider within thirty (30) days after the invoice date.",
+          "2.4 Taxes. Notwithstanding any provision in this Agreement to the contrary, amounts set forth in this Agreement are inclusive of sales, use, ad valorem, business or any other taxes duties, or other fees, assessments, or charges payable by Service Provider on the Services provided by Service Provider hereunder.",
+          "2.5 User has No Obligation to Pay. Owner and Service Provider each acknowledge that User shall have no obligation to pay any amounts whatsoever under this Agreement."
+        ]
+      },
+      {
+        "clause_text": "Allscripts shall invoice the Company for Legacy Customers (as defined on Exhibit H) quarterly fees in accordance with Exhibit F [***].",
+        "risk_level": "low",
+        "confidence": 0.8,
+        "evidence": [
+          "ARTICLE 3. TERM; TERMINATION (iii) Legacy Customer's Fee. Allscripts shall invoice the Company for Legacy Customers (as defined on Exhibit H) quarterly fees in accordance with Exhibit F [***]."
+        ]
+      },
+      {
+        "clause_text": "Each party will submit each invoice in electronic format, via such delivery means and to such address as are specified by Allscripts and the Company in writing from time to time. Each party will pay all properly invoiced fees within [***] after its receipt of a proper invoice therefor. All payments hereunder will be invoiced in U.S. Dollars. All payments hereunder will be made by wire transfer to the account specified by each Party; provided that a Party shall provide at least [***] advance notice of any changes to its account.",
+        "risk_level": "medium",
+        "confidence": 0.85,
+        "evidence": [
+          "17.3 Payment Terms (a) Each party will submit each invoice in electronic format, via such delivery means and to such address as are specified by Allscripts and the Company in writing from time to time.",
+          "17.3 Payment Terms (b) Subject to the terms and conditions of this Section 17.3, each party will pay all properly invoiced fees within [***] after its receipt of a proper invoice therefor.",
+          "17.3 Payment Terms (c) Payment of Fees. On the first Business Day of each month, or as soon thereafter as practicable, the Contractor shall provide the Company with a written invoice for the previous month's fees and expenses that are payable with respect to Notes issued up to the last day of such month.. Such fees and expenses will be due and payable by the later of the fifteenth (15 ) day of every month or fifteen (15) days after the date such invoice is received."
+        ]
+      }
+    ],
+    "risk_level": "high",
+    "confidence": 0.88,
+    "evidence": []
+  },
+  "summary": {
+    "risk_level": "high",
+    "confidence": 0.88,
+    "num_clauses": 4
+  }
+}
