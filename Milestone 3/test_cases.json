@@ -1,0 +1,195 @@
+{
+  "test_cases": [
+    {
+      "id": "TC001",
+      "name": "Valid Contract - Termination Clauses",
+      "endpoint": "/analyze",
+      "method": "POST",
+      "payload": {
+        "contract_text": "The other party shall give notice of termination in writing to the other party, which notice shall specify in reasonable detail the event(s) of default that give rise to such termination. The other party asserts any rights in or to the terminating party's intellectual property in violation of this Agreement.",
+        "tone": "executive",
+        "include_report": true
+      },
+      "expected_status": 200,
+      "expected_fields": [
+        "contract_id",
+        "overall_risk",
+        "agent_assessments",
+        "formatted_report"
+      ],
+      "expected_risk_level": "medium"
+    },
+    {
+      "id": "TC002",
+      "name": "Valid Contract - Payment Terms",
+      "endpoint": "/analyze",
+      "method": "POST",
+      "payload": {
+        "contract_text": "In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees for third-party service providers or subcontractors, Recipient shall reimburse Provider for all such Out-of-Pocket Costs. Provider shall provide Recipient with monthly invoices.",
+        "tone": "simple",
+        "include_report": true
+      },
+      "expected_status": 200,
+      "expected_fields": [
+        "contract_id",
+        "agent_assessments"
+      ]
+    },
+    {
+      "id": "TC003",
+      "name": "Valid Contract - Compliance Clauses",
+      "endpoint": "/analyze",
+      "method": "POST",
+      "payload": {
+        "contract_text": "The receiving party will not disclose the other party's confidential information to any third parties without the other party's prior written consent. All confidential information must be handled in accordance with GDPR Article 32 requirements for security of processing.",
+        "tone": "executive",
+        "include_report": false
+      },
+      "expected_status": 200,
+      "expected_fields": [
+        "contract_id",
+        "overall_risk"
+      ],
+      "validation": {
+        "formatted_report": null
+      }
+    },
+    {
+      "id": "TC004",
+      "name": "Invalid - Empty Contract",
+      "endpoint": "/analyze",
+      "method": "POST",
+      "payload": {
+        "contract_text": "",
+        "tone": "executive",
+        "include_report": true
+      },
+      "expected_status": 400,
+      "expected_error": "Contract text must be at least 100 characters"
+    },
+    {
+      "id": "TC005",
+      "name": "Invalid - Short Contract",
+      "endpoint": "/analyze",
+      "method": "POST",
+      "payload": {
+        "contract_text": "Short text",
+        "tone": "executive",
+        "include_report": true
+      },
+      "expected_status": 400,
+      "expected_error": "Contract text must be at least 100 characters"
+    },
+    {
+      "id": "TC006",
+      "name": "Valid - Multi-Domain Contract",
+      "endpoint": "/analyze",
+      "method": "POST",
+      "payload": {
+        "contract_text": "This agreement contains termination clauses, payment obligations, confidentiality requirements, and operational licensing terms. The other party shall give notice of termination in writing. Provider incurs reasonable out-of-pocket expenses. The receiving party will not disclose confidential information. Pivotal Self Service Tech, Inc. will provide fulfillment services through affiliates.",
+        "tone": "executive",
+        "include_report": true
+      },
+      "expected_status": 200,
+      "validation": {
+        "agent_count": 4,
+        "has_legal_assessment": true,
+        "has_compliance_assessment": true,
+        "has_finance_assessment": true,
+        "has_operations_assessment": true
+      }
+    },
+    {
+      "id": "TC007",
+      "name": "Health Check",
+      "endpoint": "/health",
+      "method": "GET",
+      "expected_status": 200,
+      "expected_fields": [
+        "status",
+        "timestamp"
+      ]
+    },
+    {
+      "id": "TC008",
+      "name": "Root Endpoint",
+      "endpoint": "/",
+      "method": "GET",
+      "expected_status": 200,
+      "expected_fields": [
+        "message",
+        "status"
+      ]
+    },
+    {
+      "id": "TC009",
+      "name": "Quick Analysis",
+      "endpoint": "/analyze/quick",
+      "method": "POST",
+      "payload": {
+        "contract_text": "The other party shall give notice of termination in writing to the other party, which notice shall specify in reasonable detail the event(s) of default that give rise to such termination. Recipient shall reimburse Provider for all out-of-pocket costs."
+      },
+      "expected_status": 200,
+      "expected_fields": [
+        "contract_id",
+        "overall_risk"
+      ]
+    },
+    {
+      "id": "TC010",
+      "name": "Executive Tone Report",
+      "endpoint": "/analyze",
+      "method": "POST",
+      "payload": {
+        "contract_text": "This is a comprehensive service agreement containing termination provisions, financial obligations, confidentiality requirements, and operational delivery terms. The Provider will invoice monthly for services rendered. All confidential information must be protected in accordance with applicable data protection regulations.",
+        "tone": "executive",
+        "include_report": true
+      },
+      "expected_status": 200,
+      "validation": {
+        "report_contains": [
+          "EXECUTIVE SUMMARY",
+          "RISK ASSESSMENT",
+          "CONCLUSION"
+        ]
+      }
+    }
+  ],
+  "test_instructions": {
+    "setup": [
+      "1. Ensure Milestone 3 notebook has been executed completely",
+      "2. Required files in Data/Results/Milestone3/:",
+      "   - refined_agent_outputs_combined.json (from Section: Combining Refined Agent Outputs)",
+      "   - final_escalation_analysis_new.json (from Section: Final Contract-Level JSON Output)",
+      "   - contract_analysis_report_new.txt (from Section: Report Template Design)",
+      "3. Verify all 4 agents (legal, compliance, finance, operations) have refined outputs",
+      "4. Start the API server: python app.py",
+      "5. API will be available at http://localhost:8000",
+      "6. Interactive docs at http://localhost:8000/docs"
+    ],
+    "execution": [
+      "1. Use Thunder Client, Postman, or curl to test endpoints",
+      "2. Test cases should be executed in order",
+      "3. Verify expected_status codes",
+      "4. Check that expected_fields are present in responses",
+      "5. For validation rules, check specific conditions",
+      "6. Note: Actual analysis uses pre-generated Milestone 3 outputs",
+      "7. Contract text is used only for generating contract_id hash"
+    ],
+    "file_verification": {
+      "check_before_running": [
+        "refined_agent_outputs_combined.json should contain 4 agents",
+        "final_escalation_analysis_new.json should have overall_assessment",
+        "contract_analysis_report_new.txt should contain formatted report text"
+      ],
+      "expected_agents": ["legal", "compliance", "finance", "operations"],
+      "expected_risk_levels": ["low", "medium", "high", "critical"]
+    },
+    "examples": {
+      "curl_test_TC001": "curl -X POST http://localhost:8000/analyze -H 'Content-Type: application/json' -d @tc001_payload.json",
+      "curl_health": "curl http://localhost:8000/health",
+      "python_test": "import requests; response = requests.post('http://localhost:8000/analyze', json={'contract_text': '...', 'tone': 'executive'}); print(response.json())",
+      "check_outputs": "ls ../Data/Results/Milestone3/ | grep -E '(refined_agent|final_escalation|contract_analysis)'"
+    }
+  }
+}
