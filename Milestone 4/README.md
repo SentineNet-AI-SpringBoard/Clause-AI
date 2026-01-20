@@ -1,4 +1,4 @@
-Milestone  - Documentation
+Milestone 4 - Documentation
 
 1. Milestone 4 - Objectives:
     1. Build Report Generation Module for automated summary creation.
