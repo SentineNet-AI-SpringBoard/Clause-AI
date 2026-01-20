@@ -10,3 +10,18 @@
 ## Files
 - Notebook: `Milestone3_ParallelAgents_PersistentMemory.ipynb`
 - Outputs: `outputs/`
+
+## Backend (FastAPI)
+- Backend code: `backend/`
+- Run locally:
+  - `pip install -r requirements.txt`
+  - `cd milestone3/backend`
+  - `uvicorn app:app --reload --port 8000`
+
+## Backend additions (SQLite auth + history)
+Milestone 3 backend now also includes a small SQLite database to persist:
+- Users + sessions (token-based)
+- Per-user analysis history (Ask + Launch Analysis runs)
+
+## Tests
+- Run: `pytest -q`

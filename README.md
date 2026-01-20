@@ -118,6 +118,10 @@ legal-contracts-eda/
 │   │   └── coordinator_cache/
 │   └── README.md
 │
+├── milestone4/                  # Milestone 4: Streamlit UI + backend integration
+│   ├── README.md
+│   └── UI/
+│
 ├── data/                        # Raw contract datasets (gitignored)
 ├── dataset/                     # Processed chunks & embeddings (gitignored)
 ├── artifacts/                   # Intermediate outputs (gitignored)
@@ -174,6 +178,25 @@ legal-contracts-eda/
    # Optional: Hugging Face token (for gated models)
    HF_TOKEN=your_hf_token_here
    ```
+
+### Run the app (FastAPI backend + Streamlit UI)
+
+1. **Start the backend**
+   ```powershell
+   cd milestone3\backend
+   uvicorn app:app --reload --port 8000
+   ```
+
+2. **Start the Streamlit UI**
+   ```powershell
+   cd milestone4\UI\UI
+   pip install -r requirements.txt
+   streamlit run app.py
+   ```
+
+Notes:
+- Auth and analysis history are stored in a local SQLite DB on the backend.
+- Set `BACKEND_URL` if your backend runs on a different host/port.
 
 5. **Run notebooks in order**
    - Start with `milestone1/Milestone1_ProjectPlanning_Setup_EDA.ipynb`

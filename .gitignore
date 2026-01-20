@@ -5,6 +5,13 @@ dataset/
 # Workspace scratch artifacts (we commit curated outputs under milestone*/outputs instead)
 artifacts/
 
+# Runtime outputs (local/dev)
+milestone3/outputs/api_memory/
+milestone3/outputs/*.sqlite3
+milestone3/outputs/*.db
+*.sqlite3
+*.db
+
 # Keep milestone deliverables in milestone*/
 !milestone1/
 !milestone2/
@@ -35,6 +42,9 @@ wheels/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
+# Pytest cache
+.pytest_cache/
+
 # Virtual environments
 venv/
 env/
@@ -47,6 +57,10 @@ venv.bak/
 .idea/
 *.swp
 *.swo
+
+# Streamlit / benchmarking artifacts
+.streamlit/
+.benchmarks/
 
 # OS generated files
 .DS_Store
