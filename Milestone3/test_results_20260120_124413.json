@@ -1,0 +1,100 @@
+[
+  {
+    "id": "TC001",
+    "name": "Valid Contract - Termination Clauses",
+    "status_code": 200,
+    "response": {
+      "contract_id": "contract_api_001",
+      "overall_risk": "high",
+      "tone": "executive",
+      "report": "\n===========================\n     EXECUTIVE SUMMARY\n===========================\n\nOverall Contract Risk: high\n\nKey Risks:\n- Legal Risk: Medium\n- Finance Risk: high\n- Compliance Risk: high\n- Operations Risk: medium\n\nTotal Clauses Detected: 15\n"
+    }
+  },
+  {
+    "id": "TC002",
+    "name": "Valid Contract - Payment Terms",
+    "status_code": 200,
+    "response": {
+      "contract_id": "contract_api_001",
+      "overall_risk": "high",
+      "tone": "simple",
+      "report": "\n=====================================\n      CONTRACT ANALYSIS REPORT\n=====================================\n\nContract ID: contract_api_001\nGenerated At: 2026-01-20T07:14:13.892055Z\nOverall Risk Level: high\n\nHere is a simple and easy-to-understand summary.\n\n\nLEGAL ANALYSIS (Risk: Medium)\n------------------------------------------------------------\n- Either Party may terminate this Agreement prior to its expiration upon the occurrence of either of the following: (i) the other Party becomes insolvent...\n- Each party shall have the right at any time to terminate this Agreement...\n\n\nFINANCE ANALYSIS (Risk: high)\n------------------------------------------------------------\n- If Buyer fails to pay Seller an amount owed...\n\n\nCOMPLIANCE ANALYSIS (Risk: high)\n------------------------------------------------------------\n- It is contemplated that in the course of the performance...\n- The parties agree to ensure that they will at all times comply...\n- Both parties agree to indemnify each other...\n\n\nOPERATIONS ANALYSIS (Risk: medium)\n------------------------------------------------------------\n- Service Provider shall perform the Services...\n"
+    }
+  },
+  {
+    "id": "TC003",
+    "name": "Valid Contract - Compliance Clauses",
+    "status_code": 200,
+    "response": {
+      "contract_id": "contract_api_001",
+      "overall_risk": "high",
+      "tone": "executive",
+      "report": null
+    }
+  },
+  {
+    "id": "TC004",
+    "name": "Invalid - Empty Contract",
+    "status_code": 400,
+    "response": {
+      "detail": "Contract text must be at least 20 characters."
+    }
+  },
+  {
+    "id": "TC005",
+    "name": "Invalid - Short Contract",
+    "status_code": 400,
+    "response": {
+      "detail": "Contract text must be at least 20 characters."
+    }
+  },
+  {
+    "id": "TC006",
+    "name": "Valid - Multi-Domain Contract",
+    "status_code": 200,
+    "response": {
+      "contract_id": "contract_api_001",
+      "overall_risk": "high",
+      "tone": "executive",
+      "report": "\n===========================\n     EXECUTIVE SUMMARY\n===========================\n\nOverall Contract Risk: high\n\nKey Risks:\n- Legal Risk: Medium\n- Finance Risk: high\n- Compliance Risk: high\n- Operations Risk: medium\n\nTotal Clauses Detected: 15\n"
+    }
+  },
+  {
+    "id": "TC007",
+    "name": "Health Check",
+    "status_code": 200,
+    "response": {
+      "status": "OK",
+      "timestamp": "2026-01-20T07:14:13.952178"
+    }
+  },
+  {
+    "id": "TC008",
+    "name": "Root Endpoint",
+    "status_code": 200,
+    "response": {
+      "status": "API running",
+      "message": "Welcome to ClauseAI"
+    }
+  },
+  {
+    "id": "TC009",
+    "name": "Quick Analysis",
+    "status_code": 200,
+    "response": {
+      "contract_id": "contract_api_001",
+      "overall_risk": "high"
+    }
+  },
+  {
+    "id": "TC010",
+    "name": "Executive Tone Report",
+    "status_code": 200,
+    "response": {
+      "contract_id": "contract_api_001",
+      "overall_risk": "high",
+      "tone": "executive",
+      "report": "\n===========================\n     EXECUTIVE SUMMARY\n===========================\n\nOverall Contract Risk: high\n\nKey Risks:\n- Legal Risk: Medium\n- Finance Risk: high\n- Compliance Risk: high\n- Operations Risk: medium\n\nTotal Clauses Detected: 15\n"
+    }
+  }
+]
