@@ -1,0 +1,35 @@
+{
+  "clause_type": "Operations",
+  "extracted_clauses": [
+    {
+      "clause_type": "SLA Review",
+      "clause_text": "A joint Metavante-Customer team (the \"SLA Team\") shall review, evaluate and potentially modify the Service Level Changes and associated Business Case Assessments.",
+      "risk_level": "Medium",
+      "confidence": 0.97,
+      "evidence": [
+        "3. SLA TEAM REVIEW"
+      ]
+    },
+    {
+      "clause_type": "Resource Assignment",
+      "clause_text": "Both Parties agree to assign sufficient resources and personnel to discharge their respective responsibilities under this Agreement in a timely manner and at all times operating using a professional standard of work as consistent with industry standards.",
+      "risk_level": "Medium",
+      "confidence": 0.95,
+      "evidence": [
+        "3.6. Both Parties agree to assign sufficient resources and personnel to discharge their respective responsibilities under this Agreement in a timely manner and at all times operating using a professional standard of work as consistent with industry standards"
+      ]
+    },
+    {
+      "clause_type": "Availability Measurement",
+      "clause_text": "Scheduled Hours of Availability shall mean the period of time during which Availability is measured for a given Service Level as set forth in each applicable description of each Service Level set forth in this Service Level Schedule.",
+      "risk_level": "Low",
+      "confidence": 0.9,
+      "evidence": [
+        "Q. \"Scheduled Hours of Availability\" shall mean the period of time during which Availability is measured for a given Service Level as set forth in each applicable description of each Service Level set forth in this Service Level Schedule"
+      ]
+    }
+  ],
+  "risk_level": "Medium",
+  "confidence": 0.96,
+  "evidence": []
+}
