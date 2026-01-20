@@ -20,16 +20,14 @@ DB_PATH = Path(os.getenv("CLAUSEAI_BACKEND_DB_PATH", str(_OUTPUTS_DIR / "clausea
 SESSION_TTL_HOURS = float(os.getenv("CLAUSEAI_SESSION_TTL_HOURS", "72"))
 
 
+# Demo user seed is optional and only enabled when CLAUSEAI_DEMO_PASSWORD is set.
+# This avoids hardcoding credentials into the repository (GitHub secret scanning will flag them).
 DEMO_USERS: list[dict[str, str]] = [
-    {"email": "anvesh@gmail.com", "password": "anvesh123", "name": "Anvesh", "role": "Legal"},
-    {"email": "krishnaveni@clauseai.com", "password": "krishna123", "name": "Krishnaveni", "role": "Compliance"},
-    {"email": "geethika@clauseai.com", "password": "geethika123", "name": "Geethika", "role": "Finance"},
-    {"email": "vinod@clauseai.com", "password": "vinod123", "name": "Vinod", "role": "Operations"},
-    {"email": "anjali@clauseai.com", "password": "anjali123", "name": "Anjali", "role": "Legal"},
-    {"email": "sangeetha@clauseai.com", "password": "sangeetha123", "name": "Sangeetha", "role": "Compliance"},
-    {"email": "thrishul@clauseai.com", "password": "thrishul123", "name": "Thrishul", "role": "Finance"},
-    {"email": "aman@clauseai.com", "password": "aman123", "name": "Aman", "role": "Operations"},
-    {"email": "shobha@clauseai.com", "password": "shobha123", "name": "Shobha", "role": "Admin"},
+    {"email": "legal.demo@example.com", "name": "Legal Demo", "role": "Legal"},
+    {"email": "compliance.demo@example.com", "name": "Compliance Demo", "role": "Compliance"},
+    {"email": "finance.demo@example.com", "name": "Finance Demo", "role": "Finance"},
+    {"email": "operations.demo@example.com", "name": "Operations Demo", "role": "Operations"},
+    {"email": "admin.demo@example.com", "name": "Admin Demo", "role": "Admin"},
 ]
 
 
@@ -96,11 +94,14 @@ def init_db() -> None:
 def seed_demo_users() -> None:
     """Idempotently seed a small set of demo users (for local/dev UX)."""
     init_db()
+    demo_password = (os.getenv("CLAUSEAI_DEMO_PASSWORD") or "").strip()
+    if not demo_password:
+        return
     for u in DEMO_USERS:
         try:
             create_user(
                 email=u["email"],
-                password=u["password"],
+                password=demo_password,
                 name=u["name"],
                 role=u.get("role") or "User",
             )
