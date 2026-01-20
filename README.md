@@ -79,14 +79,26 @@ Focused on enhancing agent intelligence with cross-domain validation, structured
 * Strong foundation for enterprise-grade deployment and interactive contract exploration
 * Reduced risk of hallucinations or unsupported conclusions
 
-## Future Scope
+## Milestone 4 – End-to-End UI Integration and System Deployment
 
-* Event-driven agent execution and risk escalation
-* Persistent memory across multiple contracts
-* UI for interactive contract exploration
-* Explainability with evidence tracking and confidence scoring
-* Support for additional document formats and large-scale repositories
+Milestone 4 focused on transforming ClauseAI into a fully usable end-to-end application by integrating the multi-agent backend with an interactive Streamlit-based user interface. This milestone enabled authenticated access, persistent analysis tracking, and seamless user interaction with the underlying multi-agent intelligence.
+
+* Streamlit-based UI for contract upload and analysis
+* FastAPI backend integration for analysis and authentication
+* Secure user login and session management
+* Persistent storage of analysis inputs and outputs
+* History management for previously executed analyses
+* Stateless frontend with backend-managed state and data
+
+**Outcomes:**
+
+* Complete end-to-end workflow from document upload to multi-agent insights
+* Improved usability and accessibility for non-technical users
+* Reliable persistence and traceability of analysis results
+* Clear separation of concerns between UI, backend, and agent logic
+* Readiness for real-world usage and deployment
 
 ## Summary
 
-ClauseAI combines retrieval-augmented generation with multi-agent orchestration to provide scalable, explainable, and extensible contract intelligence, enabling automated, cross-domain, and reliable contract analysis workflows.
+ClauseAI combines retrieval-augmented generation with multi-agent orchestration and a user-facing interface to deliver scalable, explainable, and extensible contract intelligence. The system enables automated, cross-domain, and reliable contract analysis workflows suitable for practical and enterprise use.
+
