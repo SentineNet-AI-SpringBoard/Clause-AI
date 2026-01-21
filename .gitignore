@@ -89,3 +89,6 @@ notebooks/models_cache/
 .env
 .env.*
 !.env.example
+
+# Local git worktrees (dev convenience)
+_worktrees/
