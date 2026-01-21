@@ -214,7 +214,8 @@ ul[data-baseweb="menu"] {
     border-radius: 28px !important;
     padding: 2.25rem !important;
     min-height: 260px !important;
-    max-width: 780px;
+    width: 100% !important;
+    max-width: 980px;
     margin: 0 auto;
 
     border: 1px solid rgba(110,168,255,0.25);
@@ -238,7 +239,7 @@ section[data-testid="stFileUploaderDropzone"] {
     width: 100% !important;
     gap: 16px !important;
     text-align: center !important;
-    max-width: 420px;
+    max-width: 720px;
     margin: 0 auto;
 }
 
