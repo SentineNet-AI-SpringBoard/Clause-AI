@@ -350,3 +350,16 @@ div.block-container { padding-top: 5rem !important; }
 #MainMenu { visibility: hidden; }
 footer { visibility: hidden; }
 header { background: transparent !important; }
+
+/* ================= DIVIDERS / SEPARATORS ================= */
+/* Streamlit's st.divider() and markdown '---' render to <hr>. On some hosts/themes
+   it can look like a large rounded bar; force a subtle thin separator instead. */
+hr,
+div[data-testid="stDivider"] hr {
+    border: 0 !important;
+    height: 1px !important;
+    background: rgba(255, 255, 255, 0.12) !important;
+    border-radius: 0 !important;
+    margin: 18px 0 !important;
+    opacity: 0.85 !important;
+}
