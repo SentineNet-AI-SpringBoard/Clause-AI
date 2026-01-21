@@ -363,3 +363,15 @@ div[data-testid="stDivider"] hr {
     margin: 18px 0 !important;
     opacity: 0.85 !important;
 }
+
+/* Some Streamlit builds render divider as a styled <div> instead of <hr>. */
+div[data-testid="stDivider"] {
+    padding: 0 !important;
+    margin: 18px 0 !important;
+}
+div[data-testid="stDivider"] > div {
+    height: 1px !important;
+    background: rgba(255, 255, 255, 0.12) !important;
+    border-radius: 0 !important;
+    opacity: 0.85 !important;
+}
