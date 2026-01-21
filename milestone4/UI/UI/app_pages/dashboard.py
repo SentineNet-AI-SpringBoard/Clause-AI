@@ -28,9 +28,11 @@ def dashboard_page():
 
     st.markdown("<br>", unsafe_allow_html=True)
 
-    # --- ACTION DECK ---       
-    st.markdown('<div class="glass-card">', unsafe_allow_html=True)
-    
+    # --- ACTION DECK ---
+    # NOTE: Avoid trying to wrap Streamlit widgets with raw HTML <div> wrappers.
+    # Streamlit renders widgets in separate containers, which can leave a stray empty
+    # styled div on the page and make the uploader look "misplaced".
+
     # CENTERING LAYOUT using 3 columns
     col_l, col_center, col_r = st.columns([1, 2, 1])
     
@@ -121,8 +123,6 @@ def dashboard_page():
         st.markdown("<br>", unsafe_allow_html=True)
 
         analyze_btn = st.button("Launch Analysis", key="dash_analyze", type="primary", use_container_width=True)
-
-    st.markdown('</div>', unsafe_allow_html=True)
 
     analyzer = ContractAnalyzer()
     q = (st.session_state.get("query_box_input") or "").strip()
