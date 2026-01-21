@@ -8,6 +8,9 @@ APP_ROOT="/app"
 BACKEND_PORT="${BACKEND_PORT:-8000}"
 UI_PORT="${PORT:-8501}"
 
+# Some code paths may write sqlite/db or outputs; ensure directories exist.
+mkdir -p "${APP_ROOT}/milestone3/outputs" || true
+
 export BACKEND_URL="${BACKEND_URL:-http://127.0.0.1:${BACKEND_PORT}}"
 
 echo "Starting FastAPI backend on :${BACKEND_PORT} ..."
