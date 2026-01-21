@@ -13,7 +13,7 @@ WORKDIR /app
 
 # Minimal OS deps (kept small). Add build tools only if your pip installs require compilation.
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends ca-certificates \
+    && apt-get install -y --no-install-recommends ca-certificates bash \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Python deps first for better layer caching.
@@ -21,8 +21,10 @@ COPY deploy/requirements-docker.txt /app/deploy/requirements-docker.txt
 RUN python -m pip install --upgrade pip \
     && python -m pip install -r /app/deploy/requirements-docker.txt
 
-# Copy project code.
-COPY . /app
+# Copy only the runtime code (keeps build context small).
+COPY deploy /app/deploy
+COPY milestone3/backend /app/milestone3/backend
+COPY milestone4/UI/UI /app/milestone4/UI/UI
 
 # Normalize line endings and ensure scripts are executable.
 RUN sed -i 's/\r$//' /app/deploy/start.sh \
