@@ -1,0 +1,19 @@
+MASTER SERVICES AGREEMENT
+
+1. Payment Terms
+Customer will pay all undisputed amounts within fifteen (15) days of invoice date.
+
+2. Late Fees / Interest
+Late payments accrue interest at 1.5% per month (or the maximum permitted by law, if lower).
+
+3. Termination
+Either party may terminate this Agreement for material breach if such breach is not cured within thirty (30) days after written notice.
+
+4. Limitation of Liability
+Each party’s aggregate liability is capped at the fees paid in the twelve (12) months preceding the event giving rise to the claim, except that liability for confidentiality breach is uncapped.
+
+5. Service Levels (SLA)
+Provider commits to 99.9% monthly uptime. Service credits apply if uptime falls below 99.9%.
+
+6. Audit
+Customer may audit Provider’s security controls annually upon reasonable notice.

@@ -1,0 +1,31 @@
+{
+  "query": "What are the service level agreements and SLAs?",
+  "timestamp": "2025-12-29T18:05:10.975602",
+  "total_results": 3,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.562335551,
+      "contract_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+      "chunk_index": 3.0,
+      "text": ". (b) Recipient may freely assign its rights under this Agreement to receive the Services to any of its affiliates. 1.2 Standard of Service. (a) Provider represents, warrants and agrees that the Services shall be provided in good faith, in accordance with applicable law and in a manner generally consistent with the historical provision of the Services and with the same standard of care as historically provided. (b) Provider shall maintain complete and accurate records relating to the provision of the Services under this Agreement, in such form as Recipient shall approve.",
+      "char_count": 577.0
+    },
+    {
+      "rank": 2,
+      "score": 0.546366692,
+      "contract_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+      "chunk_index": 2.0,
+      "text": ". Notwithstanding the contents of the Exhibit, Provider agrees to respond in good faith to any reasonable request by Recipient for access to any additional services and resources that are necessary for the operation of the Recipient and which are not currently contemplated in the Exhibit, at a price to be agreed upon after good faith negotiations between the Parties. Any such additional services and resources so provided by Provider shall constitute Services under this Agreement and be subject in all respect to the provisions of this Agreement as if fully set forth on the Exhibit as of the date hereof. (b) Recipient may freely assign its rights under this Agreement to receive the Services to any of its affiliates. 1.2 Standard of Service",
+      "char_count": 747.0
+    },
+    {
+      "rank": 3,
+      "score": 0.525117874,
+      "contract_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+      "chunk_index": 0.0,
+      "text": "EXHIBIT 4.25 INFORMATION IN THIS EXHIBIT IDENTIFIED BY [ * * * ] IS CONFIDENTIAL AND HAS BEEN EXCLUDED BECAUSE IT IS BOTH (I) NOT MATERIAL AND (II) WOULD LIKELY CAUSE COMPETITIVE HARM TO THE REGISTRANT IF PUBLICLY DISCLOSED. SERVICES AGREEMENT This Services Agreement (this \"Agreement\") is entered into on October 1, 2019 and is made effective as of November 1, 2019 (the \"Effective Date\"), by and between [ * * * ] (the \"Provider\"), and TELCOSTAR PTE, LTD., a company organized and existing under the laws of Singapore and Ability Computer & Software Industries Ltd, a company organized and existing under the laws of the State of Israel (each and both of them \"Recipient\"). Each of the foregoing parties is referred to herein as a \"Party\" and together as the \"Parties\". RECITALS A",
+      "char_count": 782.0
+    }
+  ]
+}

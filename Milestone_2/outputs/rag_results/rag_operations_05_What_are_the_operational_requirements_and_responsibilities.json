@@ -1,0 +1,31 @@
+{
+  "query": "What are the operational requirements and responsibilities?",
+  "timestamp": "2025-12-29T18:05:11.610802",
+  "total_results": 3,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.487443954,
+      "contract_id": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+      "chunk_index": 11.0,
+      "text": "- --------------------------------------------------------------------------------\n\nservices; (3) dollar size and timing of the project; (4) competitive assessment; and (5) identification of key decision makers and other technical and commercial contacts;\n\nc. Assist and advise Airspan in the preparation and delivery of appropriate marketing and sales programs;\n\nd. Initiate and coordinate meetings at all levels for the appropriate Airspan employees to evaluate the identified projects;\n\ne. Initiate and assist in the preparation of sales and technical meetings with customers, and where appropriate, attend these meetings with Airspan personnel and provide administrative support and translation services;",
+      "char_count": 708.0
+    },
+    {
+      "rank": 2,
+      "score": 0.467346668,
+      "contract_id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+      "chunk_index": 83.0,
+      "text": "The Company, upon completion of its formation, and in any event no later than Closing Time will have established and maintained disclosure controls and procedures (as\n\nsuch term is defined in Rule 13a-14 and 15d-14 under the Exchange Act), which (i) are designed to ensure that material information relating to the Company, including its consolidated subsidiaries, is made known to the Company's principal executive officer and its principal financial officer by others within those entities; and (ii) are effective in all material respects to perform the functions for which they were established.",
+      "char_count": 598.0
+    },
+    {
+      "rank": 3,
+      "score": 0.467048645,
+      "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+      "chunk_index": 15.0,
+      "text": ". Without limiting the foregoing, Commercially Reasonable Efforts requires, with respect to such obligations, that a Party: (i) promptly assign responsibility for such obligation to specific employee(s) who are held accountable for progress and monitor such progress on an on-going basis, (ii) set objectives for carrying out such obligations, and (iii) allocate resources designed to advance progress with respect to such objectives.",
+      "char_count": 434.0
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "query": "What happens in case of breach of contract?",
+  "timestamp": "2025-12-29T18:01:51.817409",
+  "total_results": 5,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.61747843,
+      "contract_id": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement",
+      "chunk_index": 33.0,
+      "text": ". c. LIMITATIONS ON LIABILITY/NO INJUNCTIVE RELIEF. EXCEPT IN CASES OF GROSS NEGLIGENCE, WILLFUL MISCONDUCT OR FRAUD, INDEMNIFICATION CLAIMS UNDER SECTION 5 OR BREACHES OF SECTION 2 (TRADEMARKS), 8 (CONFIDENTIALITY), OR 9 (NO AGENCY RELATIONSHIP), IN NO EVENT SHALL EITHER PARTY OR ITS OFFICERS, DIRECTORS, OR EMPLOYEES BE LIABLE TO THE OTHER PARTY IN CONNECTION WITH THE SUBJECT MATTER HEREOF, FOR ANY SPECIAL, INDIRECT, CONSEQUENTIAL OR PUNITIVE DAMAGES OF ANY KIND, LOST PROFITS OR LOST REVENUE, WHETHER ARISING IN CONTRACT, TORT, NEGLIGENCE, STATUTE, OR OTHERWISE, EVEN IF ADVISED OF THE POSSIBILITY THEREOF. IN NO EVENT SHALL THE NON-BREACHING PARTY BE ENTITLED TO EQUITABLE OR INJUNCTIVE RELIEF OF ANY KIND.",
+      "char_count": 713.0
+    },
+    {
+      "rank": 2,
+      "score": 0.609591544,
+      "contract_id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+      "chunk_index": 59.0,
+      "text": "except for such conflicts, breaches or defaults that would not, individually or in the aggregate, have a Material Adverse Effect nor will such action result in any violation of the provisions of the respective charter or bylaws of the Company, the MHCs or the Bank, or any applicable law, administrative regulation or administrative or court decree.",
+      "char_count": 349.0
+    },
+    {
+      "rank": 3,
+      "score": 0.595762312,
+      "contract_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+      "chunk_index": 14.0,
+      "text": ". 3.3 Breach. Any Party (the \"Non-Breaching Party\") may terminate this Agreement with respect to any Service, in whole but not in part, at any time upon prior written notice to the other Party (the \"Breaching Party\"), if the Breaching Party has failed (other than pursuant to Section 3.6) to perform any of its material obligations under this Agreement relating to such Service, and such failure shall have continued without cure for a period of 30 days after receipt by the Breaching Party of a written notice of such failure from the Non-Breaching Party seeking to terminate such service. For the avoidance of doubt, non-payment by Recipient for a Service provided by Provider in accordance with this Agreement and not the subject of a good-faith dispute shall be deemed a breach for purposes of this Section 3.3. 3.4 Insolvency",
+      "char_count": 830.0
+    },
+    {
+      "rank": 4,
+      "score": 0.591212332,
+      "contract_id": "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply Agreement",
+      "chunk_index": 16.0,
+      "text": ". 7. BREACH / TERMINATION 7.1 Notice of Breach Each party has an obligation to notify immediately the other party of any breach of this agreement. 7.2 Rectification of Breach Where the breach is rectifiable, the breaching party has 21 days from the date of notification of its breach to rectify. Following the expiry of this period, the non-breaching party may execute any rights it may have both in law and under this agreement. 7.3 Rights to termination Without prejudice to any right or remedy both parties may have against each other for breach or non-performance of this Agreement each party shall have the right to summarily terminate this Agreement: (a) On the committing of a material breach of this agreement providing that where the breach is capable of rectification the breaching party has been advised in writing of the breach and has not rectified it within twenty-one (21) days of receipt of such advice",
+      "char_count": 918.0
+    },
+    {
+      "rank": 5,
+      "score": 0.589587271,
+      "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+      "chunk_index": 185.0,
+      "text": "13.2 Termination for Breach. Either Party may, without prejudice to any other remedies available to it at law or in equity, terminate this Agreement upon written notice to the other Party in the event that the other Party (the \"Breaching Party\") shall have materially breached or defaulted in the performance of any of its obligations. The Breaching Party shall have sixty (60) days (thirty (30) days in the event of non-payment) after written notice thereof was provided to the Breaching Party by the non-breaching Party to remedy such default. Unless the Breaching Party has cured any such breach or default prior to the expiration of such sixty (60) day period (thirty (30) day period for non-payment), such termination shall become effective upon receipt of the written notice of termination by the Breaching Party to be given within ten (10) days of the end of such sixty (60) day period (thirty (30) day period for non-payment)",
+      "char_count": 933.0
+    }
+  ]
+}
