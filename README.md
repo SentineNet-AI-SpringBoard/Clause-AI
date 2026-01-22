@@ -86,3 +86,70 @@ The Legal Agent performs final validation and consolidation.
 Initial agent outputs returned empty strings due to improper storage of pre-computed data.
 
 No major issues were observed during the compilation and execution of the complete notebook after resolution.
+
+6. Milestone 3 Implementation – Progress Summary
+
+The third milestone focused on parallel agent execution, shared memory integration, cross-agent risk refinement, and the generation of both structured JSON outputs and human-readable risk reports.
+
+6.1 Data Pipeline Overview
+Milestone3.ipynb Notebook
+
+Source Data
+Agent outputs retrieved from the Pinecone index “clauseai-agents”.
+
+Model Used
+Gemma2:9B
+
+Processing Workflow
+
+Parallel execution of all agents
+
+Centralized shared memory across agents
+
+Cross-agent refinement to enhance risk accuracy
+
+Updated refined risk values stored back into Pinecone
+
+Automated generation of JSON outputs and readable risk analysis templates
+
+Risk Refinement Results
+
+Legal Agent: Risk updated from Low to Medium
+
+Finance and Operations Agents: Risk escalated from Medium to High
+
+Compliance Agent: Risk remained High
+
+app.py Implementation
+
+Source Data
+Outputs generated during Milestone 3
+
+APIs and Frameworks
+FastAPI, Pydantic, and Uvicorn
+
+Core Functionalities
+
+Load combined agent outputs
+
+Retrieve agent data from Pinecone
+
+Perform model-based analysis
+
+Endpoints Implemented
+
+POST /analyze
+
+GET /health
+
+GET / (root endpoint returning HTTP 200)
+
+Error Handling
+
+Returns HTTP 400 for invalid or insufficient contract input
+
+6.2 Challenges Encountered
+
+Minor dependency conflicts in requirements_api.txt, resolved through package reinstallation.
+
+Initial model timeout was set to 60 seconds, causing failures; this was resolved by increasing the timeout to 600 seconds.

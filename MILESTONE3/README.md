@@ -1,36 +1,72 @@
-Milestone 3 - Documentation
+Milestone 3 – Documentation
+1. Milestone 3 Objectives
 
-1. Milestone 3 - Objectives:
-    1. Implement Parallel Processing for multi-domain clause extraction.
-    2. Develop structured pipelines for compliance and financial risk identification.
-    3. Test multi-turn interaction between domain-specific agents.
-    4. Store intermediate results in Pinecone for quick retrieval.
+Enable parallel execution to support clause extraction across multiple domains simultaneously.
 
-2. Technical Implementations:
-    1. Milestone3.ipynb Notebook:
-        1. Connected to Pinecone - index name "clauseai-agents" - store the refined agent outputs.
-        2. Used Model - "gemma2:9B" for analysis.
-        3. Done cross-agent refinement to enhance the risk levels.
-        4. Generated final JSON output file.
-        5. Generated template for Human-readable Risk Analysis.
-    3. app.py:
-        1. Connected to the Milestone 3 as the output directory.
-        2. Fastapi - HTTP request and responses.
-        3. Pydantic - Converts JSON to structured data.
-        4. Uvicorn - ASGI - run FastAPI applications.
+Build well-defined pipelines for identifying compliance-related and financial risks.
 
-3. Cross-Agent Refinement:
-    1. Legal Risk - before refinement "low" ---> after refinement "medium".
-    2. Finance and Operations Risk - before refinement "medium" ---> after refinement "high".
-    3. Compliance Risk - initially "high".
-    4. Risk Escalations were found and generated.
-5. Outcomes:
-   1. Milestone3.ipynb Notebook:
-        1. Parallel Execution completed successfully.
-        2. Created shared memory for all agents.
-        3. Cross-Agent Refinement done and Risks enhanced for all agents done.
-        4. Final JSON output and Human-Readable Ouput Template generated.
-   3. app.py
-        1. Connected to milestone 3 notebook as output directory.
-        2. Deployed the website - working properly
-        3. Using Postman API tested for - health, rootends, validated, short contract,invalid entry etc
+Validate multi-turn interactions between domain-specific AI agents.
+
+Persist intermediate and refined analysis results in Pinecone for faster access and reuse.
+
+2. Technical Implementation
+2.1 Milestone3.ipynb Notebook
+
+Established a connection with Pinecone, using the index “clauseai-agents” to store refined agent outputs.
+
+Utilized the Gemma2:9B model for advanced contract analysis.
+
+Implemented cross-agent refinement logic to improve and escalate detected risk levels.
+
+Generated a consolidated final JSON output containing structured risk insights.
+
+Designed a reusable human-readable risk analysis template for end-user reporting.
+
+2.2 app.py
+
+Integrated the application with the Milestone 3 output directory.
+
+Implemented FastAPI to handle HTTP requests and responses.
+
+Used Pydantic to transform raw JSON outputs into validated, structured data models.
+
+Deployed the application using Uvicorn, an ASGI server for running FastAPI services.
+
+3. Cross-Agent Risk Refinement
+
+Legal Risk: Escalated from Low to Medium after refinement.
+
+Finance and Operations Risk: Upgraded from Medium to High based on cross-agent insights.
+
+Compliance Risk: Remained consistently High throughout the analysis.
+
+Multiple risk escalations were identified and generated through inter-agent collaboration.
+
+4. Outcomes
+4.1 Milestone3.ipynb Notebook
+
+Successfully executed parallel agent processing.
+
+Implemented a shared memory mechanism accessible by all agents.
+
+Completed cross-agent refinement, resulting in enhanced and more accurate risk classifications.
+
+Generated both structured JSON outputs and a human-readable risk analysis report template.
+
+4.2 app.py
+
+Successfully connected to the Milestone 3 notebook output directory.
+
+Deployed the web application and verified stable operation.
+
+Tested all API endpoints using Postman, including:
+
+Health check
+
+Root endpoint
+
+Valid contract analysis
+
+Short contract handling
+
+Invalid input scenarios
