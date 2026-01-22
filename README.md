@@ -153,3 +153,15 @@ Returns HTTP 400 for invalid or insufficient contract input
 Minor dependency conflicts in requirements_api.txt, resolved through package reinstallation.
 
 Initial model timeout was set to 60 seconds, causing failures; this was resolved by increasing the timeout to 600 seconds.
+
+7. Milestone 4 Implementation: Progress Report
+
+   Milestone 4 is the main integration part of backend with frontend, here the the UI is created using streamlit, and is connected with the backend logic which is added as a engine.py file and is connected to the FastAPI file app.py. database.py is created to share the user details and store the analysed reports
+   1. Data Pipeline
+      1. Source Data - primary source of data is from pinecone
+      2. Model - gemma2:9B
+      3. Processing - The previous pp.py updated to connect to engine.py which has the logic from milestone 3 ipynb file - implemented streamlit_app.py from UI impplementation
+   3. Issues Faced
+      1. Small bugs during integration - resolved easily
+      2. Model timeout=60 - failed to call the model - increased to 600
+
