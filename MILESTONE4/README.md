@@ -1,15 +1,15 @@
-## 📘 Milestone 4 – UI/UX Frontend Integration
+##  Milestone 4 – UI/UX Frontend Integration
 
 ---
 
-## 🎯Objective
+## Objective
 
 This milestone focuses on building a **user-friendly UI/UX interface** for the contract analysis system.  
 A **Streamlit-based frontend** is developed to allow users to upload contracts, trigger backend analysis, and view structured reports in a clean and interactive web interface.
 
 ---
 
-## 🧠 Key Features Implemented
+##  Key Features Implemented
 
 ### 1. Streamlit Frontend Application
 - Built an interactive Streamlit web application.
@@ -32,7 +32,7 @@ User-friendly web interface for non-technical users.
 Smooth navigation across application pages.
 
 ---
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Streamlit** – Frontend framework  
 - **FastAPI** – Backend API integration  
@@ -41,7 +41,7 @@ Smooth navigation across application pages.
 
 ---
 
-## 🚀 How to Run UI Locally
+## How to Run UI Locally
 
 ### Step 1: Navigate to UI folder
 ## 1) Start the Backend
