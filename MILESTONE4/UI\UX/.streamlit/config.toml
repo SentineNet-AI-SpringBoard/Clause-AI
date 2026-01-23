@@ -1,1 +1,12 @@
+[server]
+# Automatically rerun the app when source files change.
+runOnSave = true
 
+# OneDrive / network folders can be unreliable with OS file watchers on Windows.
+# Polling is more stable (slightly higher CPU).
+fileWatcherType = "poll"
+
+[logger]
+# Streamlit runs on Tornado websockets; during refresh/reload the socket can close and
+# Tornado may print noisy stack traces. Keep logs readable.
+level = "error"
