@@ -5,8 +5,9 @@ This UI calls the Milestone 3 FastAPI backend.
 ## 1) Start the backend
 
 ```powershell
-cd milestone3\backend
-uvicorn app:app --reload --port 8000
+cd backend
+python -m uvicorn app:app --reload
+
 ```
 
 ## 2) Start the UI
@@ -18,6 +19,7 @@ pip install -r requirements.txt
 # Optional: point UI to a different backend base URL
 set BACKEND_URL=http://127.0.0.1:8000
 
+cd "UI PAGE"
 streamlit run app.py
 ```
 
@@ -32,3 +34,4 @@ streamlit run app.py
 - Uploads are sent as real files to `POST /analyze` (multipart form-data).
 - The question box is passed as `question`.
 - UI tone options are mapped to backend tones (`executive` or `simple`).
+
