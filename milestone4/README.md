@@ -16,10 +16,13 @@ cd milestone4\UI\UI
 pip install -r requirements.txt
 
 # Optional: point UI to a different backend base URL
-set BACKEND_URL=http://127.0.0.1:8000
+$env:BACKEND_URL = "http://127.0.0.1:8000"
 
 streamlit run app.py
 ```
+
+Notes:
+- The current UI flow is optimized for **PDF uploads** (preview + highlighting).
 
 ## Login + history
 

@@ -184,6 +184,12 @@ legal-contracts-eda/
 1. **Start the backend**
    ```powershell
    cd milestone3\backend
+   # Optional (recommended for Streamlit): allow the UI origin for CORS
+   $env:FRONTEND_ORIGINS = "http://localhost:8501,http://127.0.0.1:8501"
+
+   # Optional: seed demo users on startup (see Login section below)
+   # $env:CLAUSEAI_DEMO_PASSWORD = "your-demo-password"
+
    uvicorn app:app --reload --port 8000
    ```
 
@@ -191,12 +197,23 @@ legal-contracts-eda/
    ```powershell
    cd milestone4\UI\UI
    pip install -r requirements.txt
+
+   # Optional: point UI to a different backend base URL
+   $env:BACKEND_URL = "http://127.0.0.1:8000"
+
    streamlit run app.py
    ```
 
 Notes:
 - Auth and analysis history are stored in a local SQLite DB on the backend.
-- Set `BACKEND_URL` if your backend runs on a different host/port.
+- The UI currently supports **PDF uploads** (to enable preview + highlight features).
+
+### Login (Milestone 4)
+
+- You can **register** a new user in the UI.
+- Optional: set `CLAUSEAI_DEMO_PASSWORD` before starting the backend to seed demo users.
+  - Emails: `legal.demo@example.com`, `compliance.demo@example.com`, `finance.demo@example.com`, `operations.demo@example.com`, `admin.demo@example.com`
+  - Password: whatever you set in `CLAUSEAI_DEMO_PASSWORD`
 
 5. **Run notebooks in order**
    - Start with `milestone1/Milestone1_ProjectPlanning_Setup_EDA.ipynb`
@@ -316,6 +333,16 @@ The system uses a `.env` file for configuration. Never commit `.env` to Git!
 | `CONTRACT_ID` | ❌ | Default contract identifier | `demo_contract` |
 | `HF_TOKEN` | ❌ | Hugging Face API token | `hf_...` |
 | `HUGGINGFACEHUB_API_TOKEN` | ❌ | Alternative HF token name | `hf_...` |
+
+#### Backend + UI variables
+
+| Variable | Required | Description | Example |
+|----------|----------|-------------|---------|
+| `BACKEND_URL` | ❌ | Streamlit UI → backend base URL | `http://127.0.0.1:8000` |
+| `FRONTEND_ORIGINS` | ❌ | Backend CORS allowlist (comma-separated origins) | `http://127.0.0.1:8501` |
+| `CLAUSEAI_BACKEND_DB_PATH` | ❌ | SQLite DB path for auth/history | `milestone3/outputs/clauseai_backend.sqlite3` |
+| `CLAUSEAI_SESSION_TTL_HOURS` | ❌ | Session lifetime (hours) | `72` |
+| `CLAUSEAI_DEMO_PASSWORD` | ❌ | Enables demo-user seeding on backend startup | `your-demo-password` |
 
 ### Pinecone Setup
 
