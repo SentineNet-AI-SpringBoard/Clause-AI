@@ -214,7 +214,8 @@ ul[data-baseweb="menu"] {
     border-radius: 28px !important;
     padding: 2.25rem !important;
     min-height: 260px !important;
-    max-width: 780px;
+    width: 100% !important;
+    max-width: 980px;
     margin: 0 auto;
 
     border: 1px solid rgba(110,168,255,0.25);
@@ -225,7 +226,10 @@ ul[data-baseweb="menu"] {
 
     /* Avoid forcing a 2-column internal layout to vertically center,
        which can make the dropzone + file list look misaligned. */
-    display: block !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 /* Dropzone layout */
@@ -236,10 +240,10 @@ section[data-testid="stFileUploaderDropzone"] {
     justify-content: center !important;
 
     width: 100% !important;
+    height: 100% !important;
     gap: 16px !important;
     text-align: center !important;
-    max-width: 420px;
-    margin: 0 auto;
+    max-width: 720px;
 }
 
 /* Inner wrapper fix */
@@ -247,7 +251,11 @@ section[data-testid="stFileUploaderDropzone"] > div {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
+    justify-content: center !important;
     gap: 10px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    text-align: center !important;
 }
 
 /* Upload icon */
@@ -260,8 +268,7 @@ section[data-testid="stFileUploaderDropzone"] svg {
 
 /* Upload text */
 section[data-testid="stFileUploaderDropzone"] span,
-section[data-testid="stFileUploaderDropzone"] small,
-section[data-testid="stFileUploaderDropzone"] div {
+section[data-testid="stFileUploaderDropzone"] small {
     text-align: center !important;
     margin: 0 !important;
     line-height: 1.4 !important;
@@ -271,8 +278,9 @@ section[data-testid="stFileUploaderDropzone"] div {
 
 /* Upload button */
 section[data-testid="stFileUploaderDropzone"] button {
-    margin-top: 8px !important;
+    margin: 8px auto !important;
     align-self: center !important;
+    /* display: block !important; removed to let flex center it smoothly */
 
     background: linear-gradient(
         180deg,
@@ -350,3 +358,28 @@ div.block-container { padding-top: 5rem !important; }
 #MainMenu { visibility: hidden; }
 footer { visibility: hidden; }
 header { background: transparent !important; }
+
+/* ================= DIVIDERS / SEPARATORS ================= */
+/* Streamlit's st.divider() and markdown '---' render to <hr>. On some hosts/themes
+   it can look like a large rounded bar; force a subtle thin separator instead. */
+hr,
+div[data-testid="stDivider"] hr {
+    border: 0 !important;
+    height: 1px !important;
+    background: rgba(255, 255, 255, 0.12) !important;
+    border-radius: 0 !important;
+    margin: 18px 0 !important;
+    opacity: 0.85 !important;
+}
+
+/* Some Streamlit builds render divider as a styled <div> instead of <hr>. */
+div[data-testid="stDivider"] {
+    padding: 0 !important;
+    margin: 18px 0 !important;
+}
+div[data-testid="stDivider"] > div {
+    height: 1px !important;
+    background: rgba(255, 255, 255, 0.12) !important;
+    border-radius: 0 !important;
+    opacity: 0.85 !important;
+}

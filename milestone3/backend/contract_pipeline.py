@@ -457,6 +457,28 @@ def select_agents_for_question(question: str) -> List[str]:
     topics = _requested_topics(question)
     selected: List[str] = []
 
+    # Explicit agent request routing (from UI multi-select prompt)
+    # The UI generates prompts like: "review Legal, Finance aspects specifically"
+    # We prioritize these explicit instructions.
+    explicit_matches = False
+    if "legal" in q and "review" in q:
+        selected.append("legal")
+        explicit_matches = True
+    if "finance" in q and "review" in q:
+        selected.append("finance")
+        explicit_matches = True
+    if "compliance" in q and "review" in q:
+        selected.append("compliance")
+        explicit_matches = True
+    if ("operations" in q or "ops" in q) and "review" in q:
+        selected.append("operations")
+        explicit_matches = True
+    
+    # If explicit agents were found in a "review" context, trust that signal.
+    # Otherwise, fall back to topic inference.
+    if explicit_matches:
+        return list(set(selected))
+
     # Topic-based routing
     if any(t in topics for t in ["payment", "late"]):
         selected.append("finance")
@@ -1512,13 +1534,16 @@ async def run_full_pipeline(
     if intent in {"fact_summary", "qa", "clause_extraction"}:
         qa = build_question_answer(question, probe)
         report = format_fact_summary_report(question, probe)
+        # Populate minimal analysis object so frontend can find evidence for highlighting
         final_json = {
             "contract_id": contract_id,
             "generated_at": utc_now_iso(),
             "intent": intent,
             "question": question,
             "qa": qa,
-            "analysis": None,
+            "analysis": {
+                "key_evidence": [{"text": m.text, "score": m.score} for m in probe]
+            },
             "confidence": None,
             "high_risk_evidence": [],
             "no_evidence": bool(no_evidence),

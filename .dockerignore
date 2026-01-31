@@ -1,0 +1,34 @@
+# Keep Docker build context small
+.git/
+.gitignore
+_worktrees/
+
+# Large datasets / caches
+data/
+dataset/
+transform/
+models_cache/
+notebooks/models_cache/
+
+# Artifacts and outputs
+artifacts/
+plots/
+results/
+milestone*/outputs/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs
+venv/
+env/
+.venv/
+
+# OS/IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
