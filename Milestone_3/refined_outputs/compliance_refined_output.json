@@ -1,0 +1,71 @@
+{
+  "clause_type": "Compliance",
+  "extracted_clauses": [
+    {
+      "clause_type": "Regulatory Matters",
+      "clause_text": "16.1 Privacy and Security Matters. Concurrently with the execution of this Agreement, the Parties are executing a HIPAA Business Associate Agreement (the \"BAA\") in the form attached hereto as Exhibit E.",
+      "risk_level": "High",
+      "confidence": 0.98,
+      "evidence": [
+        "16.1"
+      ]
+    },
+    {
+      "clause_type": "Technical Standards",
+      "clause_text": "16.2 Technical Standards. The Company will provide Allscripts with Updates so that the Subscription Software Services can be implemented and configured to comply in all material respects with applicable privacy and security standards (e.g., HITECH, HIPAA, and Omnibus rule) within a reasonably practicable timeframe (based on the scope of required enhancements and other factors) after their final, formal adoption and publication by the Secretary of the U.S. Department of Health and Human Services.",
+      "risk_level": "High",
+      "confidence": 0.95,
+      "evidence": [
+        "16.2"
+      ]
+    },
+    {
+      "clause_type": "Data Protection",
+      "clause_text": "16.3 Data. The Company will ensure that all protected health information (PHI), personally identifiable information (PII) or payment card information (PCI) is (1) encrypted at rest and (2) encrypted while moving in or out of the Company\u2019s data center.",
+      "risk_level": "High",
+      "confidence": 0.97,
+      "evidence": [
+        "16.3"
+      ]
+    },
+    {
+      "clause_type": "Regulatory Compliance",
+      "clause_text": "5.1 Compliance with Laws. Biocept and Life Technologies and their respective Affiliates each agree to perform their respective obligations under this Agreement in compliance with all applicable Laws, in the Territory, including but not limited to applicable regulations, rules, and policies of third party payers that pay for the Assay.",
+      "risk_level": "Medium",
+      "confidence": 0.9,
+      "evidence": [
+        "5.1"
+      ]
+    },
+    {
+      "clause_type": "Privacy",
+      "clause_text": "5.2 Privacy. Biocept and Life Technologies and their respective Affiliates agree to protect the privacy and provide for the security of any information that relates to a patient\u2019s past, present, or future physical or mental health or condition in accordance with HIPAA, and any other applicable federal and state privacy laws and regulations in the Territory.",
+      "risk_level": "High",
+      "confidence": 0.98,
+      "evidence": [
+        "5.2"
+      ]
+    },
+    {
+      "clause_type": "BAA Execution",
+      "clause_text": "Each party agrees to execute one or more Business Associate Agreements (as defined under HIPAA) as the other party, or its providers or payers, may from time to time request.",
+      "risk_level": "High",
+      "confidence": 0.96,
+      "evidence": [
+        "5.2"
+      ]
+    },
+    {
+      "clause_type": "Health Information Confidentiality",
+      "clause_text": "6.8 Health Information. Notwithstanding anything to the contrary in this Agreement or any Study Order, all individually identifiable health information shall be treated as confidential by the Parties in accordance with all Laws governing the confidentiality and privacy of individually identifiable health information, including HIPAA, and any regulations and official guidelines promulgated thereunder, and the Parties agree to take such additional steps and/or to negotiate such amendments to this Agreement as may be required to ensure that the Parties are and remain in compliance with the HIPAA regulations and official guidance.",
+      "risk_level": "High",
+      "confidence": 0.99,
+      "evidence": [
+        "6.8"
+      ]
+    }
+  ],
+  "risk_level": "High",
+  "confidence": 0.96,
+  "evidence": []
+}

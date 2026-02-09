@@ -1,0 +1,45 @@
+# CONTRACT ANALYSIS REPORT
+
+This report provides an analytical summary of the contract, including key findings and risk evaluations.
+
+
+
+## Legal Analysis
+• The Company shall have the right to terminate this Agreement upon thirty (30) days’ written notice to the other party if such party fails to perform or cure any breach or default within said thirty (30) days.
+• This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware.
+• Any legal action arising out of or relating to this Agreement shall be subject to the exclusive jurisdiction of the courts located in the State of Delaware.
+Risk Level: Medium
+Confidence: 0.75
+
+
+## Finance Analysis
+⚠ **HIGH RISK DETECTED**
+• If Buyer fails to pay Seller an amount owed under this Agreement by the invoice due date, then Buyer will owe Seller: (i) the delinquent amount; and (ii) a late payment fee equal to two percent (2%) of the delinquent amount for each full or partial calendar month past the invoice due date that the delinquent amount remains unpaid.
+• Delinquent payments are subject to a late payment charge of one and one half percent (1.5%) per month commencing sixty (60) days from the invoice date.
+• Any amount that is not paid when due will bear simple interest from the date such amount is due until the date payment is made at a rate equal to 10% per annum.
+Risk Level: High
+Confidence: 0.95
+
+
+## Compliance Analysis
+⚠ **HIGH RISK DETECTED**
+• 16.1 Privacy and Security Matters. Concurrently with the execution of this Agreement, the Parties are executing a HIPAA Business Associate Agreement (the "BAA") in the form attached hereto as Exhibit E.
+• 16.2 Technical Standards. The Company will provide Allscripts with Updates so that the Subscription Software Services can be implemented and configured to comply in all material respects with applicable privacy and security standards (e.g., HITECH, HIPAA, and Omnibus rule) within a reasonably practicable timeframe (based on the scope of required enhancements and other factors) after their final, formal adoption and publication by the Secretary of the U.S. Department of Health and Human Services.
+• 16.3 Data. The Company will ensure that all protected health information (PHI), personally identifiable information (PII) or payment card information (PCI) is (1) encrypted at rest and (2) encrypted while moving in or out of the Company’s data center.
+• 5.1 Compliance with Laws. Biocept and Life Technologies and their respective Affiliates each agree to perform their respective obligations under this Agreement in compliance with all applicable Laws, in the Territory, including but not limited to applicable regulations, rules, and policies of third party payers that pay for the Assay.
+• 5.2 Privacy. Biocept and Life Technologies and their respective Affiliates agree to protect the privacy and provide for the security of any information that relates to a patient’s past, present, or future physical or mental health or condition in accordance with HIPAA, and any other applicable federal and state privacy laws and regulations in the Territory.
+• Each party agrees to execute one or more Business Associate Agreements (as defined under HIPAA) as the other party, or its providers or payers, may from time to time request.
+• 6.8 Health Information. Notwithstanding anything to the contrary in this Agreement or any Study Order, all individually identifiable health information shall be treated as confidential by the Parties in accordance with all Laws governing the confidentiality and privacy of individually identifiable health information, including HIPAA, and any regulations and official guidelines promulgated thereunder, and the Parties agree to take such additional steps and/or to negotiate such amendments to this Agreement as may be required to ensure that the Parties are and remain in compliance with the HIPAA regulations and official guidance.
+Risk Level: High
+Confidence: 0.96
+
+
+## Operations Analysis
+• A joint Metavante-Customer team (the "SLA Team") shall review, evaluate and potentially modify the Service Level Changes and associated Business Case Assessments.
+• Both Parties agree to assign sufficient resources and personnel to discharge their respective responsibilities under this Agreement in a timely manner and at all times operating using a professional standard of work as consistent with industry standards.
+• Scheduled Hours of Availability shall mean the period of time during which Availability is measured for a given Service Level as set forth in each applicable description of each Service Level set forth in this Service Level Schedule.
+Risk Level: Medium
+Confidence: 0.96
+
+### Overall Risk: High
+Generated At: 2026-01-18T10:41:27.693684Z

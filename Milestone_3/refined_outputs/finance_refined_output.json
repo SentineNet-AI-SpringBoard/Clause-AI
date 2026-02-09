@@ -1,0 +1,35 @@
+{
+  "clause_type": "Finance",
+  "extracted_clauses": [
+    {
+      "clause_type": "Late Fees and Collection Costs",
+      "clause_text": "If Buyer fails to pay Seller an amount owed under this Agreement by the invoice due date, then Buyer will owe Seller: (i) the delinquent amount; and (ii) a late payment fee equal to two percent (2%) of the delinquent amount for each full or partial calendar month past the invoice due date that the delinquent amount remains unpaid.",
+      "risk_level": "High",
+      "confidence": 0.95,
+      "evidence": [
+        "Section 3.2 TERMS OF PAYMENT"
+      ]
+    },
+    {
+      "clause_type": "Late Fees and Collection Costs",
+      "clause_text": "Delinquent payments are subject to a late payment charge of one and one half percent (1.5%) per month commencing sixty (60) days from the invoice date.",
+      "risk_level": "High",
+      "confidence": 0.95,
+      "evidence": [
+        "Section 3.2 TERMS OF PAYMENT"
+      ]
+    },
+    {
+      "clause_type": "Interest on Late Payments",
+      "clause_text": "Any amount that is not paid when due will bear simple interest from the date such amount is due until the date payment is made at a rate equal to 10% per annum.",
+      "risk_level": "High",
+      "confidence": 0.95,
+      "evidence": [
+        "Section 3.2 TERMS OF PAYMENT"
+      ]
+    }
+  ],
+  "risk_level": "High",
+  "confidence": 0.95,
+  "evidence": []
+}

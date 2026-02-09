@@ -1,0 +1,121 @@
+
+CONTRACT ANALYSIS REPORT
+
+ Generated At:
+2026-01-18T10:41:27.693684Z
+
+ Contract ID:
+contract_001
+
+
+Executive Summary
+
+This report summarizes legal, financial, compliance, and operational risks extracted from the contract.  
+The overall risk classification is: **High**.
+
+
+Legal Findings
+
+• **Termination**:
+  - Clause Text: The Company shall have the right to terminate this Agreement upon thirty (30) days’ written notice to the other party if such party fails to perform or cure any breach or default within said thirty (30) days.
+  - Risk Level: Medium
+  - Confidence: 0.85
+
+• **Governing Law**:
+  - Clause Text: This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware.
+  - Risk Level: Low
+  - Confidence: 0.95
+
+• **Jurisdiction**:
+  - Clause Text: Any legal action arising out of or relating to this Agreement shall be subject to the exclusive jurisdiction of the courts located in the State of Delaware.
+  - Risk Level: Medium
+  - Confidence: 0.8
+
+
+
+
+Finance Findings
+
+• **Late Fees and Collection Costs**:
+  - Clause Text: If Buyer fails to pay Seller an amount owed under this Agreement by the invoice due date, then Buyer will owe Seller: (i) the delinquent amount; and (ii) a late payment fee equal to two percent (2%) of the delinquent amount for each full or partial calendar month past the invoice due date that the delinquent amount remains unpaid.
+  - Risk Level: High
+  - Confidence: 0.95
+
+• **Late Fees and Collection Costs**:
+  - Clause Text: Delinquent payments are subject to a late payment charge of one and one half percent (1.5%) per month commencing sixty (60) days from the invoice date.
+  - Risk Level: High
+  - Confidence: 0.95
+
+• **Interest on Late Payments**:
+  - Clause Text: Any amount that is not paid when due will bear simple interest from the date such amount is due until the date payment is made at a rate equal to 10% per annum.
+  - Risk Level: High
+  - Confidence: 0.95
+
+
+
+
+Compliance Findings
+
+• **Regulatory Matters**:
+  - Clause Text: 16.1 Privacy and Security Matters. Concurrently with the execution of this Agreement, the Parties are executing a HIPAA Business Associate Agreement (the "BAA") in the form attached hereto as Exhibit E.
+  - Risk Level: High
+  - Confidence: 0.98
+
+• **Technical Standards**:
+  - Clause Text: 16.2 Technical Standards. The Company will provide Allscripts with Updates so that the Subscription Software Services can be implemented and configured to comply in all material respects with applicable privacy and security standards (e.g., HITECH, HIPAA, and Omnibus rule) within a reasonably practicable timeframe (based on the scope of required enhancements and other factors) after their final, formal adoption and publication by the Secretary of the U.S. Department of Health and Human Services.
+  - Risk Level: High
+  - Confidence: 0.95
+
+• **Data Protection**:
+  - Clause Text: 16.3 Data. The Company will ensure that all protected health information (PHI), personally identifiable information (PII) or payment card information (PCI) is (1) encrypted at rest and (2) encrypted while moving in or out of the Company’s data center.
+  - Risk Level: High
+  - Confidence: 0.97
+
+• **Regulatory Compliance**:
+  - Clause Text: 5.1 Compliance with Laws. Biocept and Life Technologies and their respective Affiliates each agree to perform their respective obligations under this Agreement in compliance with all applicable Laws, in the Territory, including but not limited to applicable regulations, rules, and policies of third party payers that pay for the Assay.
+  - Risk Level: Medium
+  - Confidence: 0.9
+
+• **Privacy**:
+  - Clause Text: 5.2 Privacy. Biocept and Life Technologies and their respective Affiliates agree to protect the privacy and provide for the security of any information that relates to a patient’s past, present, or future physical or mental health or condition in accordance with HIPAA, and any other applicable federal and state privacy laws and regulations in the Territory.
+  - Risk Level: High
+  - Confidence: 0.98
+
+• **BAA Execution**:
+  - Clause Text: Each party agrees to execute one or more Business Associate Agreements (as defined under HIPAA) as the other party, or its providers or payers, may from time to time request.
+  - Risk Level: High
+  - Confidence: 0.96
+
+• **Health Information Confidentiality**:
+  - Clause Text: 6.8 Health Information. Notwithstanding anything to the contrary in this Agreement or any Study Order, all individually identifiable health information shall be treated as confidential by the Parties in accordance with all Laws governing the confidentiality and privacy of individually identifiable health information, including HIPAA, and any regulations and official guidelines promulgated thereunder, and the Parties agree to take such additional steps and/or to negotiate such amendments to this Agreement as may be required to ensure that the Parties are and remain in compliance with the HIPAA regulations and official guidance.
+  - Risk Level: High
+  - Confidence: 0.99
+
+
+
+
+Operations Findings
+
+• **SLA Review**:
+  - Clause Text: A joint Metavante-Customer team (the "SLA Team") shall review, evaluate and potentially modify the Service Level Changes and associated Business Case Assessments.
+  - Risk Level: Medium
+  - Confidence: 0.97
+
+• **Resource Assignment**:
+  - Clause Text: Both Parties agree to assign sufficient resources and personnel to discharge their respective responsibilities under this Agreement in a timely manner and at all times operating using a professional standard of work as consistent with industry standards.
+  - Risk Level: Medium
+  - Confidence: 0.95
+
+• **Availability Measurement**:
+  - Clause Text: Scheduled Hours of Availability shall mean the period of time during which Availability is measured for a given Service Level as set forth in each applicable description of each Service Level set forth in this Service Level Schedule.
+  - Risk Level: Low
+  - Confidence: 0.9
+
+
+
+
+Overall Risk Assessment
+
+Overall Contract Risk: **High**
+
+
