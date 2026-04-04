@@ -1,0 +1,97 @@
+{
+  "cached_at": "2025-12-29T13:20:58.081171Z",
+  "cache_key": "11d41e355a63b102bb5753d41956ba10a26d84eb881182b9c703fd244a4b2c62",
+  "query": "What are the deliverables, milestones, timelines, and any SLA commitments?",
+  "top_k": 5,
+  "min_score": 0.25,
+  "verify": true,
+  "routing_rules": {
+    "legal": [
+      "termination",
+      "governing law",
+      "jurisdiction"
+    ],
+    "compliance": [
+      "gdpr",
+      "audit",
+      "regulatory",
+      "data protection"
+    ],
+    "finance": [
+      "payment",
+      "fee",
+      "penalty",
+      "invoice",
+      "indemnity",
+      "indemnification"
+    ],
+    "operations": [
+      "deliverable",
+      "timeline",
+      "sla",
+      "milestone"
+    ]
+  },
+  "results": {
+    "operations": {
+      "agent": "operations",
+      "rag_file": "c:\\Users\\LENOVO\\OneDrive\\Dokumen\\legal contracts eda\\artifacts\\rag_results\\rag_user_operations_ecc04dd8f4_What_are_the_deliverables_milestones_timelines_and_any_SLA_commitments.json",
+      "retrieval_query": "User question: What are the deliverables, milestones, timelines, and any SLA commitments?\nFind the most relevant operations clauses (deliverables, timelines, SLAs, obligations) in this contract and return exact clause text.",
+      "output": {
+        "clause_type": "User Q (operations)",
+        "extracted_clauses": [
+          "Description of Alliance Bancorp Capital Stock"
+        ],
+        "risk_level": "medium",
+        "confidence": 0.8,
+        "evidence": [
+          "The description of Alliance Bancorp Capital Stock in the Prospectus is clear and accurate."
+        ]
+      },
+      "verification": {
+        "agent_name": "Operations Agent",
+        "total_claims": 2,
+        "grounded_claims": 1,
+        "ungrounded_claims": 1,
+        "grounding_score": 0.5,
+        "verification_status": "⚠️ PARTIALLY GROUNDED",
+        "context_sources": [
+          "rag_user_operations_ecc04dd8f4_What_are_the_deliverables_milestones_timelines_and_any_SLA_commitments.json"
+        ],
+        "clause_verification": [
+          {
+            "clause_id": 0,
+            "clause_text": "Description of Alliance Bancorp Capital Stock",
+            "is_grounded": true,
+            "grounding_score": 1.0,
+            "matched_text": "(xx) The information in the Prospectus under \"Risk Factors,\" \"We Intend to Continue to Pay Quarterly Cash Dividends,\" \"R...",
+            "matched_query": "User question: What are the deliverables, milestones, timelines, and any SLA commitments?\nFind the most relevant operations clauses (deliverables, timelines, SLAs, obligations) in this contract and return exact clause text.",
+            "matched_contract_id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+            "matched_chunk_index": 148.0,
+            "matched_rag_file": "rag_user_operations_ecc04dd8f4_What_are_the_deliverables_milestones_timelines_and_any_SLA_commitments.json"
+          }
+        ],
+        "evidence_verification": [
+          {
+            "evidence_id": 0,
+            "evidence_text": "The description of Alliance Bancorp Capital Stock in the Prospectus is clear and accurate.",
+            "is_grounded": false,
+            "grounding_score": 0.352,
+            "matched_text": "2. PROVISION OF DOCUMENTATION 2.1 Provision by the Manufacturer The Manufacturer agrees to supply to the Customer, withi...",
+            "matched_query": "User question: What are the deliverables, milestones, timelines, and any SLA commitments?\nFind the most relevant operations clauses (deliverables, timelines, SLAs, obligations) in this contract and return exact clause text.",
+            "matched_contract_id": "AgapeAtpCorp_20191202_10-KA_EX-10.1_11911128_EX-10.1_Supply Agreement",
+            "matched_chunk_index": 4.0,
+            "matched_rag_file": "rag_user_operations_ecc04dd8f4_What_are_the_deliverables_milestones_timelines_and_any_SLA_commitments.json"
+          }
+        ],
+        "ungrounded_items": [
+          {
+            "type": "evidence",
+            "text": "The description of Alliance Bancorp Capital Stock in the Prospectus is clear and accurate.",
+            "score": 0.3515151515151515
+          }
+        ]
+      }
+    }
+  }
+}

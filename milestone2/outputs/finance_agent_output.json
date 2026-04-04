@@ -1,0 +1,29 @@
+{
+  "agent_name": "Finance Agent",
+  "model": "google/gemma-2b-it",
+  "timestamp": "2025-12-29T18:05:09.898683",
+  "input_summary": {
+    "num_context_chunks": 12,
+    "combined_text_length": 8365,
+    "source_queries": [
+      "What are the payment terms and conditions?",
+      "What are the fees, invoices, and billing requirements?",
+      "What are the penalties and late fees for non-payment?",
+      "What is the financial liability and indemnification?"
+    ]
+  },
+  "output": {
+    "clause_type": "Finance Analysis",
+    "extracted_clauses": [
+      "In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, ",
+      "), Recipient shall reimburse Provider for all such Out-of-Pocket Costs.",
+      "Provider shall provide Recipient with monthly invo"
+    ],
+    "risk_level": "medium",
+    "confidence": 0.7,
+    "evidence": [
+      "The clause clearly defines the scope of Out-of-Pocket Costs and requires Recipient to reimburse Provider for such expenses."
+    ]
+  },
+  "raw_response": "{\n    \"extracted_clauses\": [\n        \"In the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, \"Out-of-Pocket Costs\"), Recipient shall reimburse Provider for all such Out-of-Pocket Costs.\",\n        \"Provider shall provide Recipient with monthly invo\"\n    ],\n    \"risk_level\": \"medium\",\n    \"confidence\": 0.7,\n    \"evidence\": [\n        \"The clause clearly defines the scope of Out-of-Pocket Costs and requires Recipient to reimburse Provider for such expenses.\"\n    ]\n}"
+}

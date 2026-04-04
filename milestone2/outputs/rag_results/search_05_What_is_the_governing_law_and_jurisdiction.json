@@ -1,0 +1,47 @@
+{
+  "query": "What is the governing law and jurisdiction?",
+  "timestamp": "2025-12-29T18:01:52.848978",
+  "total_results": 5,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.557845116,
+      "contract_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+      "chunk_index": 32.0,
+      "text": ". 7.2 Governing Law. This Agreement and any claim, controversy or dispute arising out of or related to this Agreement, any of the transactions contemplated hereby and/or the interpretation and enforcement of the rights and duties of the Parties, whether arising in contract, tort, equity or otherwise, shall be governed by and construed in accordance with the domestic laws of the State of Israel (including in respect of the statute of limitations or other limitations period applicable to any such claim, controversy or dispute), without giving effect to any choice or conflict of law provision or rule (whether of the State of Israel or any other jurisdiction) that would cause the application of the laws of any jurisdiction other than the State of Israel. 7.3 Consent to Jurisdiction",
+      "char_count": 788.0
+    },
+    {
+      "rank": 2,
+      "score": 0.498259544,
+      "contract_id": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement",
+      "chunk_index": 49.0,
+      "text": ". In such event, all payments made shall become immediately due and payable and this Agreement shall be automatically terminated. g. Governing Law and Forum. This Agreement will for all purposes be governed by and interpreted in accordance with the laws of the State of California without giving effect to any conflict of laws principles that require the application of the laws of a different state. Each of the parties hereto (i) irrevocably agrees that the federal and state courts in the Northern District of California shall have sole and exclusive jurisdiction over any suit or other proceeding arising out of or based upon this Agreement, (ii) submits to the venue and jurisdiction of such courts, and (iii) irrevocably consents to personal jurisdiction by such courts. h. Assignment. This Agreement shall bind and inure to the benefit of each party, its successors and assigns",
+      "char_count": 884.0
+    },
+    {
+      "rank": 3,
+      "score": 0.486764938,
+      "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+      "chunk_index": 27.0,
+      "text": "1.38 \"Governmental Authority\" means any United States federal, state or local, or any foreign, government or political subdivision thereof, or any multinational organization or authority, or any authority, agency or commission entitled to exercise any administrative, executive, judicial, legislative, police, regulatory or taxing authority or power, any court or tribunal (or any department, bureau or division thereof), or any governmental arbitrator or arbitral body. For clarity, any Regulatory Authority shall be a Governmental Authority.\n\n1.39 \"IFRS\" means international financial reporting standards, or with respect to the U.S., as appropriate, generally accepted accounting principles in the U.S. (GAAP), in each case, consistently applied.",
+      "char_count": 749.0
+    },
+    {
+      "rank": 4,
+      "score": 0.459198952,
+      "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+      "chunk_index": 225.0,
+      "text": "15.13.3 Jurisdiction. Each Party (a) irrevocably submits to the exclusive jurisdiction of any United States District Court in California (the \"Court\"), for purposes of any action, suit or other proceeding arising out of this Agreement, (b) agrees not to raise any objection at any time to the laying or maintaining of the venue of any such action, suit or proceeding in any of such Court, and (c) irrevocably waives any claim that such action, suit or other proceeding has been brought in an inconvenient forum and further irrevocably waives the right to object, with respect to such action, suit or other proceeding, that such Court does not have any jurisdiction over such Party. Each Party further agrees that service or any process, summons, notice or document by U.S",
+      "char_count": 771.0
+    },
+    {
+      "rank": 5,
+      "score": 0.438530922,
+      "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+      "chunk_index": 8.0,
+      "text": "1.12 \"Applicable Law\" means any applicable United States federal, state or local or foreign or multinational law, statute, standard, ordinance, code, rule, regulation, resolution or promulgation, or any order, writ, judgment, injunction, decree, stipulation, ruling, determination or award entered by or with any Governmental Authority, or any license, franchise, permit or similar right granted under any of the foregoing, or any similar provision having the force or effect of law. For the avoidance of doubt, any specific references to any Applicable Law or any portion thereof, shall be deemed to include all then- current amendments thereto or any replacement or successor law, statute, standard, ordinance, code, rule, regulation, resolution, order, writ, judgment, injunction, decree, stipulation, ruling, or determination thereto. 2\n\nSource: AIMMUNE THERAPEUTICS, INC., 8-K, 2/5/2020",
+      "char_count": 891.0
+    }
+  ]
+}

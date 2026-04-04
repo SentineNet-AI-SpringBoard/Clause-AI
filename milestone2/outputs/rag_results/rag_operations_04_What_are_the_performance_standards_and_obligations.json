@@ -1,0 +1,31 @@
+{
+  "query": "What are the performance standards and obligations?",
+  "timestamp": "2025-12-29T18:05:11.295324",
+  "total_results": 3,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.580985129,
+      "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+      "chunk_index": 216.0,
+      "text": "performance of such assigned or transferred obligations. Any assignment or transfer, or attempted assignment or transfer, by either Party in violation of the terms of this Section 15.6 shall be null and void and of no legal effect. This Agreement shall be binding on, and inure to the benefit of, each Party, its successors and permitted assigns",
+      "char_count": 345.0
+    },
+    {
+      "rank": 2,
+      "score": 0.544922829,
+      "contract_id": "AimmuneTherapeuticsInc_20200205_8-K_EX-10.3_11967170_EX-10.3_Development Agreement",
+      "chunk_index": 15.0,
+      "text": ". Without limiting the foregoing, Commercially Reasonable Efforts requires, with respect to such obligations, that a Party: (i) promptly assign responsibility for such obligation to specific employee(s) who are held accountable for progress and monitor such progress on an on-going basis, (ii) set objectives for carrying out such obligations, and (iii) allocate resources designed to advance progress with respect to such objectives.",
+      "char_count": 434.0
+    },
+    {
+      "rank": 3,
+      "score": 0.49480629,
+      "contract_id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT",
+      "chunk_index": 139.0,
+      "text": "All such opinions, certifications, letters and documents shall be in compliance with the provisions hereof only if they are, in the reasonable opinion of Capital Resources and its counsel, satisfactory to Capital Resources and its counsel. Any certificates signed by an officer or director of the Company or the Association and delivered to Capital Resources or its counsel shall be deemed a representation and warranty by the Company or the Association to Capital Resources as to the statements made therein.",
+      "char_count": 509.0
+    }
+  ]
+}

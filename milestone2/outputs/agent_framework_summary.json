@@ -1,0 +1,31 @@
+{
+  "framework_version": "1.0",
+  "llm_backend": "Hugging Face - google/gemma-2b-it",
+  "inference_type": "local",
+  "output_schema": {
+    "clause_type": "",
+    "extracted_clauses": [],
+    "risk_level": "unknown",
+    "confidence": 0.0,
+    "evidence": []
+  },
+  "defined_agents": {
+    "legal_agent": {
+      "name": "Legal Agent",
+      "purpose": "Extract and analyze termination clauses",
+      "prompt_preview": "\nYou are a legal contract analyst specializing in contract termination clauses.\n\nFrom the given contract text, extract TERMINATION-related clauses and assess the risk level.\n\nIMPORTANT: Return ONLY va..."
+    }
+  },
+  "test_results": {
+    "sample_contract": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement",
+    "validated_output": {
+      "clause_type": "Termination",
+      "extracted_clauses": [
+        "The party may terminate this Agreement at any time during the term of this Agreement if either party fails materially to comply with any covenant, term, or provision of this Agreement, by written notice given to the other party not less than thirty (30) days prior to the effective date of such termination."
+      ],
+      "risk_level": "medium",
+      "confidence": 0.7,
+      "evidence": "The clause clearly specifies a 30-day notice period for termination for material non-compliance with covenants, terms, or provisions."
+    }
+  }
+}

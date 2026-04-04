@@ -1,0 +1,47 @@
+{
+  "query": "What are the confidentiality and non-disclosure obligations?",
+  "timestamp": "2025-12-29T18:01:52.164394",
+  "total_results": 5,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.745557845,
+      "contract_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+      "chunk_index": 21.0,
+      "text": "4. Confidentiality. 4.1 Confidentiality. During the term of this Agreement and thereafter, the Parties hereto shall, and shall instruct their respective representatives to, maintain in confidence and not disclose the other Party's financial, technical, sales, marketing, development, personnel, and other information, records, or data, including, without limitation, customer lists, supplier lists, trade secrets, designs, product formulations, product specifications or any other proprietary or confidential information, however recorded or preserved, whether written or oral (any such information, \"Confidential Information\"). Each Party hereto shall use the same degree of care, but no less than reasonable care, to protect the other Party's Confidential Information as it uses to protect its own Confidential Information of like nature",
+      "char_count": 839.0
+    },
+    {
+      "rank": 2,
+      "score": 0.736159384,
+      "contract_id": "2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ Agency Agreement",
+      "chunk_index": 26.0,
+      "text": "10. LIMITATION ON LIABILITY. EXCEPT IN THE EVENT OF A BREACH OF SECTION 11, NEITHER PARTY SHALL BE LIABLE FOR SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES OR LOST PROFITS (HOWEVER ARISING, INCLUDING NEGLIGENCE) ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT, EVEN IF THE PARTIES ARE AWARE OF THE POSSIBILITY OF SUCH DAMAGES.\n\n11. CONFIDENTIAL INFORMATION. A party's \"Confidential Information\" is defined as any confidential or proprietary information of a party which is disclosed to the other party in a writing marked confidential or, if disclosed orally, is identified as confidential at the time of disclosure and is subsequently reduced to a writing marked confidential and delivered to the",
+      "char_count": 700.0
+    },
+    {
+      "rank": 3,
+      "score": 0.692411,
+      "contract_id": "2ThemartComInc_19990826_10-12G_EX-10.10_6700288_EX-10.10_Co-Branding Agreement_ Agency Agreement",
+      "chunk_index": 27.0,
+      "text": "other party within ten (10) days of disclosure. Each party shall hold the other party's Confidential Information in confidence and shall not disclose such Confidential Information to third parties nor use the other party's Confidential Information for any purpose other than as required to perform under this Agreement. Such restrictions shall not apply to Confidential Information which (a) is already known by the recipient, (b) becomes, through no act or fault of the recipient, publicly known, (c) is received by recipient from a third party without a restriction on disclosure or use, or (d) is independently developed by recipient without reference to the Confidential Information. The restriction on disclosure shall not apply to Confidential Information which is required to be disclosed by a court or government agency",
+      "char_count": 827.0
+    },
+    {
+      "rank": 4,
+      "score": 0.684165955,
+      "contract_id": "ADIANUTRITION,INC_04_01_2005-EX-10.D2-RESELLER AGREEMENT",
+      "chunk_index": 28.0,
+      "text": "6. GENERAL PROVISIONS\n\n6.1 CONFIDENTIALITY. By virtue of this Agreement, each party may have access to information that is confidential to the other (\"Confidential Information\"). Confidential Information shall include, but not be limited to, software, documentation, formulas, methods, know how, processes, designs, new products, developmental work, marketing requirements, marketing plans, customer names, prospective customer names, the terms and pricing under the Agreement, and any information clearly identified in writing at the time of disclosure as confidential. A party's Confidential Information shall not include information that (a) is or becomes a part of the public domain through no act or omission of the other party; or (b) is independently developed by the other party without",
+      "char_count": 794.0
+    },
+    {
+      "rank": 5,
+      "score": 0.680708885,
+      "contract_id": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.34_11788308_EX-10.34_Sponsorship Agreement",
+      "chunk_index": 37.0,
+      "text": ". 13.2 Protection of Confidential Information. The Receiving Party will not use, and will cause its Representatives not to use, any Confidential Information of the Disclosing Party for any purpose other than performing its obligations or exercising its rights under this Agreement, and will not disclose the Confidential Information of the Disclosing Party to any party other than Receiving Party's employees, agents, directors, officers, auditors, attorneys, other professional advisors, regulators and contractors (collectively, the \"Representatives\") on a \"need to know\" basis, provided such Representatives are under a contractual obligation with Receiving Party to maintain the confidentiality of such Confidential Information, which obligation is consistent with, and no less protective of Confidential Information, than the terms of this Section 13",
+      "char_count": 855.0
+    }
+  ]
+}

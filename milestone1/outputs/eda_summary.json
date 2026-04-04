@@ -1,0 +1,12 @@
+{
+  "total_contracts": 510,
+  "total_words": 4009206,
+  "avg_words_per_contract": 7861.1882352941175,
+  "median_words_per_contract": 5006.0,
+  "min_words": 109,
+  "max_words": 47733,
+  "empty_files": 0,
+  "very_short_files": 0,
+  "avg_file_size_kb": 51.35659466911765,
+  "cleaned_contracts": 510
+}

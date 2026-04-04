@@ -1,0 +1,31 @@
+{
+  "query": "What are the penalties and late fees for non-payment?",
+  "timestamp": "2025-12-29T18:04:18.012371",
+  "total_results": 3,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.528248847,
+      "contract_id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+      "chunk_index": 100.0,
+      "text": "Company shall be obligated to pay the fees and expenses as contemplated by the provisions of Section 4 hereof in the event of any such termination.\n\nAll fees payable to the Agent hereunder shall be payable in immediately available funds at Closing Time, or upon the termination of this Agreement, as the case may be. In recognition of the long lead times involved in the conversion process, the Bank agreed to make an advance payment to the Agent in the amount of $25,000, all of which has been previously paid, which shall be credited against any fees or reimbursement of expenses payable hereunder. In the event that the advance payment exceeds the amount due in payment of fees and reimbursement of expenses hereunder, the excess shall be refunded.\n\nSECTION 3. COVENANTS OF THE COMPANY, THE MHCS AND THE BANK. The Company, the MHCs and the Bank covenant with the Agent as follows:",
+      "char_count": 883.0
+    },
+    {
+      "rank": 2,
+      "score": 0.514016211,
+      "contract_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+      "chunk_index": 11.0,
+      "text": ". In addition to such amount, in the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, \"Out-of-Pocket Costs\"), Recipient shall reimburse Provider for all such Out-of-Pocket Costs. (b) (i) Provider shall provide Recipient with monthly invoices (\"Invoices\"), which shall set forth in reasonable detail, with such supporting documentation as Recipient may reasonably request with respect to Out-of-Pocket Costs, amounts payable under this Agreement, and (ii) payments pursuant to this Agreement shall be made within fifteen (15) days after the date of receipt of an Invoice by Recipient from Provider. (c) Provider shall allow the Recipient to use [ * * * ] at no cost, until December 31, 2021. 2.3 Invoice Disputes",
+      "char_count": 918.0
+    },
+    {
+      "rank": 3,
+      "score": 0.482218772,
+      "contract_id": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.34_11788308_EX-10.34_Sponsorship Agreement",
+      "chunk_index": 10.0,
+      "text": ". If any portion of the Sponsorship Fee shall have previously been paid for any period following such termination by Newegg, the Sponsorship Fee shall be prorated and Allied shall immediately refund the portion corresponding to the unused period of the Term.",
+      "char_count": 258.0
+    }
+  ]
+}

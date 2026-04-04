@@ -1,0 +1,31 @@
+{
+  "query": "What is the financial liability and indemnification?",
+  "timestamp": "2025-12-29T18:04:18.331286",
+  "total_results": 3,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.676463127,
+      "contract_id": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.34_11788308_EX-10.34_Sponsorship Agreement",
+      "chunk_index": 33.0,
+      "text": "12. Indemnity and Liability 12.1 Each Party (\"Indemnitor\") will defend, indemnify and hold the other Party (including associated officers, directors, shareholders, employees, agents and affiliates) (cumulatively, \"Indemnitee\") harmless from and against any and all losses, damages, claims, liabilities and expenses (including reasonable legal fees), suffered or incurred as a result of or in connection with any claim, suit, action, demand, or proceeding brought against Indemnitee based upon (a) a claim of a failure to perform, or a breach by Indemnitor of, any obligation, warranty, representation or covenant in this Agreement; (b) a claim of personal injury or property damage arising out of the fault or negligence of Indemnitor, its representatives, agents, or employees; or (c) a claim of infringement or misappropriation of any patent, trademark, copyright or other proprietary right held by any third party",
+      "char_count": 916.0
+    },
+    {
+      "rank": 2,
+      "score": 0.655442238,
+      "contract_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+      "chunk_index": 26.0,
+      "text": ". 5. Indemnification. 5.1 Indemnification. Provider shall indemnify, defend, and hold harmless Recipient and its officers, directors, employees, agents, affiliates, successors, and permitted assigns (collectively, \"Indemnified Party\") against any and all losses, damages, liabilities, deficiencies, claims, actions, judgments, settlements, interest, awards, penalties, fines, costs, or expenses of whatever kind, including attorneys' fees, fees and the costs of enforcing any right to indemnification under this Agreement, and the cost of pursuing any insurance providers, incurred by Indemnified Party or awarded against Indemnified Party (collectively, \"Losses\"), relating to/arising out of or resulting from any claim of a third party or Recipient arising out of or occurring in connection with Provider's negligence, willful misconduct, or breach of this Agreement. Provider shall not enter into any settlement without Recipient's or Indemnified Party's prior written consent. 6. Miscellaneous",
+      "char_count": 997.0
+    },
+    {
+      "rank": 3,
+      "score": 0.648058891,
+      "contract_id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT",
+      "chunk_index": 162.0,
+      "text": ". The amount paid or payable by an indemnified party as a result of the losses, claims, damages or liabilities (or action, proceedings or claims in respect thereof) referred to above in this Section 10 shall be deemed to include any legal or other expenses reasonably incurred by such indemnified party in connection with investigating or defending any such action, proceeding or claim. It is expressly agreed that Capital Resources shall not be liable for any loss, liability, claim, damage or expense or be required to contribute any amount which in the aggregate exceeds the amount paid (excluding reimbursable expenses) to Capital Resources under this Agreement. It is understood that the above-stated limitation on Capital Resources' liability is essential to Capital Resources and that Capital Resources relied upon such limitation and would not have entered into this Agreement if such limitation had not been agreed to by the parties to this Agreement",
+      "char_count": 959.0
+    }
+  ]
+}

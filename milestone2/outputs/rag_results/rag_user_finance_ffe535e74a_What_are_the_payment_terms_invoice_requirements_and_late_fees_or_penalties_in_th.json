@@ -1,0 +1,47 @@
+{
+  "query": "User question: What are the payment terms, invoice requirements, and late fees or penalties in this contract?\nFind the most relevant financial clauses (payment, fees, penalties, invoices) in this contract and return exact clause text.",
+  "timestamp": "2025-12-29T18:09:44.800384",
+  "total_results": 5,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.646810949,
+      "contract_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+      "chunk_index": 11.0,
+      "text": ". In addition to such amount, in the event that Provider incurs reasonable and documented out-of-pocket expenses in the provision of any Service, including, without limitation, license fees and payments to third-party service providers or subcontractors (such included expenses, collectively, \"Out-of-Pocket Costs\"), Recipient shall reimburse Provider for all such Out-of-Pocket Costs. (b) (i) Provider shall provide Recipient with monthly invoices (\"Invoices\"), which shall set forth in reasonable detail, with such supporting documentation as Recipient may reasonably request with respect to Out-of-Pocket Costs, amounts payable under this Agreement, and (ii) payments pursuant to this Agreement shall be made within fifteen (15) days after the date of receipt of an Invoice by Recipient from Provider. (c) Provider shall allow the Recipient to use [ * * * ] at no cost, until December 31, 2021. 2.3 Invoice Disputes",
+      "char_count": 918.0
+    },
+    {
+      "rank": 2,
+      "score": 0.581168115,
+      "contract_id": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT",
+      "chunk_index": 127.0,
+      "text": "SECTION 4. PAYMENT OF EXPENSES",
+      "char_count": 30.0
+    },
+    {
+      "rank": 3,
+      "score": 0.576383531,
+      "contract_id": "AFSALABANCORPINC_08_01_1996-EX-1.1-AGENCY AGREEMENT",
+      "chunk_index": 83.0,
+      "text": "SECTION 7. Payment of Expenses",
+      "char_count": 30.0
+    },
+    {
+      "rank": 4,
+      "score": 0.542582035,
+      "contract_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+      "chunk_index": 12.0,
+      "text": ". (c) Provider shall allow the Recipient to use [ * * * ] at no cost, until December 31, 2021. 2.3 Invoice Disputes. In the event of an Invoice dispute, Recipient shall deliver a written statement to Provider prior to the date payment is due on the disputed Invoice listing all disputed items and providing a reasonably detailed description of each disputed item. Amounts not so disputed shall be deemed accepted and shall be paid, notwithstanding disputes on other items. The Parties shall seek to resolve all such disputes expeditiously and in good faith. Provider shall continue performing the Services in accordance with this Agreement pending resolution of any dispute.",
+      "char_count": 674.0
+    },
+    {
+      "rank": 5,
+      "score": 0.523296356,
+      "contract_id": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT",
+      "chunk_index": 10.0,
+      "text": ". Provider shall give the Recipient or its designees all assistance reasonably required to perfect such rights. 2. Compensation. 2.1 Responsibility for Wages and Fees. For such time as any employees of Provider are providing the Services to Recipient under this Agreement, (a) such employees will remain employees of Provider and shall not be deemed to be employees of Recipient for any purpose, and (b) Provider shall be solely responsible for the payment and provision of all wages, bonuses and commissions, employee benefits, including severance and worker's compensation, and the withholding and payment of applicable taxes relating to such employment. 2.2 Terms of Payment and Related Matters. (a) As consideration for provision of the Services following the Effective Date, Recipient shall pay Provider an amount equal to Provider's actual cost of providing the Services plus a 10% service fee",
+      "char_count": 899.0
+    }
+  ]
+}
